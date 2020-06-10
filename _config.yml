@@ -2,11 +2,11 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://chauby.github.io
+url: https://tmylla.github.io
 date_format: "ordinal"
-title: 沙漏
-subtitle: "沙漏没有水，但依旧流逝时间"
-description: "The sandglass remembers the time we mislay"
+title: Tmylla
+subtitle: "Two roads diverged in a wood, I took the one less traveled by, that has made all the difference."
+description: "The Road Not Taken"
 keywords: 沙漏, 博士的沙漏, Chauby Zou, Chauby, Chaobin Zou 
 # timezone: Asia/Chengdu
 encoding: "utf-8"
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Chauby
+author: tmylla
 organization: UESTC
 organization_url: http://www.uestc.edu.cn
-github_username: Chauby
-location: Chengdu, China
-email: chaubyZou@163.com
+github_username: tmylla
+location: Beijing, China
+email: misite_J@outlook.com
 
 # ---------------- #
 #    Navigation    #

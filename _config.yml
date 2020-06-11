@@ -5,9 +5,9 @@ baseurl:
 url: https://tmylla.github.io
 date_format: "ordinal"
 title: Tmylla
-subtitle: "Two roads diverged in a wood, I took the one less traveled by, that has made all the difference."
+subtitle: "I took the one less traveled by, that has made all the difference."
 description: "The Road Not Taken"
-keywords: 沙漏, 博士的沙漏, Chauby Zou, Chauby, Chaobin Zou 
+keywords: 季一帆, misite_J, tmylla 
 # timezone: Asia/Chengdu
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -16,8 +16,8 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: tmylla
-organization: UESTC
-organization_url: http://www.uestc.edu.cn
+# organization: UESTC
+# organization_url: http://www.uestc.edu.cn
 github_username: tmylla
 location: Beijing, China
 email: misite_J@outlook.com
@@ -81,32 +81,32 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: chauby/chauby.github.io
+repository: tmylla/tmylla.github.io
 
 # ---------------- #
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
 # comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
+# # !!!重要!!! 请修改下面这些信息为你自己申请的
+# # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 # disqus:
 #     username: 
 # https://imsun.net/posts/gitment-introduction/
 # gitment:
-#     owner: chauby
+#     owner: tmylla
 #     repo: blog-comments
 #     oauth:
 #         client_id: d2e1cbbd298958076462
 #         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 # gitalk:
-#     owner: chauby
+#     owner: tmylla
 #     repo: blog-comments
 #     clientID: d2e1cbbd298958076462
 #     clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# 在使用其它评论组件时可点击显示 Disqus
+# # 在使用其它评论组件时可点击显示 Disqus
 # lazy_load_disqus : false
 
 # ---------------- #

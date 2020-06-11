@@ -9,8 +9,8 @@ permalink: /links/
 ---
 
 ## My personal pages
-- [Google Research](https://scholar.google.com.hk/citations?hl=zh-CN&user=etqLTR8AAAAJ)
-- [Research Gate](https://www.researchgate.net/)
-- [UESTC](http://www.uestc.edu.cn)
+- [CSDN](https://me.csdn.net/fans/misite_J)
+- [AI研习社](https://www.yanxishe.com/center/myPage/5170507)
+
 
 ## Public pages

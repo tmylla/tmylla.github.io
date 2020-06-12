@@ -166,5 +166,5 @@ python -m visdom.server
 
 - [github/visdom](https://github.com/facebookresearch/visdom)
 - [github/visdom_tutorial](https://github.com/noagarcia/visdom-tutorial)
-- [使用visdom可视化pytorch训练过程](cnblogs.com/walker-lin/p/12036328.html )
+- [使用visdom可视化pytorch训练过程](http://cnblogs.com/walker-lin/p/12036328.html)
 

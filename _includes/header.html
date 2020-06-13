@@ -79,6 +79,11 @@
     }
     </script>
 </head>
+
+{% if jekyll.environment == 'production' and site.google_analytics %}
+{% include google-analytics.html %}
+{% endif %}
+
 <body class="{{ page.class }}" data-mz="{{ page.class }}">
     <header class="site-header">
         <div class="container">
@@ -107,3 +112,4 @@
     }
   });
 </script>
+

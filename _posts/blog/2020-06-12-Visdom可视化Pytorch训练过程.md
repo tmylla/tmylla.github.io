@@ -16,7 +16,7 @@ Visdom是支持torch和Numpy实时数据可视化工具。Support by [feakbookse
 
 可视化界面如下：
 
-![](https://gitee.com/misite_J/daily-paper/raw/master/img/visdom.png)
+![](https://gitee.com/misite_J/blog-img/raw/master/img/visdom.png)
 
 ​	
 

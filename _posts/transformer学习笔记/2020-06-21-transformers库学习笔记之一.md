@@ -17,13 +17,13 @@ keywords: keyword1, keyword2
 
 ## 安装
 
-我的版本号：python 3.6.9；pytorch 1.0；CUDA 10.0。
+我的版本号：python 3.6.9；pytorch 1.2.0；CUDA 10.0。
 
 ```python
 pip install transformers
 ```
 
-pip之前确保安装1.1.0+。
+pip之前确保安装pytorch1.1.0+。
 
 ![](https://gitee.com/misite_J/blog-img/raw/master/img/pip install transformers.png)
 

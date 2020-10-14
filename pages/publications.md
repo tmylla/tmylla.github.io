@@ -8,10 +8,13 @@ menu: Publications
 permalink: /publications/
 ---
 
-> All my papers will be added here.
+> All my papers and projects will be added here.
 
 ## Conference Paper
 - To be continued
 
 ## Journal Paper
 - To be continued
+
+## Projects
+- Space Knowledge Graph

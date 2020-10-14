@@ -12,7 +12,7 @@ permalink: /cv/
 
 
 ## Educations
-### 2018-Expected 2020, master student
+### 2018-Expected 2021, master student
 - Space Engineering University, Beijing, China
 
 - Science and Technology on Complex Electronic System Simulation Laboratory

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2021 ATT&CK技术与应用论坛"presentations阅读笔记
+title: 2021ATT&CK技术与应用论坛presentations阅读笔记
 categories: Cybersecurity
 description: 论坛presentations阅读笔记
 keywords: ATT&CK, Cybersecurity

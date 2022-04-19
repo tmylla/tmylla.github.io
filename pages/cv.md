@@ -12,14 +12,16 @@ permalink: /cv/
 
 
 ## Educations
-### 2018-Expected 2021, master student
+
+
+### 2018-2021, master student
+
 - Space Engineering University, Beijing, China
-
 - Science and Technology on Complex Electronic System Simulation Laboratory
-
 - Advisor: A.P. Zhongmin Pei
 
-    
+  
+
 ### 2014-2018, Bachelor
 - Jilin University(JLU), Changchun, China
 
@@ -27,7 +29,7 @@ permalink: /cv/
 
 
 
-    
+​    
 
 ## Research Interests
 - Knowledge Graph
@@ -38,6 +40,8 @@ permalink: /cv/
 
 - Graph Neural Network
 
+- Cybersecurity
+
     
 
 ## Publications
@@ -45,7 +49,9 @@ permalink: /cv/
 - To be continued
 
 #### Published
-- To be continued
+- [Reasoning for local graph over knowledge graph with a multi-policy agent](https://ieeexplore.ieee.org/document/9440923)
+- [Answer extraction with graph attention network for knowledge graph question answering](https://ieeexplore.ieee.org/abstract/document/9345000)
+- [A General Framework for Chinese Domain Knowledge Graph Question Answering Based on TransE](https://www.researchgate.net/publication/347802459_A_General_Framework_for_Chinese_Domain_Knowledge_Graph_Question_Answering_Based_on_TransE)
 
 ## Honors and Awards
 

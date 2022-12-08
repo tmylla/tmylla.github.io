@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Something that Chi writes about">
+<meta name="description" content="Something that Chi talks about">
 
-<title>Hello, I’m Chi :) - Blog</title>
+<title>Hello, I’m Chi :) - Talks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./index.html" rel="next">
-<link href="./talks.html" rel="prev">
+<link href="./blog.html" rel="next">
+<link href="./rpkg.html" rel="prev">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -65,20 +65,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-r .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-r'] = new List('listing-r', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -102,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Blog</h1>
+      <h1 class="quarto-secondary-nav-title">Talks</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -182,12 +182,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./talks.html" class="sidebar-item-text sidebar-link">Talks</a>
+  <a href="./talks.html" class="sidebar-item-text sidebar-link active">Talks</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blog.html" class="sidebar-item-text sidebar-link active">Blog</a>
+  <a href="./blog.html" class="sidebar-item-text sidebar-link">Blog</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -205,12 +205,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Blog</h1>
+<h1 class="title d-none d-lg-block">Talks</h1>
 </div>
 
 <div>
   <div class="description">
-    <p>Something that Chi writes about</p>
+    <p>Something that Chi talks about</p>
   </div>
 </div>
 
@@ -230,63 +230,41 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1666701726547" data-listing-reading-time-sort="0.045">
-<div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html"> <img src="./posts/post-with-code/image.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/post-with-code/index.html">
-<h3 class="no-anchor listing-title">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-r">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1666701726547" data-listing-reading-time-sort="0.045">
+<a href="./talks/post-with-code/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./talks/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Post With Code
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
+</h5>
+<div class="card-text listing-description">
 This is a post with executable code.
 </div>
-</a>
 </div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html">
-<div class="listing-date">
-Oct 25, 2022
-</div>
-<div class="listing-author">
-Harlow Malloc
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1666389600000" data-listing-file-modified-sort="1666701726545" data-listing-reading-time-sort="0.16">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <img src="./posts/welcome/thumbnail.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/welcome/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="1" data-categories="news" data-listing-date-sort="1666389600000" data-listing-file-modified-sort="1666701726545" data-listing-reading-time-sort="0.16">
+<a href="./talks/welcome/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./talks/welcome/thumbnail.jpg" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Welcome To My Blog
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
+</h5>
+<div class="card-text listing-description">
 This is the first post in a Quarto blog. Welcome!
 </div>
-</a>
 </div>
-<div class="metadata">
-<a href="./posts/welcome/index.html">
-<div class="listing-date">
-Oct 22, 2022
-</div>
-<div class="listing-author">
-Tristan O’Malley
 </div>
 </a>
-</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
@@ -428,13 +406,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./talks.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Talks</span>
+      <a href="./rpkg.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">R packages</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./index.html" class="pagination-link">
-        <span class="nav-page-text">About</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./blog.html" class="pagination-link">
+        <span class="nav-page-text">Blog</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

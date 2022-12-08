@@ -1,23 +1,58 @@
 project:
   type: website
   output-dir: docs
+  
 website:
-  title: "Chi Zhang"
-  navbar:
-    right:
+  page-navigation: true
+  title: "Hello, I'm Chi"
+  
+  page-footer: 
+    left: "&copy; Copyright 2022, Chi Zhang"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+  sidebar: 
+    background: "#A9CCE3"
+    pinned: true
+    align: center
+    style: "docked"
+    collapse-level: 1
+    contents: 
+    
+      - section: "Projects"
+        contents: 
+          - text: "All Projects"
+            href: projects.qmd
+          - text: "proj1"
+            href: project-1-ph.qmd
+          - text: "proj2"
+            href: project-2-ehr.qmd
+            
+      - section: "Teaching & Tutorials"
+        contents: 
+           - text: "TOverview"
+             href: teaching.qmd
+           - text: "Teaching R"
+             href: teaching-1-r.qmd
+           - text: "Teaching stat"
+             href: teaching-2-medstat.qmd
+             
+      - text: "R packages"
+        href: rpkg.qmd
+           
+      - text: "Talks"
+        href: talks.qmd
+
+      - text: "Blog"
+        href: blog.qmd
+
       - text: "About"
         href: index.html
-      - cv.qmd
-      - projects.qmd
-      - blog.qmd
-      - icon: github
-        href: https://github.com/andreaczhang
-      - icon: twitter
-        href: https://twitter.com/Andreasheenn
+            
+ 
 format:
   html:
-    theme: zephyr
-    css: styles.css
+    theme: [cosmo, styles.scss]
+    mainfont: "Atkinson Hyperlegible"
 
 editor: visual
 

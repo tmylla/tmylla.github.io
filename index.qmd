@@ -23,4 +23,6 @@ Chi is a researcher at the Norwegian Institute of Public Health (Folkehelseinsti
 Chi has recently earned her PhD at University of Oslo. Her thesis is *Representation and utilization of hospital Electronic Health Records data*.
 
 Chi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)).
+
+You can check my CV here. (*add CV!*)
 :::

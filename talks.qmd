@@ -1,0 +1,15 @@
+---
+title: "Talks"
+description: |
+  Something that Chi talks about 
+listing:
+  - id: r
+    max-description-length: 500
+    image-height: 250px
+    fields: [image, title, description]
+    contents: talks
+    type: grid
+    grid-item-border: false
+---
+
+FOR NOW IT IS JUST A PLACEHOLDER

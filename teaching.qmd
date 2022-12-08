@@ -1,0 +1,7 @@
+---
+title: "Teaching"
+description: |
+  These are a few things I teach, or courses I've been involved in
+---
+
+## Things I teach

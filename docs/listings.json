@@ -5,5 +5,19 @@
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"
     ]
+  },
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/post-with-code/index.html",
+      "/talks/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/rpkg.html",
+    "items": [
+      "/talks/post-with-code/index.html",
+      "/talks/welcome/index.html"
+    ]
   }
 ]

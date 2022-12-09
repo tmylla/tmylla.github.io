@@ -2,22 +2,44 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/blog/post-with-code/index.html",
+      "/blog/welcome/index.html"
     ]
   },
   {
     "listing": "/talks.html",
     "items": [
-      "/talks/post-with-code/index.html",
-      "/talks/welcome/index.html"
+      "/talks/ph_20220616_splverse/index.html",
+      "/talks/rstats_20190402_blogdown/index.html",
+      "/talks/ehr_20221013_ml_icu/index.html",
+      "/talks/ehr_20191028_rladies/index.html",
+      "/talks/ehr_20210218_biday/index.html"
     ]
   },
   {
     "listing": "/rpkg.html",
     "items": [
-      "/talks/post-with-code/index.html",
-      "/talks/welcome/index.html"
+      "/rpkg/covidnor/index.html",
+      "/rpkg/medicode/index.html",
+      "/rpkg/mortanor/index.html",
+      "/rpkg/cstime/index.html"
+    ]
+  },
+  {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/mf9130/index.html",
+      "/teaching/workshop_bioinf/index.html",
+      "/teaching/r_novice/index.html",
+      "/teaching/cheatsheet_pkgdev/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/csids/index.html",
+      "/projects/sykdomspulsen/index.html",
+      "/projects/phtools/index.html"
     ]
   }
 ]

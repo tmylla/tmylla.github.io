@@ -8,7 +8,7 @@
 
 <meta name="description" content="Something that Chi talks about">
 
-<title>Hello, I’m Chi :) - Talks</title>
+<title>Hello, I’m Chi - Talks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,20 +65,76 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-r .list');
+    const listingTargetEl = window.document.querySelector('#listing-ph .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-image','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-r'] = new List('listing-r', options);
+    window['quarto-listings']['listing-ph'] = new List('listing-ph', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-rstats .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-rstats'] = new List('listing-rstats', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ehr .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ehr'] = new List('listing-ehr', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -115,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Hello, I’m Chi :)</a> 
+      <a href="./">Hello, I’m Chi</a> 
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -125,56 +181,16 @@ ul.task-list li input[type="checkbox"] {
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">Projects</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects.html" class="sidebar-item-text sidebar-link">All Projects</a>
+  <a href="./projects.html" class="sidebar-item-text sidebar-link">Projects</a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./project-1-ph.html" class="sidebar-item-text sidebar-link">proj1</a>
+  <a href="./teaching.html" class="sidebar-item-text sidebar-link">Teaching &amp; Tutorials</a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./project-2-ehr.html" class="sidebar-item-text sidebar-link">proj2</a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Teaching &amp; Tutorials</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching.html" class="sidebar-item-text sidebar-link">TOverview</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching-1-r.html" class="sidebar-item-text sidebar-link">Teaching R</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching-2-medstat.html" class="sidebar-item-text sidebar-link">Teaching stat</a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./rpkg.html" class="sidebar-item-text sidebar-link">R packages</a>
@@ -190,11 +206,31 @@ ul.task-list li input[type="checkbox"] {
   <a href="./blog.html" class="sidebar-item-text sidebar-link">Blog</a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">About</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">About</a>
+  <a href="./about_me.html" class="sidebar-item-text sidebar-link">About me</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about_cv.html" class="sidebar-item-text sidebar-link">CV</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about_publication.html" class="sidebar-item-text sidebar-link">Publication</a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -225,52 +261,166 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>FOR NOW IT IS JUST A PLACEHOLDER</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-r">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1666701726547" data-listing-reading-time-sort="0.045">
-<a href="./talks/post-with-code/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="./talks/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Post With Code
-</h5>
-<div class="card-text listing-description">
-This is a post with executable code.
+<section id="public-health" class="level2">
+<h2 class="anchored" data-anchor-id="public-health">Public Health</h2>
+<div id="listing-ph" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="ph" data-listing-date-sort="1655330400000" data-listing-file-modified-sort="1670605260676" data-listing-reading-time-sort="0.005">
+<div class="thumbnail">
+<p><a href="./talks/ph_20220616_splverse/index.html"> <img src="./talks/ph_20220616_splverse/image_talk_20220616.png" class="thumnail-image" style="height: 150px;"> </a></p>
 </div>
+<div class="body">
+<a href="./talks/ph_20220616_splverse/index.html">
+<h3 class="no-anchor listing-title">
+Introducing Sykdomspulsen and splverse
+</h3>
+<div class="listing-subtitle">
+An automated public health surveillance platform
 </div>
+<div class="listing-description">
+<p>45 min talk and tutorial at Oslo UseR meetup</p>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="news" data-listing-date-sort="1666389600000" data-listing-file-modified-sort="1666701726545" data-listing-reading-time-sort="0.16">
-<a href="./talks/welcome/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="./talks/welcome/thumbnail.jpg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Welcome To My Blog
-</h5>
-<div class="card-text listing-description">
-This is the first post in a Quarto blog. Welcome!
-</div>
-</div>
+<div class="metadata">
+<a href="./talks/ph_20220616_splverse/index.html">
+<div class="listing-date">
+Jun 16, 2022
 </div>
 </a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="rstats" class="level2">
+<h2 class="anchored" data-anchor-id="rstats">Rstats</h2>
+<div id="listing-rstats" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="rstats" data-listing-date-sort="1554156000000" data-listing-file-modified-sort="1670605053854" data-listing-reading-time-sort="0.115">
+<div class="thumbnail">
+<p><a href="./talks/rstats_20190402_blogdown/index.html"> <img src="./talks/rstats_20190402_blogdown/image_rstats_20190402.png" class="thumnail-image" style="height: 150px;"> </a></p>
+</div>
+<div class="body">
+<a href="./talks/rstats_20190402_blogdown/index.html">
+<h3 class="no-anchor listing-title">
+Building Website in R: Step by Step Introduction to blogdown
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Talk at Oslo UseR meetup</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./talks/rstats_20190402_blogdown/index.html">
+<div class="listing-date">
+Apr 2, 2019
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="electronic-health-records" class="level2">
+<h2 class="anchored" data-anchor-id="electronic-health-records">Electronic Health Records</h2>
+<div id="listing-ehr" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="ehr" data-listing-date-sort="1665612000000" data-listing-file-modified-sort="1670605229457" data-listing-reading-time-sort="0.045">
+<div class="thumbnail">
+<p><a href="./talks/ehr_20221013_ml_icu/index.html"> <img src="./talks/ehr_20221013_ml_icu/image_talk_20221013.png" class="thumnail-image" style="height: 150px;"> </a></p>
+</div>
+<div class="body">
+<a href="./talks/ehr_20221013_ml_icu/index.html">
+<h3 class="no-anchor listing-title">
+Machine Learning in Intensive Care Units
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>A 45 minutes trial lecture to fulfill the requirement of my PhD degree</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./talks/ehr_20221013_ml_icu/index.html">
+<div class="listing-date">
+Oct 13, 2022
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="ehr" data-listing-date-sort="1572217200000" data-listing-file-modified-sort="1670605231381" data-listing-reading-time-sort="0.005">
+<div class="thumbnail">
+<p><a href="./talks/ehr_20191028_rladies/index.html"> <img src="./talks/ehr_20191028_rladies/image_ehr_20191028.png" class="thumnail-image" style="height: 150px;"> </a></p>
+</div>
+<div class="body">
+<a href="./talks/ehr_20191028_rladies/index.html">
+<h3 class="no-anchor listing-title">
+Learning from Hospital EHR data with R
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>A 15 minutes introduction to hospital EHR data</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./talks/ehr_20191028_rladies/index.html">
+<div class="listing-date">
+Oct 28, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="ehr" data-listing-date-sort="1613602800000" data-listing-file-modified-sort="1670604627646" data-listing-reading-time-sort="0.115">
+<div class="thumbnail">
+<p><a href="./talks/ehr_20210218_biday/index.html"> <img src="./talks/ehr_20210218_biday/image_ehr_20210218.png" class="thumnail-image" style="height: 150px;"> </a></p>
+</div>
+<div class="body">
+<a href="./talks/ehr_20210218_biday/index.html">
+<h3 class="no-anchor listing-title">
+Network Analysis of Hospital EHR data
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>The talk I gave at Big Insight Day 2021</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./talks/ehr_20210218_biday/index.html">
+<div class="listing-date">
+Feb 18, 2021
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -8,7 +8,7 @@
 
 <meta name="description" content="These are a few things I teach, or courses I’ve been involved in">
 
-<title>Hello, I’m Chi :) - Teaching</title>
+<title>Hello, I’m Chi - Teaching and Tutorials</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./teaching-1-r.html" rel="next">
-<link href="./project-2-ehr.html" rel="prev">
+<link href="./rpkg.html" rel="next">
+<link href="./projects.html" rel="prev">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -60,7 +62,93 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-medstat .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-medstat'] = new List('listing-medstat', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-workshop .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-workshop'] = new List('listing-workshop', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-cheatsheet .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-cheatsheet'] = new List('listing-cheatsheet', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -70,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Teaching</h1>
+      <h1 class="quarto-secondary-nav-title">Teaching and Tutorials</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -83,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Hello, I’m Chi :)</a> 
+      <a href="./">Hello, I’m Chi</a> 
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -93,56 +181,16 @@ ul.task-list li input[type="checkbox"] {
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">Projects</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects.html" class="sidebar-item-text sidebar-link">All Projects</a>
+  <a href="./projects.html" class="sidebar-item-text sidebar-link">Projects</a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./project-1-ph.html" class="sidebar-item-text sidebar-link">proj1</a>
+  <a href="./teaching.html" class="sidebar-item-text sidebar-link active">Teaching &amp; Tutorials</a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./project-2-ehr.html" class="sidebar-item-text sidebar-link">proj2</a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Teaching &amp; Tutorials</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching.html" class="sidebar-item-text sidebar-link active">TOverview</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching-1-r.html" class="sidebar-item-text sidebar-link">Teaching R</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching-2-medstat.html" class="sidebar-item-text sidebar-link">Teaching stat</a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./rpkg.html" class="sidebar-item-text sidebar-link">R packages</a>
@@ -158,11 +206,31 @@ ul.task-list li input[type="checkbox"] {
   <a href="./blog.html" class="sidebar-item-text sidebar-link">Blog</a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">About</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">About</a>
+  <a href="./about_me.html" class="sidebar-item-text sidebar-link">About me</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about_cv.html" class="sidebar-item-text sidebar-link">CV</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about_publication.html" class="sidebar-item-text sidebar-link">Publication</a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -173,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Teaching</h1>
+<h1 class="title d-none d-lg-block">Teaching and Tutorials</h1>
 </div>
 
 <div>
@@ -193,8 +261,125 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="things-i-teach" class="level2">
-<h2 class="anchored" data-anchor-id="things-i-teach">Things I teach</h2>
+<section id="introductory-medical-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="introductory-medical-statistics">Introductory Medical Statistics</h2>
+<div id="listing-medstat" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="course,statistics" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1670600570800" data-listing-reading-time-sort="0.005" data-listing-title-sort="MF9130" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="./teaching/mf9130/index.html" class="title">MF9130</a>
+</td>
+<td class="listing-description">
+Introductory course in statistics
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="workshops" class="level2">
+<h2 class="anchored" data-anchor-id="workshops">Workshops</h2>
+<div id="listing-workshop" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Description
+</th>
+<th>
+type
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="workshop,r" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1670600654257" data-listing-reading-time-sort="0.01" data-listing-title-sort="Oslo Bioinformatics Week" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="./teaching/workshop_bioinf/index.html" class="title">Oslo Bioinformatics Week</a>
+</td>
+<td class="listing-description">
+Machine Learning principles for small and noisy biomedical data
+</td>
+<td class="listing-type">
+bioinformatics
+</td>
+</tr>
+<tr data-index="1" data-categories="workshop,r" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1670600451574" data-listing-reading-time-sort="0.01" data-listing-title-sort="R for novice" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="./teaching/r_novice/index.html" class="title">R for novice</a>
+</td>
+<td class="listing-description">
+Software carpentry course for introductory R
+</td>
+<td class="listing-type">
+rstats
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="guides-and-cheatsheets" class="level2">
+<h2 class="anchored" data-anchor-id="guides-and-cheatsheets">Guides and Cheatsheets</h2>
+<div id="listing-cheatsheet" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Description
+</th>
+<th>
+type
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="cheatsheet,r" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1670600960231" data-listing-reading-time-sort="0.005" data-listing-title-sort="Pkg Dev at CSIDS" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="./teaching/cheatsheet_pkgdev/index.html" class="title">Pkg Dev at CSIDS</a>
+</td>
+<td class="listing-description">
+Package development guide at CSIDS
+</td>
+<td class="listing-type">
+pkg
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
 
 
 </section>
@@ -335,13 +520,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./project-2-ehr.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">proj2</span>
+      <a href="./projects.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Projects</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./teaching-1-r.html" class="pagination-link">
-        <span class="nav-page-text">Teaching R</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./rpkg.html" class="pagination-link">
+        <span class="nav-page-text">R packages</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

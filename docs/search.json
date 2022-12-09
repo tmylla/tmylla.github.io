@@ -18,7 +18,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "I joined the Norwegian Institute of Public Health in 2020, as a member of the Sykdomspulsen team. We are a core part of the COVID-19 pandemic response task force in Norway. I help build the real-time public health surveillance platform using R and other open source data science tools. You can find our R packages here.\nIn 2021-2022, I am the responsible statistician for NorMOMO, the Norwegian Mortality Monitoring project, which is part of the European network EuroMOMO. I work on R packages nowcast and splalert."
+    "text": "I joined the Norwegian Institute of Public Health in 2020, as a member of the Sykdomspulsen team. We are a core part of the COVID-19 pandemic response task force in Norway. I help build the real-time public health surveillance platform using R and other open source data science tools. You can find our R packages here.\nIn 2021-2022, I am the responsible statistician for NorMOMO, the Norwegian Mortality Monitoring project, which is part of the European network EuroMOMO. I work on R packages nowcast and splalert.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html#academic-research",
@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Chi Zhang",
     "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE).\nYou can check my CV here. (add CV!)"
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nTHIS WEBSITE IS BEING REMADE. MORE CONTENT TO COME…\nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE)."
   },
   {
     "objectID": "cv.html",
@@ -88,7 +88,7 @@
     "href": "talks.html",
     "title": "Talks",
     "section": "",
-    "text": "FOR NOW IT IS JUST A PLACEHOLDER\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "An automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup\n\n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/post-with-code/index.html",
@@ -116,6 +116,244 @@
     "href": "rpkg.html",
     "title": "R packages",
     "section": "",
-    "text": "FOR NOW IT IS JUST A PLACEHOLDER\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Public health\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\n\n\n\n\n\nmedicode\n\n\n\n\n\n\n\nmortanor\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTools\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\ncstime\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/post-with-code/index.html",
+    "href": "teaching/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about_me.html",
+    "href": "about_me.html",
+    "title": "Chi Zhang",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE).\n\n\nI am an active member of Oslo User R group and Oslo R ladies group.\nIn addition, I am a certified Capentry instructor."
+  },
+  {
+    "objectID": "about/about_me.html",
+    "href": "about/about_me.html",
+    "title": "Chi Zhang",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE).\nYou can check my CV here. (add CV!)\nthis is another one"
+  },
+  {
+    "objectID": "rpkg/medicode/index.html",
+    "href": "rpkg/medicode/index.html",
+    "title": "medicode",
+    "section": "",
+    "text": "medicode"
+  },
+  {
+    "objectID": "rpkg/covidnor/index.html",
+    "href": "rpkg/covidnor/index.html",
+    "title": "covidnor",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "projects/post-with-code/index.html",
+    "href": "projects/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "projects/welcome/index.html",
+    "href": "projects/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "rpkg/cstime/index.html",
+    "href": "rpkg/cstime/index.html",
+    "title": "cstime",
+    "section": "",
+    "text": "cstime"
+  },
+  {
+    "objectID": "rpkg/mortanor/index.html",
+    "href": "rpkg/mortanor/index.html",
+    "title": "mortanor",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "teaching/welcome/index.html",
+    "href": "teaching/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about_publication.html",
+    "href": "about_publication.html",
+    "title": "Chi Zhang",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE).\nYou can check my CV here. (add CV!)\nthis is another one"
+  },
+  {
+    "objectID": "about_cv.html",
+    "href": "about_cv.html",
+    "title": "Chi Zhang",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE).\nYou can check my CV here. (add CV!)\nthis is another one"
+  },
+  {
+    "objectID": "projects.html#research",
+    "href": "projects.html#research",
+    "title": "Projects",
+    "section": "Research",
+    "text": "Research\nI have earned my PhD from University of Oslo in 2022. My PhD research was on the representation and utilization of hospital electronic health records data."
+  },
+  {
+    "objectID": "projects/phtools/index.html",
+    "href": "projects/phtools/index.html",
+    "title": "phtools",
+    "section": "",
+    "text": "Tools for Data Science in Public Health"
+  },
+  {
+    "objectID": "projects/csids/index.html",
+    "href": "projects/csids/index.html",
+    "title": "CSIDS",
+    "section": "",
+    "text": "Consortium for Statistics in Disease Surveillance"
+  },
+  {
+    "objectID": "projects/sykdomspulsen/index.html",
+    "href": "projects/sykdomspulsen/index.html",
+    "title": "Sykdomspulsen",
+    "section": "",
+    "text": "Sykdomspulsen is a project for standardised public health surveillance system."
+  },
+  {
+    "objectID": "blog/post-with-code/index.html",
+    "href": "blog/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "blog/welcome/index.html",
+    "href": "blog/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching and Tutorials",
+    "section": "",
+    "text": "Title\n\n\nDescription\n\n\n\n\n\n\nMF9130\n\n\nIntroductory course in statistics\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching.html#workshop",
+    "href": "teaching.html#workshop",
+    "title": "Teaching and Tutorials",
+    "section": "Workshop",
+    "text": "Workshop"
+  },
+  {
+    "objectID": "teaching.html#workshops",
+    "href": "teaching.html#workshops",
+    "title": "Teaching and Tutorials",
+    "section": "Workshops",
+    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\nR for novice\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching.html#guides-andn-cheatsheets",
+    "href": "teaching.html#guides-andn-cheatsheets",
+    "title": "Teaching and Tutorials",
+    "section": "Guides andn Cheatsheets",
+    "text": "Guides andn Cheatsheets\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching.html#guides-and-cheatsheets",
+    "href": "teaching.html#guides-and-cheatsheets",
+    "title": "Teaching and Tutorials",
+    "section": "Guides and Cheatsheets",
+    "text": "Guides and Cheatsheets\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nPkg Dev at CSIDS\n\n\nPackage development guide at CSIDS\n\n\npkg\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/cheatsheet_pkgdev/index.html",
+    "href": "teaching/cheatsheet_pkgdev/index.html",
+    "title": "Pkg Dev at CSIDS",
+    "section": "",
+    "text": "Rstat"
+  },
+  {
+    "objectID": "teaching/r_novice/index.html",
+    "href": "teaching/r_novice/index.html",
+    "title": "R for novice",
+    "section": "",
+    "text": "Rstat"
+  },
+  {
+    "objectID": "teaching/workshop_bioinf/index.html",
+    "href": "teaching/workshop_bioinf/index.html",
+    "title": "Oslo Bioinformatics Week",
+    "section": "",
+    "text": "As TA"
+  },
+  {
+    "objectID": "talks.html#rstats",
+    "href": "talks.html#rstats",
+    "title": "Talks",
+    "section": "Rstats",
+    "text": "Rstats\n\n\n\n\n  \n\n\n\n\nBuilding Website in R: Step by Step Introduction to blogdown\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "talks.html#electronic-health-records",
+    "href": "talks.html#electronic-health-records",
+    "title": "Talks",
+    "section": "Electronic Health Records",
+    "text": "Electronic Health Records\n\n\n\n\n  \n\n\n\n\nMachine Learning in Intensive Care Units\n\n\n\n\n\nA 45 minutes trial lecture to fulfill the requirement of my PhD degree\n\n\n\n\n\n\nOct 13, 2022\n\n\n\n\n\n\n  \n\n\n\n\nLearning from Hospital EHR data with R\n\n\n\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\n\n  \n\n\n\n\nNetwork Analysis of Hospital EHR data\n\n\n\n\n\nThe talk I gave at Big Insight Day 2021\n\n\n\n\n\n\nFeb 18, 2021\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "talks/ehr_20221013_ml_icu/index.html",
+    "href": "talks/ehr_20221013_ml_icu/index.html",
+    "title": "Machine Learning in Intensive Care Units",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "talks/ph_20220616_splverse/index.html",
+    "href": "talks/ph_20220616_splverse/index.html",
+    "title": "Introducing Sykdomspulsen and splverse",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "talks/ehr_20210218_biday/index.html",
+    "href": "talks/ehr_20210218_biday/index.html",
+    "title": "Network analysis of hospital EHR data",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "talks/ph_20211022_sp_ocbe/index.html",
+    "href": "talks/ph_20211022_sp_ocbe/index.html",
+    "title": "Introducing Sykdomspulsen",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "talks/rstats_20190402_blogdown/index.html",
+    "href": "talks/rstats_20190402_blogdown/index.html",
+    "title": "Introducing blogdown, an R package for blogs",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "talks/ehr_20191028_rladies/index.html",
+    "href": "talks/ehr_20191028_rladies/index.html",
+    "title": "EHR",
+    "section": "",
+    "text": "This is a 15 min intro"
   }
 ]

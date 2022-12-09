@@ -18,24 +18,12 @@ website:
     collapse-level: 1
     contents: 
     
-      - section: "Projects"
-        contents: 
-          - text: "All Projects"
-            href: projects.qmd
-          - text: "proj1"
-            href: project-1-ph.qmd
-          - text: "proj2"
-            href: project-2-ehr.qmd
+      - text: "Projects"
+        href: projects.qmd
             
-      - section: "Teaching & Tutorials"
-        contents: 
-           - text: "TOverview"
-             href: teaching.qmd
-           - text: "Teaching R"
-             href: teaching-1-r.qmd
-           - text: "Teaching stat"
-             href: teaching-2-medstat.qmd
-             
+      - text: "Teaching & Tutorials"
+        href: teaching.qmd
+        
       - text: "R packages"
         href: rpkg.qmd
            
@@ -45,8 +33,14 @@ website:
       - text: "Blog"
         href: blog.qmd
 
-      - text: "About"
-        href: index.html
+      - section: "About"
+        contents: 
+          - text: "About me"
+            href: about_me.qmd
+          - text: "CV"
+            href: about_cv.qmd
+          - text: "Publication"
+            href: about_publication.qmd
             
  
 format:

@@ -8,7 +8,7 @@
 
 <meta name="description" content="Here you can find an overview of my projects.">
 
-<title>Hello, I’m Chi :) - Projects</title>
+<title>Hello, I’m Chi - Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./project-1-ph.html" rel="next">
+<link href="./teaching.html" rel="next">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,7 +61,37 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-publichealth .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-publichealth'] = new List('listing-publichealth', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -82,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Hello, I’m Chi :)</a> 
+      <a href="./">Hello, I’m Chi</a> 
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -92,56 +124,16 @@ ul.task-list li input[type="checkbox"] {
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Projects</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects.html" class="sidebar-item-text sidebar-link active">All Projects</a>
+  <a href="./projects.html" class="sidebar-item-text sidebar-link active">Projects</a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./project-1-ph.html" class="sidebar-item-text sidebar-link">proj1</a>
+  <a href="./teaching.html" class="sidebar-item-text sidebar-link">Teaching &amp; Tutorials</a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./project-2-ehr.html" class="sidebar-item-text sidebar-link">proj2</a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Teaching &amp; Tutorials</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching.html" class="sidebar-item-text sidebar-link">TOverview</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching-1-r.html" class="sidebar-item-text sidebar-link">Teaching R</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching-2-medstat.html" class="sidebar-item-text sidebar-link">Teaching stat</a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./rpkg.html" class="sidebar-item-text sidebar-link">R packages</a>
@@ -157,11 +149,31 @@ ul.task-list li input[type="checkbox"] {
   <a href="./blog.html" class="sidebar-item-text sidebar-link">Blog</a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">About</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">About</a>
+  <a href="./about_me.html" class="sidebar-item-text sidebar-link">About me</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about_cv.html" class="sidebar-item-text sidebar-link">CV</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about_publication.html" class="sidebar-item-text sidebar-link">Publication</a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -196,19 +208,73 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="data-science-in-public-health">Data science in Public Health</h2>
 <p>I joined the Norwegian Institute of Public Health in 2020, as a member of the Sykdomspulsen team. We are a core part of the COVID-19 pandemic response task force in Norway. I help build the real-time public health surveillance platform using R and other open source data science tools. You can find our R packages <a href="https://github.com/sykdomspulsen-org">here</a>.</p>
 <p>In 2021-2022, I am the responsible statistician for NorMOMO, the Norwegian Mortality Monitoring project, which is part of the European network EuroMOMO. I work on R packages <a href="https://docs.sykdomspulsen.no/nowcast/">nowcast</a> and <a href="https://docs.sykdomspulsen.no/splalert/">splalert</a>.</p>
+<div id="listing-publichealth" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1670596918146" data-listing-reading-time-sort="0.03">
+<a href="./projects/csids/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./projects/csids/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+CSIDS
+</h5>
+<div class="card-text listing-description">
+Consortium for Statistics in Disease Surveillance
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="news,code,analysis" data-listing-file-modified-sort="1670597032629" data-listing-reading-time-sort="0.05">
+<a href="./projects/sykdomspulsen/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./projects/sykdomspulsen/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sykdomspulsen
+</h5>
+<div class="card-text listing-description">
+Sykdomspulsen is a project for standardised public health surveillance system.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="news,code,analysis" data-listing-file-modified-sort="1670596975325" data-listing-reading-time-sort="0.035">
+<a href="./projects/phtools/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="./projects/phtools/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+phtools
+</h5>
+<div class="card-text listing-description">
+Tools for Data Science in Public Health
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
-<section id="academic-research" class="level2">
-<h2 class="anchored" data-anchor-id="academic-research">Academic Research</h2>
+<section id="research" class="level2">
+<h2 class="anchored" data-anchor-id="research">Research</h2>
 <p>I have earned my PhD from University of Oslo in 2022. My PhD research was on the representation and utilization of hospital electronic health records data.</p>
 </section>
 <section id="advising" class="level2">
 <h2 class="anchored" data-anchor-id="advising">Advising</h2>
 <p>I work as a statistical advisor on the side, helping clinical researchers with methodology and anaysis.</p>
-</section>
-<section id="community" class="level2">
-<h2 class="anchored" data-anchor-id="community">Community</h2>
-<p>I am an active member of Oslo User R group and Oslo R ladies group.</p>
-<p>In addition, I am a certified Capentry instructor.</p>
+
 
 
 </section>
@@ -351,8 +417,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./project-1-ph.html" class="pagination-link">
-        <span class="nav-page-text">proj1</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./teaching.html" class="pagination-link">
+        <span class="nav-page-text">Teaching &amp; Tutorials</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

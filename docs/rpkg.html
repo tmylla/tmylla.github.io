@@ -8,7 +8,7 @@
 
 <meta name="description" content="A few packages">
 
-<title>Hello, I’m Chi :) - R packages</title>
+<title>Hello, I’m Chi - R packages</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./talks.html" rel="next">
-<link href="./teaching-2-medstat.html" rel="prev">
+<link href="./teaching.html" rel="prev">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -65,20 +65,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-r .list');
+    const listingTargetEl = window.document.querySelector('#listing-publichealth .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-r'] = new List('listing-r', options);
+    window['quarto-listings']['listing-publichealth'] = new List('listing-publichealth', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-tools .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-tools'] = new List('listing-tools', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -115,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Hello, I’m Chi :)</a> 
+      <a href="./">Hello, I’m Chi</a> 
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -125,56 +153,16 @@ ul.task-list li input[type="checkbox"] {
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">Projects</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects.html" class="sidebar-item-text sidebar-link">All Projects</a>
+  <a href="./projects.html" class="sidebar-item-text sidebar-link">Projects</a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./project-1-ph.html" class="sidebar-item-text sidebar-link">proj1</a>
+  <a href="./teaching.html" class="sidebar-item-text sidebar-link">Teaching &amp; Tutorials</a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./project-2-ehr.html" class="sidebar-item-text sidebar-link">proj2</a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Teaching &amp; Tutorials</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching.html" class="sidebar-item-text sidebar-link">TOverview</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching-1-r.html" class="sidebar-item-text sidebar-link">Teaching R</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching-2-medstat.html" class="sidebar-item-text sidebar-link">Teaching stat</a>
-  </div>
-</li>
-      </ul>
-  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./rpkg.html" class="sidebar-item-text sidebar-link active">R packages</a>
@@ -190,11 +178,31 @@ ul.task-list li input[type="checkbox"] {
   <a href="./blog.html" class="sidebar-item-text sidebar-link">Blog</a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">About</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">About</a>
+  <a href="./about_me.html" class="sidebar-item-text sidebar-link">About me</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about_cv.html" class="sidebar-item-text sidebar-link">CV</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about_publication.html" class="sidebar-item-text sidebar-link">Publication</a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -225,52 +233,91 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>FOR NOW IT IS JUST A PLACEHOLDER</p>
+<section id="public-health" class="level1">
+<h1>Public health</h1>
+<div id="listing-publichealth" class="quarto-listing quarto-listing-container-table">
 
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-r">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1666701726547" data-listing-reading-time-sort="0.045">
-<a href="./talks/post-with-code/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="./talks/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Post With Code
-</h5>
-<div class="card-text listing-description">
-This is a post with executable code.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="news" data-listing-date-sort="1666389600000" data-listing-file-modified-sort="1666701726545" data-listing-reading-time-sort="0.16">
-<a href="./talks/welcome/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="./talks/welcome/thumbnail.jpg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Welcome To My Blog
-</h5>
-<div class="card-text listing-description">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="news" data-listing-date-sort="1666389600000" data-listing-file-modified-sort="1670594365887" data-listing-reading-time-sort="0.16" data-listing-title-sort="covidnor" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="./rpkg/covidnor/index.html" class="title">covidnor</a>
+</td>
+<td class="listing-description">
 This is the first post in a Quarto blog. Welcome!
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+</td>
+</tr>
+<tr data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1670594332615" data-listing-reading-time-sort="0.005" data-listing-title-sort="medicode" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="./rpkg/medicode/index.html" class="title">medicode</a>
+</td>
+<td class="listing-description">
+medicode
+</td>
+</tr>
+<tr data-index="2" data-categories="news" data-listing-date-sort="1666389600000" data-listing-file-modified-sort="1670594347072" data-listing-reading-time-sort="0.16" data-listing-title-sort="mortanor" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="./rpkg/mortanor/index.html" class="title">mortanor</a>
+</td>
+<td class="listing-description">
+This is the first post in a Quarto blog. Welcome!
+</td>
+</tr>
+</tbody>
+
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="tools" class="level1">
+<h1>Tools</h1>
+<div id="listing-tools" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1670594316062" data-listing-reading-time-sort="0.005" data-listing-title-sort="cstime" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="./rpkg/cstime/index.html" class="title">cstime</a>
+</td>
+<td class="listing-description">
+cstime
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -406,8 +453,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./teaching-2-medstat.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Teaching stat</span>
+      <a href="./teaching.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Teaching &amp; Tutorials</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

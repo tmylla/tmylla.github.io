@@ -1,0 +1,25 @@
+---
+title: "Mortality Surveillance in Norway"
+image: "normomo_1.png"
+---
+
+## Norwegian Surveillance System for Excess Mortality
+
+[NorMOMO](https://www.fhi.no/sv/influensa/influensaovervaking/overvakingssystem-for-dodelighet-eu/)
+
+![](normomo.png)
+
+## R packages for mortality surveillance
+
+(continue...)
+
+* nowcast
+* splalert
+* mortanor
+
+
+## Collaboration with Cause of Death Registry
+
+
+
+

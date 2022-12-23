@@ -1,0 +1,44 @@
+---
+title: "R packages"
+description: |
+  A few packages that I developed and contributed to
+listing:
+  - id: publichealth
+    max-description-length: 80
+    image-height: 250px
+    fields: [title, description]
+    contents: 
+      - medicode
+      - covidnor
+      - mortanor
+      - csalert
+      - nowcast
+      - cstime
+      - csmaps
+      - csdata
+    type: table
+    grid-item-border: false
+    sort-ui: false
+    filter-ui: false
+
+  - id: qttools
+    max-description-length: 80
+    image-height: 350px
+    fields: [image, title, description]
+    contents: 
+      - qtwAcademic
+    type: grid
+    grid-item-border: false
+    sort-ui: false
+    filter-ui: false
+---
+
+# Public health
+
+::: {#publichealth}
+:::
+
+# Quarto Tools
+
+::: {#qttools}
+:::

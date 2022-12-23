@@ -1,12 +1,9 @@
 ---
 title: "mortanor"
-author: "Tristan O'Malley"
+description: "Public mortality data in Norway"
+author: "Chi Zhang"
 date: "2022-10-22"
-categories: [news]
+categories: [data]
 ---
 
-This is the first post in a Quarto blog. Welcome!
-
-![](thumbnail.jpg)
-
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+https://github.com/csids/mortanor

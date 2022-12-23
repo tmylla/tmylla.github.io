@@ -4,7 +4,8 @@ description: "Software carpentry course for introductory R"
 date: "2022-10-25"
 categories: [workshop, r]
 type: rstats
-image: "image.jpg"
 ---
 
-Rstat 
+I have been involved in multiple introductory R workshops at University of Oslo. 
+
+[Carpentry at UiO](https://uio-carpentry.github.io)

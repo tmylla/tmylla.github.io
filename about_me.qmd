@@ -1,33 +1,40 @@
 ---
 title: "Chi Zhang"
 image: resources/photo_chi.jpg
+page-layout: article
 about:
   id: hero-heading
-  template: trestles
+  template: jolla
   image-shape: round
   links:
+    - icon: mailbox
+      text: chi.zhang@medisin.uio.no
+      href: mailto:chi.zhang@medisin.uio.no
     - icon: twitter
-      text: Twitter
+      text: Andreasheenn
       href: https://twitter.com/Andreasheenn
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
+    - icon: mastodon
+      text: andreasheenn@fosstodon.org
+      href: https://fosstodon.org/@andreasheenn
     - icon: github
-      text: Github
+      text: andreaczhang
       href: https://github.com/andreaczhang
 ---
 
 ::: {#hero-heading}
-Chi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at [Sykdomspulsen](https://docs.sykdomspulsen.no), a real-time analysis and public health surveillance system.
-
-Chi has recently earned her PhD at University of Oslo. Her thesis is *Representation and utilization of hospital Electronic Health Records data*.
-
-Chi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)).
-
-## Community
-
-I am an active member of Oslo User R group and Oslo R ladies group.
-
-In addition, I am a certified Capentry instructor.
 
 :::
+
+I am a researcher at the [Norwegian Institute of Public Health](https://www.fhi.no/en/) (Folkehelseinstituttet). I am a statistician and R programmer for [Sykdomspulsen](https://docs.sykdomspulsen.no), a real-time analysis and public health surveillance system. In addition, I have a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)) at University of Oslo.
+
+
+My **interests** are: 
+
+* Data science applications in public health
+* Reproducibility and open science
+* Statistical software development 
+
+In the past 10 years I have lived in the UK and Norway (6+ years). I speak English, Norwegian and Chinese. I obtained my PhD on statistics and machine learning using hospital electronic health records at the Faculty of Medicine, University of Oslo in 2022. I enjoy making R packages and teaching R.
+
+I am an active member of Oslo User R group and Oslo R ladies group, and a certified Capentry instructor.
+

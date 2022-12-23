@@ -12,8 +12,8 @@
       "/talks/ph_20220616_splverse/index.html",
       "/talks/rstats_20190402_blogdown/index.html",
       "/talks/ehr_20221013_ml_icu/index.html",
-      "/talks/ehr_20191028_rladies/index.html",
-      "/talks/ehr_20210218_biday/index.html"
+      "/talks/ehr_20210218_biday/index.html",
+      "/talks/ehr_20191028_rladies/index.html"
     ]
   },
   {
@@ -40,6 +40,47 @@
       "/projects/csids/index.html",
       "/projects/sykdomspulsen/index.html",
       "/projects/phtools/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/projects.html",
+    "items": [
+      "/projects/csids/index.html",
+      "/projects/nor_mortality/index.html",
+      "/projects/sykdomspulsen/index.html"
+    ]
+  },
+  {
+    "listing": "/talks/talks.html",
+    "items": [
+      "/talks/ph_20220616_splverse/index.html",
+      "/talks/rstats_20190402_blogdown/index.html",
+      "/talks/ehr_20221013_ml_icu/index.html",
+      "/talks/ehr_20210218_biday/index.html",
+      "/talks/ehr_20191028_rladies/index.html"
+    ]
+  },
+  {
+    "listing": "/rpkg/rpkg.html",
+    "items": [
+      "/rpkg/covidnor/index.html",
+      "/rpkg/csalert/index.html",
+      "/rpkg/csdata/index.html",
+      "/rpkg/csmaps/index.html",
+      "/rpkg/cstime/index.html",
+      "/rpkg/medicode/index.html",
+      "/rpkg/mortanor/index.html",
+      "/rpkg/nowcast/index.html",
+      "/rpkg/qtwAcademic/index.html"
+    ]
+  },
+  {
+    "listing": "/teaching/teaching.html",
+    "items": [
+      "/teaching/mf9130/index.html",
+      "/teaching/workshop_bioinf/index.html",
+      "/teaching/r_novice/index.html",
+      "/teaching/cheatsheet_pkgdev/index.html"
     ]
   }
 ]

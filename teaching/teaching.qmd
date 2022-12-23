@@ -1,0 +1,54 @@
+---
+title: "Teaching and Tutorials"
+description: |
+  These are a few things I teach or develop
+listing:
+  - id: medstat
+    max-description-length: 500
+    image-height: 250px
+    fields: [title, description]
+    contents: 
+      - mf9130
+    type: table
+    grid-item-border: false
+    sort-ui: false
+    filter-ui: false
+    
+  - id: workshop
+    max-description-length: 500
+    image-height: 250px
+    fields: [title, description, type]
+    contents: 
+      - r_novice
+      - workshop_bioinf
+    type: table
+    grid-item-border: false
+    sort-ui: false
+    filter-ui: false
+
+  - id: cheatsheet
+    max-description-length: 500
+    image-height: 250px
+    fields: [title, description, type]
+    contents: 
+      - cheatsheet_pkgdev
+    type: table
+    grid-item-border: false
+    sort-ui: false
+    filter-ui: false
+---
+
+## Introductory Statistics
+
+::: {#medstat}
+:::
+
+## Workshops
+
+::: {#workshop}
+:::
+
+## Guides and Cheatsheets
+
+::: {#cheatsheet}
+:::

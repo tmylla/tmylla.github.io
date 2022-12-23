@@ -1,7 +1,30 @@
 ---
-title: "Sykdomspulsen"
-categories: [news, code, analysis]
-image: "image.jpg"
+title: "Sykdomspulsen/splverse"
+description: An automated public health surveillance platform developed in R 
+image: "splverse.png"
 ---
 
-Sykdomspulsen is a project for standardised public health surveillance system.
+[Sykdomspulsen](https://docs.sykdomspulsen.no) is a real-time analysis and disease surveillance system designed and developed at the [Norwegian Institute of Public Health](https://www.fhi.no) (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.
+
+[splverse](https://docs.sykdomspulsen.no/packages) is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.
+
+In November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to [CSIDS: the Consortium for Statistics in Disease Surveillance](https://github.com/csids). Please refer to CSIDS for ongoing developments.
+
+### Quick stats
+
+* We receive data from more than 15 data sources every day
+* 2 000 000 000+ rows of data and results (1TB)
+* 1 000+ database tables
+* 1 000 000+ analyses per day
+* 1 000+ automatic reports per day
+
+<img src="conference_handout_1.jpg" width="500"/>
+
+
+<img src="conference_handout_2.jpg" width="500"/>
+
+
+
+[Download poster (Norwegian)](conference_poster.pdf)
+
+<img src="poster.png" width="600"/>

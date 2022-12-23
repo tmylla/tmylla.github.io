@@ -1,10 +1,17 @@
 ---
 title: "Oslo Bioinformatics Week"
 description: "Machine Learning principles for small and noisy biomedical data"
-date: "2022-10-25"
+date: "2022-12-13"
 categories: [workshop, r]
 type: bioinformatics
-image: "image.jpg"
 ---
 
-As TA
+This workshop is part of the [Oslo Bioinformatics Workshop Week 2022](https://www.mn.uio.no/sbi/english/events/oslo-bioinformatics-week-2022/). These workshops are open to the scientific community in Oslo and the surrounding area.
+
+Main instructor: Manuela Zucknick
+
+Co-instructor: Theophilius Asenso
+
+Developer: Chi Zhang
+
+Course [website](https://ocbe-uio.github.io/2022_bioinformatics_workshop/) and [repository](https://github.com/ocbe-uio/2022_bioinformatics_workshop)

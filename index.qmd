@@ -6,14 +6,11 @@ about:
   template: trestles
   image-shape: round
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/Andreasheenn
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
+    - icon: mastodon
+      text: andreasheenn@fosstodon.org
+      href: https://fosstodon.org/@andreasheenn
     - icon: github
-      text: Github
+      text: andreaczhang
       href: https://github.com/andreaczhang
 ---
 

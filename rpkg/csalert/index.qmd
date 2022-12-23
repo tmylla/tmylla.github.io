@@ -1,0 +1,9 @@
+---
+title: "csalert"
+author: "Beatriz Valcarcel Salamanca, Chi Zhang, Richard Aubrey White"
+description: "Outbreak detection in public health surveillance"
+date: "2022-10-25"
+categories: [method]
+---
+
+https://github.com/csids/csalert

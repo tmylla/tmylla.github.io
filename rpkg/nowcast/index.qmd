@@ -1,0 +1,9 @@
+---
+title: "nowcast"
+description: Delay correction methods for real-time surveillance
+author: "Chi Zhang, Richard Aubrey White"
+date: "2022-10-25"
+categories: [method]
+---
+
+https://github.com/csids/nowcast

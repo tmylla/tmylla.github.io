@@ -1,0 +1,10 @@
+---
+title: "qtwAcademic"
+description: "Quarto Website Templates for Academics"
+author: "Chi Zhang"
+categories: [tools]
+image: "logo_qtwAcademic.png"
+---
+
+
+Helps you build a Quarto website quickly

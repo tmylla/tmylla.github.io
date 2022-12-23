@@ -19,16 +19,16 @@ website:
     contents: 
     
       - text: "Projects"
-        href: projects.qmd
+        href: projects/projects.qmd
             
       - text: "Teaching & Tutorials"
-        href: teaching.qmd
+        href: teaching/teaching.qmd
         
       - text: "R packages"
-        href: rpkg.qmd
+        href: rpkg/rpkg.qmd
            
       - text: "Talks"
-        href: talks.qmd
+        href: talks/talks.qmd
 
       - text: "Blog"
         href: blog.qmd
@@ -39,14 +39,11 @@ website:
             href: about_me.qmd
           - text: "CV"
             href: about_cv.qmd
-          - text: "Publication"
-            href: about_publication.qmd
-            
+
  
 format:
   html:
     theme: [cosmo, styles.scss]
     mainfont: "Atkinson Hyperlegible"
 
-editor: visual
 

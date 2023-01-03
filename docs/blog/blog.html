@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Here you can find an overview of my projects.">
+<meta name="description" content="Something that Chi writes about">
 
-<title>Hello, I’m Chi - Projects</title>
+<title>Hello, I’m Chi - Blog and notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,20 +64,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publichealth .list');
+    const listingTargetEl = window.document.querySelector('#listing-blog .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publichealth'] = new List('listing-publichealth', options);
+    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-notes .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-notes'] = new List('listing-notes', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -95,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -112,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/projects.html" aria-current="page">
+    <a class="nav-link" href="../projects/projects.html">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -128,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/blog.html">
+    <a class="nav-link active" href="../blog/blog.html" aria-current="page">
  <span class="menu-text">Blog/notes</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -156,18 +184,20 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Notes">Notes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Blog and notes</h1>
 </div>
 
 <div>
   <div class="description">
-    <p>Here you can find an overview of my projects.</p>
+    <p>Something that Chi writes about</p>
   </div>
 </div>
 
@@ -182,74 +212,80 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="public-health-surveillance" class="level2">
-<h2 class="anchored" data-anchor-id="public-health-surveillance">Public Health Surveillance</h2>
-<p>I joined the Norwegian Institute of Public Health in 2020, as a member of the Sykdomspulsen team. We are a core part of the COVID-19 pandemic response task force in Norway. I help build the real-time public health surveillance platform using R and other open source data science tools. You can find our R packages <a href="https://github.com/sykdomspulsen-org">here</a>.</p>
-<p>In 2021-2022, I am the responsible statistician for NorMOMO, the Norwegian Mortality Monitoring project, which is part of the European network EuroMOMO. I work on R packages <a href="https://docs.sykdomspulsen.no/nowcast/">nowcast</a> and <a href="https://docs.sykdomspulsen.no/splalert/">splalert</a>.</p>
-<div id="listing-publichealth" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1670596918146" data-listing-reading-time-sort="0.03">
-<a href="../projects/csids/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="../projects/csids/image.jpg" class="thumbnail-image card-img" style="height: 300px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-CSIDS
-</h5>
-<div class="card-text listing-description">
-Consortium for Statistics in Disease Surveillance
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1671816870781" data-listing-reading-time-sort="0.075">
-<a href="../projects/nor_mortality/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="../projects/nor_mortality/normomo_1.png" class="thumbnail-image card-img" style="height: 300px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mortality Surveillance in Norway
-</h5>
-<div class="card-text listing-description">
-NorMOMO
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1671816359119" data-listing-reading-time-sort="0.83">
-<a href="../projects/sykdomspulsen/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="../projects/sykdomspulsen/splverse.png" class="thumbnail-image card-img" style="height: 300px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sykdomspulsen/splverse
-</h5>
-<div class="card-text listing-description">
-An automated public health surveillance platform developed in R
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+<section id="blog" class="level3">
+<h3 class="anchored" data-anchor-id="blog">Blog</h3>
+<div id="listing-blog" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Quarto" data-listing-date-sort="1672700400000" data-listing-file-modified-sort="1672768767078" data-listing-reading-time-sort="0.515" data-listing-title-sort="Switching from Blogdown to Quarto" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="../blog/blog_20230103_blogdown2quarto/index.html" class="title">Switching from Blogdown to Quarto</a>
+</td>
+<td class="listing-date">
+Jan 3, 2023
+</td>
+</tr>
+<tr data-index="1" data-categories="Quarto" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1672763012728" data-listing-reading-time-sort="0.045" data-listing-title-sort="Post With Code" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="../blog/blog_20230104_qtwAcademic/index.html" class="title">Post With Code</a>
+</td>
+<td class="listing-date">
+Oct 25, 2022
+</td>
+</tr>
+</tbody>
+
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
-<section id="interests" class="level3">
-<h3 class="anchored" data-anchor-id="interests">Interests</h3>
-
-
-
 </section>
+<section id="notes" class="level3">
+<h3 class="anchored" data-anchor-id="notes">Notes</h3>
+<div id="listing-notes" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Notes" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1672767953380" data-listing-reading-time-sort="0.03" data-listing-title-sort="Notes test" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="../blog/notes_1/index.html" class="title">Notes test</a>
+</td>
+<td class="listing-date">
+Oct 25, 2022
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
 </section>
 
 </main> <!-- /main -->

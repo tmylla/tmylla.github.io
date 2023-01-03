@@ -1,5 +1,5 @@
 ---
-title: "Teaching and Tutorials"
+title: "Teaching"
 description: |
   These are a few things I teach or develop
 listing:

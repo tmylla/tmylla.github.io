@@ -15,7 +15,6 @@ about:
 ---
 
 ::: {#hero-heading}
-THIS WEBSITE IS BEING REMADE. MORE CONTENT TO COME...
 
 Chi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at [Sykdomspulsen](https://docs.sykdomspulsen.no), a real-time analysis and public health surveillance system.
 

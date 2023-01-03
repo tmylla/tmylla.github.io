@@ -1,0 +1,9 @@
+---
+title: "Notes test"
+author: "Harlow Malloc"
+date: "2022-10-25"
+categories: [Notes]
+sidebar: false
+---
+
+This is a demo of notes

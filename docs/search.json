@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Chi Zhang",
     "section": "",
-    "text": "andreasheenn@fosstodon.org\n  \n  \n    \n     andreaczhang\n  \n\n  \n  \nTHIS WEBSITE IS BEING REMADE. MORE CONTENT TO COME…\nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE)."
+    "text": "andreasheenn@fosstodon.org\n  \n  \n    \n     andreaczhang\n  \n\n  \n  \nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE)."
   },
   {
     "objectID": "cv.html",
@@ -58,9 +58,9 @@
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "Blog",
+    "title": "Blog and notes",
     "section": "",
-    "text": "FOR NOW IT IS JUST A PLACEHOLDER\n\n\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "project-2-ehr.html",
@@ -408,21 +408,21 @@
   {
     "objectID": "teaching/teaching.html",
     "href": "teaching/teaching.html",
-    "title": "Teaching and Tutorials",
+    "title": "Teaching",
     "section": "",
     "text": "Title\n\n\nDescription\n\n\n\n\n\n\nMF9130/MF9130E\n\n\nIntroductory course in statistics\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/teaching.html#workshops",
     "href": "teaching/teaching.html#workshops",
-    "title": "Teaching and Tutorials",
+    "title": "Teaching",
     "section": "Workshops",
     "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\nR for novice\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/teaching.html#guides-and-cheatsheets",
     "href": "teaching/teaching.html#guides-and-cheatsheets",
-    "title": "Teaching and Tutorials",
+    "title": "Teaching",
     "section": "Guides and Cheatsheets",
     "text": "Guides and Cheatsheets\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nPkg Dev at CSIDS\n\n\nPackage development guide at CSIDS\n\n\npkg\n\n\n\n\n\n\nNo matching items"
   },
@@ -502,5 +502,61 @@
     "title": "Mortality Surveillance in Norway",
     "section": "Collaboration with Cause of Death Registry",
     "text": "Collaboration with Cause of Death Registry"
+  },
+  {
+    "objectID": "blog/20230104_qtwAcademic/index.html",
+    "href": "blog/20230104_qtwAcademic/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "blog/blog_20230104_qtwAcademic/index.html",
+    "href": "blog/blog_20230104_qtwAcademic/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "blog/blog.html",
+    "href": "blog/blog.html",
+    "title": "Blog and notes",
+    "section": "",
+    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nSwitching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\nPost With Code\n\n\nOct 25, 2022\n\n\n\n\n\n\nNo matching items\n\n\n\n\nNotes\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nNotes test\n\n\nOct 25, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/blog.html#notes",
+    "href": "blog/blog.html#notes",
+    "title": "Blog and notes",
+    "section": "Notes",
+    "text": "Notes\nPLACEHOLDER\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nNotes test\n\n\nOct 25, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/notes_1/index.html",
+    "href": "blog/notes_1/index.html",
+    "title": "Notes test",
+    "section": "",
+    "text": "This is a demo of notes"
+  },
+  {
+    "objectID": "blog/blog_20230103_blogdown2quarto/index.html",
+    "href": "blog/blog_20230103_blogdown2quarto/index.html",
+    "title": "Switching from Blogdown to Quarto",
+    "section": "",
+    "text": "Since the first time I tried the “academic” template in the famous blogdown package in 2019, it has been more than three years. Back then it was THE way to build a personal website using R. During the past years I also tried distill for a clean, minimalistic website.\nAnd then I stopped updating my website. Between 2020 and early 2022, I was too stressed about completing my PhD, and balancing my other two jobs wasn’t the easiest thing. Now that I’ve finally completed the more pressing tasks, I can catch up to the cool kids on twitter: create a website with Quarto!"
+  },
+  {
+    "objectID": "blog/blog_20230103_blogdown2quarto/index.html#level-2",
+    "href": "blog/blog_20230103_blogdown2quarto/index.html#level-2",
+    "title": "Switching from Blogdown to Quarto",
+    "section": "Level 2",
+    "text": "Level 2\nwrite text"
+  },
+  {
+    "objectID": "blog/blog_20230103_blogdown2quarto/index.html#why-quarto-not-blogdown",
+    "href": "blog/blog_20230103_blogdown2quarto/index.html#why-quarto-not-blogdown",
+    "title": "Switching from Blogdown to Quarto",
+    "section": "Why Quarto, not blogdown?",
+    "text": "Why Quarto, not blogdown?"
   }
 ]

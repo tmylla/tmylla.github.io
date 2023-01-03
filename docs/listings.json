@@ -1,10 +1,7 @@
 [
   {
     "listing": "/blog.html",
-    "items": [
-      "/blog/post-with-code/index.html",
-      "/blog/welcome/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/talks.html",
@@ -81,6 +78,14 @@
       "/teaching/workshop_bioinf/index.html",
       "/teaching/r_novice/index.html",
       "/teaching/cheatsheet_pkgdev/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/blog.html",
+    "items": [
+      "/blog/blog_20230103_blogdown2quarto/index.html",
+      "/blog/blog_20230104_qtwAcademic/index.html",
+      "/blog/notes_1/index.html"
     ]
   }
 ]

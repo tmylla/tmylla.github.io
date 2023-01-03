@@ -1,0 +1,19 @@
+---
+title: "Switching from Blogdown to Quarto"
+author: "Chi Zhang"
+date: "2023-01-03"
+categories: [Quarto]
+title-block-banner: false
+sidebar: false
+---
+
+Since the first time I tried the "academic" template in the famous `blogdown` package in 2019, it has been more than three years. Back then it was THE way to build a personal website using R. During the past years I also tried `distill` for a clean, minimalistic website. 
+
+And then I stopped updating my website. Between 2020 and early 2022, I was too stressed about completing my PhD, and balancing my other two jobs wasn't the easiest thing. Now that I've finally completed the more pressing tasks, I can catch up to the *cool kids* on twitter: create a website with **Quarto**!
+
+
+
+## Why Quarto, not blogdown?
+
+
+

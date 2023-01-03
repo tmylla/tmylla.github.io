@@ -5,7 +5,7 @@ description: |
 listing:
   - id: publichealth
     max-description-length: 500
-    image-height: 350px
+    image-height: 300px
     fields: [image, title, description]
     contents: 
       - csids

@@ -1,0 +1,49 @@
+---
+title: "Blog and notes"
+description: |
+  Something that Chi writes about 
+listing:
+  - id: blog
+    max-description-length: 500
+    image-height: 150px
+    fields: [title, date]
+    contents: 
+      - "blog_*/index.qmd"
+    type: table
+    grid-item-border: false
+    sort-ui: false
+    sort: "date desc"
+    filter-ui: false
+    categories: true
+
+  - id: notes
+    max-description-length: 500
+    image-height: 150px
+    fields: [title, date]
+    contents: 
+      - "notes_*/index.qmd"
+    type: table
+    grid-item-border: false
+    sort-ui: false
+    sort: "date desc"
+    filter-ui: false
+    categories: true
+
+---
+
+### Blog
+
+
+::: {#blog}
+:::
+
+### Notes
+
+
+::: {#notes}
+:::
+
+
+
+
+

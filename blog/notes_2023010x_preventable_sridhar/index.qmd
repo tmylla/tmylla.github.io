@@ -1,0 +1,11 @@
+---
+title: "Preventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar"
+description: |
+  Reading notes on the book
+author: "Chi Zhang"
+date: "2023-01-04"
+categories: [Notes]
+sidebar: false
+---
+
+Ongoing reading notes. 

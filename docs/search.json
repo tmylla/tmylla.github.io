@@ -200,7 +200,7 @@
     "href": "about_cv.html",
     "title": "Chi Zhang",
     "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE).\nYou can check my CV here. (add CV!)\nthis is another one"
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE).\nCV is going to be uploaded soon"
   },
   {
     "objectID": "projects.html#research",
@@ -361,7 +361,7 @@
     "href": "projects/projects.html",
     "title": "Projects",
     "section": "",
-    "text": "I joined the Norwegian Institute of Public Health in 2020, as a member of the Sykdomspulsen team. We are a core part of the COVID-19 pandemic response task force in Norway. I help build the real-time public health surveillance platform using R and other open source data science tools. You can find our R packages here.\nIn 2021-2022, I am the responsible statistician for NorMOMO, the Norwegian Mortality Monitoring project, which is part of the European network EuroMOMO. I work on R packages nowcast and splalert.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn automated public health surveillance platform developed in R\n\n\n\n\n\n\n\nNo matching items"
+    "text": "I joined the Norwegian Institute of Public Health in 2020, as a member of the Sykdomspulsen team. We are a core part of the COVID-19 pandemic response task force in Norway. I help build the real-time public health surveillance platform using R and other open source data science tools. You can find our R packages here.\nIn 2021-2022, I am the responsible statistician for NorMOMO, the Norwegian Mortality Monitoring project, which is part of the European network EuroMOMO. I work on R packages nowcast and splalert.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn automated public health surveillance platform developed in R\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/projects.html#research",
@@ -382,7 +382,7 @@
     "href": "talks/talks.html",
     "title": "Talks",
     "section": "",
-    "text": "An automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup\n\n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "(Upcoming)\n\n\nJoin us for a discussion on how open source tools can enable automated, reproducible and scalable public health reporting.\n\n\n\n\n\n\nMar 30, 2023\n\n\n\n\n\n\n  \n\n\n\n\n\nAn automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup\n\n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/talks.html#rstats",
@@ -431,7 +431,7 @@
     "href": "rpkg/qtwAcademic/index.html",
     "title": "qtwAcademic",
     "section": "",
-    "text": "Helps you build a Quarto website quickly"
+    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\n\nTemplates\nSo far, 3 templates have been implemented in this package:\n\nPersonal website\nWebsite for courses or workshops\nMinimal website template that can be easily customized\n\nYou can find more details on each option in the vignettes."
   },
   {
     "objectID": "rpkg/csdata/index.html",
@@ -513,16 +513,16 @@
   {
     "objectID": "blog/blog_20230104_qtwAcademic/index.html",
     "href": "blog/blog_20230104_qtwAcademic/index.html",
-    "title": "Post With Code",
+    "title": "qtwAcademic: a quick and easy way to start your Quarto website",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\nMore details about the package is being written …"
   },
   {
     "objectID": "blog/blog.html",
     "href": "blog/blog.html",
     "title": "Blog and notes",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nSwitching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\nPost With Code\n\n\nOct 25, 2022\n\n\n\n\n\n\nNo matching items\n\n\n\n\nNotes\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nNotes test\n\n\nOct 25, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/blog.html#notes",
@@ -541,9 +541,9 @@
   {
     "objectID": "blog/blog_20230103_blogdown2quarto/index.html",
     "href": "blog/blog_20230103_blogdown2quarto/index.html",
-    "title": "Switching from Blogdown to Quarto",
+    "title": "Website reboot: switching from Blogdown to Quarto",
     "section": "",
-    "text": "Since the first time I tried the “academic” template in the famous blogdown package in 2019, it has been more than three years. Back then it was THE way to build a personal website using R. During the past years I also tried distill for a clean, minimalistic website.\nAnd then I stopped updating my website. Between 2020 and early 2022, I was too stressed about completing my PhD, and balancing my other two jobs wasn’t the easiest thing. Now that I’ve finally completed the more pressing tasks, I can catch up to the cool kids on twitter: create a website with Quarto!"
+    "text": "Since the first time I tried the “academic” template in the popular blogdown package in 2019, three years have passed. Back then, it was THE way to build a personal website using R. The “academic” template was notoriously rich in content, and my solution was to delete components, compile, if it works - great; if not, I put the deleted content back. It worked for a while.\nWhen the distill package came out (probably in 2020?), I rebooted my website since I preferred its clean, minimalistic style. The look was possibly more appropriate for websites for an organisation or tutorials rather than personal blog, yet I appreciated the simplicity.\nThen I stopped updating my website. Between mid 2020 and early 2022, I was too stressed about completing my PhD, and balancing my other two jobs wasn’t the easiest thing. During this period, my mind had been going back to the old site from time to time, but it was hard to find enough time or energy to write about stuff."
   },
   {
     "objectID": "blog/blog_20230103_blogdown2quarto/index.html#level-2",
@@ -558,5 +558,47 @@
     "title": "Switching from Blogdown to Quarto",
     "section": "Why Quarto, not blogdown?",
     "text": "Why Quarto, not blogdown?"
+  },
+  {
+    "objectID": "blog/blog_20230103_blogdown2quarto/index.html#what-i-like-about-quarto",
+    "href": "blog/blog_20230103_blogdown2quarto/index.html#what-i-like-about-quarto",
+    "title": "Personal website reboot: switching from Blogdown to Quarto",
+    "section": "What I like about Quarto",
+    "text": "What I like about Quarto"
+  },
+  {
+    "objectID": "blog/blog_20230103_blogdown2quarto/index.html#time-to-try-quarto",
+    "href": "blog/blog_20230103_blogdown2quarto/index.html#time-to-try-quarto",
+    "title": "Website reboot: switching from Blogdown to Quarto",
+    "section": "Time to try Quarto",
+    "text": "Time to try Quarto\nNow that I’ve finally completed the more pressing tasks in October 2022, I can catch up to the cool kids on twitter: create a website with Quarto!\nThere were quite a lot of discussions about Quarto in the summer 2022. I wasn’t following the discussions closely, but I remember there were quite a few talks in the Rstudio conference this year. Then more and more people switched to Quarto on Twitter. Then people I know also switched to Quarto. What’s the fuzz about?\nMy experience with Quarto is focused on websites. I have not tried other forms of publishing. So far I have created:\n\na workshop website for my colleagues\na personal website (the one you are reading right now)\nan R package (qtwAcademic)that wraps three Quarto website templates for beginners\n\nHere are a few things I like about Quarto. Given that I’m not very experienced in front-end development, these comments are going to be about ease-of-use and design, rather than the technicalities.\n\nClean look for both personal and workshop/courses\nWhen I was using “academic” template in blogdown, I liked the structure of the site: projects, talks, blog, softwares and publications sections are clearly displayed at the top. What I didn’t like is that the default homepage was a very long single page; yet its customisation wasn’t the easist. Other templates were either too simple (for blog only), or more suitable for image display (photography projects). I wanted a website that keep the good structure of “academic”, which is quite suitable for academics (hence the name); while keeping each section independent.\nWith distill I could achieve the structure I wanted; but I didn’t enjoy it too much as a personal website (at least it wasn’t as flexible as Quarto). distill is still pretty decent for organisations or documentation site.\nWith Quarto, I can achieve the desired looks for not only a personal website (with or without blogs), but also a workshop, event or even course website. This is fantastic! The top, sidebar or hybrid navigation makes the site structure very clear, especially when there are lots of content. As an aspiring lecturer at university, this is really One Quarto Rules Them All.\n\n\nFlexible yet not overwhelming\nAs I mentioned above, hacking “academic” in blogdown was not that easy - simply because there were too many folders that you are not actually supposed to modify. It was confusing to know what to change in order to achieve the desired output, and multiple folders were having the same names, making it very challenging for beginners. Ironically, this is usually the first template beginners start with!\nThat’s why I immediately fell for Quarto: you only need 4 components to make a decent minimalistic website work:\n\n_quarto.yml to control the overall layout\nindex.qmd at the root folder to control the homepage\nabout.qmd for some basic information about the creator or the website\nproject.qmd for projects or any other content that the creator wants to display\n\nThe way that _quarto.yml clearly specifies the .qmd files really helps beginners to understand where things are. This has been extremely useful for me when I wanted to learn how people made their website by reading the source code - I could understand exactly where to find the information I needed. The clear structure greatly helps the creators themselves, and also those who want to learn.\n\n\nGreat community\nRstats people have a great community. I wouldn’t be able to make my site the way I wanted if people haven’t been sharing their works. I have learned a lot by reading the source code by Dr Emi Tanaka, Dr David Schoch, Bea Milz, Prof Mine Cetinnkaya-Rundel’s STA 210 - Regression Analysis course.\nI also made my own R package that wraps three templates to create Quarto websites that are frequently used by academics, qtwAcademic. In the following days I plan to write up more detailed explanations on how to use the package, along with some new features."
+  },
+  {
+    "objectID": "blog/notes_2023010x_pandemic_gates/index.html",
+    "href": "blog/notes_2023010x_pandemic_gates/index.html",
+    "title": "How to prevent the next pandemic - Bill Gates",
+    "section": "",
+    "text": "Ongoing reading notes."
+  },
+  {
+    "objectID": "blog/notes_2023010x_preventable_sridhar/index.html",
+    "href": "blog/notes_2023010x_preventable_sridhar/index.html",
+    "title": "Preventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar",
+    "section": "",
+    "text": "Ongoing reading notes."
+  },
+  {
+    "objectID": "talks/ph_20230330_sp/index.html",
+    "href": "talks/ph_20230330_sp/index.html",
+    "title": "Public health reporting: an open source approach",
+    "section": "",
+    "text": "Time and place: Mar. 30, 2023 12:00 PM–1:00 PM\nHybrid: Georg Sverdrups hus and Zoom\nEvent page"
+  },
+  {
+    "objectID": "talks/ph_20230330_sp/index.html#about-the-topic",
+    "href": "talks/ph_20230330_sp/index.html#about-the-topic",
+    "title": "Public health reporting: an open source approach",
+    "section": "About the topic",
+    "text": "About the topic\nSituational awareness is key to fast response during a public health emergency, such as COVID-19 pandemic. However, making disease surveillance reports that cover different geographical units for various metrics and data registries is both resource intensive and time consuming. Open source tools such as R packages, GitHub and Airflow can make this process automatic, reproducible and scalable.\nEvery day during the pandemic, Sykdomspulsen team at the Norwegian Institute of Public Health (FHI/NIPH) fetched data from more than 15 data sources, cleaned, censored datasets and carried out a wide range of statistical analyses. Over 1000 situational reports containing automated graphs and tables were produced before breakfast time.\nGrab you matpakke and join us for a presentation from Chi Zhang about how Sykdomspulsen team used and developed open source software to make public health surveillance and reporting more efficient, followed up by a discussion on the benefits and concerns of making these data public. We will end with an open Q&A session as usual!"
   }
 ]

@@ -5,29 +5,32 @@ description: |
 listing:
   - id: ph
     max-description-length: 500
-    image-height: 150px
+    image-height: 130px
     fields: [title, description, image, date]
     contents: 
+      - ph_20230330_sp
       - ph_20220616_splverse
     type: default
+    sort: "date desc"
     grid-item-border: false
     sort-ui: false
     filter-ui: false
 
   - id: rstats
     max-description-length: 500
-    image-height: 150px
+    image-height: 130px
     fields: [title, description, image, date]
     contents: 
       - rstats_20190402_blogdown
     type: default
+    sort: "date desc"
     grid-item-border: false
     sort-ui: false
     filter-ui: false
 
   - id: ehr
     max-description-length: 500
-    image-height: 150px
+    image-height: 130px
     fields: [title, description, image, date]
     contents: 
       - ehr_20221013_ml_icu

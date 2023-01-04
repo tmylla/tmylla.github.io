@@ -1,0 +1,11 @@
+---
+title: "How to prevent the next pandemic - Bill Gates"
+description: |
+  Reading notes on the book
+author: "Chi Zhang"
+date: "2023-01-04"
+categories: [Notes]
+sidebar: false
+---
+
+Ongoing reading notes. 

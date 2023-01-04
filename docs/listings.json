@@ -42,7 +42,6 @@
   {
     "listing": "/projects/projects.html",
     "items": [
-      "/projects/csids/index.html",
       "/projects/nor_mortality/index.html",
       "/projects/sykdomspulsen/index.html"
     ]
@@ -50,6 +49,7 @@
   {
     "listing": "/talks/talks.html",
     "items": [
+      "/talks/ph_20230330_sp/index.html",
       "/talks/ph_20220616_splverse/index.html",
       "/talks/rstats_20190402_blogdown/index.html",
       "/talks/ehr_20221013_ml_icu/index.html",
@@ -83,9 +83,10 @@
   {
     "listing": "/blog/blog.html",
     "items": [
-      "/blog/blog_20230103_blogdown2quarto/index.html",
       "/blog/blog_20230104_qtwAcademic/index.html",
-      "/blog/notes_1/index.html"
+      "/blog/blog_20230103_blogdown2quarto/index.html",
+      "/blog/notes_2023010x_pandemic_gates/index.html",
+      "/blog/notes_2023010x_preventable_sridhar/index.html"
     ]
   }
 ]

@@ -1,0 +1,21 @@
+---
+title: "Public health reporting: an open source approach"
+subtitle: "(Upcoming)"
+description: "Join us for a discussion on how open source tools can enable automated, reproducible and scalable public health reporting."
+date: "2023-03-30"
+categories: [ph]
+---
+
+Time and place: **Mar. 30, 2023 12:00 PM–1:00 PM**
+
+Hybrid: **Georg Sverdrups hus and Zoom**
+
+[Event page](https://www.ub.uio.no/english/courses-events/events/open-science-lunch/2023-03-30.html)
+
+## About the topic
+
+Situational awareness is key to fast response during a public health emergency, such as COVID-19 pandemic. However, making disease surveillance reports that cover different geographical units for various metrics and data registries is both resource intensive and time consuming. Open source tools such as R packages, GitHub and Airflow can make this process automatic, reproducible and scalable.
+
+Every day during the pandemic, Sykdomspulsen team at the Norwegian Institute of Public Health (FHI/NIPH) fetched data from more than 15 data sources, cleaned, censored datasets and carried out a wide range of statistical analyses. Over 1000 situational reports containing automated graphs and tables were produced before breakfast time.
+
+Grab you matpakke and join us for a presentation from Chi Zhang about how Sykdomspulsen team used and developed open source software to make public health surveillance and reporting more efficient, followed up by a discussion on the benefits and concerns of making these data public. We will end with an open Q&A session as usual!

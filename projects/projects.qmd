@@ -8,7 +8,7 @@ listing:
     image-height: 300px
     fields: [image, title, description]
     contents: 
-      - csids
+      # - csids
       - sykdomspulsen
       - nor_mortality
     type: grid
@@ -24,5 +24,5 @@ In 2021-2022, I am the responsible statistician for NorMOMO, the Norwegian Morta
 ::: {#publichealth}
 :::
 
-### Interests
+
 

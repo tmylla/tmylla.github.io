@@ -8,8 +8,9 @@
 
 <meta name="author" content="Chi Zhang">
 <meta name="dcterms.date" content="2023-01-03">
+<meta name="description" content="Time to reboot the personal website. Now, with Quarto">
 
-<title>Hello, I’m Chi - Switching from Blogdown to Quarto</title>
+<title>Hello, I’m Chi - Website reboot: switching from Blogdown to Quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,12 +132,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Switching from Blogdown to Quarto</h1>
+<h1 class="title">Website reboot: switching from Blogdown to Quarto</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Quarto</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    <p>Time to reboot the personal website. Now, with Quarto</p>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -161,12 +167,48 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Since the first time I tried the “academic” template in the famous <code>blogdown</code> package in 2019, it has been more than three years. Back then it was THE way to build a personal website using R. During the past years I also tried <code>distill</code> for a clean, minimalistic website.</p>
-<p>And then I stopped updating my website. Between 2020 and early 2022, I was too stressed about completing my PhD, and balancing my other two jobs wasn’t the easiest thing. Now that I’ve finally completed the more pressing tasks, I can catch up to the <em>cool kids</em> on twitter: create a website with <strong>Quarto</strong>!</p>
-<section id="why-quarto-not-blogdown" class="level2">
-<h2 class="anchored" data-anchor-id="why-quarto-not-blogdown">Why Quarto, not blogdown?</h2>
+<section id="from-blogdown-to-distill" class="level2">
+<h2 class="anchored" data-anchor-id="from-blogdown-to-distill">From Blogdown to Distill</h2>
+<p>Since the first time I tried the “academic” template in the popular <code>blogdown</code> package in 2019, three years have passed. Back then, it was THE way to build a personal website using R. The “academic” template was notoriously rich in content, and my solution was to delete components, compile, if it works - great; if not, I put the deleted content back. It worked for a while.</p>
+<p>When the <code>distill</code> package came out (probably in 2020?), I rebooted my website since I preferred its clean, minimalistic style. The look was possibly more appropriate for websites for an organisation or tutorials rather than personal blog, yet I appreciated the simplicity.</p>
+<p>Then I stopped updating my website. Between mid 2020 and early 2022, I was too stressed about completing my PhD, and balancing my other two jobs wasn’t the easiest thing. During this period, my mind had been going back to the old site from time to time, but it was hard to find enough time or energy to write about stuff.</p>
+</section>
+<section id="time-to-try-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="time-to-try-quarto">Time to try Quarto</h2>
+<p>Now that I’ve finally completed the more pressing tasks in October 2022, I can catch up to the <em>cool kids</em> on twitter: create a website with <strong>Quarto</strong>!</p>
+<p>There were quite a lot of discussions about Quarto in the summer 2022. I wasn’t following the discussions closely, but I remember there were quite a few talks in the Rstudio conference this year. Then more and more people switched to Quarto on Twitter. Then people I know also switched to Quarto. What’s the fuzz about?</p>
+<p>My experience with Quarto is focused on websites. I have not tried other forms of publishing. So far I have created:</p>
+<ul>
+<li><p>a <a href="https://ocbe-uio.github.io/2022_bioinformatics_workshop/">workshop website</a> for my colleagues</p></li>
+<li><p>a personal website (the one you are reading right now)</p></li>
+<li><p>an R package (<a href="https://andreaczhang.github.io/rpkg/qtwAcademic/">qtwAcademic</a>)that wraps three Quarto website templates for beginners</p></li>
+</ul>
+<p>Here are a few things I like about Quarto. Given that I’m not very experienced in front-end development, these comments are going to be about ease-of-use and design, rather than the technicalities.</p>
+<section id="clean-look-for-both-personal-and-workshopcourses" class="level3">
+<h3 class="anchored" data-anchor-id="clean-look-for-both-personal-and-workshopcourses">Clean look for both personal and workshop/courses</h3>
+<p>When I was using “academic” template in <code>blogdown</code>, I liked the structure of the site: projects, talks, blog, softwares and publications sections are clearly displayed at the top. What I didn’t like is that the <em>default homepage</em> was a very long single page; yet its customisation wasn’t the easist. Other templates were either too simple (for blog only), or more suitable for image display (photography projects). I wanted a website that keep the good structure of “academic”, which is quite suitable for academics (hence the name); while keeping each section independent.</p>
+<p>With <code>distill</code> I could achieve the structure I wanted; but I didn’t enjoy it too much as a personal website (at least it wasn’t as flexible as Quarto). <code>distill</code> is still pretty decent for organisations or documentation site.</p>
+<p>With Quarto, I can achieve the desired looks for not only a <strong>personal</strong> website (with or without blogs), but also a <strong>workshop, event</strong> or even <strong>course</strong> website. This is fantastic! The top, sidebar or hybrid navigation makes the site structure very clear, especially when there are lots of content. As an aspiring lecturer at university, this is really <em>One Quarto Rules Them All</em>.</p>
+</section>
+<section id="flexible-yet-not-overwhelming" class="level3">
+<h3 class="anchored" data-anchor-id="flexible-yet-not-overwhelming">Flexible yet not overwhelming</h3>
+<p>As I mentioned above, hacking “academic” in <code>blogdown</code> was not that easy - simply because there were too many folders that you are not actually supposed to modify. It was confusing to know what to change in order to achieve the desired output, and multiple folders were having the same names, making it very challenging for beginners. Ironically, this is usually the first template beginners start with!</p>
+<p>That’s why I immediately fell for Quarto: you only need 4 components to make a decent minimalistic website work:</p>
+<ul>
+<li><p><code>_quarto.yml</code> to control the overall layout</p></li>
+<li><p><code>index.qmd</code> at the root folder to control the homepage</p></li>
+<li><p><code>about.qmd</code> for some basic information about the creator or the website</p></li>
+<li><p><code>project.qmd</code> for projects or any other content that the creator wants to display</p></li>
+</ul>
+<p>The way that <code>_quarto.yml</code> clearly specifies the <code>.qmd</code> files really helps beginners to understand where things are. This has been extremely useful for me when I wanted to learn how people made their website by reading the source code - I could understand exactly where to find the information I needed. The clear structure greatly helps the creators themselves, and also those who want to learn.</p>
+</section>
+<section id="great-community" class="level3">
+<h3 class="anchored" data-anchor-id="great-community">Great community</h3>
+<p>Rstats people have a great community. I wouldn’t be able to make my site the way I wanted if people haven’t been sharing their works. I have learned a lot by reading the source code by <a href="https://emitanaka.org">Dr Emi Tanaka</a>, <a href="https://mr.schochastics.net">Dr David Schoch</a>, <a href="https://beamilz.com">Bea Milz</a>, <a href="https://mine-cr.com">Prof Mine Cetinnkaya-Rundel</a>’s <a href="https://sta210-s22.github.io/website/">STA 210 - Regression Analysis</a> course.</p>
+<p>I also made my own R package that wraps three templates to create Quarto websites that are frequently used by academics, <a href="https://andreaczhang.github.io/qtwAcademic/">qtwAcademic</a>. In the following days I plan to write up more detailed explanations on how to use the package, along with some new features.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

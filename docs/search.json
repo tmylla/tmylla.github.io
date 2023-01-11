@@ -522,7 +522,7 @@
     "href": "blog/blog.html",
     "title": "Blog and notes",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/blog.html#notes",
@@ -600,5 +600,26 @@
     "title": "Public health reporting: an open source approach",
     "section": "About the topic",
     "text": "About the topic\nSituational awareness is key to fast response during a public health emergency, such as COVID-19 pandemic. However, making disease surveillance reports that cover different geographical units for various metrics and data registries is both resource intensive and time consuming. Open source tools such as R packages, GitHub and Airflow can make this process automatic, reproducible and scalable.\nEvery day during the pandemic, Sykdomspulsen team at the Norwegian Institute of Public Health (FHI/NIPH) fetched data from more than 15 data sources, cleaned, censored datasets and carried out a wide range of statistical analyses. Over 1000 situational reports containing automated graphs and tables were produced before breakfast time.\nGrab you matpakke and join us for a presentation from Chi Zhang about how Sykdomspulsen team used and developed open source software to make public health surveillance and reporting more efficient, followed up by a discussion on the benefits and concerns of making these data public. We will end with an open Q&A session as usual!"
+  },
+  {
+    "objectID": "blog/readnotes_2023010x_preventable_sridhar/index.html",
+    "href": "blog/readnotes_2023010x_preventable_sridhar/index.html",
+    "title": "Preventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar",
+    "section": "",
+    "text": "Ongoing reading notes."
+  },
+  {
+    "objectID": "blog/readnotes_2023010x_pandemic_gates/index.html",
+    "href": "blog/readnotes_2023010x_pandemic_gates/index.html",
+    "title": "How to prevent the next pandemic - Bill Gates",
+    "section": "",
+    "text": "Ongoing reading notes."
+  },
+  {
+    "objectID": "blog/technotes_20230111_deployqt/index.html",
+    "href": "blog/technotes_20230111_deployqt/index.html",
+    "title": "Publishing Quarto Website with GitHub Pages",
+    "section": "",
+    "text": "1. Create a public repository on GitHub\nAfter you have the public repo, clone it to your local repo.\n\n\n2. Create Quarto project\nThis can be a website, a book (a specific type of website) or something else.\nTest compilation by quarto render, or click the Render button.\n\n\n\n3. Configure Quarto project\nIn _quarto.yml, change the project configuration to use docs as the output-dir:\nproject:\n  type: website\n  output-dir: docs\n\nThen add .nojekyll to the root of the repository. Can do this by (in terminal)\ntouch .nojekyll\nPush everything to your repository.\n\n\n4. Configure GitHub Pages\nGo to Settings > Pages, publish from docs of the main branch.\n\nCan check GitHub Action and deployment status.\n\n\nAfter the deployment is successful, go to view deployment, and a successful website should be published."
   }
 ]

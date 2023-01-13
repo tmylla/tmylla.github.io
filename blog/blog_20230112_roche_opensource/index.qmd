@@ -1,0 +1,145 @@
+---
+title: "Open source reporting with R: clinical, public health, RSE and embrace the change"
+description: |
+  My thoughts on the open source transition in pharma, public (health) sector and academia. A culture change is needed, and it's done better at some places than others. As educators and researchers, there are many things that can be done. 
+author: "Chi Zhang"
+date: "2023-01-13"
+categories: [Reporting, Education, RSE]
+sidebar: false
+---
+
+Two days ago (Jan 11 2023) I watched a [presentation](https://www.youtube.com/watch?v=nqJsLSLd39A) by data scientists at Roche about **why they are making their clinical trials in 2023 open source with R**. As someone who uses R for most of the time and has done similar works (not in pharma, but in [public health surveillance and reporting](https://andreaczhang.github.io/projects/sykdomspulsen/): watch [my talk](https://www.youtube.com/watch?v=9wmajA7Okrg), [slides](https://github.com/andreaczhang/talks/tree/master/2022-06-16-user_sykdomspulsen) to find out what we do), I watched the presentation with great interest. Here are my notes, combined with some thoughts on open-source in the industry, public sector and academia. 
+
+
+
+
+#### Three reasons for why I am writing this blog
+
+- Note down some of the technology which points towards the future of the field
+- Relate to my experience of open-source applied in public health, specifically public health reporting 
+- Share some thoughts in statistical education of applied students/researchers (e.g. medicine), and training Research Software Engineers 
+
+
+
+#### My experience with statistical software
+
+To put my opinions in perspective, 
+
+- I *do not* have experience with SAS or pharma, so I *do not* have first-hand knowledge on the functionality, ease-of-use or the popularity of commercial softwares in the industry. 
+- I did my MSc and PhD in statistics/biostatistics/medical informatics and R had always been a default choice. 
+- I worked in **public health** for a few years, where **Excel** is possibly the most common tool, and STATA and R are scarcely used (statisticians, epidemiologists, bioinformaticians). 
+- In the past few years, my **university** has made the switch from SPSS to STATA for intro statistics for medical students (while students at higher level, or doing advanced analyses might use R/python), and a test-run with R might be in motion.
+
+
+
+----
+
+# Clinical Reporting
+
+In drug development at pharmaceutical companies (and/or research institutes and hospitals), these data related tasks are very common:
+
+- summarise safety and efficacy data
+- provide accurate picture of trial outcomes
+- manage data collection across different sites
+
+Completing these tasks in a **correct, efficient and reproducible** manner is crucial for patient safety. However, these tasks are also **highly resource intensive**: highly trained scientist, statisticians and technincians must be involved in the process. Historically, pharma use **commercial software** such as SAS. 
+
+### Regulation and exploration needs
+
+There are requirements for clinical reporting: both regulartory and exploratory. From the regulatory side, there exist industry standards ([CDISC](https://www.cdisc.org/standards)) in the clinical research process, such as SDTM (Model for Tabulation of Study Data) and ADaM (Analysis Data Model). Statistical analyses, tables, listings and graphs (TLGs) also fall into this cateogory.
+
+From the exploratory side, clinical data are highly context dependent, and new formats of data such as imaging are more and more used in prediction modeling and drug development. 
+
+In addition, it is not hard to imagine that the technical competency of employees differ, especially in large organizations. Enabling people with less experience to analyse trial data in a reproducible manner is helpful for not only the learning and growth of employees, but also the productivity of organizations.
+
+The existing commercial tools are not able to adapt to the rapid changes in the field. 
+
+
+### Transition into Open-Source
+
+In this talk, [Dr Kieran Martin](https://www.linkedin.com/in/kieran-martin-2b298742/) at Roche introduced that they started using R as their core data science tool, aiming to move their codebase to having a core R. In the future, they plan to have something that is **lanugage agnostic**: meaning that python, Stan, C++, Julia and beyond can be used for different tasks. 
+
+I only noted down a few of the things they mentioned on the infrastructure side: 
+
+- OCEAN - a lanugage agnostic computing platform on AWS (docker)
+- Git, Gitlab for version control and collaboration
+- Rstudio connect server
+- Snakemake for orchestrate production 
+
+
+### R and Shiny
+
+There are obvious benefits of using R. It is **convenient** to install and use (if you used python and R, you'd probably agree), and the latest development in **Shiny** made it very easy to develop interactive visualizations, suitable for exploration. **Package** development is critical for reproducibility and distributing works - which R does it very well. A few packages developed by pharma are [Teal](https://github.com/insightsengineering/teal) and [admiral: the ADaM in R](https://pharmaverse.github.io/admiral/), which I intend to check out at one point.
+
+
+R has deep roots in academia which means the **newest statistical methods** are well covered; which also affects the skill sets that **talents** own - fresh graduates probably already learned it at university. R being open source means that **collaboration** with external partners is much more efficient, and transparent. Strong **community support** is another positive thing that encourages beginners to enter the field and learn.
+
+
+----
+
+# Open Sourcing Public Health 
+
+### Surveillance and reporting 
+
+One key functionality of public health (PH) authorities is **stay informed and inform**. They collect data from labs, hospitals and clinics across the country, summarize into useful statistics in tables and graphs, make reports, then inform the policy makers to make decisions (such as vaccination campaigns). 
+
+Compared to clinical reporting (in my understanding), there are many similarities - we make TLG (tables, listings and graphs). There are also features that make reporting in public health unique: 
+
+- PH surveillance and reporting are **dynamic and real-time**, which can change in a matter of days. That is because the situation of different infectious diseases can evolve rapidly, so PH authorities need to make appropriate adjustments. 
+- **Time and location** (spatial-temporal) are important. Different time granularity (daily, weekly) and geographical units (nation, county, municipality, city districts) are typically required for reporting.
+
+
+### Scale up and automate with open source tools
+
+Traditionally, these reports are made manually - one location, one graph per time on a certain disease. When a global pandemic hits, this is definitely not fast enough. At my team ([Sykdomspulsen](https://docs.sykdomspulsen.no) team at the Norwegian Institute of Public Health), we tried a different approach. Details of what we did can be found in [this talk](https://www.youtube.com/watch?v=9wmajA7Okrg)([slides](https://github.com/andreaczhang/talks/tree/master/2022-06-16-user_sykdomspulsen)), but to make it brief: 
+
+- We developed a fully automated pipeline that connects 15 registries (vaccination, lab, hospital and intensive care and many more). The data is gathered, censored, cleaned and pre-processed for down-stream analysis 
+- Statistical analysis, tables, graphs and maps are made for <u>all locations in Norway</u> for various outcomes of interest, such as Covid, influenza, respiratory and gastrointestinal infections
+- Over 1000 **customized reports** with over 30 graphs and tables are produced daily and sent to local PH officials, where we also had a **shiny website** (Kommunehelsetjenester for Kommunelege) for over 300 PH officials to get most up-to-date information about their own municipality
+
+By automation, every year Sykdomspulsen can save 700 000 NOK (roughly 70k USD) while making 400 times more real-time reports for public health. Even better, with reproducibility and quality control.
+
+### Toolbox
+
+Sykdomspulsen is a small team (8 people, 3 are statisticians and 1 engineer), and our infrastructure was built upon R packages, which we call [splverse](https://docs.sykdomspulsen.no/packages.html). Our infrastructure is not fundamentally different from the one Roche introduced, basically:  
+
+- R does the task planning and project organization. On top of this, the data cleaning, statistical analysis are implemented. Graphs, tables and maps are made with appropriate R packages
+- **Rmarkdown** does automated reporting into `.docx` and `.xlsx`. Some reports are also in `.html` tables to be embedded into customized emails
+- **Rstudio Workbench** and **GitHub** help with teamwork  
+- **Docker, GoCD** and **Airflow** do the CI/CD and orchestration
+
+
+# Embrace the transition 
+
+### Culture change needed
+
+Unfortunately, not all organizations are eager to abandon the old way. Even at our own institute where researchers are the majority, open source and modern day programming is *hardly practiced* (by my observation). Even worse, under the budget cuts in 2023-24, a large number of younger employees who have the technical skills have left - which left the public health surveillance even more vulnerable now that Covid is far from over. 
+
+In my opinion, public health needs open-source and good programming even more than pharmaceutical companies. Both save lifes - and **PH has less money** to invest in softwares, infrastructures and talents. In this situation, resources should be spent in fields that are critical and most cost-effective; yet in reality this is often [not the case](https://www.dagensmedisin.no/artikler/2022/11/14/fhis-tjeneste-sykdomspulsen-legges-ned/).
+
+The slow culture change at big organizations can happen, but only if there is a sufficient amount of employees who are willing to embrace the new technology. In the talk by Roche they about about their training strategy. It is not possible to train all users, and not everyone has the same needs at the same time. Therefore, self study with certain study paths is encouraged and supported.
+
+### Teach programming to students in various fields
+
+Based on my experience in the UK and Norway, students (myself included) learn R programming in one of the two ways
+
+- **Learning by Googling** (self-taught): a university degree needs to use it: provides a short introduction, then students learn by using. This is how I learned R at my MSc Statistics degree, and this is probably the most common way 
+- Workshops at university: organizations such as the **Carpentries** provide course material and teaching a few times per year, where interested students (usually from subjects such as biology) come and learn. These classes are quite popular, and usually have a long waiting list.
+
+From learning by googling to some organized teaching - that is already some good progress. However, if not, can we improve?
+
+In my experience with statistical advising with the university hospital, clinical researchers and medical students are enthusastic to get their statistics done, some are also eager to do some analysis themselves. That is good. Yet, there is generally lack of capacity - either knowledge or software skills. Once the statistician who helps with the project stops, the project ends. There is the need to have **in-house statistical capacity**. To this end, **open-source softwares such as R**, and **good programming practice** (reproducibility for example) can help a lot: the license doesn't end, and everything is documented so that the next person can continue the work.
+
+I'm glad that my university has made some transitional efforts in this regard: STATA instead of SPSS is being taught to medical students as part of their statistics course. There might be a test-run in R soon, which is very exciting (since I'll be involved in the teaching)!
+
+
+### Statistical engineering and RSEs
+
+That was the capacity building to **get beginners more independent**. On the other side, there is also the need for better programming practice for researchers at more advanced level. Research Software Engineering (RSE) is starting to get more and more attention, because it is not only relevant for research (i.e. getting papers published), but in broader applications. 
+
+For example, in the talk by Roche, they mentioned that "RSE teams need to accelerate adoption of new statistical methods and biomarker data analysis", and the implementation with R packages and templates is at its core. In the future more languages would be included such as Python, Stan, C++ and Julia. 
+
+However, RSE as a job title or career path is still a new thing. I know two RSEs at my university, and RSE is definitely **not your typical academic faculty position**: only departments that think it's important makes positions, often not permanent. To get any new methods actually used in either industry or the public sector outside research, translating methods into tools is must-do. In the future I hope RSE becomes a stable and common career path, and more exciting things can happen.  
+
+
+

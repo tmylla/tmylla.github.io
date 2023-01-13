@@ -46,21 +46,25 @@ listing:
 
 ### Blog
 
-
 ::: {#blog}
-:::
-
-### Reading notes
-
-
-::: {#readnotes}
 :::
 
 
 ### Technical notes
 
+Mostly notes for my own use
 
 ::: {#technotes}
+:::
+
+
+
+
+### Reading notes
+
+This section is constantly being updated.
+
+::: {#readnotes}
 :::
 
 

@@ -1,9 +1,24 @@
 ---
 title: "Introducing Sykdomspulsen"
 subtitle: "An automated public health surveillance platform"
-description: "45 min talk and tutorial at Oslo UseR meetup"
+description: |
+  45 min talk and tutorial at Oslo UseR meetup
 date: "2022-06-16"
 categories: [ph]
 ---
 
 ![](image_talk_20220616.png)
+
+### About the talk
+
+[Watch the talk on YouTube](https://www.youtube.com/watch?v=9wmajA7Okrg)
+
+Sykdomspulsen is a real-time analysis and disease surveillance system designed at developed at the Norwegian Institute of Public Health (FHI). Sykdomspulsen processes new data collected from 15 data sources (e.g., covid-19 cases), runs 1000.000+ statistical analysis automatically for all locations (nation, county, municipality) in Norway, produces 1000+ reports and alerts for public health authorities and shares data to the public on GitHub.
+
+Sykdomspulsen runs on a collection of R packages, the {splverse}. {splverse} is an ecosystem for infectious disease surveillance, from analysis planning, statistical analysis to reporting via visualization, shiny website and Rmarkdown generated reports. In this talk, Chi will present how Sykdomspulsen does public health real-time surveillance during the pandemic using R. Chi will introduce some of the core packages and illustrate how they work together, with an example using real surveillance data published daily on GitHub.
+
+
+### About the speaker
+
+Chi is currently working at the Sykdomspulsen team as a researcher and R developer, at the Norwegian Institute of Public Health. Before she joined Sykdomspulsen in the middle of the pandemic (2020), she was a PhD student at the Department of Biostatistics at University of Oslo (OCBE), working on hospital EHR data.
+

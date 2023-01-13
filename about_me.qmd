@@ -16,9 +16,9 @@ about:
     - icon: mastodon
       text: andreasheenn@fosstodon.org
       href: https://fosstodon.org/@andreasheenn
-    - icon: github
-      text: andreaczhang
-      href: https://github.com/andreaczhang
+    - icon: linkedin
+      text: Chi Zhang
+      href: https://www.linkedin.com/in/chi-zhang-103b3b91/
 ---
 
 ::: {#hero-heading}

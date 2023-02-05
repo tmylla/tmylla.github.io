@@ -18,7 +18,7 @@ about:
 
 Chi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at [Sykdomspulsen](https://docs.sykdomspulsen.no), a real-time analysis and public health surveillance system.
 
-Chi has recently earned her PhD at University of Oslo. Her thesis is *Representation and utilization of hospital Electronic Health Records data*.
+Chi will start her **lecturer in biostatistics** and **research software engineer** (RSE) career at Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)) and University of Oslo in April 2023. She recently obtained her PhD at OCBE on hospital Electronic health records (EHR). 
 
-Chi teaches biostatistics at the Medicine Faculty, University of Oslo. In addition, Chi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)).
+Chi also has a 20% position as a statistical advisor at OCBE and Oslo University Hospital (OUS). 
 :::

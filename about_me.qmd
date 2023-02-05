@@ -28,13 +28,16 @@ about:
 I am a researcher at the [Norwegian Institute of Public Health](https://www.fhi.no/en/) (Folkehelseinstituttet). I am a statistician and R programmer for [Sykdomspulsen](https://docs.sykdomspulsen.no), a real-time analysis and public health surveillance system. In addition, I have a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)) at University of Oslo.
 
 
+I will start my **lecturer in biostatistics** and **research software engineer** (RSE) career at OCBE in April 2023. 
+
 My **interests** are: 
 
 * Data science applications in public health
-* Reproducibility and open science
 * Statistical software development 
+* Statistics education with R
+* Reproducibility and open science
 
-In the past 10 years I have lived in the UK and Norway (6+ years). I speak English, Norwegian and Chinese. I obtained my PhD on statistics and machine learning using hospital electronic health records at the Faculty of Medicine, University of Oslo in 2022. I enjoy making R packages and teaching R.
+In the past 11 years I have lived in the UK and Norway (7+ years). I speak English, Norwegian and Chinese. I obtained my PhD on statistics and machine learning using hospital electronic health records at the Faculty of Medicine, University of Oslo in 2022. I enjoy making R packages and teaching R.
 
 I am an active member of Oslo User R group and Oslo R ladies group, and a certified Capentry instructor.
 

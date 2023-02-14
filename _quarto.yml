@@ -34,7 +34,7 @@ website:
           - text: "About me"
             href: about_me.qmd
           - text: "CV"
-            href: resources/cv_Chi_Zhang.pdf
+            href: resources/CV_Chi_Zhang.pdf
 
 
 format:

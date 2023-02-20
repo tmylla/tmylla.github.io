@@ -522,7 +522,7 @@
     "href": "blog/blog.html",
     "title": "Blog and notes",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMostly notes for my own use\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMostly notes for my own use\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nR package website with pkgdown\n\n\nFeb 20, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/blog.html#notes",
@@ -691,5 +691,12 @@
     "title": "Notes: Making Data Science work for Clinical Reporting - Part 1",
     "section": "Introduction to clinical trial",
     "text": "Introduction to clinical trial\nClinical trial: aim to demonstrate that drug is safe and effective (safety, efficacy)\n\nphase 1: 10-20 people, focus on safety (healthy volunteers)\nphase 2: 100, study of side effects, determine best dose\nphase 3: 1000, demonstrate drug efficacy, fuller safety profile (common across multiple regions, ethnicities)\n\ncollecting data from different hospitals, hence important to ensure standards are being followed\n\nevidence must be submitted to health authorities (FDA, EMA European medicines agency)\nhealth authorities determine whether the drug is submitted to market\n\nSubmit the analysis plan in advance"
+  },
+  {
+    "objectID": "blog/technotes_20230220_pkgdown/index.html",
+    "href": "blog/technotes_20230220_pkgdown/index.html",
+    "title": "R package website with pkgdown",
+    "section": "",
+    "text": "1. Create the website skeleton.\nBefore editing the details, we need to create the skeleton for the website. It can be done with usethis and pkgdown packages.\nIn R, run this:\nusethis::use_pkgdown()\nThis creates the _pkgdown.yml file, which is the place you configure your site.\nTo view the initial package website, use the following command:\npkgdown::build_site()\nThis creates docs/ directory containing a website\n\nREADME.md becomes the homepage,\ndocumentation in man/ generates a function reference,\nvignettes are rendered into articles/.\n\n\n\n2. Edit the vignette documentation\nMake sure that the vignette index is consistent with Title, otherwise it will not render.\n\n\n3. Build site\nNow check if the site looks good, and contents are correctly positioned.\npkgdown::build_site()\n\n\n4. Deploy site with GitHub Pages"
   }
 ]

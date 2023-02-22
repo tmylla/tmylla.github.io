@@ -48,7 +48,7 @@ pkgdown::build_site()
 
 # 4. Deploy site with GitHub Pages
 
-
+Looks like if you do `usethis::use_pkgdown_github_pages()`, this function takes care of everything
 
 
 

@@ -1,14 +1,13 @@
 ---
 title: "R packages"
 description: |
-  A few packages that I developed and contributed to
+  A few packages that I developed and/or contributed to
 listing:
   - id: publichealth
     max-description-length: 80
     image-height: 250px
     fields: [title, description]
     contents: 
-      - medicode
       - covidnor
       - mortanor
       - csalert
@@ -16,6 +15,18 @@ listing:
       - cstime
       - csmaps
       - csdata
+    type: table
+    grid-item-border: false
+    sort-ui: false
+    filter-ui: false
+    
+  - id: medicine
+    max-description-length: 80
+    image-height: 250px
+    fields: [title, description]
+    contents: 
+      - medicode
+      - bayesynergy
     type: table
     grid-item-border: false
     sort-ui: false
@@ -33,10 +44,17 @@ listing:
     filter-ui: false
 ---
 
-# Public health
+# Public health Surveillance
 
 ::: {#publichealth}
 :::
+
+
+# Medicine
+
+::: {#medicine}
+:::
+
 
 # Quarto Tools
 

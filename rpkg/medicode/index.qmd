@@ -1,9 +1,19 @@
 ---
 title: "medicode"
-author: "Harlow Malloc"
-date: "2022-10-25"
-categories: [news, code, analysis]
-image: "image.jpg"
+description: "Metadata and tools for medical classification and clinical coding"
+author: "Chi Zhang"
+date: "2023-02-22"
+categories: [Utility]
 ---
 
-medicode
+This package provides metadata and tools for medical classification and clinical coding. 
+
+[GitHub Link](https://github.com/andreaczhang/medicode)
+
+It is especially useful for English and Norwegian (Bokmål) languages.
+
+Planned content: 
+
+* ICD-10
+* ICPC-2
+* European shortlist for Cause of Death

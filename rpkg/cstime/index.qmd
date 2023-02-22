@@ -1,9 +1,17 @@
 ---
 title: "cstime"
-author: "Harlow Malloc"
+description: "Date and time functions for public health purposes"
+author: "Chi Zhang, Richard Aubrey White"
 date: "2022-10-25"
-categories: [news, code, analysis]
-image: "image.jpg"
+categories: [utility]
 ---
 
-cstime
+`cstime` provides convenient and consistent conversion between 
+
+* isoyear
+* isoweek
+* calyear
+* season week (used in influenza surveillance)
+
+
+[GitHub link](https://github.com/csids/cstime)

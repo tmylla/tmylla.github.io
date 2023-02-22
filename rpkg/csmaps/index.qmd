@@ -1,5 +1,6 @@
 ---
 title: "csmaps"
+description: "Pre-formatted map data in Norway"
 author: "Richard Aubrey White, Chi Zhang"
 date: "2022-10-25"
 categories: [data]

@@ -144,7 +144,7 @@
     "href": "rpkg/medicode/index.html",
     "title": "medicode",
     "section": "",
-    "text": "medicode"
+    "text": "This package provides metadata and tools for medical classification and clinical coding.\nGitHub Link\nIt is especially useful for English and Norwegian (Bokmål) languages.\nPlanned content:\n\nICD-10\nICPC-2\nEuropean shortlist for Cause of Death"
   },
   {
     "objectID": "rpkg/covidnor/index.html",
@@ -403,7 +403,7 @@
     "href": "rpkg/rpkg.html",
     "title": "R packages",
     "section": "",
-    "text": "Public health\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\nOpen COVID19 data for Norway\n\n\n\n\ncsalert\n\n\nOutbreak detection in public health surveillance\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\n\n\n\n\n\ncstime\n\n\n\n\n\n\n\nmedicode\n\n\n\n\n\n\n\nmortanor\n\n\nPublic mortality data in Norway\n\n\n\n\nnowcast\n\n\nDelay correction methods for real-time surveillance\n\n\n\n\n\n\nNo matching items\n\n\n\n\nQuarto Tools\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Public health Surveillance\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\nOpen COVID19 data for Norway\n\n\n\n\ncsalert\n\n\nOutbreak detection in public health surveillance\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\nPre-formatted map data in Norway\n\n\n\n\ncstime\n\n\nDate and time functions for public health purposes\n\n\n\n\nmortanor\n\n\nPublic mortality data in Norway\n\n\n\n\nnowcast\n\n\nDelay correction methods for real-time surveillance\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMedicine\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nbayesynergy\n\n\n(Contributor) Synergistic interaction effects in in vitro drug combination…\n\n\n\n\nmedicode\n\n\nMetadata and tools for medical classification and clinical coding\n\n\n\n\n\n\nNo matching items\n\n\n\n\nQuarto Tools\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/teaching.html",

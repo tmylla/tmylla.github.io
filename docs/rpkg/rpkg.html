@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A few packages that I developed and contributed to">
+<meta name="description" content="A few packages that I developed and/or contributed to">
 
 <title>Hello, I’m Chi - R packages</title>
 <style>
@@ -78,6 +78,34 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-publichealth'] = new List('listing-publichealth', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-medicine .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-medicine'] = new List('listing-medicine', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -169,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">About me</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../about_cv.html">
+    <a class="dropdown-item" href="../resources/CV_Chi_Zhang.pdf">
  <span class="dropdown-text">CV</span></a>
   </li>  
     </ul>
@@ -195,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    <p>A few packages that I developed and contributed to</p>
+    <p>A few packages that I developed and/or contributed to</p>
   </div>
 </div>
 
@@ -210,8 +238,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="public-health" class="level1">
-<h1>Public health</h1>
+<section id="public-health-surveillance" class="level1">
+<h1>Public health Surveillance</h1>
 <div id="listing-publichealth" class="quarto-listing quarto-listing-container-table">
 
 <table class="quarto-listing-table table">
@@ -250,31 +278,23 @@ Outbreak detection in public health surveillance
 Pre-formatted structural data for Norway
 </td>
 </tr>
-<tr data-index="3" data-categories="data" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1671817601781" data-listing-reading-time-sort="0.005" data-listing-title-sort="csmaps" data-listing-filename-sort="index.qmd">
+<tr data-index="3" data-categories="data" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1677086854741" data-listing-reading-time-sort="0.005" data-listing-title-sort="csmaps" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../rpkg/csmaps/index.html" class="title">csmaps</a>
 </td>
 <td class="listing-description">
-https://github.com/csids/csmaps
+Pre-formatted map data in Norway
 </td>
 </tr>
-<tr data-index="4" data-categories="news,code,analysis" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1670594316062" data-listing-reading-time-sort="0.005" data-listing-title-sort="cstime" data-listing-filename-sort="index.qmd">
+<tr data-index="4" data-categories="utility" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1677087785237" data-listing-reading-time-sort="0.09" data-listing-title-sort="cstime" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../rpkg/cstime/index.html" class="title">cstime</a>
 </td>
 <td class="listing-description">
-cstime
+Date and time functions for public health purposes
 </td>
 </tr>
-<tr data-index="5" data-categories="news,code,analysis" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1670594332615" data-listing-reading-time-sort="0.005" data-listing-title-sort="medicode" data-listing-filename-sort="index.qmd">
-<td class="listing-title">
-<a href="../rpkg/medicode/index.html" class="title">medicode</a>
-</td>
-<td class="listing-description">
-medicode
-</td>
-</tr>
-<tr data-index="6" data-categories="data" data-listing-date-sort="1666389600000" data-listing-file-modified-sort="1671817115464" data-listing-reading-time-sort="0.005" data-listing-title-sort="mortanor" data-listing-filename-sort="index.qmd">
+<tr data-index="5" data-categories="data" data-listing-date-sort="1666389600000" data-listing-file-modified-sort="1671817115464" data-listing-reading-time-sort="0.005" data-listing-title-sort="mortanor" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../rpkg/mortanor/index.html" class="title">mortanor</a>
 </td>
@@ -282,12 +302,52 @@ medicode
 Public mortality data in Norway
 </td>
 </tr>
-<tr data-index="7" data-categories="method" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1671817411303" data-listing-reading-time-sort="0.005" data-listing-title-sort="nowcast" data-listing-filename-sort="index.qmd">
+<tr data-index="6" data-categories="method" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1671817411303" data-listing-reading-time-sort="0.005" data-listing-title-sort="nowcast" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../rpkg/nowcast/index.html" class="title">nowcast</a>
 </td>
 <td class="listing-description">
 Delay correction methods for real-time surveillance
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="medicine" class="level1">
+<h1>Medicine</h1>
+<div id="listing-medicine" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="method" data-listing-date-sort="1677020400000" data-listing-file-modified-sort="1677087929373" data-listing-reading-time-sort="0.065" data-listing-title-sort="bayesynergy" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="../rpkg/bayesynergy/index.html" class="title">bayesynergy</a>
+</td>
+<td class="listing-description">
+(Contributor) Synergistic interaction effects in in vitro drug combination…
+</td>
+</tr>
+<tr data-index="1" data-categories="Utility" data-listing-date-sort="1677020400000" data-listing-file-modified-sort="1677087554244" data-listing-reading-time-sort="0.165" data-listing-title-sort="medicode" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="../rpkg/medicode/index.html" class="title">medicode</a>
+</td>
+<td class="listing-description">
+Metadata and tools for medical classification and clinical coding
 </td>
 </tr>
 </tbody>

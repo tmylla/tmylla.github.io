@@ -168,8 +168,74 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>Useful references:</p>
+<ul>
+<li><a href="https://adv-r.hadley.nz/oo.html">Object-oriented Programing</a> section in <strong>Advanced R</strong> (version 2) by Hadley Wickham</li>
+<li><a href="https://bookdown.org/rdpeng/RProgDA/object-oriented-programming.html">Chapter 2.9 Object Oriented Programming</a> in <strong>Mastering Software Development in R</strong> by Roger D.Peng, Sean Kross, and Brooke Anderson</li>
+<li><a href="https://www.r-bloggers.com/2022/06/object-oriented-programming-oop-in-r-with-r6-the-complete-guide/">OOP with R6 - The complete guide</a> blog by Dario Radecic</li>
+</ul>
+<section id="object-oriented-programing" class="level1">
+<h1>Object oriented programing</h1>
+<p>Why use OOP: polymorphism - same function can be used on different types of input.</p>
+<p>Without OOP, if someone wants to add new functionality to for example <code>summary()</code>, he needs to ask the original author to change if-else statements inside the summary function. OOP allows any developer to extend the interface for new types of input.</p>
+<section id="terminology" class="level3">
+<h3 class="anchored" data-anchor-id="terminology">Terminology</h3>
+<ul>
+<li>Object: individual instances of a class</li>
+<li>Class: type of an object, i.e.&nbsp;what an object is</li>
+<li>Method: a function associated with a particular class, i.e.&nbsp;what the object can do
+<ul>
+<li>generic method: <code>mean()</code> of a vector of numbers is a number, <code>mean()</code> of a vector of dates is a date</li>
+<li>Inherit: a sub-class inherits all the attributes and methods from the super-class. E.g. generalized linear model inherits from a linear model.</li>
+<li>method dispatch: the process of finding the correct method given a class</li>
+</ul></li>
+</ul>
+<p><strong>Encapsulated</strong> OOP:</p>
+<ul>
+<li>methods belong to object or classes</li>
+<li><code>object.method(arg1, arg2)</code></li>
+<li>common in most languages</li>
+<li><strong>R6</strong>, RC (reference class) are examples of this type</li>
+</ul>
+<p><strong>Functional</strong> OOP:</p>
+<ul>
+<li>methods belong to generic functions</li>
+<li><code>generic(object, arg2, arg3)</code></li>
+<li><strong>S3</strong> is an informal implementation of this type</li>
+</ul>
+</section>
+<section id="base-types" class="level3">
+<h3 class="anchored" data-anchor-id="base-types">Base types</h3>
+<p>Check whether an object is object-oriented, or base object:</p>
+<ul>
+<li><code>is.object(1:10)</code></li>
+<li><code>sloop::otype(1:10)</code>: returns base or S3/S4</li>
+<li><code>attr(1:10, 'class')</code>: OO objects has a <em>class attribute</em>, BO does not.</li>
+</ul>
+<p>All objects have a <strong>base type</strong>; not all are OO objects.</p>
+<ul>
+<li><code>typeof(1:10)</code> returns ‘integer’</li>
+<li>25 base types in total
+<ul>
+<li>vectors: e.g.&nbsp;<code>NULL, logical, integer, double, complex, character, list, raw</code></li>
+<li>functions: e.g.&nbsp;<code>closure, special, builtin</code></li>
+<li>environments: <code>environment</code></li>
+<li>S4: <code>S4</code></li>
+<li>language components, <code>symbol, language, pairlist</code> the rest are less common.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="s3" class="level1">
+<h1>S3</h1>
+<p>Allows the function to return rich results with user-friendly display and programmer-friendly internals.</p>
+</section>
+<section id="r6" class="level1">
+<h1>R6</h1>
+<p>Model data that comes from a web API, and changes come from inside and outside R.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

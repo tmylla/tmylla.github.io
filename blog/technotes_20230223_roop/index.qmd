@@ -10,5 +10,77 @@ code-block-bg: true
 code-block-border-left: true
 ---
 
+Useful references: 
+
+* [Object-oriented Programing](https://adv-r.hadley.nz/oo.html) section in **Advanced R** (version 2) by Hadley Wickham
+* [Chapter 2.9 Object Oriented Programming](https://bookdown.org/rdpeng/RProgDA/object-oriented-programming.html) in **Mastering Software Development in R** by Roger D.Peng, Sean Kross, and Brooke Anderson
+* [OOP with R6 - The complete guide](https://www.r-bloggers.com/2022/06/object-oriented-programming-oop-in-r-with-r6-the-complete-guide/) blog by Dario Radecic
+
+
+# Object oriented programing
+
+Why use OOP: polymorphism - same function can be used on different types of input.
+
+Without OOP, if someone wants to add new functionality to for example `summary()`, he needs to ask the original author to change if-else statements inside the summary function. OOP allows any developer to extend the interface for new types of input.
+
+### Terminology 
+
+* Object: individual instances of a class
+* Class: type of an object, i.e. what an object is
+* Method: a function associated with a particular class, i.e. what the object can do
+  * generic method: `mean()` of a vector of numbers is a number, `mean()` of a vector of dates is a date
+  * Inherit: a sub-class inherits all the attributes and methods from the super-class. E.g. generalized linear model inherits from a linear model.
+  * method dispatch: the process of finding the correct method given a class
+
+
+**Encapsulated** OOP:
+
+* methods belong to object or classes
+* `object.method(arg1, arg2)`
+* common in most languages
+* **R6**, RC (reference class) are examples of this type
+
+**Functional** OOP:
+
+* methods belong to generic functions
+* `generic(object, arg2, arg3)`
+* **S3** is an informal implementation of this type
+
+
+
+### Base types
+
+Check whether an object is object-oriented, or base object: 
+
+* `is.object(1:10)`
+* `sloop::otype(1:10)`: returns base or S3/S4
+* `attr(1:10, 'class')`: OO objects has a *class attribute*, BO does not.
+
+
+All objects have a **base type**; not all are OO objects.
+
+* `typeof(1:10)` returns 'integer'
+* 25 base types in total
+  * vectors: e.g. `NULL, logical, integer, double, complex, character, list, raw`
+  * functions: e.g. `closure, special, builtin`
+  * environments: `environment`
+  * S4: `S4`
+  * language components, `symbol, language, pairlist`
+the rest are less common. 
+
+
+
+
+
+# S3
+
+Allows the function to return rich results with user-friendly display and programmer-friendly internals.
+
+
+
+
+# R6
+
+Model data that comes from a web API, and changes come from inside and outside R.
 
 

@@ -172,7 +172,7 @@
     "href": "rpkg/cstime/index.html",
     "title": "cstime",
     "section": "",
-    "text": "cstime"
+    "text": "cstime provides convenient and consistent conversion between\n\nisoyear\nisoweek\ncalyear\nseason week (used in influenza surveillance)\n\nGitHub link"
   },
   {
     "objectID": "rpkg/mortanor/index.html",
@@ -726,5 +726,12 @@
     "title": "Notes: Making Data Science work for Clinical Reporting - Part 2",
     "section": "Reproducible projects in R",
     "text": "Reproducible projects in R\nTo reproduce your work:\n\nGit (version control)\nR libraries\nWell structured projects\nUnderlying dependencies (e.g. operating systems, C++/C)\n\n\nWell structured projects\nClear names\nGood documentation\n\n\nR libraries and versions\nCheck session info; but not the most practical way.\nUse global libraries, .libPaths(), this gives you the path where all the packages are installed. Global libraries is useful when using a server for multiple R sessions, where they look for the packages in the same place.\nSolutions\n\nrenv package: makes each project in R self-contained.\nCheckpoint: project level library paths based on snapshots of CRAN\n\nUse Docker images! Saves R version, operating system, underlying dependencies"
+  },
+  {
+    "objectID": "rpkg/bayesynergy/index.html",
+    "href": "rpkg/bayesynergy/index.html",
+    "title": "bayesynergy",
+    "section": "",
+    "text": "An R package for Bayesian semi-parametric modelling of in-vitro drug combination experiments\nGitHub Link"
   }
 ]

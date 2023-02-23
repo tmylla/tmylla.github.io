@@ -6,6 +6,12 @@ author: "Chi Zhang"
 date: "2023-01-04"
 categories: [Notes]
 sidebar: false
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
 ---
 
 Ongoing reading notes. 

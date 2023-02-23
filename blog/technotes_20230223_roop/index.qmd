@@ -6,8 +6,14 @@ author: "Chi Zhang"
 date: "2023-02-23"
 categories: [RSE, Rpkg]
 sidebar: false
-code-block-bg: true
+code-block-bg: false
 code-block-border-left: true
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
 ---
 
 Useful references: 
@@ -23,7 +29,7 @@ Why use OOP: polymorphism - same function can be used on different types of inpu
 
 Without OOP, if someone wants to add new functionality to for example `summary()`, he needs to ask the original author to change if-else statements inside the summary function. OOP allows any developer to extend the interface for new types of input.
 
-### Terminology 
+## Terminology 
 
 * Object: individual instances of a class
 * Class: type of an object, i.e. what an object is
@@ -48,13 +54,27 @@ Without OOP, if someone wants to add new functionality to for example `summary()
 
 
 
-### Base types
+## Base types
 
 Check whether an object is object-oriented, or base object: 
 
-* `is.object(1:10)`
-* `sloop::otype(1:10)`: returns base or S3/S4
-* `attr(1:10, 'class')`: OO objects has a *class attribute*, BO does not.
+* `is.object()`
+* `sloop::otype()`: returns base or S3/S4
+* `attr(obj_name, 'class')`: OO objects has a *class attribute*, BO does not.
+
+```{r}
+#| label: base types
+#| warning: false
+#| echo: true
+
+x <- 1:10 # a numeric vector
+y <- factor(c('a', 'b'))  # a factor
+
+c(is.object(x), is.object(y))
+c(sloop::otype(x), sloop::otype(y))
+attr(x, 'class') 
+attr(y, 'class')
+```
 
 
 All objects have a **base type**; not all are OO objects.
@@ -75,6 +95,75 @@ the rest are less common.
 # S3
 
 Allows the function to return rich results with user-friendly display and programmer-friendly internals.
+
+
+
+```{r}
+#| label: s3 type
+#| warning: false
+#| echo: true
+
+y <- factor(c('a','b'))
+typeof(y)
+attributes(y)
+```
+
+Check whether a function is a **generic**: `sloop::ftype()` 
+
+```{r}
+#| label: generic
+#| warning: false
+#| echo: true
+
+sloop::ftype(print)
+sloop::ftype(`+`)
+```
+
+The generic finds the method (implementation of `print(), summary()` for a specific class) by performing **method dispatch**.
+
+```{r}
+#| label: dispatch
+#| warning: false
+#| echo: true
+y <- factor(c('a','b'))
+sloop::s3_dispatch(print(y))
+```
+
+
+## Generic or method?
+
+* `generic.class()`, for example: `print.factor()`
+* do not call the method directly; use the generic (dispatch) to find it.
+* generally has the `.` in the name; however it is not guaranteed     * `t.test()` is a generic like `print()`, as `t.test()` can be used on multiple types of inputs
+    * `as.factor()` is not an OO object, hence not S3
+
+
+#### Check function type with `sloop::ftype()`
+
+```{r}
+sloop::ftype(predict) # predict is a generic
+sloop::ftype(predict.glm)  # glm (class) method for predict() generic
+```
+
+
+#### Check methods with `methods()`
+
+`methods()` checks all the methods that either: 
+
+* belongs to a generic (the function), such as `plot, predict, t.test`
+* belongs to a class (the type of input), such as `lm, ar`
+
+```{r}
+methods('predict')  
+methods(class = 'lm')
+```
+
+Equivalently, use `sloop::s3_methods_*()`, as it gives more information in the output. 
+
+```{r}
+sloop::s3_methods_generic('predict') 
+sloop::s3_methods_class('lm')
+```
 
 
 

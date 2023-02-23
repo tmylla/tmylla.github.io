@@ -6,6 +6,12 @@ description: |
 date: "2023-01-03"
 categories: [Quarto, Website]
 title-block-banner: false
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
 ---
 
 ## From Blogdown to Distill

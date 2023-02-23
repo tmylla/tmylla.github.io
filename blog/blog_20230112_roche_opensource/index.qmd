@@ -6,6 +6,12 @@ author: "Chi Zhang"
 date: "2023-01-13"
 categories: [Reporting, Data science, Education, RSE]
 sidebar: false
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
 ---
 
 Two days ago (Jan 11 2023) I watched a [presentation](https://www.youtube.com/watch?v=nqJsLSLd39A) by data scientists at Roche about **why they are making their clinical trials in 2023 open source with R**. As someone who uses R for most of the time and has done similar works (not in pharma, but in [public health surveillance and reporting](https://andreaczhang.github.io/projects/sykdomspulsen/): watch [my talk](https://www.youtube.com/watch?v=9wmajA7Okrg), [slides](https://github.com/andreaczhang/talks/tree/master/2022-06-16-user_sykdomspulsen) to find out what we do), I watched the presentation with great interest. Here are my notes, combined with some thoughts on open-source in the industry, public sector and academia. 

@@ -5,10 +5,17 @@ project:
 website:
   page-navigation: true
   title: "Hello, I'm Chi"
+  site-url: https://andreaczhang.github.io
+  repo-url: https://github.com/andreaczhang/andreaczhang.github.io
+  repo-actions: [edit, issue]
   
   page-footer: 
     left: "&copy; Copyright 2022, Chi Zhang"
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    right: 
+      - icon: github
+        href: https://github.com/andreaczhang/andreaczhang.github.io
+      - icon: twitter
+        href: https://twitter.com/Andreasheenn
 
   navbar: 
     background: "#A9CCE3"

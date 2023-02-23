@@ -4,7 +4,7 @@ description: |
   My thoughts on the open source transition in pharma, public (health) sector and academia. A culture change is needed, and it's done better at some places than others. As educators and researchers, there are many things that can be done. 
 author: "Chi Zhang"
 date: "2023-01-13"
-categories: [Reporting, Education, RSE]
+categories: [Reporting, Data science, Education, RSE]
 sidebar: false
 ---
 

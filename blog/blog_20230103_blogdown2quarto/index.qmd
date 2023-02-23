@@ -4,7 +4,7 @@ author: "Chi Zhang"
 description: |
   Time to reboot the personal website. Now, with Quarto 
 date: "2023-01-03"
-categories: [Quarto]
+categories: [Quarto, Website]
 title-block-banner: false
 ---
 

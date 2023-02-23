@@ -4,7 +4,7 @@ description: |
   A workflow that worked for me. This is the *third* time that I go through the Quarto website publishing with GitHub Pages - even more reason to note it down! 
 author: "Chi Zhang"
 date: "2023-01-11"
-categories: [Quarto]
+categories: [Quarto, Website]
 sidebar: false
 code-block-bg: true
 code-block-border-left: true

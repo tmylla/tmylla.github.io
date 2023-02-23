@@ -4,7 +4,7 @@ description: |
   A workflow that worked for me: when you have a few vignette documents, and want to display them nicely in a website format.  
 author: "Chi Zhang"
 date: "2023-02-20"
-categories: [Rpkg, website]
+categories: [Rpkg, Website]
 sidebar: false
 code-block-bg: true
 code-block-border-left: true

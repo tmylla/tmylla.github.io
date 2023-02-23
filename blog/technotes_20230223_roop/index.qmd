@@ -1,0 +1,14 @@
+---
+title: "OOP in R: S3 and R6"
+description: |
+  Notes on learning OOP in R, and trying to figure out the situation where I can benefit from using OOP.
+author: "Chi Zhang"
+date: "2023-02-23"
+categories: [RSE, Rpkg]
+sidebar: false
+code-block-bg: true
+code-block-border-left: true
+---
+
+
+

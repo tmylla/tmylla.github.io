@@ -522,7 +522,7 @@
     "href": "blog/blog.html",
     "title": "Blog and notes",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMostly notes for my own use\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nOOP in R: S3 and R6\n\n\nFeb 23, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\nFeb 22, 2023\n\n\n\n\nR package website with pkgdown\n\n\nFeb 20, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMostly notes for my own use\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\nFeb 25, 2023\n\n\n\n\nOOP in R: S3 and R6\n\n\nFeb 23, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\nFeb 22, 2023\n\n\n\n\nR package website with pkgdown\n\n\nFeb 20, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/blog.html#notes",
@@ -796,5 +796,40 @@
     "title": "OOP in R: S3 and R6",
     "section": "Generic or method?",
     "text": "Generic or method?\n\ngeneric.class(), for example: print.factor()\ndo not call the method directly; use the generic (dispatch) to find it.\ngenerally has the . in the name; however it is not guaranteed * t.test() is a generic like print(), as t.test() can be used on multiple types of inputs\n\nas.factor() is not an OO object, hence not S3\n\n\n\nCheck function type with sloop::ftype()\n\nsloop::ftype(predict) # predict is a generic\n\n[1] \"S3\"      \"generic\"\n\nsloop::ftype(predict.glm)  # glm (class) method for predict() generic\n\n[1] \"S3\"     \"method\"\n\n\n\n\nCheck methods with methods()\nmethods() checks all the methods that either:\n\nbelongs to a generic (the function), such as plot, predict, t.test\nbelongs to a class (the type of input), such as lm, ar\n\n\nmethods('predict')  \n\n [1] predict.ar*                predict.Arima*            \n [3] predict.arima0*            predict.glm               \n [5] predict.HoltWinters*       predict.lm                \n [7] predict.loess*             predict.mlm*              \n [9] predict.nls*               predict.poly*             \n[11] predict.ppr*               predict.prcomp*           \n[13] predict.princomp*          predict.smooth.spline*    \n[15] predict.smooth.spline.fit* predict.StructTS*         \nsee '?methods' for accessing help and source code\n\nmethods(class = 'lm')\n\n [1] add1           alias          anova          case.names     coerce        \n [6] confint        cooks.distance deviance       dfbeta         dfbetas       \n[11] drop1          dummy.coef     effects        extractAIC     family        \n[16] formula        hatvalues      influence      initialize     kappa         \n[21] labels         logLik         model.frame    model.matrix   nobs          \n[26] plot           predict        print          proj           qr            \n[31] residuals      rstandard      rstudent       show           simulate      \n[36] slotsFromS3    summary        variable.names vcov          \nsee '?methods' for accessing help and source code\n\n\nEquivalently, use sloop::s3_methods_*(), as it gives more information in the output.\n\nsloop::s3_methods_generic('predict') \n\n# A tibble: 16 × 4\n   generic class             visible source             \n   <chr>   <chr>             <lgl>   <chr>              \n 1 predict ar                FALSE   registered S3method\n 2 predict Arima             FALSE   registered S3method\n 3 predict arima0            FALSE   registered S3method\n 4 predict glm               TRUE    stats              \n 5 predict HoltWinters       FALSE   registered S3method\n 6 predict lm                TRUE    stats              \n 7 predict loess             FALSE   registered S3method\n 8 predict mlm               FALSE   registered S3method\n 9 predict nls               FALSE   registered S3method\n10 predict poly              FALSE   registered S3method\n11 predict ppr               FALSE   registered S3method\n12 predict prcomp            FALSE   registered S3method\n13 predict princomp          FALSE   registered S3method\n14 predict smooth.spline     FALSE   registered S3method\n15 predict smooth.spline.fit FALSE   registered S3method\n16 predict StructTS          FALSE   registered S3method\n\nsloop::s3_methods_class('lm')\n\n# A tibble: 35 × 4\n   generic        class visible source             \n   <chr>          <chr> <lgl>   <chr>              \n 1 add1           lm    FALSE   registered S3method\n 2 alias          lm    FALSE   registered S3method\n 3 anova          lm    FALSE   registered S3method\n 4 case.names     lm    FALSE   registered S3method\n 5 confint        lm    TRUE    stats              \n 6 cooks.distance lm    FALSE   registered S3method\n 7 deviance       lm    FALSE   registered S3method\n 8 dfbeta         lm    FALSE   registered S3method\n 9 dfbetas        lm    FALSE   registered S3method\n10 drop1          lm    FALSE   registered S3method\n# … with 25 more rows"
+  },
+  {
+    "objectID": "blog/technotes_20230225_shinyappsio/index.html",
+    "href": "blog/technotes_20230225_shinyappsio/index.html",
+    "title": "Testing Shiny app and deploy to shinyapps.io",
+    "section": "",
+    "text": "Useful references:"
+  },
+  {
+    "objectID": "blog/technotes_20230225_shinyappsio/index.html#considerations",
+    "href": "blog/technotes_20230225_shinyappsio/index.html#considerations",
+    "title": "Testing Shiny app and deploy to shinyapps.io",
+    "section": "Considerations",
+    "text": "Considerations\nA few ways to do it: Shiny Server (free), shinyapps.io (free and premium), and professional Rstudio Connect (paid).\nI choose to test out the second option, since it allows more possibilities compared to the free open-source Shiny Server.\nThe free option should allow me to create 5 apps, which is more than enough for personal use. It also allows 25 active hours per month; a note on that at the end."
+  },
+  {
+    "objectID": "blog/technotes_20230225_shinyappsio/index.html#configuration",
+    "href": "blog/technotes_20230225_shinyappsio/index.html#configuration",
+    "title": "Testing Shiny app and deploy to shinyapps.io",
+    "section": "Configuration",
+    "text": "Configuration\nSign up with GitHub account; or something else. It is possible to change account name afterwards.\nIn Rstudio,\n\nfirst install.packages('rsconnect')\nthen, configure the account. It can be done with rsconnect::setAccountInfo() with information provided in your own shinyapps.io page.\n\nBefore the last step, it is necessary to have an app to deploy!"
+  },
+  {
+    "objectID": "blog/technotes_20230225_shinyappsio/index.html#create-my-first-shiny-project",
+    "href": "blog/technotes_20230225_shinyappsio/index.html#create-my-first-shiny-project",
+    "title": "Testing Shiny app and deploy to shinyapps.io",
+    "section": "Create my first shiny project",
+    "text": "Create my first shiny project\nHere I use my usual workflow of creating a new R project:\n\nCreate a new repo on GitHub;\nClone the repo locally, by opening a new R project with version control.\n\nNow copy the two R scripts from the demo example:\n\nserver.R\nui.R\n\nTest locally by running shiny::runApp(). This should render the app."
+  },
+  {
+    "objectID": "blog/technotes_20230225_shinyappsio/index.html#deploy-to-shinyapps.io",
+    "href": "blog/technotes_20230225_shinyappsio/index.html#deploy-to-shinyapps.io",
+    "title": "Testing Shiny app and deploy to shinyapps.io",
+    "section": "Deploy to shinyapps.io",
+    "text": "Deploy to shinyapps.io\nrsconnect::deployApp() will deploy the app, with an automatically generated url that links to your account.\nThe demo app is deployed here.\n\nNote on active hours\nAfter deployment, the site seems to be active until you shut it down manually; or timeout. The default timeout is 15 minutes, which can be reduced to 5 minutes.\n25 hours per month suggests that I can open the site for 300 times (without manually shuting it down). It might be necessary to start using the paid options, if I have more than one site, or multiple users want to access it …"
   }
 ]

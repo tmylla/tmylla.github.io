@@ -613,7 +613,7 @@
     "href": "blog/readnotes_2023010x_pandemic_gates/index.html",
     "title": "How to prevent the next pandemic - Bill Gates",
     "section": "",
-    "text": "Ongoing reading notes."
+    "text": "(The book reading is still ongoing)"
   },
   {
     "objectID": "blog/technotes_20230111_deployqt/index.html",
@@ -831,5 +831,68 @@
     "title": "Testing Shiny app and deploy to shinyapps.io",
     "section": "Deploy to shinyapps.io",
     "text": "Deploy to shinyapps.io\nrsconnect::deployApp() will deploy the app, with an automatically generated url that links to your account.\nThe demo app is deployed here.\n\nNote on active hours\nAfter deployment, the site seems to be active until you shut it down manually; or timeout. The default timeout is 15 minutes, which can be reduced to 5 minutes.\n25 hours per month suggests that I can open the site for 300 times (without manually shuting it down). It might be necessary to start using the paid options, if I have more than one site, or multiple users want to access it …"
+  },
+  {
+    "objectID": "blog/readnotes_2023010x_pandemic_gates/index.html#learn-from-covid",
+    "href": "blog/readnotes_2023010x_pandemic_gates/index.html#learn-from-covid",
+    "title": "How to prevent the next pandemic - Bill Gates",
+    "section": "Learn from COVID",
+    "text": "Learn from COVID\nSome mistakes\n\nFederal agencies refused to share data\nPersons responsible did not have training inn epidemiology\nNot enough testing, not fast enough\nLacks information sharing"
+  },
+  {
+    "objectID": "blog/readnotes_2023010x_pandemic_gates/index.html#create-a-pandemic-prevention-team",
+    "href": "blog/readnotes_2023010x_pandemic_gates/index.html#create-a-pandemic-prevention-team",
+    "title": "How to prevent the next pandemic - Bill Gates",
+    "section": "Create a pandemic prevention team",
+    "text": "Create a pandemic prevention team\nThere should be a global expert team to help preventing the pandemic: they should be responsible for\n\nsurveillance of potential disease outbreaks, sound the alert when necessary;\ncreation and sharing of data system and data on cases\nstandardising policy making and training\nevaluation of the capacity of individual countries\ncoordination of personnels\n\nHowever it is difficult even for all countries to reach an agreement, and secure the funds. There is no one organisation that is able to join forces from all parties. Organisations depend on volunteers. WHO lacks funds, experts who are specialised in pandemic research, and relies on the free global response networks.\nA team, GERM (Global Epidemic Response and Mobilisation) should be established. The main task should be disease surveillance and modeling; rather than treating patients."
+  },
+  {
+    "objectID": "blog/readnotes_2023010x_pandemic_gates/index.html#get-better-at-detecting-outbreaks-early",
+    "href": "blog/readnotes_2023010x_pandemic_gates/index.html#get-better-at-detecting-outbreaks-early",
+    "title": "How to prevent the next pandemic - Bill Gates",
+    "section": "Get better at detecting outbreaks early",
+    "text": "Get better at detecting outbreaks early\n\nDisease surveillance\nPassive surveillance: healthcare workers report cases that use healthcare services (e.g. clinic, hospital) to public health authorities.\nActive surveillance: workers go to communities to find potential patients that have not been to clinics or hospitals due to inconvenience, or mild symptoms.\nWhen there are many cases (clusters), the signal might be picked up by a computer algorithm, and alerts sent to healthcare workers so that they pay more attention.\nIn some countries, personnels other than healthcare workers (e.g. teachers, post office staff) might also participate in disease surveillance. In addition, some virus can be detected in the environment such as waste water (e.g. polio, illeagal drug).\n\n\nBirth and death\nIn LMIC (low and middle income countries), there are higher percentage of unrecorded births ad deaths. Some of them carry out census every other year - no real time data. Some data are also lack information such as cause of death. Without knowing causes of death (such as diarrhea), it is impossible to prevent the disease.\nPost-mortem (autopsy) can be unattainable, especially in LMIC. It could also be undesirable for families who have lost their loved ones - procedures are very invasive. Nevertheless, alternatives exist, such as minimally invasive autopsy technologies like MRI and MRI guided fine-needle biopsy."
+  },
+  {
+    "objectID": "blog/readnotes_2023010x_pandemic_gates/index.html#help-people-protect-themselves-right-away",
+    "href": "blog/readnotes_2023010x_pandemic_gates/index.html#help-people-protect-themselves-right-away",
+    "title": "How to prevent the next pandemic - Bill Gates",
+    "section": "Help people protect themselves right away",
+    "text": "Help people protect themselves right away"
+  },
+  {
+    "objectID": "blog/readnotes_2023010x_pandemic_gates/index.html#find-new-treatment-fast",
+    "href": "blog/readnotes_2023010x_pandemic_gates/index.html#find-new-treatment-fast",
+    "title": "How to prevent the next pandemic - Bill Gates",
+    "section": "Find new treatment fast",
+    "text": "Find new treatment fast"
+  },
+  {
+    "objectID": "blog/readnotes_2023010x_pandemic_gates/index.html#get-ready-to-make-vaccines",
+    "href": "blog/readnotes_2023010x_pandemic_gates/index.html#get-ready-to-make-vaccines",
+    "title": "How to prevent the next pandemic - Bill Gates",
+    "section": "Get ready to make vaccines",
+    "text": "Get ready to make vaccines"
+  },
+  {
+    "objectID": "blog/readnotes_2023010x_pandemic_gates/index.html#practice-practice-practice",
+    "href": "blog/readnotes_2023010x_pandemic_gates/index.html#practice-practice-practice",
+    "title": "How to prevent the next pandemic - Bill Gates",
+    "section": "Practice, practice, practice",
+    "text": "Practice, practice, practice"
+  },
+  {
+    "objectID": "blog/readnotes_2023010x_pandemic_gates/index.html#close-the-health-gap-between-rich-and-poor-countries",
+    "href": "blog/readnotes_2023010x_pandemic_gates/index.html#close-the-health-gap-between-rich-and-poor-countries",
+    "title": "How to prevent the next pandemic - Bill Gates",
+    "section": "Close the health gap between rich and poor countries",
+    "text": "Close the health gap between rich and poor countries"
+  },
+  {
+    "objectID": "blog/readnotes_2023010x_pandemic_gates/index.html#make-and-fund-a-plan-for-preventing-pandemics",
+    "href": "blog/readnotes_2023010x_pandemic_gates/index.html#make-and-fund-a-plan-for-preventing-pandemics",
+    "title": "How to prevent the next pandemic - Bill Gates",
+    "section": "Make and fund a plan for preventing pandemics",
+    "text": "Make and fund a plan for preventing pandemics"
   }
 ]

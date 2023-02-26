@@ -1,7 +1,7 @@
 ---
 title: "How to prevent the next pandemic - Bill Gates"
 description: |
-  Reading notes on the book
+  Reading notes on the book. Updates pending 
 author: "Chi Zhang"
 date: "2023-01-04"
 categories: [Notes]
@@ -14,4 +14,65 @@ format:
     code-tools: false
 ---
 
-Ongoing reading notes. 
+# Overview
+
+(The book reading is still ongoing)
+
+# Notes from each chapter
+
+## Learn from COVID
+
+Some mistakes
+
+* Federal agencies refused to share data
+* Persons responsible did not have training inn epidemiology
+* Not enough testing, not fast enough 
+* Lacks information sharing
+
+
+## Create a pandemic prevention team
+
+There should be a global expert team to help preventing the pandemic: they *should* be responsible for
+
+* surveillance of potential disease outbreaks, sound the alert when necessary;
+* creation and sharing of data system and data on cases
+* standardising policy making and training
+* evaluation of the capacity of individual countries
+* coordination of personnels
+
+However it is difficult even for all countries to reach an agreement, and secure the funds. There is no **one organisation** that is able to join forces from all parties. Organisations depend on **volunteers**. WHO lacks funds, experts who are specialised in pandemic research, and relies on the free global response networks. 
+
+A team, **GERM (Global Epidemic Response and Mobilisation)** should be established. The main task should be **disease surveillance** and modeling; rather than treating patients.
+
+
+## Get better at detecting outbreaks early
+
+### Disease surveillance
+
+**Passive surveillance**: healthcare workers report cases that use healthcare services (e.g. clinic, hospital) to public health authorities.
+
+**Active surveillance**: workers go to communities to find potential patients that have not been to clinics or hospitals due to inconvenience, or mild symptoms.
+
+When there are many cases (clusters), the signal might be picked up by a computer algorithm, and alerts sent to healthcare workers so that they pay more attention.
+
+In some countries, personnels other than healthcare workers (e.g. teachers, post office staff) might also participate in disease surveillance. In addition, some virus can be detected in the environment such as **waste water** (e.g. polio, illeagal drug). 
+
+### Birth and death
+
+In LMIC (low and middle income countries), there are higher percentage of unrecorded births ad deaths. Some of them carry out census every other year - no real time data. Some data are also lack information such as cause of death. Without knowing causes of death (such as diarrhea), it is impossible to prevent the disease. 
+
+Post-mortem (autopsy) can be unattainable, especially in LMIC. It could also be undesirable for families who have lost their loved ones - procedures are very invasive. Nevertheless, alternatives exist, such as minimally invasive autopsy technologies like MRI and MRI guided fine-needle biopsy.
+
+
+
+## Help people protect themselves right away
+
+## Find new treatment fast
+
+## Get ready to make vaccines
+
+## Practice, practice, practice
+
+## Close the health gap between rich and poor countries
+
+## Make and fund a plan for preventing pandemics 

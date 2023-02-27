@@ -187,14 +187,21 @@ ul.task-list li input[type="checkbox"] {
 <h1>2. Edit the vignette documentation</h1>
 <p>Make sure that the vignette index is consistent with <strong>Title</strong>, otherwise it will not render.</p>
 </section>
-<section id="build-site" class="level1">
-<h1>3. Build site</h1>
+<section id="build-and-preview-your-site" class="level1">
+<h1>3. Build and preview your site</h1>
 <p>Now check if the site looks good, and contents are correctly positioned.</p>
-<pre><code>pkgdown::build_site()</code></pre>
+<pre><code>pkgdown::preview_site()
+pkgdown::build_site()</code></pre>
+<p>You can also do this to build the site.</p>
+<pre><code>pkgdown::build_site_github_pages()</code></pre>
 </section>
 <section id="deploy-site-with-github-pages" class="level1">
 <h1>4. Deploy site with GitHub Pages</h1>
-<p>Looks like if you do <code>usethis::use_pkgdown_github_pages()</code>, this function takes care of everything</p>
+<p>There seems to be two options:</p>
+<ul>
+<li><code>usethis::use_pkgdown_github_pages()</code>, this function should take care of everything after pushing changes to GH.</li>
+<li>if you used <code>pkgdown::build_site_github_pages()</code> and pushed everything to GitHub, it might not automatically deploy your site to GH pages. I tried to go to <em>Settings -&gt; Pages -&gt; Deploy from a branch -&gt; main -&gt; /docs</em>, this makes Action deploy your site from the <code>docs</code> folder.</li>
+</ul>
 
 
 </section>
@@ -337,7 +344,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">© Copyright 2022, Chi Zhang</div>   
-    <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/andreaczhang/andreaczhang.github.io">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/Andreasheenn">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
   </div>
 </footer>
 

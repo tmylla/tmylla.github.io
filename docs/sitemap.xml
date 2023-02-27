@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://andreaczhang.github.io/blog/blog.html</loc>
-    <lastmod>2023-02-26T17:36:33.530Z</lastmod>
+    <lastmod>2023-02-27T14:22:49.628Z</lastmod>
   </url>
   <url>
     <loc>https://andreaczhang.github.io/blog/blog_20230112_roche_opensource/index.html</loc>
@@ -47,5 +47,9 @@
   <url>
     <loc>https://andreaczhang.github.io/blog/technotes_20230225_shinyappsio/index.html</loc>
     <lastmod>2023-02-25T18:16:07.225Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreaczhang.github.io/blog/technotes_20230220_pkgdown/index.html</loc>
+    <lastmod>2023-02-27T14:22:48.762Z</lastmod>
   </url>
 </urlset>

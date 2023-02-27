@@ -1,0 +1,29 @@
+---
+title: "Notes: Making Data Science work for Clinical Reporting - Part 4"
+description: |
+  This is the Part 4 of a four-part course on Coursera.  
+author: "Chi Zhang"
+date: "2023-02-27"
+categories: [Clinical trial, Data science, Reporting]
+sidebar: false
+code-block-bg: true
+code-block-border-left: true
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
+---
+
+This is a course provided by Genentech (part of Roche) on Coursera. 
+
+Course [link](https://www.coursera.org/learn/making-data-science-work-for-clinical-reporting) 
+
+# Risk assessment and management
+
+
+(To be continued)
+
+
+

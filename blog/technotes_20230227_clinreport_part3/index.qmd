@@ -1,0 +1,61 @@
+---
+title: "Notes: Making Data Science work for Clinical Reporting - Part 3"
+description: |
+  This is the Part 3 of a four-part course on Coursera. In this part, innerSource and OpenSource concepts are introduced, and R package development is discussed.
+author: "Chi Zhang"
+date: "2023-02-27"
+categories: [Clinical trial, Data science, Reporting]
+sidebar: false
+code-block-bg: true
+code-block-border-left: true
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
+---
+
+This is a course provided by Genentech (part of Roche) on Coursera. 
+
+Course [link](https://www.coursera.org/learn/making-data-science-work-for-clinical-reporting) 
+
+# InnerSource and OpenSource
+
+InnerSource: use of open source software development practices and open source-like culture (even though the software developed might still be proprietary)
+
+When to OpenSource? Which license to use?
+
+* MIT license is the most permissive one
+
+
+# R package development 
+
+R packages are useful for 
+
+* **Reusability** by other users, developers, "future me"
+* **Robustness**: well-tested, maintained for a longer period of time
+* **Encapsulation**: hidden complexitty inside the package (internal functions), stable interface exposed to the users (exported functions)
+
+
+What can ben encapsulated in an R package?
+
+* **R functions** (internal, exported)
+* **Tests** (unit tests, `testthat` package)
+* **Data** (raw, processed)
+* **Analytical code** (reproducible analysis and reporting)
+* **Text** (literate programming): markdown, Rmarkdown, Quarto, Vignettes
+* **Interactive applications** (shiny)
+* **Web APIs** (with `plumber`)
+
+Types of R packages: tool based, methods, analytical, web data project
+
+(To be continued)
+
+
+
+# CI/CD for R packages 
+
+
+
+

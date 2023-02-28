@@ -900,7 +900,7 @@
     "href": "blog/technotes_20230227_clinreport_part3/index.html",
     "title": "Notes: Making Data Science work for Clinical Reporting - Part 3",
     "section": "",
-    "text": "This is a course provided by Genentech (part of Roche) on Coursera.\nCourse link\n\nInnerSource and OpenSource\nInnerSource: use of open source software development practices and open source-like culture (even though the software developed might still be proprietary)\nWhen to OpenSource? Which license to use?\n\nMIT license is the most permissive one\n\n\n\nR package development\nR packages are useful for\n\nReusability by other users, developers, “future me”\nRobustness: well-tested, maintained for a longer period of time\nEncapsulation: hidden complexitty inside the package (internal functions), stable interface exposed to the users (exported functions)\n\nWhat can ben encapsulated in an R package?\n\nR functions (internal, exported)\nTests (unit tests, testthat package)\nData (raw, processed)\nAnalytical code (reproducible analysis and reporting)\nText (literate programming): markdown, Rmarkdown, Quarto, Vignettes\nInteractive applications (shiny)\nWeb APIs (with plumber)\n\nTypes of R packages: tool based, methods, analytical, web data project\n(To be continued)\n\n\nCI/CD for R packages"
+    "text": "This is a course provided by Genentech (part of Roche) on Coursera.\nCourse link"
   },
   {
     "objectID": "blog/technotes_20230227_clinreport_part4/index.html",
@@ -908,5 +908,26 @@
     "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
     "section": "",
     "text": "This is a course provided by Genentech (part of Roche) on Coursera.\nCourse link\n\nRisk assessment and management"
+  },
+  {
+    "objectID": "blog/technotes_20230227_clinreport_part3/index.html#principles-and-tools",
+    "href": "blog/technotes_20230227_clinreport_part3/index.html#principles-and-tools",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 3",
+    "section": "Principles and tools",
+    "text": "Principles and tools\nReproducibility: Git (code versioning), dependencies (renv for r package dependencies, Docker for system dependencies)\n\nClean code\nCode comments: not recommended! Better to write code in a way that does not need additional comments.\nDRY: don’t repeat yourself (principle of software development), avoid copy and paste everywhere.\nSRP: single-responsibility prinicple, a function should do one thing: either plot a chart, saves a file, changes variables etc, but not all.\nNaming conventions\n\nReserve dots (.) for S3 methods (print.patient)\nReserve CamelCase for R6 classes or package names (OurPatients)\nUse snake cases (all_patients) for function names and arguments, use verb noun pattern (plot_this())\n\n\n\nCode smells\nA function might be too large: break into smaller ones (e.g. could fit in one screen)\nA function violates SRP: break into smaller ones, and be explicit in what result it is expected to return\nA function with multiple arguments: the scenarios to be tested increase rapidly. Recommended to minimize number of critical function arguments, and break the function into smaller ones.\nBad comments in the code: drop the unnecessary, unclear, outdated comments, write code that are self-explanatory.\n\n\nDevelopment workflow\nCode refactoring: change existing code without its functionality\nTDD: Test-Driven Development\n\nstart with writing a new (failing) test\nwrite code thtat passes the nenw tetst\nrefactor the code\nand repeat\n\nBenefits: your code is covered by tests; you think of testing scenarios first; “fail fast” - can immediately repair the code; more freedom to refactor (improve) the code.\nHow to test\n\nautomatically: CI/CD, after pushing Git commits\nmanually:\n\nrun all unit tests in the package (Build / Test package)\nrun tests in a selected test file (Run Tests)\nrun a single test in Rstudio console\n\n\nHow to check\n\nR CMD CHECK"
+  },
+  {
+    "objectID": "blog/technotes_20230227_clinreport_part3/index.html#writing-robust-statistical-software",
+    "href": "blog/technotes_20230227_clinreport_part3/index.html#writing-robust-statistical-software",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 3",
+    "section": "Writing robust statistical software",
+    "text": "Writing robust statistical software\nImplement complext statistical methods such that the software is reliable, and includes appropriate testing to ensure high quality and validity and ultimately credibility of statistical analysis results.\n\nchoose the right method and understand them\nsolve the core implementation problem with prototype code\n\nNeed to try a few different solutions, compare and select the best one. Might also need to involve domain experts.\n\nspend enough time on planning the design of the R package\n\nDon’t write the package right away; instead define the scope, discuss with users, and design the package.\nStart to draw a flow diagram, align names, arguments and classes; write prototype code.\n\nassume the package will evolve over time\n\nPackages you depend on will change; users will require new features\nWrite tests\n\nunit tests\nintegration tests\n\nMake the package extensible\n\nconsider object oriented package designs\ncombine functions in pipelines\n\nKeep it manageable\n\navoid too many arguments\navoid too large functions"
+  },
+  {
+    "objectID": "blog/technotes_20230227_clinreport_part3/index.html#key-components",
+    "href": "blog/technotes_20230227_clinreport_part3/index.html#key-components",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 3",
+    "section": "Key components",
+    "text": "Key components\n\nDependency management\nInstall dependencies (system/OS level; R packages)\n\nSet repos (can be specified in options()) to e.g. CRAN, BioConductor\nrenv\ncontainer with dependencies pre-installed\n\n\n\nStatic code analysis\n\nLinting (for programmatic and syntax errors) via lintr package\nCode style enforcement via styler package\nSpell checks identifies misspelled words in vignettes, docs and R code via spelling package\n\n\n\nTesting\n\nR CMD build builds R packages as a installable artifact\nR CMD check runs 20+ checks including unit tests, reports errors, warnigns and notes\nTest coverage reports with covr, checks how many lines of code are covered with tests\nR CMD INSTALL tests R package installation\n\n\n\nDocumentation\nAuto-generated docs via Roxygen and pkgdown\n\n\nRelease and deployments\nRelease artifacts and deployments to target systems\n\nChangelog (features, bug fixes) in the NEWS.md\nRelease: create the package with R CMD build. Validation report with thevalidatoR\nPublishing: CRAN, BioConductor"
   }
 ]

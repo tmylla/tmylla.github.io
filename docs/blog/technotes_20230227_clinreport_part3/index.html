@@ -132,8 +132,15 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#innersource-and-opensource" id="toc-innersource-and-opensource" class="nav-link active" data-scroll-target="#innersource-and-opensource">InnerSource and OpenSource</a></li>
-  <li><a href="#r-package-development" id="toc-r-package-development" class="nav-link" data-scroll-target="#r-package-development">R package development</a></li>
-  <li><a href="#cicd-for-r-packages" id="toc-cicd-for-r-packages" class="nav-link" data-scroll-target="#cicd-for-r-packages">CI/CD for R packages</a></li>
+  <li><a href="#r-package-development" id="toc-r-package-development" class="nav-link" data-scroll-target="#r-package-development">R package development</a>
+  <ul class="collapse">
+  <li><a href="#principles-and-tools" id="toc-principles-and-tools" class="nav-link" data-scroll-target="#principles-and-tools">Principles and tools</a></li>
+  <li><a href="#writing-robust-statistical-software" id="toc-writing-robust-statistical-software" class="nav-link" data-scroll-target="#writing-robust-statistical-software">Writing robust statistical software</a></li>
+  </ul></li>
+  <li><a href="#cicd-for-r-packages" id="toc-cicd-for-r-packages" class="nav-link" data-scroll-target="#cicd-for-r-packages">CI/CD for R packages</a>
+  <ul class="collapse">
+  <li><a href="#key-components" id="toc-key-components" class="nav-link" data-scroll-target="#key-components">Key components</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/technotes_20230227_clinreport_part3/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -208,12 +215,137 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Web APIs</strong> (with <code>plumber</code>)</li>
 </ul>
 <p>Types of R packages: tool based, methods, analytical, web data project</p>
-<p>(To be continued)</p>
+<section id="principles-and-tools" class="level2">
+<h2 class="anchored" data-anchor-id="principles-and-tools">Principles and tools</h2>
+<p>Reproducibility: Git (code versioning), dependencies (<code>renv</code> for r package dependencies, Docker for system dependencies)</p>
+<section id="clean-code" class="level3">
+<h3 class="anchored" data-anchor-id="clean-code">Clean code</h3>
+<p>Code comments: not recommended! Better to write code in a way that does not need additional comments.</p>
+<p><strong>DRY</strong>: don’t repeat yourself (principle of software development), avoid copy and paste everywhere.</p>
+<p><strong>SRP</strong>: single-responsibility prinicple, a function should do one thing: either plot a chart, saves a file, changes variables etc, but not all.</p>
+<p>Naming conventions</p>
+<ul>
+<li>Reserve <strong>dots</strong> (.) for S3 methods (<code>print.patient</code>)</li>
+<li>Reserve <strong>CamelCase</strong> for R6 classes or package names (<code>OurPatients</code>)</li>
+<li>Use <strong>snake cases</strong> (<code>all_patients</code>) for function names and arguments, use <strong>verb noun</strong> pattern (<code>plot_this()</code>)</li>
+</ul>
+</section>
+<section id="code-smells" class="level3">
+<h3 class="anchored" data-anchor-id="code-smells">Code smells</h3>
+<p>A function might be too large: break into smaller ones (e.g.&nbsp;could fit in one screen)</p>
+<p>A function violates SRP: break into smaller ones, and be explicit in what result it is expected to return</p>
+<p>A function with multiple arguments: the scenarios to be tested increase rapidly. Recommended to minimize number of critical function arguments, and break the function into smaller ones.</p>
+<p>Bad comments in the code: drop the unnecessary, unclear, outdated comments, write code that are self-explanatory.</p>
+</section>
+<section id="development-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="development-workflow">Development workflow</h3>
+<p>Code refactoring: change existing code without its functionality</p>
+<p><strong>TDD</strong>: Test-Driven Development</p>
+<ul>
+<li>start with writing a new (failing) test</li>
+<li>write code thtat passes the nenw tetst</li>
+<li>refactor the code</li>
+<li>and repeat</li>
+</ul>
+<p>Benefits: your code is covered by tests; you think of testing scenarios first; “fail fast” - can immediately repair the code; more freedom to refactor (improve) the code.</p>
+<p>How to <strong>test</strong></p>
+<ul>
+<li>automatically: CI/CD, after pushing Git commits</li>
+<li>manually:
+<ul>
+<li>run all unit tests in the package (<em>Build / Test package</em>)</li>
+<li>run tests in a selected test file (<em>Run Tests</em>)</li>
+<li>run a single test in Rstudio console</li>
+</ul></li>
+</ul>
+<p>How to <strong>check</strong></p>
+<ul>
+<li>R CMD CHECK</li>
+</ul>
+</section>
+</section>
+<section id="writing-robust-statistical-software" class="level2">
+<h2 class="anchored" data-anchor-id="writing-robust-statistical-software">Writing robust statistical software</h2>
+<p>Implement complext statistical methods such that the software is <strong>reliable, and includes appropriate testing</strong> to ensure high quality and validity and ultimately credibility of statistical analysis results.</p>
+<ol type="1">
+<li>choose the <strong>right method</strong> and understand them</li>
+<li>solve the core implementation problem with <strong>prototype</strong> code</li>
+</ol>
+<p>Need to try a few different solutions, compare and select the best one. Might also need to involve domain experts.</p>
+<ol start="3" type="1">
+<li>spend enough time on planning the <strong>design</strong> of the R package</li>
+</ol>
+<p>Don’t write the package right away; instead define the scope, discuss with users, and design the package.</p>
+<p>Start to draw a flow diagram, align names, arguments and classes; write prototype code.</p>
+<ol start="4" type="1">
+<li>assume the package will evolve over time</li>
+</ol>
+<p>Packages you depend on will change; users will require new features</p>
+<p>Write tests</p>
+<ul>
+<li>unit tests</li>
+<li>integration tests</li>
+</ul>
+<p>Make the package extensible</p>
+<ul>
+<li>consider <strong>object oriented</strong> package designs</li>
+<li>combine functions in <strong>pipelines</strong></li>
+</ul>
+<p>Keep it manageable</p>
+<ul>
+<li>avoid too many arguments</li>
+<li>avoid too large functions</li>
+</ul>
+</section>
 </section>
 <section id="cicd-for-r-packages" class="level1">
 <h1>CI/CD for R packages</h1>
+<p>Continuous Integration: tests code changes to maintain the integrity of the codebase</p>
+<p>Continuous Delivery: deploy artifacts (such as an R package) to target systems</p>
+<section id="key-components" class="level2">
+<h2 class="anchored" data-anchor-id="key-components">Key components</h2>
+<section id="dependency-management" class="level3">
+<h3 class="anchored" data-anchor-id="dependency-management">Dependency management</h3>
+<p>Install dependencies (system/OS level; R packages)</p>
+<ul>
+<li>Set <code>repos</code> (can be specified in <code>options()</code>) to e.g.&nbsp;CRAN, BioConductor</li>
+<li><code>renv</code></li>
+<li>container with dependencies pre-installed</li>
+</ul>
+</section>
+<section id="static-code-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="static-code-analysis">Static code analysis</h3>
+<ul>
+<li>Linting (for programmatic and syntax errors) via <code>lintr</code> package</li>
+<li>Code style enforcement via <code>styler</code> package</li>
+<li>Spell checks identifies misspelled words in vignettes, docs and R code via <code>spelling</code> package</li>
+</ul>
+</section>
+<section id="testing" class="level3">
+<h3 class="anchored" data-anchor-id="testing">Testing</h3>
+<ul>
+<li><code>R CMD build</code> builds R packages as a installable artifact</li>
+<li><code>R CMD check</code> runs 20+ checks including unit tests, reports errors, warnigns and notes</li>
+<li>Test coverage reports with <code>covr</code>, checks how many lines of code are covered with tests</li>
+<li><code>R CMD INSTALL</code> tests R package installation</li>
+</ul>
+</section>
+<section id="documentation" class="level3">
+<h3 class="anchored" data-anchor-id="documentation">Documentation</h3>
+<p>Auto-generated docs via <code>Roxygen</code> and <code>pkgdown</code></p>
+</section>
+<section id="release-and-deployments" class="level3">
+<h3 class="anchored" data-anchor-id="release-and-deployments">Release and deployments</h3>
+<p>Release artifacts and deployments to target systems</p>
+<ul>
+<li>Changelog (features, bug fixes) in the <code>NEWS.md</code></li>
+<li>Release: create the package with <code>R CMD build</code>. Validation report with <code>thevalidatoR</code></li>
+<li>Publishing: CRAN, BioConductor</li>
+</ul>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

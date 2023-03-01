@@ -522,7 +522,7 @@
     "href": "blog/blog.html",
     "title": "Blog and notes",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMostly notes for my own use\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 3\n\n\nFeb 27, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 4\n\n\nFeb 27, 2023\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\nFeb 25, 2023\n\n\n\n\nOOP in R: S3 and R6\n\n\nFeb 23, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\nFeb 22, 2023\n\n\n\n\nR package website with pkgdown\n\n\nFeb 20, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMostly notes for my own use\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 4\n\n\nMar 1, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 3\n\n\nFeb 27, 2023\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\nFeb 25, 2023\n\n\n\n\nOOP in R: S3 and R6\n\n\nFeb 23, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\nFeb 22, 2023\n\n\n\n\nR package website with pkgdown\n\n\nFeb 20, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/blog.html#notes",
@@ -907,7 +907,7 @@
     "href": "blog/technotes_20230227_clinreport_part4/index.html",
     "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
     "section": "",
-    "text": "This is a course provided by Genentech (part of Roche) on Coursera.\nCourse link\n\nRisk assessment and management"
+    "text": "This is a course provided by Genentech (part of Roche) on Coursera.\nCourse link"
   },
   {
     "objectID": "blog/technotes_20230227_clinreport_part3/index.html#principles-and-tools",
@@ -929,5 +929,47 @@
     "title": "Notes: Making Data Science work for Clinical Reporting - Part 3",
     "section": "Key components",
     "text": "Key components\n\nDependency management\nInstall dependencies (system/OS level; R packages)\n\nSet repos (can be specified in options()) to e.g. CRAN, BioConductor\nrenv\ncontainer with dependencies pre-installed\n\n\n\nStatic code analysis\n\nLinting (for programmatic and syntax errors) via lintr package\nCode style enforcement via styler package\nSpell checks identifies misspelled words in vignettes, docs and R code via spelling package\n\n\n\nTesting\n\nR CMD build builds R packages as a installable artifact\nR CMD check runs 20+ checks including unit tests, reports errors, warnigns and notes\nTest coverage reports with covr, checks how many lines of code are covered with tests\nR CMD INSTALL tests R package installation\n\n\n\nDocumentation\nAuto-generated docs via Roxygen and pkgdown\n\n\nRelease and deployments\nRelease artifacts and deployments to target systems\n\nChangelog (features, bug fixes) in the NEWS.md\nRelease: create the package with R CMD build. Validation report with thevalidatoR\nPublishing: CRAN, BioConductor"
+  },
+  {
+    "objectID": "blog/technotes_20230227_clinreport_part4/index.html#communities-behind-open-source-packages",
+    "href": "blog/technotes_20230227_clinreport_part4/index.html#communities-behind-open-source-packages",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
+    "section": "Communities behind open source packages",
+    "text": "Communities behind open source packages\nExmample:\n\nsurvival: 8 developers, >18 years\nadmiral: 25 developers, >1 year\ntern: 77 developers, 5 years\nrtables: 21 developers, 4 years\n\nEngagement across these packages is different, some receive more issues and comments, some receive more code contributions.\nStale: stable? abandoned?\nContribution is highly skewed, a few contributors write the majority of the code."
+  },
+  {
+    "objectID": "blog/technotes_20230227_clinreport_part4/index.html#open-source-packages",
+    "href": "blog/technotes_20230227_clinreport_part4/index.html#open-source-packages",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
+    "section": "Open source packages",
+    "text": "Open source packages\nExmample:\n\nsurvival: 8 developers, >18 years\nadmiral: 25 developers, >1 year\ntern: 77 developers, 5 years\nrtables: 21 developers, 4 years\n\nEngagement across these packages is different, some receive more issues and comments, some receive more code contributions.\nStale: stable? abandoned?\nContribution is highly skewed, a few contributors write the majority of the code.\nR package life cycles (indicative, not guaranteed)\n\nexperimental (ready to use?)\nstable (safe to use?)\ndeprecated, no longer maintained\nsuperseded, something better exists\n<1.0: big changes likely; >=v1.0: is it safe to use?"
+  },
+  {
+    "objectID": "blog/technotes_20230227_clinreport_part4/index.html#assess-external-packages-for-statistical-methods",
+    "href": "blog/technotes_20230227_clinreport_part4/index.html#assess-external-packages-for-statistical-methods",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
+    "section": "Assess external packages for statistical methods",
+    "text": "Assess external packages for statistical methods\nDoes it provide the required functionality?\n\nCorrect statistical method?\nCould you extend it?\nCorrect results? (compare with another software)\nDo you understand the method? (check the paper linked with package)\n\nDoes it work reliably?\n\nPublished? (e.g. on CRAN)\nDifferent inputs?\nFast?\nDo other people use it? (downloads)\nDoes other software use it? (reverse dependencies)\n\nDoes the code look robust and well tested?\n\nHow are the functions implemented\nIs the source code readable\nCoverage with unit tests\nMature package?\n\nIs it well documented?\n\nDocumented functions?\nVignettes?\nPublished?\nInformative NEWS entry?\n\nWho are the authors, are they responsive?\n\nDid they publish statistics papers on this topic\nIs a github site with issues available"
+  },
+  {
+    "objectID": "blog/technotes_20230227_clinreport_part4/index.html#tools",
+    "href": "blog/technotes_20230227_clinreport_part4/index.html#tools",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
+    "section": "Tools",
+    "text": "Tools\ncovr and unit tests\nriskmetric and the R Validation Hub\npharmaverse.org, with end-to-end examples"
+  },
+  {
+    "objectID": "blog/technotes_20230227_clinreport_part4/index.html#ri",
+    "href": "blog/technotes_20230227_clinreport_part4/index.html#ri",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
+    "section": "Ri",
+    "text": "Ri\nCombine external and internal packages (CI/CD release)\n-> automated package data collection\n-> automated quality checks: if not pass, assess\n-> package repo integration tests\n-> publish to package repo, generate package validation report"
+  },
+  {
+    "objectID": "blog/technotes_20230227_clinreport_part4/index.html#risk-mitigation-for-r-packages",
+    "href": "blog/technotes_20230227_clinreport_part4/index.html#risk-mitigation-for-r-packages",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
+    "section": "Risk mitigation for R packages",
+    "text": "Risk mitigation for R packages\nCombine external and internal packages (CI/CD release)\n-> automated package data collection\n-> automated quality checks: if not pass, assess\n-> package repo integration tests\n-> publish to package repo, generate package validation report"
   }
 ]

@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Chi Zhang">
-<meta name="dcterms.date" content="2023-02-27">
-<meta name="description" content="This is the Part 4 of a four-part course on Coursera. In this part,">
+<meta name="dcterms.date" content="2023-03-01">
+<meta name="description" content="This is the Part 4 of a four-part course on Coursera.">
 
 <title>Hello, I’m Chi - Notes: Making Data Science work for Clinical Reporting - Part 4</title>
 <style>
@@ -131,7 +131,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#risk-assessment-and-management" id="toc-risk-assessment-and-management" class="nav-link active" data-scroll-target="#risk-assessment-and-management">Risk assessment and management</a></li>
+  <li><a href="#risk-assessment-and-management" id="toc-risk-assessment-and-management" class="nav-link active" data-scroll-target="#risk-assessment-and-management">Risk assessment and management</a>
+  <ul class="collapse">
+  <li><a href="#open-source-packages" id="toc-open-source-packages" class="nav-link" data-scroll-target="#open-source-packages">Open source packages</a></li>
+  <li><a href="#risk-mitigation-for-r-packages" id="toc-risk-mitigation-for-r-packages" class="nav-link" data-scroll-target="#risk-mitigation-for-r-packages">Risk mitigation for R packages</a></li>
+  <li><a href="#assess-external-packages-for-statistical-methods" id="toc-assess-external-packages-for-statistical-methods" class="nav-link" data-scroll-target="#assess-external-packages-for-statistical-methods">Assess external packages for statistical methods</a></li>
+  <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/technotes_20230227_clinreport_part4/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -150,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    <p>This is the Part 4 of a four-part course on Coursera. In this part,</p>
+    <p>This is the Part 4 of a four-part course on Coursera.</p>
   </div>
 </div>
 
@@ -167,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 27, 2023</p>
+      <p class="date">March 1, 2023</p>
     </div>
   </div>
   
@@ -181,8 +187,82 @@ ul.task-list li input[type="checkbox"] {
 <p>Course <a href="https://www.coursera.org/learn/making-data-science-work-for-clinical-reporting">link</a></p>
 <section id="risk-assessment-and-management" class="level1">
 <h1>Risk assessment and management</h1>
+<p>Over 19k CRAN packages and 10k maintainers</p>
+<p>Some are universally used, documented, tested and have vibrant community of users and developers; some have limited docs and testing.</p>
+<section id="open-source-packages" class="level2">
+<h2 class="anchored" data-anchor-id="open-source-packages">Open source packages</h2>
+<p>Exmample:</p>
+<ul>
+<li><code>survival</code>: 8 developers, &gt;18 years</li>
+<li><code>admiral</code>: 25 developers, &gt;1 year</li>
+<li><code>tern</code>: 77 developers, 5 years</li>
+<li><code>rtables</code>: 21 developers, 4 years</li>
+</ul>
+<p>Engagement across these packages is different, some receive more issues and comments, some receive more code contributions.</p>
+<p>Stale: stable? abandoned?</p>
+<p>Contribution is highly skewed, a few contributors write the majority of the code.</p>
+<p>R package <strong>life cycles</strong> (indicative, not guaranteed)</p>
+<ul>
+<li>experimental (ready to use?)</li>
+<li>stable (safe to use?)</li>
+<li>deprecated, no longer maintained</li>
+<li>superseded, something better exists</li>
+<li><code>&lt;1.0</code>: big changes likely; <code>&gt;=v1.0</code>: is it safe to use?</li>
+</ul>
+</section>
+<section id="risk-mitigation-for-r-packages" class="level2">
+<h2 class="anchored" data-anchor-id="risk-mitigation-for-r-packages">Risk mitigation for R packages</h2>
+<p>Combine external and internal packages (CI/CD release)</p>
+<p>-&gt; automated package data collection</p>
+<p>-&gt; automated quality checks: if not pass, assess</p>
+<p>-&gt; package repo integration tests</p>
+<p>-&gt; publish to package repo, generate package validation report</p>
+</section>
+<section id="assess-external-packages-for-statistical-methods" class="level2">
+<h2 class="anchored" data-anchor-id="assess-external-packages-for-statistical-methods">Assess external packages for statistical methods</h2>
+<p>Does it provide the required functionality?</p>
+<ul>
+<li>Correct statistical method?</li>
+<li>Could you extend it?</li>
+<li>Correct results? (compare with another software)</li>
+<li>Do you understand the method? (check the paper linked with package)</li>
+</ul>
+<p>Does it work reliably?</p>
+<ul>
+<li>Published? (e.g.&nbsp;on CRAN)</li>
+<li>Different inputs?</li>
+<li>Fast?</li>
+<li>Do other people use it? (downloads)</li>
+<li>Does other software use it? (reverse dependencies)</li>
+</ul>
+<p>Does the code look robust and well tested?</p>
+<ul>
+<li>How are the functions implemented</li>
+<li>Is the source code readable</li>
+<li>Coverage with unit tests</li>
+<li>Mature package?</li>
+</ul>
+<p>Is it well documented?</p>
+<ul>
+<li>Documented functions?</li>
+<li>Vignettes?</li>
+<li>Published?</li>
+<li>Informative NEWS entry?</li>
+</ul>
+<p>Who are the authors, are they responsive?</p>
+<ul>
+<li>Did they publish statistics papers on this topic</li>
+<li>Is a github site with issues available</li>
+</ul>
+</section>
+<section id="tools" class="level2">
+<h2 class="anchored" data-anchor-id="tools">Tools</h2>
+<p><code>covr</code> and unit tests</p>
+<p><code>riskmetric</code> and the R Validation Hub</p>
+<p><strong>pharmaverse.org</strong>, with end-to-end examples</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

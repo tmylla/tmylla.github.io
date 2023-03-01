@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.242">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Chi Zhang">
+<meta name="dcterms.date" content="2023-02-27">
+<meta name="description" content="This is the Part 3 of a four-part course on Coursera. In this part, innerSource and OpenSource concepts are introduced, and R package development is discussed.">
+
+<title>Hello, I’m Chi - Notes: Making Data Science work for Clinical Reporting - Part 3</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Hello, I’m Chi</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/projects.html">
+ <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching/teaching.html">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../rpkg/rpkg.html">
+ <span class="menu-text">R packages</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks/talks.html">
+ <span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/blog.html">
+ <span class="menu-text">Blog/notes</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../../about_me.html">
+ <span class="dropdown-text">About me</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../resources/CV_Chi_Zhang.pdf">
+ <span class="dropdown-text">CV</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#innersource-and-opensource" id="toc-innersource-and-opensource" class="nav-link active" data-scroll-target="#innersource-and-opensource">InnerSource and OpenSource</a></li>
+  <li><a href="#r-package-development" id="toc-r-package-development" class="nav-link" data-scroll-target="#r-package-development">R package development</a>
+  <ul class="collapse">
+  <li><a href="#principles-and-tools" id="toc-principles-and-tools" class="nav-link" data-scroll-target="#principles-and-tools">Principles and tools</a></li>
+  <li><a href="#writing-robust-statistical-software" id="toc-writing-robust-statistical-software" class="nav-link" data-scroll-target="#writing-robust-statistical-software">Writing robust statistical software</a></li>
+  </ul></li>
+  <li><a href="#cicd-for-r-packages" id="toc-cicd-for-r-packages" class="nav-link" data-scroll-target="#cicd-for-r-packages">CI/CD for R packages</a>
+  <ul class="collapse">
+  <li><a href="#key-components" id="toc-key-components" class="nav-link" data-scroll-target="#key-components">Key components</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/technotes_20230228_clinreport_part3/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Notes: Making Data Science work for Clinical Reporting - Part 3</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Clinical trial</div>
+    <div class="quarto-category">Data science</div>
+    <div class="quarto-category">Reporting</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>This is the Part 3 of a four-part course on Coursera. In this part, innerSource and OpenSource concepts are introduced, and R package development is discussed.</p>
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Chi Zhang </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 27, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p>This is a course provided by Genentech (part of Roche) on Coursera.</p>
+<p>Course <a href="https://www.coursera.org/learn/making-data-science-work-for-clinical-reporting">link</a></p>
+<section id="innersource-and-opensource" class="level1">
+<h1>InnerSource and OpenSource</h1>
+<p>InnerSource: use of open source software development practices and open source-like culture (even though the software developed might still be proprietary)</p>
+<p>When to OpenSource? Which license to use?</p>
+<ul>
+<li>MIT license is the most permissive one</li>
+</ul>
+</section>
+<section id="r-package-development" class="level1">
+<h1>R package development</h1>
+<p>R packages are useful for</p>
+<ul>
+<li><strong>Reusability</strong> by other users, developers, “future me”</li>
+<li><strong>Robustness</strong>: well-tested, maintained for a longer period of time</li>
+<li><strong>Encapsulation</strong>: hidden complexitty inside the package (internal functions), stable interface exposed to the users (exported functions)</li>
+</ul>
+<p>What can ben encapsulated in an R package?</p>
+<ul>
+<li><strong>R functions</strong> (internal, exported)</li>
+<li><strong>Tests</strong> (unit tests, <code>testthat</code> package)</li>
+<li><strong>Data</strong> (raw, processed)</li>
+<li><strong>Analytical code</strong> (reproducible analysis and reporting)</li>
+<li><strong>Text</strong> (literate programming): markdown, Rmarkdown, Quarto, Vignettes</li>
+<li><strong>Interactive applications</strong> (shiny)</li>
+<li><strong>Web APIs</strong> (with <code>plumber</code>)</li>
+</ul>
+<p>Types of R packages: tool based, methods, analytical, web data project</p>
+<section id="principles-and-tools" class="level2">
+<h2 class="anchored" data-anchor-id="principles-and-tools">Principles and tools</h2>
+<p>Reproducibility: Git (code versioning), dependencies (<code>renv</code> for r package dependencies, Docker for system dependencies)</p>
+<section id="clean-code" class="level3">
+<h3 class="anchored" data-anchor-id="clean-code">Clean code</h3>
+<p>Code comments: not recommended! Better to write code in a way that does not need additional comments.</p>
+<p><strong>DRY</strong>: don’t repeat yourself (principle of software development), avoid copy and paste everywhere.</p>
+<p><strong>SRP</strong>: single-responsibility prinicple, a function should do one thing: either plot a chart, saves a file, changes variables etc, but not all.</p>
+<p>Naming conventions</p>
+<ul>
+<li>Reserve <strong>dots</strong> (.) for S3 methods (<code>print.patient</code>)</li>
+<li>Reserve <strong>CamelCase</strong> for R6 classes or package names (<code>OurPatients</code>)</li>
+<li>Use <strong>snake cases</strong> (<code>all_patients</code>) for function names and arguments, use <strong>verb noun</strong> pattern (<code>plot_this()</code>)</li>
+</ul>
+</section>
+<section id="code-smells" class="level3">
+<h3 class="anchored" data-anchor-id="code-smells">Code smells</h3>
+<p>A function might be too large: break into smaller ones (e.g.&nbsp;could fit in one screen)</p>
+<p>A function violates SRP: break into smaller ones, and be explicit in what result it is expected to return</p>
+<p>A function with multiple arguments: the scenarios to be tested increase rapidly. Recommended to minimize number of critical function arguments, and break the function into smaller ones.</p>
+<p>Bad comments in the code: drop the unnecessary, unclear, outdated comments, write code that are self-explanatory.</p>
+</section>
+<section id="development-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="development-workflow">Development workflow</h3>
+<p>Code refactoring: change existing code without its functionality</p>
+<p><strong>TDD</strong>: Test-Driven Development</p>
+<ul>
+<li>start with writing a new (failing) test</li>
+<li>write code thtat passes the nenw tetst</li>
+<li>refactor the code</li>
+<li>and repeat</li>
+</ul>
+<p>Benefits: your code is covered by tests; you think of testing scenarios first; “fail fast” - can immediately repair the code; more freedom to refactor (improve) the code.</p>
+<p>How to <strong>test</strong></p>
+<ul>
+<li>automatically: CI/CD, after pushing Git commits</li>
+<li>manually:
+<ul>
+<li>run all unit tests in the package (<em>Build / Test package</em>)</li>
+<li>run tests in a selected test file (<em>Run Tests</em>)</li>
+<li>run a single test in Rstudio console</li>
+</ul></li>
+</ul>
+<p>How to <strong>check</strong></p>
+<ul>
+<li>R CMD CHECK</li>
+</ul>
+</section>
+</section>
+<section id="writing-robust-statistical-software" class="level2">
+<h2 class="anchored" data-anchor-id="writing-robust-statistical-software">Writing robust statistical software</h2>
+<p>Implement complext statistical methods such that the software is <strong>reliable, and includes appropriate testing</strong> to ensure high quality and validity and ultimately credibility of statistical analysis results.</p>
+<ol type="1">
+<li>choose the <strong>right method</strong> and understand them</li>
+<li>solve the core implementation problem with <strong>prototype</strong> code</li>
+</ol>
+<p>Need to try a few different solutions, compare and select the best one. Might also need to involve domain experts.</p>
+<ol start="3" type="1">
+<li>spend enough time on planning the <strong>design</strong> of the R package</li>
+</ol>
+<p>Don’t write the package right away; instead define the scope, discuss with users, and design the package.</p>
+<p>Start to draw a flow diagram, align names, arguments and classes; write prototype code.</p>
+<ol start="4" type="1">
+<li>assume the package will evolve over time</li>
+</ol>
+<p>Packages you depend on will change; users will require new features</p>
+<p>Write tests</p>
+<ul>
+<li>unit tests</li>
+<li>integration tests</li>
+</ul>
+<p>Make the package extensible</p>
+<ul>
+<li>consider <strong>object oriented</strong> package designs</li>
+<li>combine functions in <strong>pipelines</strong></li>
+</ul>
+<p>Keep it manageable</p>
+<ul>
+<li>avoid too many arguments</li>
+<li>avoid too large functions</li>
+</ul>
+</section>
+</section>
+<section id="cicd-for-r-packages" class="level1">
+<h1>CI/CD for R packages</h1>
+<p>Continuous Integration: tests code changes to maintain the integrity of the codebase</p>
+<p>Continuous Delivery: deploy artifacts (such as an R package) to target systems</p>
+<section id="key-components" class="level2">
+<h2 class="anchored" data-anchor-id="key-components">Key components</h2>
+<section id="dependency-management" class="level3">
+<h3 class="anchored" data-anchor-id="dependency-management">Dependency management</h3>
+<p>Install dependencies (system/OS level; R packages)</p>
+<ul>
+<li>Set <code>repos</code> (can be specified in <code>options()</code>) to e.g.&nbsp;CRAN, BioConductor</li>
+<li><code>renv</code></li>
+<li>container with dependencies pre-installed</li>
+</ul>
+</section>
+<section id="static-code-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="static-code-analysis">Static code analysis</h3>
+<ul>
+<li>Linting (for programmatic and syntax errors) via <code>lintr</code> package</li>
+<li>Code style enforcement via <code>styler</code> package</li>
+<li>Spell checks identifies misspelled words in vignettes, docs and R code via <code>spelling</code> package</li>
+</ul>
+</section>
+<section id="testing" class="level3">
+<h3 class="anchored" data-anchor-id="testing">Testing</h3>
+<ul>
+<li><code>R CMD build</code> builds R packages as a installable artifact</li>
+<li><code>R CMD check</code> runs 20+ checks including unit tests, reports errors, warnigns and notes</li>
+<li>Test coverage reports with <code>covr</code>, checks how many lines of code are covered with tests</li>
+<li><code>R CMD INSTALL</code> tests R package installation</li>
+</ul>
+</section>
+<section id="documentation" class="level3">
+<h3 class="anchored" data-anchor-id="documentation">Documentation</h3>
+<p>Auto-generated docs via <code>Roxygen</code> and <code>pkgdown</code></p>
+</section>
+<section id="release-and-deployments" class="level3">
+<h3 class="anchored" data-anchor-id="release-and-deployments">Release and deployments</h3>
+<p>Release artifacts and deployments to target systems</p>
+<ul>
+<li>Changelog (features, bug fixes) in the <code>NEWS.md</code></li>
+<li>Release: create the package with <code>R CMD build</code>. Validation report with <code>thevalidatoR</code></li>
+<li>Publishing: CRAN, BioConductor</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© Copyright 2022, Chi Zhang</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/andreaczhang/andreaczhang.github.io">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/Andreasheenn">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

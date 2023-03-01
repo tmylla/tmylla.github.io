@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.242">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Chi Zhang">
+<meta name="dcterms.date" content="2023-03-01">
+<meta name="description" content="A review of the Coursera course provivded by Genentech and Roche, on “Making data science work for clinical reporting”.">
+
+<title>Hello, I’m Chi - Course review: making DS work for clinical reporting</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Hello, I’m Chi</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/projects.html">
+ <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching/teaching.html">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../rpkg/rpkg.html">
+ <span class="menu-text">R packages</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks/talks.html">
+ <span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/blog.html">
+ <span class="menu-text">Blog/notes</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../../about_me.html">
+ <span class="dropdown-text">About me</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../resources/CV_Chi_Zhang.pdf">
+ <span class="dropdown-text">CV</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#each-module" id="toc-each-module" class="nav-link" data-scroll-target="#each-module">Each module</a></li>
+  <li><a href="#highlight" id="toc-highlight" class="nav-link" data-scroll-target="#highlight">Highlight</a></li>
+  </ul></li>
+  <li><a href="#ways-forward-as-a-practitioner" id="toc-ways-forward-as-a-practitioner" class="nav-link" data-scroll-target="#ways-forward-as-a-practitioner">Ways forward as a practitioner</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/blog_20230301_ds_clinreport/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Course review: making DS work for clinical reporting</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Reporting</div>
+    <div class="quarto-category">Data science</div>
+    <div class="quarto-category">RSE</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>A review of the Coursera course provivded by Genentech and Roche, on “Making data science work for clinical reporting”.</p>
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Chi Zhang </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 1, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>This is a course provided by Genentech (part of Roche) on Coursera (<a href="https://www.coursera.org/learn/making-data-science-work-for-clinical-reporting">course link</a>). It is not necessary to have a paid coursera membership to view the course, everyone could access it.</p>
+<p>It is a 4 part course released one month ago (Jan/Feb 2023), and it seems that a follow-up will be released in the future.</p>
+<p>Overall I think it strikes a good balance between high-level introduction of the good practices, and examples with how they are implemented. Even though the course focuses on <strong>clinical reporting in the pharmaceutical industry</strong>, the practices are highly relevant in other sectors as well (e.g.&nbsp;public health, academia, other industries that use open-source software).</p>
+<p>Specific statistical methods, packages are introduced only at a high-level; which means the course is not for learning how to use this or that packages; but good practice guidelines.</p>
+<p>In my opinion,</p>
+<ul>
+<li>it would be useful if the learner has some experience with software development and/or statistics; otherwise learners <em>might</em> not know how to practice them.</li>
+<li>most of the examples are related to R packages (understandable), so some experience with R package (use or develop) is useful.</li>
+<li>it could be a very good study material for university students in related subjects.</li>
+</ul>
+<section id="each-module" class="level2">
+<h2 class="anchored" data-anchor-id="each-module">Each module</h2>
+<ul>
+<li>Module 1 (<a href="https://andreaczhang.github.io/blog/technotes_20230205_clinreport_part1/">notes</a>): what the requirements are regarding clinical reporting, what should be done to meet the quality standards;</li>
+<li>Module 2 (<a href="https://andreaczhang.github.io/blog/technotes_20230222_clinreport_part2/">notes</a>): DevOps and Agile</li>
+<li>Module 3 (<a href="https://andreaczhang.github.io/blog/technotes_20230222_clinreport_part2/">notes</a>): version Control, git workflows, reproducible clinical reporting</li>
+<li>Module 4 (<a href="https://andreaczhang.github.io/blog/technotes_20230227_clinreport_part3/">notes</a>): code quality, robust and reusable code, R packages</li>
+<li>Module 5 (<a href="https://andreaczhang.github.io/blog/technotes_20230227_clinreport_part4/">notes</a>): risk management with open source software</li>
+</ul>
+</section>
+<section id="highlight" class="level2">
+<h2 class="anchored" data-anchor-id="highlight">Highlight</h2>
+<p>I have a few years of experience as an R developer and academic researcher in related fields, so not all concepts are new to me. Nevertheless, I still learned quite a bit. For example,</p>
+<ul>
+<li>(Module 1) Data and results sharing needs to follow certain standards, such as <strong>CDISC</strong>; there are different industry standards to follow when it comes to data acquisition, tabulation and analysis (e.g.&nbsp;<strong>ADaM</strong>)</li>
+<li>(Module 2) Data scientists not only need hard skills, but also soft skills - they need to be able to wear many hats, and be more flexible and resilient.</li>
+<li>(Module 4, 5) <strong>Tests</strong> are extremely important. Think afar, develop your package so that they can be extended in the future. Design your package first, don’t start making your package immediately.</li>
+</ul>
+</section>
+</section>
+<section id="ways-forward-as-a-practitioner" class="level1">
+<h1>Ways forward as a practitioner</h1>
+<p>There are things I know I have started doing (like write function documentation and vignette, use small functions rather than large and long ones); yet there are lots of things I should be making an active effort on.</p>
+<p>I have beenn using <strong>CI/CD</strong> “unconsciously”: my team had been using it, GitHub Action builds my <code>pkgdown</code> website automatically; I’ve learned the basics of CI/CD and GitHub Actions at one occasion; and that is it. This should be done in a better and more consistent way.</p>
+<p>More careful <strong>package planning</strong> should be done; <strong>tests</strong> should definitely be prioritized in my future code. Use <strong>object oriented</strong> design so that I can extend the functionalities in the future.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© Copyright 2022, Chi Zhang</div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/andreaczhang/andreaczhang.github.io">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/Andreasheenn">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

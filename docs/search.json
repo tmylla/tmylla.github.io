@@ -1,486 +1,10 @@
 [
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "I joined the Norwegian Institute of Public Health in 2020, as a member of the Sykdomspulsen team. We are a core part of the COVID-19 pandemic response task force in Norway. I help build the real-time public health surveillance platform using R and other open source data science tools. You can find our R packages here.\nIn 2021-2022, I am the responsible statistician for NorMOMO, the Norwegian Mortality Monitoring project, which is part of the European network EuroMOMO. I work on R packages nowcast and splalert.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects.html#academic-research",
-    "href": "projects.html#academic-research",
-    "title": "Projects",
-    "section": "Academic Research",
-    "text": "Academic Research\nI have earned my PhD from University of Oslo in 2022. My PhD research was on the representation and utilization of hospital electronic health records data."
-  },
-  {
-    "objectID": "projects.html#advising",
-    "href": "projects.html#advising",
-    "title": "Projects",
-    "section": "Advising",
-    "text": "Advising\nI work as a statistical advisor on the side, helping clinical researchers with methodology and anaysis."
-  },
-  {
-    "objectID": "projects.html#community",
-    "href": "projects.html#community",
-    "title": "Projects",
-    "section": "Community",
-    "text": "Community\nI am an active member of Oslo User R group and Oslo R ladies group.\nIn addition, I am a certified Capentry instructor."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Chi Zhang",
-    "section": "",
-    "text": "andreasheenn@fosstodon.org\n  \n  \n    \n     andreaczhang\n  \n\n  \n  \nChi is a researcher at the Faculty of Medicine, University of Oslo. Chi is interested in developing research software (such as R packages and shiny) for clinical and public health applications.\nAs a lecturer, Chi teaches statistics courses at Oslo Centre for Biostatistics and Epidemiology (OCBE) and R programming at the Carpentries workshops at University of Oslo.\nIn 2020-2022, Chi worked as R developer and statistician for the open source real-time analysis and public health surveillance system, Sykdomspulsen at the Norwegian Institute of Public Health.\nChi enjoys spending time in the mountains."
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "University of Oslo | Oslo, Norway\nPhD in Biostatistics (2022)\nImperial College London | London, UK\nMSc in Statistics (2016)\nUniversity of Liverpool | Liverpool, UK\nBSc in Mathematics with Finance (2014)"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog and notes",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "project-2-ehr.html",
-    "href": "project-2-ehr.html",
-    "title": "Project 2",
-    "section": "",
-    "text": "I have earned my PhD from University of Oslo in 2022. My PhD research was on the representation and utilization of hospital electronic health records data."
-  },
-  {
-    "objectID": "project-2-ehr.html#advising",
-    "href": "project-2-ehr.html#advising",
-    "title": "Project 2",
-    "section": "Advising",
-    "text": "Advising\nI work as a statistical advisor on the side, helping clinical researchers with methodology and anaysis."
-  },
-  {
-    "objectID": "project-2-ehr.html#community",
-    "href": "project-2-ehr.html#community",
-    "title": "Project 2",
-    "section": "Community",
-    "text": "Community\nI am an active member of Oslo User R group and Oslo R ladies group.\nIn addition, I am a certified Capentry instructor."
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "An automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup\n\n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks/post-with-code/index.html",
-    "href": "talks/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "talks/welcome/index.html",
-    "href": "talks/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "project-1-ph.html",
-    "href": "project-1-ph.html",
-    "title": "Project 1",
-    "section": "",
-    "text": "I joined the Norwegian Institute of Public Health in 2020, as a member of the Sykdomspulsen team. We are a core part of the COVID-19 pandemic response task force in Norway. I help build the real-time public health surveillance platform using R and other open source data science tools. You can find our R packages here.\nIn 2021-2022, I am the responsible statistician for NorMOMO, the Norwegian Mortality Monitoring project, which is part of the European network EuroMOMO. I work on R packages nowcast and splalert."
-  },
-  {
-    "objectID": "rpkg.html",
-    "href": "rpkg.html",
-    "title": "R packages",
-    "section": "",
-    "text": "Public health\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\n\n\n\n\n\nmedicode\n\n\n\n\n\n\n\nmortanor\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTools\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\ncstime\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/post-with-code/index.html",
-    "href": "teaching/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "about_me.html",
     "href": "about_me.html",
     "title": "Chi Zhang",
     "section": "",
     "text": "chi.zhang@medisin.uio.no\n  \n  \n    \n     Andreasheenn\n  \n  \n    \n     andreasheenn@fosstodon.org\n  \n  \n    \n     Chi Zhang\n  \n\n\n\nI am a researcher and lecturer at the Faculty of Medicine, University of Oslo. Over the past few years, I’ve become very interested in research software, open source and data science practices in education and public sector, and I’m trying to become a research software engineer (RSE).\nMy interests are:\n\nStatistical software development, with a focus on public health and clinical research\nStatistics education with R, Quarto, shiny and friends\nReproducibility, open source and open science\n\nI have a MSc of Statistics from Imperial College London in 2016. Then I moved to Norway to do my PhD and some hiking. I obtained my PhD (thesis: Representation and Utilization of hospital Electronic Health Records data) at the Faculty of Medicine, University of Oslo in 2022.\nShortly after the COVID-19 pandemic started in 2020, I joined Norwegian Institute of Public Health as R developer and statistician for the open source real-time analysis and public health surveillance system, Sykdomspulsen. I am one of the core members of CSIDS, the Consortium for Statistics in Disease Surveillance, where we build open source software for public health surveillance.\nI teach statistics courses (MF9130, MF9130E, ERN4110) at Oslo Centre for Biostatistics and Epidemiology (OCBE). As a certified Carpentries instructor, I also teach and help with R programming at the Carpentries workshops at University of Oslo. I am an active member of Oslo User R group and Oslo R ladies group.\nIn the past 11 years I have lived in the UK and Norway (7+ years). I speak English, Norwegian and Chinese, and trying to learn Italian. I like outdoor activities, and most likely I am spending my summer in the mountains."
-  },
-  {
-    "objectID": "about/about_me.html",
-    "href": "about/about_me.html",
-    "title": "Chi Zhang",
-    "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE).\nYou can check my CV here. (add CV!)\nthis is another one"
-  },
-  {
-    "objectID": "rpkg/medicode/index.html",
-    "href": "rpkg/medicode/index.html",
-    "title": "medicode",
-    "section": "",
-    "text": "This package provides metadata and tools for medical classification and clinical coding.\nGitHub Link\nIt is especially useful for English and Norwegian (Bokmål) languages.\nPlanned content:\n\nICD-10\nICPC-2\nEuropean shortlist for Cause of Death"
-  },
-  {
-    "objectID": "rpkg/covidnor/index.html",
-    "href": "rpkg/covidnor/index.html",
-    "title": "covidnor",
-    "section": "",
-    "text": "https://github.com/csids/covidnor"
-  },
-  {
-    "objectID": "projects/post-with-code/index.html",
-    "href": "projects/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "projects/welcome/index.html",
-    "href": "projects/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "rpkg/cstime/index.html",
-    "href": "rpkg/cstime/index.html",
-    "title": "cstime",
-    "section": "",
-    "text": "cstime provides convenient and consistent conversion between\n\nisoyear\nisoweek\ncalyear\nseason week (used in influenza surveillance)\n\nGitHub link"
-  },
-  {
-    "objectID": "rpkg/mortanor/index.html",
-    "href": "rpkg/mortanor/index.html",
-    "title": "mortanor",
-    "section": "",
-    "text": "https://github.com/csids/mortanor"
-  },
-  {
-    "objectID": "teaching/welcome/index.html",
-    "href": "teaching/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "about_publication.html",
-    "href": "about_publication.html",
-    "title": "Chi Zhang",
-    "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE).\nYou can check my CV here. (add CV!)\nthis is another one"
-  },
-  {
-    "objectID": "about_cv.html",
-    "href": "about_cv.html",
-    "title": "Chi Zhang",
-    "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE).\nCV is going to be uploaded soon"
-  },
-  {
-    "objectID": "projects.html#research",
-    "href": "projects.html#research",
-    "title": "Projects",
-    "section": "Research",
-    "text": "Research\nI have earned my PhD from University of Oslo in 2022. My PhD research was on the representation and utilization of hospital electronic health records data."
-  },
-  {
-    "objectID": "projects/phtools/index.html",
-    "href": "projects/phtools/index.html",
-    "title": "phtools",
-    "section": "",
-    "text": "Tools for Data Science in Public Health"
-  },
-  {
-    "objectID": "projects/csids/index.html",
-    "href": "projects/csids/index.html",
-    "title": "CSIDS",
-    "section": "",
-    "text": "Consortium for Statistics in Disease Surveillance"
-  },
-  {
-    "objectID": "projects/sykdomspulsen/index.html",
-    "href": "projects/sykdomspulsen/index.html",
-    "title": "Sykdomspulsen/splverse",
-    "section": "",
-    "text": "Sykdomspulsen is a real-time analysis and disease surveillance system designed and developed at the Norwegian Institute of Public Health (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.\nsplverse is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.\nIn November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to CSIDS: the Consortium for Statistics in Disease Surveillance. Please refer to CSIDS for ongoing developments.\n\nQuick stats\n\nWe receive data from more than 15 data sources every day\n2 000 000 000+ rows of data and results (1TB)\n1 000+ database tables\n1 000 000+ analyses per day\n1 000+ automatic reports per day\n\n\n\nDownload poster (Norwegian)"
-  },
-  {
-    "objectID": "blog/post-with-code/index.html",
-    "href": "blog/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "blog/welcome/index.html",
-    "href": "blog/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching and Tutorials",
-    "section": "",
-    "text": "Title\n\n\nDescription\n\n\n\n\n\n\nMF9130\n\n\nIntroductory course in statistics\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching.html#workshop",
-    "href": "teaching.html#workshop",
-    "title": "Teaching and Tutorials",
-    "section": "Workshop",
-    "text": "Workshop"
-  },
-  {
-    "objectID": "teaching.html#workshops",
-    "href": "teaching.html#workshops",
-    "title": "Teaching and Tutorials",
-    "section": "Workshops",
-    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\nR for novice\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching.html#guides-andn-cheatsheets",
-    "href": "teaching.html#guides-andn-cheatsheets",
-    "title": "Teaching and Tutorials",
-    "section": "Guides andn Cheatsheets",
-    "text": "Guides andn Cheatsheets\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching.html#guides-and-cheatsheets",
-    "href": "teaching.html#guides-and-cheatsheets",
-    "title": "Teaching and Tutorials",
-    "section": "Guides and Cheatsheets",
-    "text": "Guides and Cheatsheets\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nPkg Dev at CSIDS\n\n\nPackage development guide at CSIDS\n\n\npkg\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/cheatsheet_pkgdev/index.html",
-    "href": "teaching/cheatsheet_pkgdev/index.html",
-    "title": "Pkg Dev at CSIDS",
-    "section": "",
-    "text": "Rstat"
-  },
-  {
-    "objectID": "teaching/r_novice/index.html",
-    "href": "teaching/r_novice/index.html",
-    "title": "R for novice",
-    "section": "",
-    "text": "I have been involved in multiple introductory R workshops at University of Oslo.\nCarpentry at UiO"
-  },
-  {
-    "objectID": "teaching/workshop_bioinf/index.html",
-    "href": "teaching/workshop_bioinf/index.html",
-    "title": "Oslo Bioinformatics Week",
-    "section": "",
-    "text": "This workshop is part of the Oslo Bioinformatics Workshop Week 2022. These workshops are open to the scientific community in Oslo and the surrounding area.\nMain instructor: Manuela Zucknick\nCo-instructor: Theophilius Asenso\nDeveloper: Chi Zhang\nCourse website and repository"
-  },
-  {
-    "objectID": "talks.html#rstats",
-    "href": "talks.html#rstats",
-    "title": "Talks",
-    "section": "Rstats",
-    "text": "Rstats\n\n\n\n\n  \n\n\n\n\nBuilding Website in R: Step by Step Introduction to blogdown\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks.html#electronic-health-records",
-    "href": "talks.html#electronic-health-records",
-    "title": "Talks",
-    "section": "Electronic Health Records",
-    "text": "Electronic Health Records\n\n\n\n\n  \n\n\n\n\nMachine Learning in Intensive Care Units\n\n\n\n\n\nA 45 minutes trial lecture to fulfill the requirement of my PhD degree\n\n\n\n\n\n\nOct 13, 2022\n\n\n\n\n\n\n  \n\n\n\n\nNetwork Analysis of Hospital EHR data\n\n\n\n\n\nThe talk I gave at Big Insight Day 2021\n\n\n\n\n\n\nFeb 18, 2021\n\n\n\n\n\n\n  \n\n\n\n\nLearning from Hospital EHR data with R\n\n\n\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks/ehr_20221013_ml_icu/index.html",
-    "href": "talks/ehr_20221013_ml_icu/index.html",
-    "title": "Machine Learning in Intensive Care Units",
-    "section": "",
-    "text": "This is my talk at the PhD defence day."
-  },
-  {
-    "objectID": "talks/ph_20220616_splverse/index.html",
-    "href": "talks/ph_20220616_splverse/index.html",
-    "title": "Introducing Sykdomspulsen",
-    "section": "",
-    "text": "About the talk\nWatch the talk on YouTube\nSykdomspulsen is a real-time analysis and disease surveillance system designed at developed at the Norwegian Institute of Public Health (FHI). Sykdomspulsen processes new data collected from 15 data sources (e.g., covid-19 cases), runs 1000.000+ statistical analysis automatically for all locations (nation, county, municipality) in Norway, produces 1000+ reports and alerts for public health authorities and shares data to the public on GitHub.\nSykdomspulsen runs on a collection of R packages, the {splverse}. {splverse} is an ecosystem for infectious disease surveillance, from analysis planning, statistical analysis to reporting via visualization, shiny website and Rmarkdown generated reports. In this talk, Chi will present how Sykdomspulsen does public health real-time surveillance during the pandemic using R. Chi will introduce some of the core packages and illustrate how they work together, with an example using real surveillance data published daily on GitHub.\n\n\nAbout the speaker\nChi is currently working at the Sykdomspulsen team as a researcher and R developer, at the Norwegian Institute of Public Health. Before she joined Sykdomspulsen in the middle of the pandemic (2020), she was a PhD student at the Department of Biostatistics at University of Oslo (OCBE), working on hospital EHR data."
-  },
-  {
-    "objectID": "talks/ehr_20210218_biday/index.html",
-    "href": "talks/ehr_20210218_biday/index.html",
-    "title": "Network Analysis of Hospital EHR data",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "talks/ph_20211022_sp_ocbe/index.html",
-    "href": "talks/ph_20211022_sp_ocbe/index.html",
-    "title": "Introducing Sykdomspulsen",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "talks/rstats_20190402_blogdown/index.html",
-    "href": "talks/rstats_20190402_blogdown/index.html",
-    "title": "Building Website in R: Step by Step Introduction to blogdown",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "talks/ehr_20191028_rladies/index.html",
-    "href": "talks/ehr_20191028_rladies/index.html",
-    "title": "EHR",
-    "section": "",
-    "text": "This is a 15 min intro"
-  },
-  {
-    "objectID": "projects/projects.html",
-    "href": "projects/projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "I joined the Norwegian Institute of Public Health in 2020, as a member of the Sykdomspulsen team. We are a core part of the COVID-19 pandemic response task force in Norway. I help build the real-time public health surveillance platform using R and other open source data science tools. You can find our R packages here.\nIn 2021-2022, I am the responsible statistician for NorMOMO, the Norwegian Mortality Monitoring project, which is part of the European network EuroMOMO. I work on R packages nowcast and splalert.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn automated public health surveillance platform developed in R\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/projects.html#research",
-    "href": "projects/projects.html#research",
-    "title": "Projects",
-    "section": "Research",
-    "text": "Research\nI have earned my PhD from University of Oslo in 2022. My PhD research was on the representation and utilization of hospital electronic health records data."
-  },
-  {
-    "objectID": "projects/projects.html#advising",
-    "href": "projects/projects.html#advising",
-    "title": "Projects",
-    "section": "Advising",
-    "text": "Advising\nI work as a statistical advisor on the side, helping clinical researchers with methodology and anaysis."
-  },
-  {
-    "objectID": "talks/talks.html",
-    "href": "talks/talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "(Upcoming)\n\n\nJoin us for a discussion on how open source tools can enable automated, reproducible and scalable public health reporting.\n\n\n\n\n\n\nMar 30, 2023\n\n\n\n\n\n\n  \n\n\n\n\n\nAn automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup\n\n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks/talks.html#rstats",
-    "href": "talks/talks.html#rstats",
-    "title": "Talks",
-    "section": "Rstats",
-    "text": "Rstats\n\n\n\n\n  \n\n\n\n\nBuilding Website in R: Step by Step Introduction to blogdown\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks/talks.html#electronic-health-records",
-    "href": "talks/talks.html#electronic-health-records",
-    "title": "Talks",
-    "section": "Electronic Health Records",
-    "text": "Electronic Health Records\n\n\n\n\n  \n\n\n\n\nMachine Learning in Intensive Care Units\n\n\n\n\n\nA 45 minutes trial lecture to fulfill the requirement of my PhD degree\n\n\n\n\n\n\nOct 13, 2022\n\n\n\n\n\n\n  \n\n\n\n\nNetwork Analysis of Hospital EHR data\n\n\n\n\n\nThe talk I gave at Big Insight Day 2021\n\n\n\n\n\n\nFeb 18, 2021\n\n\n\n\n\n\n  \n\n\n\n\nLearning from Hospital EHR data with R\n\n\n\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "rpkg/rpkg.html",
-    "href": "rpkg/rpkg.html",
-    "title": "R packages",
-    "section": "",
-    "text": "Public health Surveillance\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\nOpen COVID19 data for Norway\n\n\n\n\ncsalert\n\n\nOutbreak detection in public health surveillance\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\nPre-formatted map data in Norway\n\n\n\n\ncstime\n\n\nDate and time functions for public health purposes\n\n\n\n\nmortanor\n\n\nPublic mortality data in Norway\n\n\n\n\nnowcast\n\n\nDelay correction methods for real-time surveillance\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMedicine\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nbayesynergy\n\n\n(Contributor) Synergistic interaction effects in in vitro drug combination…\n\n\n\n\nmedicode\n\n\nMetadata and tools for medical classification and clinical coding\n\n\n\n\n\n\nNo matching items\n\n\n\n\nQuarto Tools\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/teaching.html",
-    "href": "teaching/teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Title\n\n\nDescription\n\n\n\n\n\n\nMF9130/MF9130E\n\n\nIntroductory course in statistics\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/teaching.html#workshops",
-    "href": "teaching/teaching.html#workshops",
-    "title": "Teaching",
-    "section": "Workshops",
-    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\nR for novice\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/teaching.html#guides-and-cheatsheets",
-    "href": "teaching/teaching.html#guides-and-cheatsheets",
-    "title": "Teaching",
-    "section": "Guides and Cheatsheets",
-    "text": "Guides and Cheatsheets\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nPkg Dev at CSIDS\n\n\nPackage development guide at CSIDS\n\n\npkg\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "rpkg/qtwAcademic/index.html",
-    "href": "rpkg/qtwAcademic/index.html",
-    "title": "qtwAcademic",
-    "section": "",
-    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\n\nTemplates\nSo far, 3 templates have been implemented in this package:\n\nPersonal website\nWebsite for courses or workshops\nMinimal website template that can be easily customized\n\nYou can find more details on each option in the vignettes."
-  },
-  {
-    "objectID": "rpkg/csdata/index.html",
-    "href": "rpkg/csdata/index.html",
-    "title": "csdata",
-    "section": "",
-    "text": "https://github.com/csids/csdata"
-  },
-  {
-    "objectID": "rpkg/csalert/index.html",
-    "href": "rpkg/csalert/index.html",
-    "title": "csalert",
-    "section": "",
-    "text": "https://github.com/csids/csalert"
-  },
-  {
-    "objectID": "rpkg/csmaps/index.html",
-    "href": "rpkg/csmaps/index.html",
-    "title": "csmaps",
-    "section": "",
-    "text": "https://github.com/csids/csmaps"
-  },
-  {
-    "objectID": "rpkg/nowcast/index.html",
-    "href": "rpkg/nowcast/index.html",
-    "title": "nowcast",
-    "section": "",
-    "text": "https://github.com/csids/nowcast"
-  },
-  {
-    "objectID": "teaching/mf9130/index.html",
-    "href": "teaching/mf9130/index.html",
-    "title": "MF9130/MF9130E",
-    "section": "",
-    "text": "This is the same course taught in Norwegian and English."
-  },
-  {
-    "objectID": "teaching/mf9130/index.html#mf9130---innføring-i-statistikk",
-    "href": "teaching/mf9130/index.html#mf9130---innføring-i-statistikk",
-    "title": "MF9130/MF9130E",
-    "section": "MF9130 - Innføring i statistikk",
-    "text": "MF9130 - Innføring i statistikk\nMF9130\nMålet for kurset er å gjøre deltagerne kjent med grunnleggende statistiske ideer og metoder. Det forutsettes ikke spesielle forkunnskaper i matematikk eller statistikk. Den statistiske programpakken STATA vil bli benyttet i mange av øvelsene. Analyse av konkrete eksempler fra medisinsk forskning vil bli vektlagt"
-  },
-  {
-    "objectID": "teaching/mf9130/index.html#mf9130e---introductory-course-in-statistics",
-    "href": "teaching/mf9130/index.html#mf9130e---introductory-course-in-statistics",
-    "title": "MF9130/MF9130E",
-    "section": "MF9130E - Introductory course in statistics",
-    "text": "MF9130E - Introductory course in statistics\nMF9130E\nThe aim of the course is to make the participants acquainted with basic statistical ideas and methods. No special previous knowledge of mathematics or statistics is assumed. The statistical software R and the RStudio environment will be used in many of the exercises. Analysis of examples from biomedical research will be emphasized."
   },
   {
     "objectID": "projects/nor_mortality/index.html",
@@ -504,88 +28,67 @@
     "text": "Collaboration with Cause of Death Registry"
   },
   {
-    "objectID": "blog/20230104_qtwAcademic/index.html",
-    "href": "blog/20230104_qtwAcademic/index.html",
-    "title": "Post With Code",
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "I joined the Norwegian Institute of Public Health in 2020, as a member of the Sykdomspulsen team. We are a core part of the COVID-19 pandemic response task force in Norway. I help build the real-time public health surveillance platform using R and other open source data science tools. You can find our R packages here.\nIn 2021-2022, I am the responsible statistician for NorMOMO, the Norwegian Mortality Monitoring project, which is part of the European network EuroMOMO. I work on R packages nowcast and splalert.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn automated public health surveillance platform developed in R\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/blog_20230104_qtwAcademic/index.html",
-    "href": "blog/blog_20230104_qtwAcademic/index.html",
-    "title": "qtwAcademic: a quick and easy way to start your Quarto website",
+    "objectID": "projects/csids/index.html",
+    "href": "projects/csids/index.html",
+    "title": "CSIDS",
     "section": "",
-    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\nMore details about the package is being written …"
+    "text": "Consortium for Statistics in Disease Surveillance"
   },
   {
-    "objectID": "blog/blog.html",
-    "href": "blog/blog.html",
-    "title": "Blog and notes",
+    "objectID": "projects/sykdomspulsen/index.html",
+    "href": "projects/sykdomspulsen/index.html",
+    "title": "Sykdomspulsen/splverse",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nCourse review: making DS work for clinical reporting\n\n\nMar 1, 2023\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMostly notes for my own use\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 4\n\n\nMar 1, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 3\n\n\nFeb 27, 2023\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\nFeb 25, 2023\n\n\n\n\nOOP in R: S3 and R6\n\n\nFeb 23, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\nFeb 22, 2023\n\n\n\n\nR package website with pkgdown\n\n\nFeb 20, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nMar 17, 2023\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Sykdomspulsen is a real-time analysis and disease surveillance system designed and developed at the Norwegian Institute of Public Health (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.\nsplverse is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.\nIn November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to CSIDS: the Consortium for Statistics in Disease Surveillance. Please refer to CSIDS for ongoing developments.\n\nQuick stats\n\nWe receive data from more than 15 data sources every day\n2 000 000 000+ rows of data and results (1TB)\n1 000+ database tables\n1 000 000+ analyses per day\n1 000+ automatic reports per day\n\n\n\nDownload poster (Norwegian)"
   },
   {
-    "objectID": "blog/blog.html#notes",
-    "href": "blog/blog.html#notes",
-    "title": "Blog and notes",
-    "section": "Notes",
-    "text": "Notes\nPLACEHOLDER\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nNotes test\n\n\nOct 25, 2022\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/notes_1/index.html",
-    "href": "blog/notes_1/index.html",
-    "title": "Notes test",
+    "objectID": "talks/ehr_20221013_ml_icu/index.html",
+    "href": "talks/ehr_20221013_ml_icu/index.html",
+    "title": "Machine Learning in Intensive Care Units",
     "section": "",
-    "text": "This is a demo of notes"
+    "text": "This is my talk at the PhD defence day."
   },
   {
-    "objectID": "blog/blog_20230103_blogdown2quarto/index.html",
-    "href": "blog/blog_20230103_blogdown2quarto/index.html",
-    "title": "Website reboot: switching from Blogdown to Quarto",
+    "objectID": "talks/ph_20220616_splverse/index.html",
+    "href": "talks/ph_20220616_splverse/index.html",
+    "title": "Introducing Sykdomspulsen",
     "section": "",
-    "text": "Since the first time I tried the “academic” template in the popular blogdown package in 2019, three years have passed. Back then, it was THE way to build a personal website using R. The “academic” template was notoriously rich in content, and my solution was to delete components, compile, if it works - great; if not, I put the deleted content back. It worked for a while.\nWhen the distill package came out (probably in 2020?), I rebooted my website since I preferred its clean, minimalistic style. The look was possibly more appropriate for websites for an organisation or tutorials rather than personal blog, yet I appreciated the simplicity.\nThen I stopped updating my website. Between mid 2020 and early 2022, I was too stressed about completing my PhD, and balancing my other two jobs wasn’t the easiest thing. During this period, my mind had been going back to the old site from time to time, but it was hard to find enough time or energy to write about stuff."
+    "text": "About the talk\nWatch the talk on YouTube\nSykdomspulsen is a real-time analysis and disease surveillance system designed at developed at the Norwegian Institute of Public Health (FHI). Sykdomspulsen processes new data collected from 15 data sources (e.g., covid-19 cases), runs 1000.000+ statistical analysis automatically for all locations (nation, county, municipality) in Norway, produces 1000+ reports and alerts for public health authorities and shares data to the public on GitHub.\nSykdomspulsen runs on a collection of R packages, the {splverse}. {splverse} is an ecosystem for infectious disease surveillance, from analysis planning, statistical analysis to reporting via visualization, shiny website and Rmarkdown generated reports. In this talk, Chi will present how Sykdomspulsen does public health real-time surveillance during the pandemic using R. Chi will introduce some of the core packages and illustrate how they work together, with an example using real surveillance data published daily on GitHub.\n\n\nAbout the speaker\nChi is currently working at the Sykdomspulsen team as a researcher and R developer, at the Norwegian Institute of Public Health. Before she joined Sykdomspulsen in the middle of the pandemic (2020), she was a PhD student at the Department of Biostatistics at University of Oslo (OCBE), working on hospital EHR data."
   },
   {
-    "objectID": "blog/blog_20230103_blogdown2quarto/index.html#level-2",
-    "href": "blog/blog_20230103_blogdown2quarto/index.html#level-2",
-    "title": "Switching from Blogdown to Quarto",
-    "section": "Level 2",
-    "text": "Level 2\nwrite text"
-  },
-  {
-    "objectID": "blog/blog_20230103_blogdown2quarto/index.html#why-quarto-not-blogdown",
-    "href": "blog/blog_20230103_blogdown2quarto/index.html#why-quarto-not-blogdown",
-    "title": "Switching from Blogdown to Quarto",
-    "section": "Why Quarto, not blogdown?",
-    "text": "Why Quarto, not blogdown?"
-  },
-  {
-    "objectID": "blog/blog_20230103_blogdown2quarto/index.html#what-i-like-about-quarto",
-    "href": "blog/blog_20230103_blogdown2quarto/index.html#what-i-like-about-quarto",
-    "title": "Personal website reboot: switching from Blogdown to Quarto",
-    "section": "What I like about Quarto",
-    "text": "What I like about Quarto"
-  },
-  {
-    "objectID": "blog/blog_20230103_blogdown2quarto/index.html#time-to-try-quarto",
-    "href": "blog/blog_20230103_blogdown2quarto/index.html#time-to-try-quarto",
-    "title": "Website reboot: switching from Blogdown to Quarto",
-    "section": "Time to try Quarto",
-    "text": "Time to try Quarto\nNow that I’ve finally completed the more pressing tasks in October 2022, I can catch up to the cool kids on twitter: create a website with Quarto!\nThere were quite a lot of discussions about Quarto in the summer 2022. I wasn’t following the discussions closely, but I remember there were quite a few talks in the Rstudio conference this year. Then more and more people switched to Quarto on Twitter. Then people I know also switched to Quarto. What’s the fuzz about?\nMy experience with Quarto is focused on websites. I have not tried other forms of publishing. So far I have created:\n\na workshop website for my colleagues\na personal website (the one you are reading right now)\nan R package (qtwAcademic)that wraps three Quarto website templates for beginners\n\nHere are a few things I like about Quarto. Given that I’m not very experienced in front-end development, these comments are going to be about ease-of-use and design, rather than the technicalities.\n\nClean look for both personal and workshop/courses\nWhen I was using “academic” template in blogdown, I liked the structure of the site: projects, talks, blog, softwares and publications sections are clearly displayed at the top. What I didn’t like is that the default homepage was a very long single page; yet its customisation wasn’t the easist. Other templates were either too simple (for blog only), or more suitable for image display (photography projects). I wanted a website that keep the good structure of “academic”, which is quite suitable for academics (hence the name); while keeping each section independent.\nWith distill I could achieve the structure I wanted; but I didn’t enjoy it too much as a personal website (at least it wasn’t as flexible as Quarto). distill is still pretty decent for organisations or documentation site.\nWith Quarto, I can achieve the desired looks for not only a personal website (with or without blogs), but also a workshop, event or even course website. This is fantastic! The top, sidebar or hybrid navigation makes the site structure very clear, especially when there are lots of content. As an aspiring lecturer at university, this is really One Quarto Rules Them All.\n\n\nFlexible yet not overwhelming\nAs I mentioned above, hacking “academic” in blogdown was not that easy - simply because there were too many folders that you are not actually supposed to modify. It was confusing to know what to change in order to achieve the desired output, and multiple folders were having the same names, making it very challenging for beginners. Ironically, this is usually the first template beginners start with!\nThat’s why I immediately fell for Quarto: you only need 4 components to make a decent minimalistic website work:\n\n_quarto.yml to control the overall layout\nindex.qmd at the root folder to control the homepage\nabout.qmd for some basic information about the creator or the website\nproject.qmd for projects or any other content that the creator wants to display\n\nThe way that _quarto.yml clearly specifies the .qmd files really helps beginners to understand where things are. This has been extremely useful for me when I wanted to learn how people made their website by reading the source code - I could understand exactly where to find the information I needed. The clear structure greatly helps the creators themselves, and also those who want to learn.\n\n\nGreat community\nRstats people have a great community. I wouldn’t be able to make my site the way I wanted if people haven’t been sharing their works. I have learned a lot by reading the source code by Dr Emi Tanaka, Dr David Schoch, Bea Milz, Prof Mine Cetinnkaya-Rundel’s STA 210 - Regression Analysis course.\nI also made my own R package that wraps three templates to create Quarto websites that are frequently used by academics, qtwAcademic. In the following days I plan to write up more detailed explanations on how to use the package, along with some new features."
-  },
-  {
-    "objectID": "blog/notes_2023010x_pandemic_gates/index.html",
-    "href": "blog/notes_2023010x_pandemic_gates/index.html",
-    "title": "How to prevent the next pandemic - Bill Gates",
+    "objectID": "talks/talks.html",
+    "href": "talks/talks.html",
+    "title": "Talks",
     "section": "",
-    "text": "Ongoing reading notes."
+    "text": "(Upcoming)\n\n\nJoin us for a discussion on how open source tools can enable automated, reproducible and scalable public health reporting.\n\n\n\n\n\n\nMar 30, 2023\n\n\n\n\n\n\n  \n\n\n\n\n\nAn automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup\n\n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/notes_2023010x_preventable_sridhar/index.html",
-    "href": "blog/notes_2023010x_preventable_sridhar/index.html",
-    "title": "Preventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar",
+    "objectID": "talks/talks.html#rstats",
+    "href": "talks/talks.html#rstats",
+    "title": "Talks",
+    "section": "Rstats",
+    "text": "Rstats\n\n\n\n\n  \n\n\n\n\nBuilding Website in R: Step by Step Introduction to blogdown\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "talks/talks.html#electronic-health-records",
+    "href": "talks/talks.html#electronic-health-records",
+    "title": "Talks",
+    "section": "Electronic Health Records",
+    "text": "Electronic Health Records\n\n\n\n\n  \n\n\n\n\nMachine Learning in Intensive Care Units\n\n\n\n\n\nA 45 minutes trial lecture to fulfill the requirement of my PhD degree\n\n\n\n\n\n\nOct 13, 2022\n\n\n\n\n\n\n  \n\n\n\n\nNetwork Analysis of Hospital EHR data\n\n\n\n\n\nThe talk I gave at Big Insight Day 2021\n\n\n\n\n\n\nFeb 18, 2021\n\n\n\n\n\n\n  \n\n\n\n\nLearning from Hospital EHR data with R\n\n\n\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "talks/ehr_20210218_biday/index.html",
+    "href": "talks/ehr_20210218_biday/index.html",
+    "title": "Network Analysis of Hospital EHR data",
     "section": "",
-    "text": "Ongoing reading notes."
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
     "objectID": "talks/ph_20230330_sp/index.html",
@@ -602,6 +105,41 @@
     "text": "About the topic\nSituational awareness is key to fast response during a public health emergency, such as COVID-19 pandemic. However, making disease surveillance reports that cover different geographical units for various metrics and data registries is both resource intensive and time consuming. Open source tools such as R packages, GitHub and Airflow can make this process automatic, reproducible and scalable.\nEvery day during the pandemic, Sykdomspulsen team at the Norwegian Institute of Public Health (FHI/NIPH) fetched data from more than 15 data sources, cleaned, censored datasets and carried out a wide range of statistical analyses. Over 1000 situational reports containing automated graphs and tables were produced before breakfast time.\nGrab you matpakke and join us for a presentation from Chi Zhang about how Sykdomspulsen team used and developed open source software to make public health surveillance and reporting more efficient, followed up by a discussion on the benefits and concerns of making these data public. We will end with an open Q&A session as usual!"
   },
   {
+    "objectID": "talks/rstats_20190402_blogdown/index.html",
+    "href": "talks/rstats_20190402_blogdown/index.html",
+    "title": "Building Website in R: Step by Step Introduction to blogdown",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chi Zhang",
+    "section": "",
+    "text": "andreasheenn@fosstodon.org\n  \n  \n    \n     andreaczhang\n  \n\n  \n  \nChi is a researcher at the Faculty of Medicine, University of Oslo. Chi is interested in developing research software (such as R packages and shiny) for clinical and public health applications.\nAs a lecturer, Chi teaches statistics courses at Oslo Centre for Biostatistics and Epidemiology (OCBE) and R programming at the Carpentries workshops at University of Oslo.\nIn 2020-2022, Chi worked as R developer and statistician for the open source real-time analysis and public health surveillance system, Sykdomspulsen at the Norwegian Institute of Public Health.\nChi enjoys spending time in the mountains."
+  },
+  {
+    "objectID": "blog/blog_20230103_blogdown2quarto/index.html",
+    "href": "blog/blog_20230103_blogdown2quarto/index.html",
+    "title": "Website reboot: switching from Blogdown to Quarto",
+    "section": "",
+    "text": "Since the first time I tried the “academic” template in the popular blogdown package in 2019, three years have passed. Back then, it was THE way to build a personal website using R. The “academic” template was notoriously rich in content, and my solution was to delete components, compile, if it works - great; if not, I put the deleted content back. It worked for a while.\nWhen the distill package came out (probably in 2020?), I rebooted my website since I preferred its clean, minimalistic style. The look was possibly more appropriate for websites for an organisation or tutorials rather than personal blog, yet I appreciated the simplicity.\nThen I stopped updating my website. Between mid 2020 and early 2022, I was too stressed about completing my PhD, and balancing my other two jobs wasn’t the easiest thing. During this period, my mind had been going back to the old site from time to time, but it was hard to find enough time or energy to write about stuff."
+  },
+  {
+    "objectID": "blog/blog_20230103_blogdown2quarto/index.html#time-to-try-quarto",
+    "href": "blog/blog_20230103_blogdown2quarto/index.html#time-to-try-quarto",
+    "title": "Website reboot: switching from Blogdown to Quarto",
+    "section": "Time to try Quarto",
+    "text": "Time to try Quarto\nNow that I’ve finally completed the more pressing tasks in October 2022, I can catch up to the cool kids on twitter: create a website with Quarto!\nThere were quite a lot of discussions about Quarto in the summer 2022. I wasn’t following the discussions closely, but I remember there were quite a few talks in the Rstudio conference this year. Then more and more people switched to Quarto on Twitter. Then people I know also switched to Quarto. What’s the fuzz about?\nMy experience with Quarto is focused on websites. I have not tried other forms of publishing. So far I have created:\n\na workshop website for my colleagues\na personal website (the one you are reading right now)\nan R package (qtwAcademic)that wraps three Quarto website templates for beginners\n\nHere are a few things I like about Quarto. Given that I’m not very experienced in front-end development, these comments are going to be about ease-of-use and design, rather than the technicalities.\n\nClean look for both personal and workshop/courses\nWhen I was using “academic” template in blogdown, I liked the structure of the site: projects, talks, blog, softwares and publications sections are clearly displayed at the top. What I didn’t like is that the default homepage was a very long single page; yet its customisation wasn’t the easist. Other templates were either too simple (for blog only), or more suitable for image display (photography projects). I wanted a website that keep the good structure of “academic”, which is quite suitable for academics (hence the name); while keeping each section independent.\nWith distill I could achieve the structure I wanted; but I didn’t enjoy it too much as a personal website (at least it wasn’t as flexible as Quarto). distill is still pretty decent for organisations or documentation site.\nWith Quarto, I can achieve the desired looks for not only a personal website (with or without blogs), but also a workshop, event or even course website. This is fantastic! The top, sidebar or hybrid navigation makes the site structure very clear, especially when there are lots of content. As an aspiring lecturer at university, this is really One Quarto Rules Them All.\n\n\nFlexible yet not overwhelming\nAs I mentioned above, hacking “academic” in blogdown was not that easy - simply because there were too many folders that you are not actually supposed to modify. It was confusing to know what to change in order to achieve the desired output, and multiple folders were having the same names, making it very challenging for beginners. Ironically, this is usually the first template beginners start with!\nThat’s why I immediately fell for Quarto: you only need 4 components to make a decent minimalistic website work:\n\n_quarto.yml to control the overall layout\nindex.qmd at the root folder to control the homepage\nabout.qmd for some basic information about the creator or the website\nproject.qmd for projects or any other content that the creator wants to display\n\nThe way that _quarto.yml clearly specifies the .qmd files really helps beginners to understand where things are. This has been extremely useful for me when I wanted to learn how people made their website by reading the source code - I could understand exactly where to find the information I needed. The clear structure greatly helps the creators themselves, and also those who want to learn.\n\n\nGreat community\nRstats people have a great community. I wouldn’t be able to make my site the way I wanted if people haven’t been sharing their works. I have learned a lot by reading the source code by Dr Emi Tanaka, Dr David Schoch, Bea Milz, Prof Mine Cetinnkaya-Rundel’s STA 210 - Regression Analysis course.\nI also made my own R package that wraps three templates to create Quarto websites that are frequently used by academics, qtwAcademic. In the following days I plan to write up more detailed explanations on how to use the package, along with some new features."
+  },
+  {
+    "objectID": "blog/blog_20230112_roche_opensource/index.html",
+    "href": "blog/blog_20230112_roche_opensource/index.html",
+    "title": "Open source reporting with R: clinical, public health, RSE and embrace the change",
+    "section": "",
+    "text": "Two days ago (Jan 11 2023) I watched a presentation by data scientists at Roche about why they are making their clinical trials in 2023 open source with R. As someone who uses R for most of the time and has done similar works (not in pharma, but in public health surveillance and reporting: watch my talk, slides to find out what we do), I watched the presentation with great interest. Here are my notes, combined with some thoughts on open-source in the industry, public sector and academia.\n\nThree reasons for why I am writing this blog\n\nNote down some of the technology which points towards the future of the field\nRelate to my experience of open-source applied in public health, specifically public health reporting\nShare some thoughts in statistical education of applied students/researchers (e.g. medicine), and training Research Software Engineers\n\n\n\nMy experience with statistical software\nTo put my opinions in perspective,\n\nI do not have experience with SAS or pharma, so I do not have first-hand knowledge on the functionality, ease-of-use or the popularity of commercial softwares in the industry.\nI did my MSc and PhD in statistics/biostatistics/medical informatics and R had always been a default choice.\nI worked in public health for a few years, where Excel is possibly the most common tool, and STATA and R are scarcely used (statisticians, epidemiologists, bioinformaticians).\nIn the past few years, my university has made the switch from SPSS to STATA for intro statistics for medical students (while students at higher level, or doing advanced analyses might use R/python), and a test-run with R might be in motion.\n\n\n\n\nClinical Reporting\nIn drug development at pharmaceutical companies (and/or research institutes and hospitals), these data related tasks are very common:\n\nsummarise safety and efficacy data\nprovide accurate picture of trial outcomes\nmanage data collection across different sites\n\nCompleting these tasks in a correct, efficient and reproducible manner is crucial for patient safety. However, these tasks are also highly resource intensive: highly trained scientist, statisticians and technincians must be involved in the process. Historically, pharma use commercial software such as SAS.\n\nRegulation and exploration needs\nThere are requirements for clinical reporting: both regulartory and exploratory. From the regulatory side, there exist industry standards (CDISC) in the clinical research process, such as SDTM (Model for Tabulation of Study Data) and ADaM (Analysis Data Model). Statistical analyses, tables, listings and graphs (TLGs) also fall into this cateogory.\nFrom the exploratory side, clinical data are highly context dependent, and new formats of data such as imaging are more and more used in prediction modeling and drug development.\nIn addition, it is not hard to imagine that the technical competency of employees differ, especially in large organizations. Enabling people with less experience to analyse trial data in a reproducible manner is helpful for not only the learning and growth of employees, but also the productivity of organizations.\nThe existing commercial tools are not able to adapt to the rapid changes in the field.\n\n\nTransition into Open-Source\nIn this talk, Dr Kieran Martin at Roche introduced that they started using R as their core data science tool, aiming to move their codebase to having a core R. In the future, they plan to have something that is lanugage agnostic: meaning that python, Stan, C++, Julia and beyond can be used for different tasks.\nI only noted down a few of the things they mentioned on the infrastructure side:\n\nOCEAN - a lanugage agnostic computing platform on AWS (docker)\nGit, Gitlab for version control and collaboration\nRstudio connect server\nSnakemake for orchestrate production\n\n\n\nR and Shiny\nThere are obvious benefits of using R. It is convenient to install and use (if you used python and R, you’d probably agree), and the latest development in Shiny made it very easy to develop interactive visualizations, suitable for exploration. Package development is critical for reproducibility and distributing works - which R does it very well. A few packages developed by pharma are Teal and admiral: the ADaM in R, which I intend to check out at one point.\nR has deep roots in academia which means the newest statistical methods are well covered; which also affects the skill sets that talents own - fresh graduates probably already learned it at university. R being open source means that collaboration with external partners is much more efficient, and transparent. Strong community support is another positive thing that encourages beginners to enter the field and learn.\n\n\n\n\nOpen Sourcing Public Health\n\nSurveillance and reporting\nOne key functionality of public health (PH) authorities is stay informed and inform. They collect data from labs, hospitals and clinics across the country, summarize into useful statistics in tables and graphs, make reports, then inform the policy makers to make decisions (such as vaccination campaigns).\nCompared to clinical reporting (in my understanding), there are many similarities - we make TLG (tables, listings and graphs). There are also features that make reporting in public health unique:\n\nPH surveillance and reporting are dynamic and real-time, which can change in a matter of days. That is because the situation of different infectious diseases can evolve rapidly, so PH authorities need to make appropriate adjustments.\nTime and location (spatial-temporal) are important. Different time granularity (daily, weekly) and geographical units (nation, county, municipality, city districts) are typically required for reporting.\n\n\n\nScale up and automate with open source tools\nTraditionally, these reports are made manually - one location, one graph per time on a certain disease. When a global pandemic hits, this is definitely not fast enough. At my team (Sykdomspulsen team at the Norwegian Institute of Public Health), we tried a different approach. Details of what we did can be found in this talk(slides), but to make it brief:\n\nWe developed a fully automated pipeline that connects 15 registries (vaccination, lab, hospital and intensive care and many more). The data is gathered, censored, cleaned and pre-processed for down-stream analysis\nStatistical analysis, tables, graphs and maps are made for all locations in Norway for various outcomes of interest, such as Covid, influenza, respiratory and gastrointestinal infections\nOver 1000 customized reports with over 30 graphs and tables are produced daily and sent to local PH officials, where we also had a shiny website (Kommunehelsetjenester for Kommunelege) for over 300 PH officials to get most up-to-date information about their own municipality\n\nBy automation, every year Sykdomspulsen can save 700 000 NOK (roughly 70k USD) while making 400 times more real-time reports for public health. Even better, with reproducibility and quality control.\n\n\nToolbox\nSykdomspulsen is a small team (8 people, 3 are statisticians and 1 engineer), and our infrastructure was built upon R packages, which we call splverse. Our infrastructure is not fundamentally different from the one Roche introduced, basically:\n\nR does the task planning and project organization. On top of this, the data cleaning, statistical analysis are implemented. Graphs, tables and maps are made with appropriate R packages\nRmarkdown does automated reporting into .docx and .xlsx. Some reports are also in .html tables to be embedded into customized emails\nRstudio Workbench and GitHub help with teamwork\n\nDocker, GoCD and Airflow do the CI/CD and orchestration\n\n\n\n\nEmbrace the transition\n\nCulture change needed\nUnfortunately, not all organizations are eager to abandon the old way. Even at our own institute where researchers are the majority, open source and modern day programming is hardly practiced (by my observation). Even worse, under the budget cuts in 2023-24, a large number of younger employees who have the technical skills have left - which left the public health surveillance even more vulnerable now that Covid is far from over.\nIn my opinion, public health needs open-source and good programming even more than pharmaceutical companies. Both save lifes - and PH has less money to invest in softwares, infrastructures and talents. In this situation, resources should be spent in fields that are critical and most cost-effective; yet in reality this is often not the case.\nThe slow culture change at big organizations can happen, but only if there is a sufficient amount of employees who are willing to embrace the new technology. In the talk by Roche they about about their training strategy. It is not possible to train all users, and not everyone has the same needs at the same time. Therefore, self study with certain study paths is encouraged and supported.\n\n\nTeach programming to students in various fields\nBased on my experience in the UK and Norway, students (myself included) learn R programming in one of the two ways\n\nLearning by Googling (self-taught): a university degree needs to use it: provides a short introduction, then students learn by using. This is how I learned R at my MSc Statistics degree, and this is probably the most common way\nWorkshops at university: organizations such as the Carpentries provide course material and teaching a few times per year, where interested students (usually from subjects such as biology) come and learn. These classes are quite popular, and usually have a long waiting list.\n\nFrom learning by googling to some organized teaching - that is already some good progress. However, if not, can we improve?\nIn my experience with statistical advising with the university hospital, clinical researchers and medical students are enthusastic to get their statistics done, some are also eager to do some analysis themselves. That is good. Yet, there is generally lack of capacity - either knowledge or software skills. Once the statistician who helps with the project stops, the project ends. There is the need to have in-house statistical capacity. To this end, open-source softwares such as R, and good programming practice (reproducibility for example) can help a lot: the license doesn’t end, and everything is documented so that the next person can continue the work.\nI’m glad that my university has made some transitional efforts in this regard: STATA instead of SPSS is being taught to medical students as part of their statistics course. There might be a test-run in R soon, which is very exciting (since I’ll be involved in the teaching)!\n\n\nStatistical engineering and RSEs\nThat was the capacity building to get beginners more independent. On the other side, there is also the need for better programming practice for researchers at more advanced level. Research Software Engineering (RSE) is starting to get more and more attention, because it is not only relevant for research (i.e. getting papers published), but in broader applications.\nFor example, in the talk by Roche, they mentioned that “RSE teams need to accelerate adoption of new statistical methods and biomarker data analysis”, and the implementation with R packages and templates is at its core. In the future more languages would be included such as Python, Stan, C++ and Julia.\nHowever, RSE as a job title or career path is still a new thing. I know two RSEs at my university, and RSE is definitely not your typical academic faculty position: only departments that think it’s important makes positions, often not permanent. To get any new methods actually used in either industry or the public sector outside research, translating methods into tools is must-do. In the future I hope RSE becomes a stable and common career path, and more exciting things can happen."
+  },
+  {
     "objectID": "blog/readnotes_2023010x_preventable_sridhar/index.html",
     "href": "blog/readnotes_2023010x_preventable_sridhar/index.html",
     "title": "Preventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar",
@@ -614,223 +152,6 @@
     "title": "How to prevent the next pandemic - Bill Gates",
     "section": "",
     "text": "(The book reading is still ongoing)"
-  },
-  {
-    "objectID": "blog/technotes_20230111_deployqt/index.html",
-    "href": "blog/technotes_20230111_deployqt/index.html",
-    "title": "Publishing Quarto Website with GitHub Pages",
-    "section": "",
-    "text": "1. Create a public repository on GitHub\nAfter you have the public repo, clone it to your local repo.\n\n\n2. Create Quarto project\nThis can be a website, a book (a specific type of website) or something else.\nTest compilation by quarto render, or click the Render button.\n\n\n\n3. Configure Quarto project\nIn _quarto.yml, change the project configuration to use docs as the output-dir:\nproject:\n  type: website\n  output-dir: docs\n\nThen add .nojekyll to the root of the repository. Can do this by (in terminal)\ntouch .nojekyll\nPush everything to your repository.\n\n\n4. Configure GitHub Pages\nGo to Settings > Pages, publish from docs of the main branch.\n\nCan check GitHub Action and deployment status.\n\n\nAfter the deployment is successful, go to view deployment, and a successful website should be published."
-  },
-  {
-    "objectID": "blog/blog_20230112_roche_opensource/index.html",
-    "href": "blog/blog_20230112_roche_opensource/index.html",
-    "title": "Open source reporting with R: clinical, public health, RSE and embrace the change",
-    "section": "",
-    "text": "Two days ago (Jan 11 2023) I watched a presentation by data scientists at Roche about why they are making their clinical trials in 2023 open source with R. As someone who uses R for most of the time and has done similar works (not in pharma, but in public health surveillance and reporting: watch my talk, slides to find out what we do), I watched the presentation with great interest. Here are my notes, combined with some thoughts on open-source in the industry, public sector and academia.\n\nThree reasons for why I am writing this blog\n\nNote down some of the technology which points towards the future of the field\nRelate to my experience of open-source applied in public health, specifically public health reporting\nShare some thoughts in statistical education of applied students/researchers (e.g. medicine), and training Research Software Engineers\n\n\n\nMy experience with statistical software\nTo put my opinions in perspective,\n\nI do not have experience with SAS or pharma, so I do not have first-hand knowledge on the functionality, ease-of-use or the popularity of commercial softwares in the industry.\nI did my MSc and PhD in statistics/biostatistics/medical informatics and R had always been a default choice.\nI worked in public health for a few years, where Excel is possibly the most common tool, and STATA and R are scarcely used (statisticians, epidemiologists, bioinformaticians).\nIn the past few years, my university has made the switch from SPSS to STATA for intro statistics for medical students (while students at higher level, or doing advanced analyses might use R/python), and a test-run with R might be in motion.\n\n\n\n\nClinical Reporting\nIn drug development at pharmaceutical companies (and/or research institutes and hospitals), these data related tasks are very common:\n\nsummarise safety and efficacy data\nprovide accurate picture of trial outcomes\nmanage data collection across different sites\n\nCompleting these tasks in a correct, efficient and reproducible manner is crucial for patient safety. However, these tasks are also highly resource intensive: highly trained scientist, statisticians and technincians must be involved in the process. Historically, pharma use commercial software such as SAS.\n\nRegulation and exploration needs\nThere are requirements for clinical reporting: both regulartory and exploratory. From the regulatory side, there exist industry standards (CDISC) in the clinical research process, such as SDTM (Model for Tabulation of Study Data) and ADaM (Analysis Data Model). Statistical analyses, tables, listings and graphs (TLGs) also fall into this cateogory.\nFrom the exploratory side, clinical data are highly context dependent, and new formats of data such as imaging are more and more used in prediction modeling and drug development.\nIn addition, it is not hard to imagine that the technical competency of employees differ, especially in large organizations. Enabling people with less experience to analyse trial data in a reproducible manner is helpful for not only the learning and growth of employees, but also the productivity of organizations.\nThe existing commercial tools are not able to adapt to the rapid changes in the field.\n\n\nTransition into Open-Source\nIn this talk, Dr Kieran Martin at Roche introduced that they started using R as their core data science tool, aiming to move their codebase to having a core R. In the future, they plan to have something that is lanugage agnostic: meaning that python, Stan, C++, Julia and beyond can be used for different tasks.\nI only noted down a few of the things they mentioned on the infrastructure side:\n\nOCEAN - a lanugage agnostic computing platform on AWS (docker)\nGit, Gitlab for version control and collaboration\nRstudio connect server\nSnakemake for orchestrate production\n\n\n\nR and Shiny\nThere are obvious benefits of using R. It is convenient to install and use (if you used python and R, you’d probably agree), and the latest development in Shiny made it very easy to develop interactive visualizations, suitable for exploration. Package development is critical for reproducibility and distributing works - which R does it very well. A few packages developed by pharma are Teal and admiral: the ADaM in R, which I intend to check out at one point.\nR has deep roots in academia which means the newest statistical methods are well covered; which also affects the skill sets that talents own - fresh graduates probably already learned it at university. R being open source means that collaboration with external partners is much more efficient, and transparent. Strong community support is another positive thing that encourages beginners to enter the field and learn.\n\n\n\n\nOpen Sourcing Public Health\n\nSurveillance and reporting\nOne key functionality of public health (PH) authorities is stay informed and inform. They collect data from labs, hospitals and clinics across the country, summarize into useful statistics in tables and graphs, make reports, then inform the policy makers to make decisions (such as vaccination campaigns).\nCompared to clinical reporting (in my understanding), there are many similarities - we make TLG (tables, listings and graphs). There are also features that make reporting in public health unique:\n\nPH surveillance and reporting are dynamic and real-time, which can change in a matter of days. That is because the situation of different infectious diseases can evolve rapidly, so PH authorities need to make appropriate adjustments.\nTime and location (spatial-temporal) are important. Different time granularity (daily, weekly) and geographical units (nation, county, municipality, city districts) are typically required for reporting.\n\n\n\nScale up and automate with open source tools\nTraditionally, these reports are made manually - one location, one graph per time on a certain disease. When a global pandemic hits, this is definitely not fast enough. At my team (Sykdomspulsen team at the Norwegian Institute of Public Health), we tried a different approach. Details of what we did can be found in this talk(slides), but to make it brief:\n\nWe developed a fully automated pipeline that connects 15 registries (vaccination, lab, hospital and intensive care and many more). The data is gathered, censored, cleaned and pre-processed for down-stream analysis\nStatistical analysis, tables, graphs and maps are made for all locations in Norway for various outcomes of interest, such as Covid, influenza, respiratory and gastrointestinal infections\nOver 1000 customized reports with over 30 graphs and tables are produced daily and sent to local PH officials, where we also had a shiny website (Kommunehelsetjenester for Kommunelege) for over 300 PH officials to get most up-to-date information about their own municipality\n\nBy automation, every year Sykdomspulsen can save 700 000 NOK (roughly 70k USD) while making 400 times more real-time reports for public health. Even better, with reproducibility and quality control.\n\n\nToolbox\nSykdomspulsen is a small team (8 people, 3 are statisticians and 1 engineer), and our infrastructure was built upon R packages, which we call splverse. Our infrastructure is not fundamentally different from the one Roche introduced, basically:\n\nR does the task planning and project organization. On top of this, the data cleaning, statistical analysis are implemented. Graphs, tables and maps are made with appropriate R packages\nRmarkdown does automated reporting into .docx and .xlsx. Some reports are also in .html tables to be embedded into customized emails\nRstudio Workbench and GitHub help with teamwork\n\nDocker, GoCD and Airflow do the CI/CD and orchestration\n\n\n\n\nEmbrace the transition\n\nCulture change needed\nUnfortunately, not all organizations are eager to abandon the old way. Even at our own institute where researchers are the majority, open source and modern day programming is hardly practiced (by my observation). Even worse, under the budget cuts in 2023-24, a large number of younger employees who have the technical skills have left - which left the public health surveillance even more vulnerable now that Covid is far from over.\nIn my opinion, public health needs open-source and good programming even more than pharmaceutical companies. Both save lifes - and PH has less money to invest in softwares, infrastructures and talents. In this situation, resources should be spent in fields that are critical and most cost-effective; yet in reality this is often not the case.\nThe slow culture change at big organizations can happen, but only if there is a sufficient amount of employees who are willing to embrace the new technology. In the talk by Roche they about about their training strategy. It is not possible to train all users, and not everyone has the same needs at the same time. Therefore, self study with certain study paths is encouraged and supported.\n\n\nTeach programming to students in various fields\nBased on my experience in the UK and Norway, students (myself included) learn R programming in one of the two ways\n\nLearning by Googling (self-taught): a university degree needs to use it: provides a short introduction, then students learn by using. This is how I learned R at my MSc Statistics degree, and this is probably the most common way\nWorkshops at university: organizations such as the Carpentries provide course material and teaching a few times per year, where interested students (usually from subjects such as biology) come and learn. These classes are quite popular, and usually have a long waiting list.\n\nFrom learning by googling to some organized teaching - that is already some good progress. However, if not, can we improve?\nIn my experience with statistical advising with the university hospital, clinical researchers and medical students are enthusastic to get their statistics done, some are also eager to do some analysis themselves. That is good. Yet, there is generally lack of capacity - either knowledge or software skills. Once the statistician who helps with the project stops, the project ends. There is the need to have in-house statistical capacity. To this end, open-source softwares such as R, and good programming practice (reproducibility for example) can help a lot: the license doesn’t end, and everything is documented so that the next person can continue the work.\nI’m glad that my university has made some transitional efforts in this regard: STATA instead of SPSS is being taught to medical students as part of their statistics course. There might be a test-run in R soon, which is very exciting (since I’ll be involved in the teaching)!\n\n\nStatistical engineering and RSEs\nThat was the capacity building to get beginners more independent. On the other side, there is also the need for better programming practice for researchers at more advanced level. Research Software Engineering (RSE) is starting to get more and more attention, because it is not only relevant for research (i.e. getting papers published), but in broader applications.\nFor example, in the talk by Roche, they mentioned that “RSE teams need to accelerate adoption of new statistical methods and biomarker data analysis”, and the implementation with R packages and templates is at its core. In the future more languages would be included such as Python, Stan, C++ and Julia.\nHowever, RSE as a job title or career path is still a new thing. I know two RSEs at my university, and RSE is definitely not your typical academic faculty position: only departments that think it’s important makes positions, often not permanent. To get any new methods actually used in either industry or the public sector outside research, translating methods into tools is must-do. In the future I hope RSE becomes a stable and common career path, and more exciting things can happen."
-  },
-  {
-    "objectID": "blog/blog_20230112_roche_opensource/index.html#r-and-shiny",
-    "href": "blog/blog_20230112_roche_opensource/index.html#r-and-shiny",
-    "title": "Open source reporting with R: clinical, public health and beyond",
-    "section": "R and Shiny",
-    "text": "R and Shiny\nThere are obvious benefits of using R for clinical reporting.\n\nconvenient. shiny\ntalent know R out of university\nopen source\n\nlatest dev more repidly\neasier to switch language (r/py)\nCollaborate with external partners\n\n\nTeal\nadmiral: the ADaM in R (roche, gsk)\nCI/CD"
-  },
-  {
-    "objectID": "blog/blog_20230112_roche_opensource/index.html#transition-into-open-source",
-    "href": "blog/blog_20230112_roche_opensource/index.html#transition-into-open-source",
-    "title": "Open source reporting with R: clinical, public health and beyond",
-    "section": "Transition into Open-Source",
-    "text": "Transition into Open-Source\nIn this talk, Dr Kieran Martin at Roche introduced that they started using R as their core data science tool, aiming to move their codebase to having a core R. In the future, they plan to have something that is lanugage agnostic: meaning that python, Stan, C++, Julia and beyond can be used for different tasks.\nGiven that my background is not in software engineering, I only noted down a few of the things they mentioned on the infrastructure side:\n\nOCEAN - a lanugage agnostic computing platform on AWS (docker)\nGit, Gitlab for version control and collaboration\nRstudio connect server\nSnakemake for orchestrate production"
-  },
-  {
-    "objectID": "blog/blog_20230112_roche_opensource/index.html#my-observation",
-    "href": "blog/blog_20230112_roche_opensource/index.html#my-observation",
-    "title": "Open source reporting with R: clinical, public health and beyond",
-    "section": "my observation",
-    "text": "my observation\nI do not have experience with SAS or pharma, so I do not have first-hand knowledge on the functionality, ease-of-use or the popularity of commercial softwares in the industry.\nSince I did my MSc and PhD in statistics/biostatistics/medical informatics, R had always been a default choice. Then I worked in public health for a few years, where Excel is possibly the most common tool. There are probably less than 30 people at our institute (more than 1000 employees) who can use R - including statisticians, epidemiologists, bioinformaticians etc.\nteaching in stata"
-  },
-  {
-    "objectID": "blog/blog_20230112_roche_opensource/index.html#why-use-r-and-shiny",
-    "href": "blog/blog_20230112_roche_opensource/index.html#why-use-r-and-shiny",
-    "title": "Open source reporting with R: clinical, public health and beyond",
-    "section": "Why use R and Shiny?",
-    "text": "Why use R and Shiny?\nThere are obvious benefits of using R for clinical reporting.\n\nconvenient. shiny\ntalent know R out of university\nopen source\n\nlatest dev more repidly\neasier to switch language (r/py)\nCollaborate with external partners\n\n\nTeal"
-  },
-  {
-    "objectID": "blog/blog_20230112_roche_opensource/index.html#regulation-and-exploration",
-    "href": "blog/blog_20230112_roche_opensource/index.html#regulation-and-exploration",
-    "title": "Open source reporting with R: clinical, public health and beyond",
-    "section": "Regulation and exploration",
-    "text": "Regulation and exploration\nThere are requirements for clinical reporting: both regulartory and exploratory. From the regulatory side, there exist industry standards (CDISC) in the clinical research process, such as SDTM (Model for Tabulation of Study Data) and ADaM (Analysis Data Model). Statistical analyses, tables, listings and graphs (TLGs) also fall into this cateogory.\nFrom the exploratory side, clinical data are highly context dependent, and new formats of data such as imaging are more and more used in prediction modeling and drug development.\nIn addition, it is not hard to imagine that the technical competency of employees differ, especially in large organizations. Enabling people with less experience to analyse trial data in a reproducible manner is helpful for not only the learning and growth of employees, but also the productivity of organizations.\nThe existing commercial tools are not able to adapt to the rapid changes in the field.\nExploratory\n\nhighly context dependent\nnovel data modalities\nenable non-data scientists to analysis trial data in a reproducible manner"
-  },
-  {
-    "objectID": "blog/blog_20230112_roche_opensource/index.html#regulation-and-exploration-needs",
-    "href": "blog/blog_20230112_roche_opensource/index.html#regulation-and-exploration-needs",
-    "title": "Open source reporting with R: clinical, public health and beyond",
-    "section": "Regulation and exploration needs",
-    "text": "Regulation and exploration needs\nThere are requirements for clinical reporting: both regulartory and exploratory. From the regulatory side, there exist industry standards (CDISC) in the clinical research process, such as SDTM (Model for Tabulation of Study Data) and ADaM (Analysis Data Model). Statistical analyses, tables, listings and graphs (TLGs) also fall into this cateogory.\nFrom the exploratory side, clinical data are highly context dependent, and new formats of data such as imaging are more and more used in prediction modeling and drug development.\nIn addition, it is not hard to imagine that the technical competency of employees differ, especially in large organizations. Enabling people with less experience to analyse trial data in a reproducible manner is helpful for not only the learning and growth of employees, but also the productivity of organizations.\nThe existing commercial tools are not able to adapt to the rapid changes in the field."
-  },
-  {
-    "objectID": "blog/technotes_20230205_clinreport_part1/index.html",
-    "href": "blog/technotes_20230205_clinreport_part1/index.html",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 1",
-    "section": "",
-    "text": "This is a course provided by Genentech (part of Roche) on Coursera.\nCourse link"
-  },
-  {
-    "objectID": "blog/technotes_20230205_clinreport_part1/index.html#why-share-data",
-    "href": "blog/technotes_20230205_clinreport_part1/index.html#why-share-data",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 1",
-    "section": "Why share data",
-    "text": "Why share data\n\nregulatory requirements\nscientific community interest\ncompany internal research interest\nmarketing materials\n\n\nData and results sharing\n\nRegulatory req (e.g. EMA require sharing clinical trial results to gain marketing authorization for pharma products, FDA require sharing data)\nscientific community (peer review check accuracy, perform additional analyses, derive new hypothesis)\nCDISC standards\n\nCDASH (clinical data acquisition standards harmonization)\nSDTM (study data tabulation model)\n\nformat for ‘raw’ data, define datasets, structures, contents, variable attributes\n\nSEND (standard for exchange of non clinical data)\nADaM (analysis data model)\n\ndata format for data processed for analysis (e.g. converted, imputed, derived)\n\n\nDictionary\n\ne.g. nose congestion, stuffy nose, … need to be standardized\nMedDRA: standard dictionary for medical conditions, events and procedures\nWHO drug dictionary (for pharma agents)\n\nSAP statistical analysis plan\n\nbased on study protocol, focus on statistical methodology, is regulated\n\nProgramming specification\n\nbased on SAP, provides additional details on datasets and tables, listing and figures (TLFs) required for statistical analysis. focus on programming details. Not regulated\n\n\n\n\nQuality assurance\n\nGood clinical practice (GCP), issued by ICH\npurpose: prevent mistakes, reduce inefficiencies/waste in a process, increase reliability/trustworthiness of the product of a process\nClinical monitoring: performed by a clinical research assistant (CRA) at investigator sites, checks that study protocols are executed as intended, and site processes result in accurate data capture. Focus on trial subjects’ safety. Traditional goal: 100% source data verification\nData quality checks (more relevant for data scientists). Checks data for technical conformance, and data plausibility. Focus on data quality. Traditional goal: 100% accurate and format compliant data\nCode review\nDouble programming\n\n\n\nData access restrictions\n\nreasons\n\ndata collected is very sensitive (health data), need data protection\nclinical trial data is a key asset and revenue predictor for pharma companies, high confidentiality levels\nscientific validity, data is ideally double blinded, no-one should know whether a subjecttreatment is as long as the data is still being collected\n\npseudonymization: data de-identification\n\nuse pseudonym (ID), link is recorded to allow re-identification\n\nanonymization: limit the risk of re-identification\n\nremove variables, remove values, replace more precise values with more general categories, replace personal identifiers with random identifiers\n\nFSP, CRO (out-sourcing), personnels require data access at different levels\nUnblinding"
-  },
-  {
-    "objectID": "blog/technotes_20230205_clinreport_part1/index.html#introduction-to-clinical-trial",
-    "href": "blog/technotes_20230205_clinreport_part1/index.html#introduction-to-clinical-trial",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 1",
-    "section": "Introduction to clinical trial",
-    "text": "Introduction to clinical trial\nClinical trial: aim to demonstrate that drug is safe and effective (safety, efficacy)\n\nphase 1: 10-20 people, focus on safety (healthy volunteers)\nphase 2: 100, study of side effects, determine best dose\nphase 3: 1000, demonstrate drug efficacy, fuller safety profile (common across multiple regions, ethnicities)\n\ncollecting data from different hospitals, hence important to ensure standards are being followed\n\nevidence must be submitted to health authorities (FDA, EMA European medicines agency)\nhealth authorities determine whether the drug is submitted to market\n\nSubmit the analysis plan in advance"
-  },
-  {
-    "objectID": "blog/technotes_20230220_pkgdown/index.html",
-    "href": "blog/technotes_20230220_pkgdown/index.html",
-    "title": "R package website with pkgdown",
-    "section": "",
-    "text": "1. Create the website skeleton.\nBefore editing the details, we need to create the skeleton for the website. It can be done with usethis and pkgdown packages.\nIn R, run this:\nusethis::use_pkgdown()\nThis creates the _pkgdown.yml file, which is the place you configure your site.\nTo view the initial package website, use the following command:\npkgdown::build_site()\nThis creates docs/ directory containing a website\n\nREADME.md becomes the homepage,\ndocumentation in man/ generates a function reference,\nvignettes are rendered into articles/.\n\n\n\n2. Edit the vignette documentation\nMake sure that the vignette index is consistent with Title, otherwise it will not render.\n\n\n3. Build and preview your site\nNow check if the site looks good, and contents are correctly positioned.\npkgdown::preview_site()\npkgdown::build_site()\nYou can also do this to build the site.\npkgdown::build_site_github_pages()\n\n\n4. Deploy site with GitHub Pages\nThere seems to be two options:\n\nusethis::use_pkgdown_github_pages(), this function should take care of everything after pushing changes to GH.\nif you used pkgdown::build_site_github_pages() and pushed everything to GitHub, it might not automatically deploy your site to GH pages. I tried to go to Settings -> Pages -> Deploy from a branch -> main -> /docs, this makes Action deploy your site from the docs folder."
-  },
-  {
-    "objectID": "blog/technotes_20230222_clinreport_part2/index.html",
-    "href": "blog/technotes_20230222_clinreport_part2/index.html",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 2",
-    "section": "",
-    "text": "This is a course provided by Genentech (part of Roche) on Coursera.\nCourse link"
-  },
-  {
-    "objectID": "blog/technotes_20230222_clinreport_part2/index.html#agile-mindset-and-devops-practices",
-    "href": "blog/technotes_20230222_clinreport_part2/index.html#agile-mindset-and-devops-practices",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 2",
-    "section": "Agile mindset and DevOps practices",
-    "text": "Agile mindset and DevOps practices\n\nData science as a new way of thinking\nNew way of working means\n\nleverage standards and automation (CI/CD)\nadopt new data types quickly, reusing data for multiple purposes, pooling data, data marts\nopen-sourcing and collaborating cross pharma (small, readable, self-tested code)\ncoding for reusability, moving away from single-use programs\nrapidly re-arranginng re-usable components to meet analytical need at hand\n\nData scientist need to have hard skills, such as\n\nSAS, R, Python, JS, bash\ncloud, containers\nCI/CD tools\nvisualisation\nknowledge of various data types\n\nand also soft skills:\n\ncollaborative and inclusive\ntransparent and practical\ncreative and proactive\nasking the right questions\nable to wear many hats, be more flexible and resilient\n\n\n\nAgile\nProject management; a mindset: uncover better ways of working, by doing and helping others do it.\n1st principle: highest priority is to satisfy the customer through early and continuous delivery of valuable software.\nImplementations: Kanban, Scrum, Lean, Extreme programming\nTools:\n\nbacklog\nkanban board (not started, in progress, done)\nWIP (work in progress limit)\nprogress measures: e.g. team velocity\n\n\n\nDevOps\nIncrease efficiency by improving the connection between Dev (software development) and Ops (IT operations).\nThe goal is continuous delivery and continuous improvement.\nPractices:\n\nmodular architecture\nversion control\nmerge into trunk daily\nautomated and continuous testing, continuous integration\nautomated deployment\n\n\nDevOps in clinical reporting\nRisks around production run:\n\nare all dependencies in production?\nwas all quality control completed and successful?\nis all documentation complete?\nwas the transfer to eDMS correct and successful?"
-  },
-  {
-    "objectID": "blog/technotes_20230222_clinreport_part2/index.html#version-control",
-    "href": "blog/technotes_20230222_clinreport_part2/index.html#version-control",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 2",
-    "section": "Version control",
-    "text": "Version control\nFeature branch (as opposed to master branch): one task per branch\nname feature branch: issue number and description\nEach issue should have a clear description, short and specific; instead of being long and overarching.\n\nWorkflow for clinical reporting\nRestraints of clinical deliveries: timing annd multiple deliveries; resourcing challenges\nMight need to choose between feature and GitFlow."
-  },
-  {
-    "objectID": "blog/technotes_20230222_clinreport_part2/index.html#reproducible-projects-in-r",
-    "href": "blog/technotes_20230222_clinreport_part2/index.html#reproducible-projects-in-r",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 2",
-    "section": "Reproducible projects in R",
-    "text": "Reproducible projects in R\nTo reproduce your work:\n\nGit (version control)\nR libraries\nWell structured projects\nUnderlying dependencies (e.g. operating systems, C++/C)\n\n\nWell structured projects\nClear names\nGood documentation\n\n\nR libraries and versions\nCheck session info; but not the most practical way.\nUse global libraries, .libPaths(), this gives you the path where all the packages are installed. Global libraries is useful when using a server for multiple R sessions, where they look for the packages in the same place.\nSolutions\n\nrenv package: makes each project in R self-contained.\nCheckpoint: project level library paths based on snapshots of CRAN\n\nUse Docker images! Saves R version, operating system, underlying dependencies"
-  },
-  {
-    "objectID": "rpkg/bayesynergy/index.html",
-    "href": "rpkg/bayesynergy/index.html",
-    "title": "bayesynergy",
-    "section": "",
-    "text": "An R package for Bayesian semi-parametric modelling of in-vitro drug combination experiments\nGitHub Link"
-  },
-  {
-    "objectID": "blog/technotes_20230223_roop/index.html",
-    "href": "blog/technotes_20230223_roop/index.html",
-    "title": "OOP in R: S3 and R6",
-    "section": "",
-    "text": "Useful references:"
-  },
-  {
-    "objectID": "blog/technotes_20230223_roop/index.html#object-oriented-programing",
-    "href": "blog/technotes_20230223_roop/index.html#object-oriented-programing",
-    "title": "OOP in R: S3 and R6",
-    "section": "Object oriented programing",
-    "text": "Object oriented programing\nWhy use OOP: polymorphism - same function can be used on different types of input.\nWithout OOP, if someone wants to add new functionality to for example summary(), he needs to ask the original author to change if-else statements inside the summary function. OOP allows any developer to extend the interface for new types of input.\n\nTerminology\n\nObject: individual instances of a class\nClass: type of an object, i.e. what an object is\nMethod: a function associated with a particular class, i.e. what the object can do\n\ngeneric method: mean() of a vector of numbers is a number, mean() of a vector of dates is a date\nInherit: a sub-class inherits all the attributes and methods from the super-class. E.g. generalized linear model inherits from a linear model.\nmethod dispatch: the process of finding the correct method given a class\n\n\nEncapsulated OOP:\n\nmethods belong to object or classes\nobject.method(arg1, arg2)\ncommon in most languages\nR6, RC (reference class) are examples of this type\n\nFunctional OOP:\n\nmethods belongn to generic functions\ngeneric(object, arg2, arg3)\nS3 is an informal implementation of this type"
-  },
-  {
-    "objectID": "blog/technotes_20230223_roop/index.html#s3",
-    "href": "blog/technotes_20230223_roop/index.html#s3",
-    "title": "OOP in R: S3 and R6",
-    "section": "S3",
-    "text": "S3\nAllows the function to return rich results with user-friendly display and programmer-friendly internals."
-  },
-  {
-    "objectID": "blog/technotes_20230223_roop/index.html#r6",
-    "href": "blog/technotes_20230223_roop/index.html#r6",
-    "title": "OOP in R: S3 and R6",
-    "section": "R6",
-    "text": "R6\nModel data that comes from a web API, and changes come from inside and outside R."
-  },
-  {
-    "objectID": "blog/technotes_20230223_roop/index.html#terminology",
-    "href": "blog/technotes_20230223_roop/index.html#terminology",
-    "title": "OOP in R: S3 and R6",
-    "section": "Terminology",
-    "text": "Terminology\n\nObject: individual instances of a class\nClass: type of an object, i.e. what an object is\nMethod: a function associated with a particular class, i.e. what the object can do\n\ngeneric method: mean() of a vector of numbers is a number, mean() of a vector of dates is a date\nInherit: a sub-class inherits all the attributes and methods from the super-class. E.g. generalized linear model inherits from a linear model.\nmethod dispatch: the process of finding the correct method given a class\n\n\nEncapsulated OOP:\n\nmethods belong to object or classes\nobject.method(arg1, arg2)\ncommon in most languages\nR6, RC (reference class) are examples of this type\n\nFunctional OOP:\n\nmethods belong to generic functions\ngeneric(object, arg2, arg3)\nS3 is an informal implementation of this type"
-  },
-  {
-    "objectID": "blog/technotes_20230223_roop/index.html#base-types",
-    "href": "blog/technotes_20230223_roop/index.html#base-types",
-    "title": "OOP in R: S3 and R6",
-    "section": "Base types",
-    "text": "Base types\nCheck whether an object is object-oriented, or base object:\n\nis.object()\nsloop::otype(): returns base or S3/S4\nattr(obj_name, 'class'): OO objects has a class attribute, BO does not.\n\n\nx <- 1:10 # a numeric vector\ny <- factor(c('a', 'b'))  # a factor\n\nc(is.object(x), is.object(y))\n\n[1] FALSE  TRUE\n\nc(sloop::otype(x), sloop::otype(y))\n\n[1] \"base\" \"S3\"  \n\nattr(x, 'class') \n\nNULL\n\nattr(y, 'class')\n\n[1] \"factor\"\n\n\nAll objects have a base type; not all are OO objects.\n\ntypeof(1:10) returns ‘integer’\n25 base types in total\n\nvectors: e.g. NULL, logical, integer, double, complex, character, list, raw\nfunctions: e.g. closure, special, builtin\nenvironments: environment\nS4: S4\nlanguage components, symbol, language, pairlist the rest are less common."
-  },
-  {
-    "objectID": "blog/technotes_20230223_roop/index.html#naming-scheme",
-    "href": "blog/technotes_20230223_roop/index.html#naming-scheme",
-    "title": "OOP in R: S3 and R6",
-    "section": "Naming scheme",
-    "text": "Naming scheme\n\ngeneric.class(), for example: print.factor()\ndo not call the method directly; use the generic (dispatch) to find it.\ngenerally has the . in the name; however it is not guaranteed * t.test() is a generic like print(), as t.test() can be used on multiple types of inputs\n\nas.factor() is not an OO object, hence not S3"
-  },
-  {
-    "objectID": "blog/technotes_20230223_roop/index.html#generic-method",
-    "href": "blog/technotes_20230223_roop/index.html#generic-method",
-    "title": "OOP in R: S3 and R6",
-    "section": "Generic, method",
-    "text": "Generic, method\n\nsloop::ftype() checks function type\n\nsloop::ftype(predict) # predict is a generic\n\n[1] \"S3\"      \"generic\"\n\nsloop::ftype(predict.glm)  # glm (class) method for predict() generic\n\n[1] \"S3\"     \"method\"\n\n\n\n\nmethods() checks methods\nmethods() checks all the methods belongs to a generic (the function), such as plot, predict, t.test\n\nmethods('predict')  # equiv sloop::s3_methods_generic('predict')\n\n [1] predict.ar*                predict.Arima*            \n [3] predict.arima0*            predict.glm               \n [5] predict.HoltWinters*       predict.lm                \n [7] predict.loess*             predict.mlm*              \n [9] predict.nls*               predict.poly*             \n[11] predict.ppr*               predict.prcomp*           \n[13] predict.princomp*          predict.smooth.spline*    \n[15] predict.smooth.spline.fit* predict.StructTS*         \nsee '?methods' for accessing help and source code\n\n\nBy specifying class (instead of the generic), can see a list of generics that have a method for this class\n\n# check all generics that have a method for a given CLASS\nmethods(class = 'lm')  # equiv sloop::s3_methods_class('lm')\n\n [1] add1           alias          anova          case.names     coerce        \n [6] confint        cooks.distance deviance       dfbeta         dfbetas       \n[11] drop1          dummy.coef     effects        extractAIC     family        \n[16] formula        hatvalues      influence      initialize     kappa         \n[21] labels         logLik         model.frame    model.matrix   nobs          \n[26] plot           predict        print          proj           qr            \n[31] residuals      rstandard      rstudent       show           simulate      \n[36] slotsFromS3    summary        variable.names vcov          \nsee '?methods' for accessing help and source code"
-  },
-  {
-    "objectID": "blog/technotes_20230223_roop/index.html#generic-or-method",
-    "href": "blog/technotes_20230223_roop/index.html#generic-or-method",
-    "title": "OOP in R: S3 and R6",
-    "section": "Generic or method?",
-    "text": "Generic or method?\n\ngeneric.class(), for example: print.factor()\ndo not call the method directly; use the generic (dispatch) to find it.\ngenerally has the . in the name; however it is not guaranteed * t.test() is a generic like print(), as t.test() can be used on multiple types of inputs\n\nas.factor() is not an OO object, hence not S3\n\n\n\nCheck function type with sloop::ftype()\n\nsloop::ftype(predict) # predict is a generic\n\n[1] \"S3\"      \"generic\"\n\nsloop::ftype(predict.glm)  # glm (class) method for predict() generic\n\n[1] \"S3\"     \"method\"\n\n\n\n\nCheck methods with methods()\nmethods() checks all the methods that either:\n\nbelongs to a generic (the function), such as plot, predict, t.test\nbelongs to a class (the type of input), such as lm, ar\n\n\nmethods('predict')  \n\n [1] predict.ar*                predict.Arima*            \n [3] predict.arima0*            predict.glm               \n [5] predict.HoltWinters*       predict.lm                \n [7] predict.loess*             predict.mlm*              \n [9] predict.nls*               predict.poly*             \n[11] predict.ppr*               predict.prcomp*           \n[13] predict.princomp*          predict.smooth.spline*    \n[15] predict.smooth.spline.fit* predict.StructTS*         \nsee '?methods' for accessing help and source code\n\nmethods(class = 'lm')\n\n [1] add1           alias          anova          case.names     coerce        \n [6] confint        cooks.distance deviance       dfbeta         dfbetas       \n[11] drop1          dummy.coef     effects        extractAIC     family        \n[16] formula        hatvalues      influence      initialize     kappa         \n[21] labels         logLik         model.frame    model.matrix   nobs          \n[26] plot           predict        print          proj           qr            \n[31] residuals      rstandard      rstudent       show           simulate      \n[36] slotsFromS3    summary        variable.names vcov          \nsee '?methods' for accessing help and source code\n\n\nEquivalently, use sloop::s3_methods_*(), as it gives more information in the output.\n\nsloop::s3_methods_generic('predict') \n\n# A tibble: 16 × 4\n   generic class             visible source             \n   <chr>   <chr>             <lgl>   <chr>              \n 1 predict ar                FALSE   registered S3method\n 2 predict Arima             FALSE   registered S3method\n 3 predict arima0            FALSE   registered S3method\n 4 predict glm               TRUE    stats              \n 5 predict HoltWinters       FALSE   registered S3method\n 6 predict lm                TRUE    stats              \n 7 predict loess             FALSE   registered S3method\n 8 predict mlm               FALSE   registered S3method\n 9 predict nls               FALSE   registered S3method\n10 predict poly              FALSE   registered S3method\n11 predict ppr               FALSE   registered S3method\n12 predict prcomp            FALSE   registered S3method\n13 predict princomp          FALSE   registered S3method\n14 predict smooth.spline     FALSE   registered S3method\n15 predict smooth.spline.fit FALSE   registered S3method\n16 predict StructTS          FALSE   registered S3method\n\nsloop::s3_methods_class('lm')\n\n# A tibble: 35 × 4\n   generic        class visible source             \n   <chr>          <chr> <lgl>   <chr>              \n 1 add1           lm    FALSE   registered S3method\n 2 alias          lm    FALSE   registered S3method\n 3 anova          lm    FALSE   registered S3method\n 4 case.names     lm    FALSE   registered S3method\n 5 confint        lm    TRUE    stats              \n 6 cooks.distance lm    FALSE   registered S3method\n 7 deviance       lm    FALSE   registered S3method\n 8 dfbeta         lm    FALSE   registered S3method\n 9 dfbetas        lm    FALSE   registered S3method\n10 drop1          lm    FALSE   registered S3method\n# … with 25 more rows"
-  },
-  {
-    "objectID": "blog/technotes_20230225_shinyappsio/index.html",
-    "href": "blog/technotes_20230225_shinyappsio/index.html",
-    "title": "Testing Shiny app and deploy to shinyapps.io",
-    "section": "",
-    "text": "Useful references:"
-  },
-  {
-    "objectID": "blog/technotes_20230225_shinyappsio/index.html#considerations",
-    "href": "blog/technotes_20230225_shinyappsio/index.html#considerations",
-    "title": "Testing Shiny app and deploy to shinyapps.io",
-    "section": "Considerations",
-    "text": "Considerations\nA few ways to do it: Shiny Server (free), shinyapps.io (free and premium), and professional Rstudio Connect (paid).\nI choose to test out the second option, since it allows more possibilities compared to the free open-source Shiny Server.\nThe free option should allow me to create 5 apps, which is more than enough for personal use. It also allows 25 active hours per month; a note on that at the end."
-  },
-  {
-    "objectID": "blog/technotes_20230225_shinyappsio/index.html#configuration",
-    "href": "blog/technotes_20230225_shinyappsio/index.html#configuration",
-    "title": "Testing Shiny app and deploy to shinyapps.io",
-    "section": "Configuration",
-    "text": "Configuration\nSign up with GitHub account; or something else. It is possible to change account name afterwards.\nIn Rstudio,\n\nfirst install.packages('rsconnect')\nthen, configure the account. It can be done with rsconnect::setAccountInfo() with information provided in your own shinyapps.io page.\n\nBefore the last step, it is necessary to have an app to deploy!"
-  },
-  {
-    "objectID": "blog/technotes_20230225_shinyappsio/index.html#create-my-first-shiny-project",
-    "href": "blog/technotes_20230225_shinyappsio/index.html#create-my-first-shiny-project",
-    "title": "Testing Shiny app and deploy to shinyapps.io",
-    "section": "Create my first shiny project",
-    "text": "Create my first shiny project\nHere I use my usual workflow of creating a new R project:\n\nCreate a new repo on GitHub;\nClone the repo locally, by opening a new R project with version control.\n\nNow copy the two R scripts from the demo example:\n\nserver.R\nui.R\n\nTest locally by running shiny::runApp(). This should render the app."
-  },
-  {
-    "objectID": "blog/technotes_20230225_shinyappsio/index.html#deploy-to-shinyapps.io",
-    "href": "blog/technotes_20230225_shinyappsio/index.html#deploy-to-shinyapps.io",
-    "title": "Testing Shiny app and deploy to shinyapps.io",
-    "section": "Deploy to shinyapps.io",
-    "text": "Deploy to shinyapps.io\nrsconnect::deployApp() will deploy the app, with an automatically generated url that links to your account.\nThe demo app is deployed here.\n\nNote on active hours\nAfter deployment, the site seems to be active until you shut it down manually; or timeout. The default timeout is 15 minutes, which can be reduced to 5 minutes.\n25 hours per month suggests that I can open the site for 300 times (without manually shuting it down). It might be necessary to start using the paid options, if I have more than one site, or multiple users want to access it …"
   },
   {
     "objectID": "blog/readnotes_2023010x_pandemic_gates/index.html#learn-from-covid",
@@ -858,7 +179,7 @@
     "href": "blog/readnotes_2023010x_pandemic_gates/index.html#help-people-protect-themselves-right-away",
     "title": "How to prevent the next pandemic - Bill Gates",
     "section": "Help people protect themselves right away",
-    "text": "Help people protect themselves right away"
+    "text": "Help people protect themselves right away\nThe effect of NPI (non-pharmaceutical intervention, such as masks and lockdown) is difficult to quantify; yet it is a very important measure.\nParadox: NPI is effective -> reduced cases -> people think NPI is not necessary\nLockdown can slow down spread, yet it has a huge impact on economy, especially for LMIC.\nContact tracing\n\nnot a new technology; used for smallpox, Ebola, AIDS.\nnot widely applicable: some countries do it better than others. Need more trust from people towards public health agencies.\nsmartphone apps, not very useful: limited by users\n\nGood ventilation system\n\nviruses survive in air, but for different length of time\n\nSocial distance\n\n6 inch isn’t a magic distance\ndepends on circumstances: indoor/outdoor"
   },
   {
     "objectID": "blog/readnotes_2023010x_pandemic_gates/index.html#find-new-treatment-fast",
@@ -896,88 +217,53 @@
     "text": "Make and fund a plan for preventing pandemics"
   },
   {
-    "objectID": "blog/technotes_20230227_clinreport_part3/index.html",
-    "href": "blog/technotes_20230227_clinreport_part3/index.html",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 3",
+    "objectID": "blog/technotes_20230225_shinyappsio/index.html",
+    "href": "blog/technotes_20230225_shinyappsio/index.html",
+    "title": "Testing Shiny app and deploy to shinyapps.io",
     "section": "",
-    "text": "This is a course provided by Genentech (part of Roche) on Coursera.\nCourse link"
+    "text": "Useful references:"
   },
   {
-    "objectID": "blog/technotes_20230227_clinreport_part4/index.html",
-    "href": "blog/technotes_20230227_clinreport_part4/index.html",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
+    "objectID": "blog/technotes_20230225_shinyappsio/index.html#considerations",
+    "href": "blog/technotes_20230225_shinyappsio/index.html#considerations",
+    "title": "Testing Shiny app and deploy to shinyapps.io",
+    "section": "Considerations",
+    "text": "Considerations\nA few ways to do it: Shiny Server (free), shinyapps.io (free and premium), and professional Rstudio Connect (paid).\nI choose to test out the second option, since it allows more possibilities compared to the free open-source Shiny Server.\nThe free option should allow me to create 5 apps, which is more than enough for personal use. It also allows 25 active hours per month; a note on that at the end."
+  },
+  {
+    "objectID": "blog/technotes_20230225_shinyappsio/index.html#configuration",
+    "href": "blog/technotes_20230225_shinyappsio/index.html#configuration",
+    "title": "Testing Shiny app and deploy to shinyapps.io",
+    "section": "Configuration",
+    "text": "Configuration\nSign up with GitHub account; or something else. It is possible to change account name afterwards.\nIn Rstudio,\n\nfirst install.packages('rsconnect')\nthen, configure the account. It can be done with rsconnect::setAccountInfo() with information provided in your own shinyapps.io page.\n\nBefore the last step, it is necessary to have an app to deploy!"
+  },
+  {
+    "objectID": "blog/technotes_20230225_shinyappsio/index.html#create-my-first-shiny-project",
+    "href": "blog/technotes_20230225_shinyappsio/index.html#create-my-first-shiny-project",
+    "title": "Testing Shiny app and deploy to shinyapps.io",
+    "section": "Create my first shiny project",
+    "text": "Create my first shiny project\nHere I use my usual workflow of creating a new R project:\n\nCreate a new repo on GitHub;\nClone the repo locally, by opening a new R project with version control.\n\nNow copy the two R scripts from the demo example:\n\nserver.R\nui.R\n\nTest locally by running shiny::runApp(). This should render the app."
+  },
+  {
+    "objectID": "blog/technotes_20230225_shinyappsio/index.html#deploy-to-shinyapps.io",
+    "href": "blog/technotes_20230225_shinyappsio/index.html#deploy-to-shinyapps.io",
+    "title": "Testing Shiny app and deploy to shinyapps.io",
+    "section": "Deploy to shinyapps.io",
+    "text": "Deploy to shinyapps.io\nrsconnect::deployApp() will deploy the app, with an automatically generated url that links to your account.\nThe demo app is deployed here.\n\nNote on active hours\nAfter deployment, the site seems to be active until you shut it down manually; or timeout. The default timeout is 15 minutes, which can be reduced to 5 minutes.\n25 hours per month suggests that I can open the site for 300 times (without manually shuting it down). It might be necessary to start using the paid options, if I have more than one site, or multiple users want to access it …"
+  },
+  {
+    "objectID": "blog/technotes_20230111_deployqt/index.html",
+    "href": "blog/technotes_20230111_deployqt/index.html",
+    "title": "Publishing Quarto Website with GitHub Pages",
     "section": "",
-    "text": "This is a course provided by Genentech (part of Roche) on Coursera.\nCourse link"
+    "text": "1. Create a public repository on GitHub\nAfter you have the public repo, clone it to your local repo.\n\n\n2. Create Quarto project\nThis can be a website, a book (a specific type of website) or something else.\nTest compilation by quarto render, or click the Render button.\n\n\n\n3. Configure Quarto project\nIn _quarto.yml, change the project configuration to use docs as the output-dir:\nproject:\n  type: website\n  output-dir: docs\n\nThen add .nojekyll to the root of the repository. Can do this by (in terminal)\ntouch .nojekyll\nPush everything to your repository.\n\n\n4. Configure GitHub Pages\nGo to Settings > Pages, publish from docs of the main branch.\n\nCan check GitHub Action and deployment status.\n\n\nAfter the deployment is successful, go to view deployment, and a successful website should be published."
   },
   {
-    "objectID": "blog/technotes_20230227_clinreport_part3/index.html#principles-and-tools",
-    "href": "blog/technotes_20230227_clinreport_part3/index.html#principles-and-tools",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 3",
-    "section": "Principles and tools",
-    "text": "Principles and tools\nReproducibility: Git (code versioning), dependencies (renv for r package dependencies, Docker for system dependencies)\n\nClean code\nCode comments: not recommended! Better to write code in a way that does not need additional comments.\nDRY: don’t repeat yourself (principle of software development), avoid copy and paste everywhere.\nSRP: single-responsibility prinicple, a function should do one thing: either plot a chart, saves a file, changes variables etc, but not all.\nNaming conventions\n\nReserve dots (.) for S3 methods (print.patient)\nReserve CamelCase for R6 classes or package names (OurPatients)\nUse snake cases (all_patients) for function names and arguments, use verb noun pattern (plot_this())\n\n\n\nCode smells\nA function might be too large: break into smaller ones (e.g. could fit in one screen)\nA function violates SRP: break into smaller ones, and be explicit in what result it is expected to return\nA function with multiple arguments: the scenarios to be tested increase rapidly. Recommended to minimize number of critical function arguments, and break the function into smaller ones.\nBad comments in the code: drop the unnecessary, unclear, outdated comments, write code that are self-explanatory.\n\n\nDevelopment workflow\nCode refactoring: change existing code without its functionality\nTDD: Test-Driven Development\n\nstart with writing a new (failing) test\nwrite code thtat passes the nenw tetst\nrefactor the code\nand repeat\n\nBenefits: your code is covered by tests; you think of testing scenarios first; “fail fast” - can immediately repair the code; more freedom to refactor (improve) the code.\nHow to test\n\nautomatically: CI/CD, after pushing Git commits\nmanually:\n\nrun all unit tests in the package (Build / Test package)\nrun tests in a selected test file (Run Tests)\nrun a single test in Rstudio console\n\n\nHow to check\n\nR CMD CHECK"
-  },
-  {
-    "objectID": "blog/technotes_20230227_clinreport_part3/index.html#writing-robust-statistical-software",
-    "href": "blog/technotes_20230227_clinreport_part3/index.html#writing-robust-statistical-software",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 3",
-    "section": "Writing robust statistical software",
-    "text": "Writing robust statistical software\nImplement complext statistical methods such that the software is reliable, and includes appropriate testing to ensure high quality and validity and ultimately credibility of statistical analysis results.\n\nchoose the right method and understand them\nsolve the core implementation problem with prototype code\n\nNeed to try a few different solutions, compare and select the best one. Might also need to involve domain experts.\n\nspend enough time on planning the design of the R package\n\nDon’t write the package right away; instead define the scope, discuss with users, and design the package.\nStart to draw a flow diagram, align names, arguments and classes; write prototype code.\n\nassume the package will evolve over time\n\nPackages you depend on will change; users will require new features\nWrite tests\n\nunit tests\nintegration tests\n\nMake the package extensible\n\nconsider object oriented package designs\ncombine functions in pipelines\n\nKeep it manageable\n\navoid too many arguments\navoid too large functions"
-  },
-  {
-    "objectID": "blog/technotes_20230227_clinreport_part3/index.html#key-components",
-    "href": "blog/technotes_20230227_clinreport_part3/index.html#key-components",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 3",
-    "section": "Key components",
-    "text": "Key components\n\nDependency management\nInstall dependencies (system/OS level; R packages)\n\nSet repos (can be specified in options()) to e.g. CRAN, BioConductor\nrenv\ncontainer with dependencies pre-installed\n\n\n\nStatic code analysis\n\nLinting (for programmatic and syntax errors) via lintr package\nCode style enforcement via styler package\nSpell checks identifies misspelled words in vignettes, docs and R code via spelling package\n\n\n\nTesting\n\nR CMD build builds R packages as a installable artifact\nR CMD check runs 20+ checks including unit tests, reports errors, warnigns and notes\nTest coverage reports with covr, checks how many lines of code are covered with tests\nR CMD INSTALL tests R package installation\n\n\n\nDocumentation\nAuto-generated docs via Roxygen and pkgdown\n\n\nRelease and deployments\nRelease artifacts and deployments to target systems\n\nChangelog (features, bug fixes) in the NEWS.md\nRelease: create the package with R CMD build. Validation report with thevalidatoR\nPublishing: CRAN, BioConductor"
-  },
-  {
-    "objectID": "blog/technotes_20230227_clinreport_part4/index.html#communities-behind-open-source-packages",
-    "href": "blog/technotes_20230227_clinreport_part4/index.html#communities-behind-open-source-packages",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
-    "section": "Communities behind open source packages",
-    "text": "Communities behind open source packages\nExmample:\n\nsurvival: 8 developers, >18 years\nadmiral: 25 developers, >1 year\ntern: 77 developers, 5 years\nrtables: 21 developers, 4 years\n\nEngagement across these packages is different, some receive more issues and comments, some receive more code contributions.\nStale: stable? abandoned?\nContribution is highly skewed, a few contributors write the majority of the code."
-  },
-  {
-    "objectID": "blog/technotes_20230227_clinreport_part4/index.html#open-source-packages",
-    "href": "blog/technotes_20230227_clinreport_part4/index.html#open-source-packages",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
-    "section": "Open source packages",
-    "text": "Open source packages\nExmample:\n\nsurvival: 8 developers, >18 years\nadmiral: 25 developers, >1 year\ntern: 77 developers, 5 years\nrtables: 21 developers, 4 years\n\nEngagement across these packages is different, some receive more issues and comments, some receive more code contributions.\nStale: stable? abandoned?\nContribution is highly skewed, a few contributors write the majority of the code.\nR package life cycles (indicative, not guaranteed)\n\nexperimental (ready to use?)\nstable (safe to use?)\ndeprecated, no longer maintained\nsuperseded, something better exists\n<1.0: big changes likely; >=v1.0: is it safe to use?"
-  },
-  {
-    "objectID": "blog/technotes_20230227_clinreport_part4/index.html#assess-external-packages-for-statistical-methods",
-    "href": "blog/technotes_20230227_clinreport_part4/index.html#assess-external-packages-for-statistical-methods",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
-    "section": "Assess external packages for statistical methods",
-    "text": "Assess external packages for statistical methods\nDoes it provide the required functionality?\n\nCorrect statistical method?\nCould you extend it?\nCorrect results? (compare with another software)\nDo you understand the method? (check the paper linked with package)\n\nDoes it work reliably?\n\nPublished? (e.g. on CRAN)\nDifferent inputs?\nFast?\nDo other people use it? (downloads)\nDoes other software use it? (reverse dependencies)\n\nDoes the code look robust and well tested?\n\nHow are the functions implemented\nIs the source code readable\nCoverage with unit tests\nMature package?\n\nIs it well documented?\n\nDocumented functions?\nVignettes?\nPublished?\nInformative NEWS entry?\n\nWho are the authors, are they responsive?\n\nDid they publish statistics papers on this topic\nIs a github site with issues available"
-  },
-  {
-    "objectID": "blog/technotes_20230227_clinreport_part4/index.html#tools",
-    "href": "blog/technotes_20230227_clinreport_part4/index.html#tools",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
-    "section": "Tools",
-    "text": "Tools\ncovr and unit tests\nriskmetric and the R Validation Hub\npharmaverse.org, with end-to-end examples"
-  },
-  {
-    "objectID": "blog/technotes_20230227_clinreport_part4/index.html#ri",
-    "href": "blog/technotes_20230227_clinreport_part4/index.html#ri",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
-    "section": "Ri",
-    "text": "Ri\nCombine external and internal packages (CI/CD release)\n-> automated package data collection\n-> automated quality checks: if not pass, assess\n-> package repo integration tests\n-> publish to package repo, generate package validation report"
-  },
-  {
-    "objectID": "blog/technotes_20230227_clinreport_part4/index.html#risk-mitigation-for-r-packages",
-    "href": "blog/technotes_20230227_clinreport_part4/index.html#risk-mitigation-for-r-packages",
-    "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
-    "section": "Risk mitigation for R packages",
-    "text": "Risk mitigation for R packages\nCombine external and internal packages (CI/CD release)\n-> automated package data collection\n-> automated quality checks: if not pass, assess\n-> package repo integration tests\n-> publish to package repo, generate package validation report"
-  },
-  {
-    "objectID": "blog/blog_20230301_ds_clinreport/index.html",
-    "href": "blog/blog_20230301_ds_clinreport/index.html",
-    "title": "Course review: making DS work for clinical reporting",
+    "objectID": "blog/technotes_20230220_pkgdown/index.html",
+    "href": "blog/technotes_20230220_pkgdown/index.html",
+    "title": "R package website with pkgdown",
     "section": "",
-    "text": "This is a course provided by Genentech (part of Roche) on Coursera (course link). It is not necessary to have a paid coursera membership to view the course, everyone could access it.\nIt is a 4 part course released one month ago (Jan/Feb 2023), and it seems that a follow-up will be released in the future.\nOverall I think it strikes a good balance between high-level introduction of the good practices, and examples with how they are implemented. Even though the course focuses on clinical reporting in the pharmaceutical industry, the practices are highly relevant in other sectors as well (e.g. public health, academia, other industries that use open-source software).\nSpecific statistical methods, packages are introduced only at a high-level; which means the course is not for learning how to use this or that packages; but good practice guidelines.\nIn my opinion,\n\nit would be useful if the learner has some experience with software development and/or statistics; otherwise learners might not know how to practice them.\nmost of the examples are related to R packages (understandable), so some experience with R package (use or develop) is useful.\nit could be a very good study material for university students in related subjects.\n\n\n\n\nModule 1 (notes): what the requirements are regarding clinical reporting, what should be done to meet the quality standards;\nModule 2 (notes): DevOps and Agile\nModule 3 (notes): version Control, git workflows, reproducible clinical reporting\nModule 4 (notes): code quality, robust and reusable code, R packages\nModule 5 (notes): risk management with open source software\n\n\n\n\nI have a few years of experience as an R developer and academic researcher in related fields, so not all concepts are new to me. Nevertheless, I still learned quite a bit. For example,\n\n(Module 1) Data and results sharing needs to follow certain standards, such as CDISC; there are different industry standards to follow when it comes to data acquisition, tabulation and analysis (e.g. ADaM)\n(Module 2) Data scientists not only need hard skills, but also soft skills - they need to be able to wear many hats, and be more flexible and resilient.\n(Module 4, 5) Tests are extremely important. Think afar, develop your package so that they can be extended in the future. Design your package first, don’t start making your package immediately."
+    "text": "1. Create the website skeleton.\nBefore editing the details, we need to create the skeleton for the website. It can be done with usethis and pkgdown packages.\nIn R, run this:\nusethis::use_pkgdown()\nThis creates the _pkgdown.yml file, which is the place you configure your site.\nTo view the initial package website, use the following command:\npkgdown::build_site()\nThis creates docs/ directory containing a website\n\nREADME.md becomes the homepage,\ndocumentation in man/ generates a function reference,\nvignettes are rendered into articles/.\n\n\n\n2. Edit the vignette documentation\nMake sure that the vignette index is consistent with Title, otherwise it will not render.\n\n\n3. Build and preview your site\nNow check if the site looks good, and contents are correctly positioned.\npkgdown::preview_site()\npkgdown::build_site()\nYou can also do this to build the site.\npkgdown::build_site_github_pages()\n\n\n4. Deploy site with GitHub Pages\nThere seems to be two options:\n\nusethis::use_pkgdown_github_pages(), this function should take care of everything after pushing changes to GH.\nif you used pkgdown::build_site_github_pages() and pushed everything to GitHub, it might not automatically deploy your site to GH pages. I tried to go to Settings -> Pages -> Deploy from a branch -> main -> /docs, this makes Action deploy your site from the docs folder."
   },
   {
     "objectID": "blog/technotes_20230228_clinreport_part3/index.html",
@@ -1006,6 +292,20 @@
     "title": "Notes: Making Data Science work for Clinical Reporting - Part 3",
     "section": "Key components",
     "text": "Key components\n\nDependency management\nInstall dependencies (system/OS level; R packages)\n\nSet repos (can be specified in options()) to e.g. CRAN, BioConductor\nrenv\ncontainer with dependencies pre-installed\n\n\n\nStatic code analysis\n\nLinting (for programmatic and syntax errors) via lintr package\nCode style enforcement via styler package\nSpell checks identifies misspelled words in vignettes, docs and R code via spelling package\n\n\n\nTesting\n\nR CMD build builds R packages as a installable artifact\nR CMD check runs 20+ checks including unit tests, reports errors, warnigns and notes\nTest coverage reports with covr, checks how many lines of code are covered with tests\nR CMD INSTALL tests R package installation\n\n\n\nDocumentation\nAuto-generated docs via Roxygen and pkgdown\n\n\nRelease and deployments\nRelease artifacts and deployments to target systems\n\nChangelog (features, bug fixes) in the NEWS.md\nRelease: create the package with R CMD build. Validation report with thevalidatoR\nPublishing: CRAN, BioConductor"
+  },
+  {
+    "objectID": "blog/blog_20230301_ds_clinreport/index.html",
+    "href": "blog/blog_20230301_ds_clinreport/index.html",
+    "title": "Course review: making DS work for clinical reporting",
+    "section": "",
+    "text": "This is a course provided by Genentech (part of Roche) on Coursera (course link). It is not necessary to have a paid coursera membership to view the course, everyone could access it.\nIt is a 4 part course released one month ago (Jan/Feb 2023), and it seems that a follow-up will be released in the future.\nOverall I think it strikes a good balance between high-level introduction of the good practices, and examples with how they are implemented. Even though the course focuses on clinical reporting in the pharmaceutical industry, the practices are highly relevant in other sectors as well (e.g. public health, academia, other industries that use open-source software).\nSpecific statistical methods, packages are introduced only at a high-level; which means the course is not for learning how to use this or that packages; but good practice guidelines.\nIn my opinion,\n\nit would be useful if the learner has some experience with software development and/or statistics; otherwise learners might not know how to practice them.\nmost of the examples are related to R packages (understandable), so some experience with R package (use or develop) is useful.\nit could be a very good study material for university students in related subjects.\n\n\n\n\nModule 1 (notes): what the requirements are regarding clinical reporting, what should be done to meet the quality standards;\nModule 2 (notes): DevOps and Agile\nModule 3 (notes): version Control, git workflows, reproducible clinical reporting\nModule 4 (notes): code quality, robust and reusable code, R packages\nModule 5 (notes): risk management with open source software\n\n\n\n\nI have a few years of experience as an R developer and academic researcher in related fields, so not all concepts are new to me. Nevertheless, I still learned quite a bit. For example,\n\n(Module 1) Data and results sharing needs to follow certain standards, such as CDISC; there are different industry standards to follow when it comes to data acquisition, tabulation and analysis (e.g. ADaM)\n(Module 2) Data scientists not only need hard skills, but also soft skills - they need to be able to wear many hats, and be more flexible and resilient.\n(Module 4, 5) Tests are extremely important. Think afar, develop your package so that they can be extended in the future. Design your package first, don’t start making your package immediately."
+  },
+  {
+    "objectID": "blog/blog_20230104_qtwAcademic/index.html",
+    "href": "blog/blog_20230104_qtwAcademic/index.html",
+    "title": "qtwAcademic: a quick and easy way to start your Quarto website",
+    "section": "",
+    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\nMore details about the package is being written …"
   },
   {
     "objectID": "blog/technotes_20230301_clinreport_part4/index.html",
@@ -1041,5 +341,236 @@
     "title": "Notes: Making Data Science work for Clinical Reporting - Part 4",
     "section": "Tools",
     "text": "Tools\ncovr and unit tests\nriskmetric and the R Validation Hub\npharmaverse.org, with end-to-end examples"
+  },
+  {
+    "objectID": "blog/technotes_20230222_clinreport_part2/index.html",
+    "href": "blog/technotes_20230222_clinreport_part2/index.html",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 2",
+    "section": "",
+    "text": "This is a course provided by Genentech (part of Roche) on Coursera.\nCourse link"
+  },
+  {
+    "objectID": "blog/technotes_20230222_clinreport_part2/index.html#agile-mindset-and-devops-practices",
+    "href": "blog/technotes_20230222_clinreport_part2/index.html#agile-mindset-and-devops-practices",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 2",
+    "section": "Agile mindset and DevOps practices",
+    "text": "Agile mindset and DevOps practices\n\nData science as a new way of thinking\nNew way of working means\n\nleverage standards and automation (CI/CD)\nadopt new data types quickly, reusing data for multiple purposes, pooling data, data marts\nopen-sourcing and collaborating cross pharma (small, readable, self-tested code)\ncoding for reusability, moving away from single-use programs\nrapidly re-arranginng re-usable components to meet analytical need at hand\n\nData scientist need to have hard skills, such as\n\nSAS, R, Python, JS, bash\ncloud, containers\nCI/CD tools\nvisualisation\nknowledge of various data types\n\nand also soft skills:\n\ncollaborative and inclusive\ntransparent and practical\ncreative and proactive\nasking the right questions\nable to wear many hats, be more flexible and resilient\n\n\n\nAgile\nProject management; a mindset: uncover better ways of working, by doing and helping others do it.\n1st principle: highest priority is to satisfy the customer through early and continuous delivery of valuable software.\nImplementations: Kanban, Scrum, Lean, Extreme programming\nTools:\n\nbacklog\nkanban board (not started, in progress, done)\nWIP (work in progress limit)\nprogress measures: e.g. team velocity\n\n\n\nDevOps\nIncrease efficiency by improving the connection between Dev (software development) and Ops (IT operations).\nThe goal is continuous delivery and continuous improvement.\nPractices:\n\nmodular architecture\nversion control\nmerge into trunk daily\nautomated and continuous testing, continuous integration\nautomated deployment\n\n\nDevOps in clinical reporting\nRisks around production run:\n\nare all dependencies in production?\nwas all quality control completed and successful?\nis all documentation complete?\nwas the transfer to eDMS correct and successful?"
+  },
+  {
+    "objectID": "blog/technotes_20230222_clinreport_part2/index.html#version-control",
+    "href": "blog/technotes_20230222_clinreport_part2/index.html#version-control",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 2",
+    "section": "Version control",
+    "text": "Version control\nFeature branch (as opposed to master branch): one task per branch\nname feature branch: issue number and description\nEach issue should have a clear description, short and specific; instead of being long and overarching.\n\nWorkflow for clinical reporting\nRestraints of clinical deliveries: timing annd multiple deliveries; resourcing challenges\nMight need to choose between feature and GitFlow."
+  },
+  {
+    "objectID": "blog/technotes_20230222_clinreport_part2/index.html#reproducible-projects-in-r",
+    "href": "blog/technotes_20230222_clinreport_part2/index.html#reproducible-projects-in-r",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 2",
+    "section": "Reproducible projects in R",
+    "text": "Reproducible projects in R\nTo reproduce your work:\n\nGit (version control)\nR libraries\nWell structured projects\nUnderlying dependencies (e.g. operating systems, C++/C)\n\n\nWell structured projects\nClear names\nGood documentation\n\n\nR libraries and versions\nCheck session info; but not the most practical way.\nUse global libraries, .libPaths(), this gives you the path where all the packages are installed. Global libraries is useful when using a server for multiple R sessions, where they look for the packages in the same place.\nSolutions\n\nrenv package: makes each project in R self-contained.\nCheckpoint: project level library paths based on snapshots of CRAN\n\nUse Docker images! Saves R version, operating system, underlying dependencies"
+  },
+  {
+    "objectID": "blog/technotes_20230205_clinreport_part1/index.html",
+    "href": "blog/technotes_20230205_clinreport_part1/index.html",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 1",
+    "section": "",
+    "text": "This is a course provided by Genentech (part of Roche) on Coursera.\nCourse link"
+  },
+  {
+    "objectID": "blog/technotes_20230205_clinreport_part1/index.html#introduction-to-clinical-trial",
+    "href": "blog/technotes_20230205_clinreport_part1/index.html#introduction-to-clinical-trial",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 1",
+    "section": "Introduction to clinical trial",
+    "text": "Introduction to clinical trial\nClinical trial: aim to demonstrate that drug is safe and effective (safety, efficacy)\n\nphase 1: 10-20 people, focus on safety (healthy volunteers)\nphase 2: 100, study of side effects, determine best dose\nphase 3: 1000, demonstrate drug efficacy, fuller safety profile (common across multiple regions, ethnicities)\n\ncollecting data from different hospitals, hence important to ensure standards are being followed\n\nevidence must be submitted to health authorities (FDA, EMA European medicines agency)\nhealth authorities determine whether the drug is submitted to market\n\nSubmit the analysis plan in advance"
+  },
+  {
+    "objectID": "blog/technotes_20230205_clinreport_part1/index.html#why-share-data",
+    "href": "blog/technotes_20230205_clinreport_part1/index.html#why-share-data",
+    "title": "Notes: Making Data Science work for Clinical Reporting - Part 1",
+    "section": "Why share data",
+    "text": "Why share data\n\nregulatory requirements\nscientific community interest\ncompany internal research interest\nmarketing materials\n\n\nData and results sharing\n\nRegulatory req (e.g. EMA require sharing clinical trial results to gain marketing authorization for pharma products, FDA require sharing data)\nscientific community (peer review check accuracy, perform additional analyses, derive new hypothesis)\nCDISC standards\n\nCDASH (clinical data acquisition standards harmonization)\nSDTM (study data tabulation model)\n\nformat for ‘raw’ data, define datasets, structures, contents, variable attributes\n\nSEND (standard for exchange of non clinical data)\nADaM (analysis data model)\n\ndata format for data processed for analysis (e.g. converted, imputed, derived)\n\n\nDictionary\n\ne.g. nose congestion, stuffy nose, … need to be standardized\nMedDRA: standard dictionary for medical conditions, events and procedures\nWHO drug dictionary (for pharma agents)\n\nSAP statistical analysis plan\n\nbased on study protocol, focus on statistical methodology, is regulated\n\nProgramming specification\n\nbased on SAP, provides additional details on datasets and tables, listing and figures (TLFs) required for statistical analysis. focus on programming details. Not regulated\n\n\n\n\nQuality assurance\n\nGood clinical practice (GCP), issued by ICH\npurpose: prevent mistakes, reduce inefficiencies/waste in a process, increase reliability/trustworthiness of the product of a process\nClinical monitoring: performed by a clinical research assistant (CRA) at investigator sites, checks that study protocols are executed as intended, and site processes result in accurate data capture. Focus on trial subjects’ safety. Traditional goal: 100% source data verification\nData quality checks (more relevant for data scientists). Checks data for technical conformance, and data plausibility. Focus on data quality. Traditional goal: 100% accurate and format compliant data\nCode review\nDouble programming\n\n\n\nData access restrictions\n\nreasons\n\ndata collected is very sensitive (health data), need data protection\nclinical trial data is a key asset and revenue predictor for pharma companies, high confidentiality levels\nscientific validity, data is ideally double blinded, no-one should know whether a subjecttreatment is as long as the data is still being collected\n\npseudonymization: data de-identification\n\nuse pseudonym (ID), link is recorded to allow re-identification\n\nanonymization: limit the risk of re-identification\n\nremove variables, remove values, replace more precise values with more general categories, replace personal identifiers with random identifiers\n\nFSP, CRO (out-sourcing), personnels require data access at different levels\nUnblinding"
+  },
+  {
+    "objectID": "blog/blog.html",
+    "href": "blog/blog.html",
+    "title": "Blog and notes",
+    "section": "",
+    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nCourse review: making DS work for clinical reporting\n\n\nMar 1, 2023\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMostly notes for my own use\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 4\n\n\nMar 1, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 3\n\n\nFeb 27, 2023\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\nFeb 25, 2023\n\n\n\n\nOOP in R: S3 and R6\n\n\nFeb 23, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\nFeb 22, 2023\n\n\n\n\nR package website with pkgdown\n\n\nFeb 20, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nMar 17, 2023\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/technotes_20230223_roop/index.html",
+    "href": "blog/technotes_20230223_roop/index.html",
+    "title": "OOP in R: S3 and R6",
+    "section": "",
+    "text": "Useful references:"
+  },
+  {
+    "objectID": "blog/technotes_20230223_roop/index.html#terminology",
+    "href": "blog/technotes_20230223_roop/index.html#terminology",
+    "title": "OOP in R: S3 and R6",
+    "section": "Terminology",
+    "text": "Terminology\n\nObject: individual instances of a class\nClass: type of an object, i.e. what an object is\nMethod: a function associated with a particular class, i.e. what the object can do\n\ngeneric method: mean() of a vector of numbers is a number, mean() of a vector of dates is a date\nInherit: a sub-class inherits all the attributes and methods from the super-class. E.g. generalized linear model inherits from a linear model.\nmethod dispatch: the process of finding the correct method given a class\n\n\nEncapsulated OOP:\n\nmethods belong to object or classes\nobject.method(arg1, arg2)\ncommon in most languages\nR6, RC (reference class) are examples of this type\n\nFunctional OOP:\n\nmethods belong to generic functions\ngeneric(object, arg2, arg3)\nS3 is an informal implementation of this type"
+  },
+  {
+    "objectID": "blog/technotes_20230223_roop/index.html#base-types",
+    "href": "blog/technotes_20230223_roop/index.html#base-types",
+    "title": "OOP in R: S3 and R6",
+    "section": "Base types",
+    "text": "Base types\nCheck whether an object is object-oriented, or base object:\n\nis.object()\nsloop::otype(): returns base or S3/S4\nattr(obj_name, 'class'): OO objects has a class attribute, BO does not.\n\n\nx <- 1:10 # a numeric vector\ny <- factor(c('a', 'b'))  # a factor\n\nc(is.object(x), is.object(y))\n\n[1] FALSE  TRUE\n\nc(sloop::otype(x), sloop::otype(y))\n\n[1] \"base\" \"S3\"  \n\nattr(x, 'class') \n\nNULL\n\nattr(y, 'class')\n\n[1] \"factor\"\n\n\nAll objects have a base type; not all are OO objects.\n\ntypeof(1:10) returns ‘integer’\n25 base types in total\n\nvectors: e.g. NULL, logical, integer, double, complex, character, list, raw\nfunctions: e.g. closure, special, builtin\nenvironments: environment\nS4: S4\nlanguage components, symbol, language, pairlist the rest are less common."
+  },
+  {
+    "objectID": "blog/technotes_20230223_roop/index.html#generic-or-method",
+    "href": "blog/technotes_20230223_roop/index.html#generic-or-method",
+    "title": "OOP in R: S3 and R6",
+    "section": "Generic or method?",
+    "text": "Generic or method?\n\ngeneric.class(), for example: print.factor()\ndo not call the method directly; use the generic (dispatch) to find it.\ngenerally has the . in the name; however it is not guaranteed * t.test() is a generic like print(), as t.test() can be used on multiple types of inputs\n\nas.factor() is not an OO object, hence not S3\n\n\n\nCheck function type with sloop::ftype()\n\nsloop::ftype(predict) # predict is a generic\n\n[1] \"S3\"      \"generic\"\n\nsloop::ftype(predict.glm)  # glm (class) method for predict() generic\n\n[1] \"S3\"     \"method\"\n\n\n\n\nCheck methods with methods()\nmethods() checks all the methods that either:\n\nbelongs to a generic (the function), such as plot, predict, t.test\nbelongs to a class (the type of input), such as lm, ar\n\n\nmethods('predict')  \n\n [1] predict.ar*                predict.Arima*            \n [3] predict.arima0*            predict.glm               \n [5] predict.HoltWinters*       predict.lm                \n [7] predict.loess*             predict.mlm*              \n [9] predict.nls*               predict.poly*             \n[11] predict.ppr*               predict.prcomp*           \n[13] predict.princomp*          predict.smooth.spline*    \n[15] predict.smooth.spline.fit* predict.StructTS*         \nsee '?methods' for accessing help and source code\n\nmethods(class = 'lm')\n\n [1] add1           alias          anova          case.names     coerce        \n [6] confint        cooks.distance deviance       dfbeta         dfbetas       \n[11] drop1          dummy.coef     effects        extractAIC     family        \n[16] formula        hatvalues      influence      initialize     kappa         \n[21] labels         logLik         model.frame    model.matrix   nobs          \n[26] plot           predict        print          proj           qr            \n[31] residuals      rstandard      rstudent       show           simulate      \n[36] slotsFromS3    summary        variable.names vcov          \nsee '?methods' for accessing help and source code\n\n\nEquivalently, use sloop::s3_methods_*(), as it gives more information in the output.\n\nsloop::s3_methods_generic('predict') \n\n# A tibble: 16 × 4\n   generic class             visible source             \n   <chr>   <chr>             <lgl>   <chr>              \n 1 predict ar                FALSE   registered S3method\n 2 predict Arima             FALSE   registered S3method\n 3 predict arima0            FALSE   registered S3method\n 4 predict glm               TRUE    stats              \n 5 predict HoltWinters       FALSE   registered S3method\n 6 predict lm                TRUE    stats              \n 7 predict loess             FALSE   registered S3method\n 8 predict mlm               FALSE   registered S3method\n 9 predict nls               FALSE   registered S3method\n10 predict poly              FALSE   registered S3method\n11 predict ppr               FALSE   registered S3method\n12 predict prcomp            FALSE   registered S3method\n13 predict princomp          FALSE   registered S3method\n14 predict smooth.spline     FALSE   registered S3method\n15 predict smooth.spline.fit FALSE   registered S3method\n16 predict StructTS          FALSE   registered S3method\n\nsloop::s3_methods_class('lm')\n\n# A tibble: 35 × 4\n   generic        class visible source             \n   <chr>          <chr> <lgl>   <chr>              \n 1 add1           lm    FALSE   registered S3method\n 2 alias          lm    FALSE   registered S3method\n 3 anova          lm    FALSE   registered S3method\n 4 case.names     lm    FALSE   registered S3method\n 5 confint        lm    TRUE    stats              \n 6 cooks.distance lm    FALSE   registered S3method\n 7 deviance       lm    FALSE   registered S3method\n 8 dfbeta         lm    FALSE   registered S3method\n 9 dfbetas        lm    FALSE   registered S3method\n10 drop1          lm    FALSE   registered S3method\n# … with 25 more rows"
+  },
+  {
+    "objectID": "rpkg/cstime/index.html",
+    "href": "rpkg/cstime/index.html",
+    "title": "cstime",
+    "section": "",
+    "text": "cstime provides convenient and consistent conversion between\n\nisoyear\nisoweek\ncalyear\nseason week (used in influenza surveillance)\n\nGitHub link"
+  },
+  {
+    "objectID": "rpkg/medicode/index.html",
+    "href": "rpkg/medicode/index.html",
+    "title": "medicode",
+    "section": "",
+    "text": "This package provides metadata and tools for medical classification and clinical coding.\nGitHub Link\nIt is especially useful for English and Norwegian (Bokmål) languages.\nPlanned content:\n\nICD-10\nICPC-2\nEuropean shortlist for Cause of Death"
+  },
+  {
+    "objectID": "rpkg/csdata/index.html",
+    "href": "rpkg/csdata/index.html",
+    "title": "csdata",
+    "section": "",
+    "text": "https://github.com/csids/csdata"
+  },
+  {
+    "objectID": "rpkg/rpkg.html",
+    "href": "rpkg/rpkg.html",
+    "title": "R packages",
+    "section": "",
+    "text": "Public health Surveillance\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\nOpen COVID19 data for Norway\n\n\n\n\ncsalert\n\n\nOutbreak detection in public health surveillance\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\nPre-formatted map data in Norway\n\n\n\n\ncstime\n\n\nDate and time functions for public health purposes\n\n\n\n\nmortanor\n\n\nPublic mortality data in Norway\n\n\n\n\nnowcast\n\n\nDelay correction methods for real-time surveillance\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMedicine\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nbayesynergy\n\n\n(Contributor) Synergistic interaction effects in in vitro drug combination…\n\n\n\n\nmedicode\n\n\nMetadata and tools for medical classification and clinical coding\n\n\n\n\n\n\nNo matching items\n\n\n\n\nQuarto Tools\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "rpkg/qtwAcademic/index.html",
+    "href": "rpkg/qtwAcademic/index.html",
+    "title": "qtwAcademic",
+    "section": "",
+    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\n\nTemplates\nSo far, 3 templates have been implemented in this package:\n\nPersonal website\nWebsite for courses or workshops\nMinimal website template that can be easily customized\n\nYou can find more details on each option in the vignettes."
+  },
+  {
+    "objectID": "rpkg/csalert/index.html",
+    "href": "rpkg/csalert/index.html",
+    "title": "csalert",
+    "section": "",
+    "text": "https://github.com/csids/csalert"
+  },
+  {
+    "objectID": "rpkg/csmaps/index.html",
+    "href": "rpkg/csmaps/index.html",
+    "title": "csmaps",
+    "section": "",
+    "text": "https://github.com/csids/csmaps"
+  },
+  {
+    "objectID": "rpkg/mortanor/index.html",
+    "href": "rpkg/mortanor/index.html",
+    "title": "mortanor",
+    "section": "",
+    "text": "https://github.com/csids/mortanor"
+  },
+  {
+    "objectID": "rpkg/covidnor/index.html",
+    "href": "rpkg/covidnor/index.html",
+    "title": "covidnor",
+    "section": "",
+    "text": "https://github.com/csids/covidnor"
+  },
+  {
+    "objectID": "rpkg/nowcast/index.html",
+    "href": "rpkg/nowcast/index.html",
+    "title": "nowcast",
+    "section": "",
+    "text": "https://github.com/csids/nowcast"
+  },
+  {
+    "objectID": "rpkg/bayesynergy/index.html",
+    "href": "rpkg/bayesynergy/index.html",
+    "title": "bayesynergy",
+    "section": "",
+    "text": "An R package for Bayesian semi-parametric modelling of in-vitro drug combination experiments\nGitHub Link"
+  },
+  {
+    "objectID": "teaching/teaching.html",
+    "href": "teaching/teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Title\n\n\nDescription\n\n\n\n\n\n\nMF9130/MF9130E\n\n\nIntroductory course in statistics\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/teaching.html#workshops",
+    "href": "teaching/teaching.html#workshops",
+    "title": "Teaching",
+    "section": "Workshops",
+    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\nR for novice\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/teaching.html#guides-and-cheatsheets",
+    "href": "teaching/teaching.html#guides-and-cheatsheets",
+    "title": "Teaching",
+    "section": "Guides and Cheatsheets",
+    "text": "Guides and Cheatsheets\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nPkg Dev at CSIDS\n\n\nPackage development guide at CSIDS\n\n\npkg\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/cheatsheet_pkgdev/index.html",
+    "href": "teaching/cheatsheet_pkgdev/index.html",
+    "title": "Pkg Dev at CSIDS",
+    "section": "",
+    "text": "Rstat"
+  },
+  {
+    "objectID": "teaching/mf9130/index.html",
+    "href": "teaching/mf9130/index.html",
+    "title": "MF9130/MF9130E",
+    "section": "",
+    "text": "This is the same course taught in Norwegian and English."
+  },
+  {
+    "objectID": "teaching/mf9130/index.html#mf9130---innføring-i-statistikk",
+    "href": "teaching/mf9130/index.html#mf9130---innføring-i-statistikk",
+    "title": "MF9130/MF9130E",
+    "section": "MF9130 - Innføring i statistikk",
+    "text": "MF9130 - Innføring i statistikk\nMF9130\nMålet for kurset er å gjøre deltagerne kjent med grunnleggende statistiske ideer og metoder. Det forutsettes ikke spesielle forkunnskaper i matematikk eller statistikk. Den statistiske programpakken STATA vil bli benyttet i mange av øvelsene. Analyse av konkrete eksempler fra medisinsk forskning vil bli vektlagt"
+  },
+  {
+    "objectID": "teaching/mf9130/index.html#mf9130e---introductory-course-in-statistics",
+    "href": "teaching/mf9130/index.html#mf9130e---introductory-course-in-statistics",
+    "title": "MF9130/MF9130E",
+    "section": "MF9130E - Introductory course in statistics",
+    "text": "MF9130E - Introductory course in statistics\nMF9130E\nThe aim of the course is to make the participants acquainted with basic statistical ideas and methods. No special previous knowledge of mathematics or statistics is assumed. The statistical software R and the RStudio environment will be used in many of the exercises. Analysis of examples from biomedical research will be emphasized."
+  },
+  {
+    "objectID": "teaching/r_novice/index.html",
+    "href": "teaching/r_novice/index.html",
+    "title": "R for novice",
+    "section": "",
+    "text": "I have been involved in multiple introductory R workshops at University of Oslo.\nCarpentry at UiO"
+  },
+  {
+    "objectID": "teaching/workshop_bioinf/index.html",
+    "href": "teaching/workshop_bioinf/index.html",
+    "title": "Oslo Bioinformatics Week",
+    "section": "",
+    "text": "This workshop is part of the Oslo Bioinformatics Workshop Week 2022. These workshops are open to the scientific community in Oslo and the surrounding area.\nMain instructor: Manuela Zucknick\nCo-instructor: Theophilius Asenso\nDeveloper: Chi Zhang\nCourse website and repository"
+  },
+  {
+    "objectID": "about_publication.html",
+    "href": "about_publication.html",
+    "title": "Chi Zhang",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nChi is a researcher at the Norwegian Institute of Public Health (Folkehelseinstituttet). She is a statistician and R programmer at Sykdomspulsen, a real-time analysis and public health surveillance system.\nChi has recently earned her PhD at University of Oslo. Her thesis is Representation and utilization of hospital Electronic Health Records data.\nChi also has a 20% position as a statistical advisor at the Oslo Centre for Biostatistics and Epidemiology (OCBE).\nYou can check my CV here. (add CV!)\nthis is another one"
   }
 ]

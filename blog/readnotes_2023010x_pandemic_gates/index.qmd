@@ -67,6 +67,30 @@ Post-mortem (autopsy) can be unattainable, especially in LMIC. It could also be 
 
 ## Help people protect themselves right away
 
+The effect of **NPI** (non-pharmaceutical intervention, such as masks and lockdown) is difficult to quantify; yet it is a very important measure.
+
+Paradox: NPI is effective -> reduced cases -> people think NPI is not necessary
+
+Lockdown can slow down spread, yet it has a huge impact on economy, especially for LMIC.
+
+Contact tracing
+
+- not a new technology; used for smallpox, Ebola, AIDS.
+- not widely applicable: some countries do it better than others. Need more trust from people towards public health agencies.
+- smartphone apps, not very useful: limited by users
+
+Good ventilation system
+
+- viruses survive in air, but for different length of time
+
+Social distance
+
+- 6 inch isn't a magic distance
+- depends on circumstances: indoor/outdoor
+
+
+
+
 ## Find new treatment fast
 
 ## Get ready to make vaccines

@@ -1,7 +1,7 @@
 ---
 title: "How to prevent the next pandemic - Bill Gates"
 description: |
-  Reading notes on the book. Updates pending 
+  Reading notes on some of the chapters. 
 author: "Chi Zhang"
 date: "2023-01-04"
 categories: [Notes]
@@ -14,9 +14,6 @@ format:
     code-tools: false
 ---
 
-# Overview
-
-(The book reading is still ongoing)
 
 # Notes from each chapter
 
@@ -91,12 +88,76 @@ Social distance
 
 
 
-## Find new treatment fast
+## Find new treatment fast, get readyy to make vaccines
 
-## Get ready to make vaccines
+Infodemic
+
+(these two chapters are highly technical, and they deserve a separate note)
+
 
 ## Practice, practice, practice
 
+Disaster simulation and drill
+
+Drill: assume a city is at risk of a disease that has epidemic potential
+
+- how to develop diagnostic tests and large-scale manufacturing and distribution
+- government, timely and comprehensive information dissemination
+- management of quarantine 
+- set up system for case reporting 
+
+
+
 ## Close the health gap between rich and poor countries
 
+The impact is different among different groups.
+
+Vaccination distribution is highly imbalanced; yet it is only one of the many aspects where inequality exists, and not even the most unequal.
+
+
+
+
+
 ## Make and fund a plan for preventing pandemics 
+
+### Make and provide better tools
+
+Invest in better vaccine, treatment, diagnosis
+
+Testing and approval process
+
+Finding new treatment and vaccine
+
+- create a large database for anti-virus chemicals, open to all
+- AI and software to speed-up development 
+
+### GERM 
+
+Public health agencies are under-funded, this is true for all levels: state/county, country and international organizations (WHO).
+
+### Improve disease surveillance 
+
+Improve census, birth and death in LMIC; then expand into sequencing pathogens, environmental monitoring.
+
+Aggregate disease surveillance systems internationally, and provide real-time data
+
+### Improve health system 
+
+Rebuild the system after Covid, invest more in healthcare, more staff 
+
+Spend more on basic prevention for all and early diagnosis, rather than in-hospital treatment for severe cases
+
+Management, clear tasks and responsibility
+
+
+
+
+
+
+
+
+
+
+
+
+

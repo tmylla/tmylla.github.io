@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2023-02-23">
 <meta name="description" content="Notes on learning OOP in R, and trying to figure out the situation where I can benefit from using OOP.">
 
-<title>Hello, I’m Chi - OOP in R: S3 and R6</title>
+<title>Hello, I’m Chi - OOP in R: S3</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -202,8 +202,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#s3" id="toc-s3" class="nav-link" data-scroll-target="#s3">S3</a>
   <ul class="collapse">
   <li><a href="#generic-or-method" id="toc-generic-or-method" class="nav-link" data-scroll-target="#generic-or-method">Generic or method?</a></li>
+  <li><a href="#class-assignment" id="toc-class-assignment" class="nav-link" data-scroll-target="#class-assignment">Class assignment</a></li>
+  <li><a href="#constructor" id="toc-constructor" class="nav-link" data-scroll-target="#constructor">Constructor</a></li>
+  <li><a href="#define-new-generic-and-method" id="toc-define-new-generic-and-method" class="nav-link" data-scroll-target="#define-new-generic-and-method">Define new generic and method</a></li>
+  <li><a href="#new-method-for-existing-generic-print" id="toc-new-method-for-existing-generic-print" class="nav-link" data-scroll-target="#new-method-for-existing-generic-print">New method for existing generic (<code>print()</code>)</a></li>
   </ul></li>
-  <li><a href="#r6" id="toc-r6" class="nav-link" data-scroll-target="#r6">R6</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/technotes_20230223_roop/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -212,7 +215,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">OOP in R: S3 and R6</h1>
+<h1 class="title">OOP in R: S3</h1>
   <div class="quarto-categories">
     <div class="quarto-category">RSE</div>
     <div class="quarto-category">Rpkg</div>
@@ -252,7 +255,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li><a href="https://adv-r.hadley.nz/oo.html">Object-oriented Programing</a> section in <strong>Advanced R</strong> (version 2) by Hadley Wickham</li>
 <li><a href="https://bookdown.org/rdpeng/RProgDA/object-oriented-programming.html">Chapter 2.9 Object Oriented Programming</a> in <strong>Mastering Software Development in R</strong> by Roger D.Peng, Sean Kross, and Brooke Anderson</li>
-<li><a href="https://www.r-bloggers.com/2022/06/object-oriented-programming-oop-in-r-with-r6-the-complete-guide/">OOP with R6 - The complete guide</a> blog by Dario Radecic</li>
 </ul>
 <section id="object-oriented-programing" class="level1">
 <h1>Object oriented programing</h1>
@@ -399,8 +401,8 @@ $class
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">methods</span>(<span class="st">'predict'</span>)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] predict.ar*                predict.Arima*            
- [3] predict.arima0*            predict.glm               
- [5] predict.HoltWinters*       predict.lm                
+ [3] predict.arima0*            predict.glm*              
+ [5] predict.HoltWinters*       predict.lm*               
  [7] predict.loess*             predict.mlm*              
  [9] predict.nls*               predict.poly*             
 [11] predict.ppr*               predict.prcomp*           
@@ -431,9 +433,9 @@ see '?methods' for accessing help and source code</code></pre>
  1 predict ar                FALSE   registered S3method
  2 predict Arima             FALSE   registered S3method
  3 predict arima0            FALSE   registered S3method
- 4 predict glm               TRUE    stats              
+ 4 predict glm               FALSE   registered S3method
  5 predict HoltWinters       FALSE   registered S3method
- 6 predict lm                TRUE    stats              
+ 6 predict lm                FALSE   registered S3method
  7 predict loess             FALSE   registered S3method
  8 predict mlm               FALSE   registered S3method
  9 predict nls               FALSE   registered S3method
@@ -454,23 +456,153 @@ see '?methods' for accessing help and source code</code></pre>
  2 alias          lm    FALSE   registered S3method
  3 anova          lm    FALSE   registered S3method
  4 case.names     lm    FALSE   registered S3method
- 5 confint        lm    TRUE    stats              
+ 5 confint        lm    FALSE   registered S3method
  6 cooks.distance lm    FALSE   registered S3method
  7 deviance       lm    FALSE   registered S3method
  8 dfbeta         lm    FALSE   registered S3method
  9 dfbetas        lm    FALSE   registered S3method
 10 drop1          lm    FALSE   registered S3method
-# … with 25 more rows</code></pre>
+# ℹ 25 more rows</code></pre>
 </div>
 </div>
 </section>
 </section>
+<section id="class-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="class-assignment">Class assignment</h2>
+<p>Two options: <code>structure()</code>, or <code>class(existing_obj)</code></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>simple_number <span class="ot">&lt;-</span> <span class="fu">structure</span>(<span class="dv">1</span>, <span class="at">class =</span> <span class="st">'simple'</span>)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(simple_number)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "simple"</code></pre>
+</div>
+</div>
+<p>Or, you can do it for an existing object by giving it a class</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>simple_char <span class="ot">&lt;-</span> <span class="st">'your_name'</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(simple_char) <span class="ot">&lt;-</span> <span class="st">'simple'</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(simple_char)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "simple"</code></pre>
+</div>
+</div>
 </section>
-<section id="r6" class="level1">
-<h1>R6</h1>
-<p>Model data that comes from a web API, and changes come from inside and outside R.</p>
+<section id="constructor" class="level2">
+<h2 class="anchored" data-anchor-id="constructor">Constructor</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>fruit <span class="ot">&lt;-</span> <span class="cf">function</span>(x){</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stopifnot</span>(<span class="fu">is.character</span>(x))</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># checks if x is char</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># better use a named list, easier to call</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">structure</span>(<span class="fu">list</span>(<span class="at">fruit_name =</span> x), <span class="at">class =</span> <span class="st">'fruit'</span>) </span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>fruit1 <span class="ot">&lt;-</span> <span class="fu">fruit</span>(<span class="st">'pineapple'</span>)</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>fruit2 <span class="ot">&lt;-</span> <span class="fu">fruit</span>(<span class="st">'apple'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Examine what comes out</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>fruit1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$fruit_name
+[1] "pineapple"
+
+attr(,"class")
+[1] "fruit"</code></pre>
+</div>
+</div>
+</section>
+<section id="define-new-generic-and-method" class="level2">
+<h2 class="anchored" data-anchor-id="define-new-generic-and-method">Define new generic and method</h2>
+<pre><code>[name of method] &lt;- functionn(x){UseMethod("[name of method]")}</code></pre>
+<p>Now we define one generic function <code>f</code>, and two methods. One for class <code>plus2</code>, and another for class <code>plus10</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>f <span class="ot">&lt;-</span> <span class="cf">function</span>(x){<span class="fu">UseMethod</span>(<span class="st">'f'</span>)} <span class="co"># define generic f</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>f.plus2 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) x<span class="sc">+</span><span class="dv">2</span> <span class="co"># f method for class plus2</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>f.plus10 <span class="ot">&lt;-</span> <span class="cf">function</span>(x) x<span class="sc">+</span><span class="dv">10</span> <span class="co"># f method for class plus10</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Now we try to give the function some input. First use a numeric number, 1 (the class for a number is <code>double</code> and <code>numeric</code>).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>number <span class="ot">&lt;-</span> <span class="dv">1</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="fu">f</span>(number) <span class="co"># returns error, class of number does not match!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-error">
+<pre><code>Error in UseMethod("f"): no applicable method for 'f' applied to an object of class "c('double', 'numeric')"</code></pre>
+</div>
+</div>
+<p>This returns an error, because the class of <code>number</code> is not defined for function <code>f</code> (<code>plus2</code>, <code>plus10</code>).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># can check what f(number) tried </span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="co"># none of these exist </span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>sloop<span class="sc">::</span><span class="fu">s3_dispatch</span>(<span class="fu">f</span>(number))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   f.double
+   f.numeric
+   f.default</code></pre>
+</div>
+</div>
+<p>We need to match it. Assign the number with <code>plus2</code> class, and evaluate it. You can check which method has been used (dispatched).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># fix: assign a class to number</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(number) <span class="ot">&lt;-</span> <span class="st">'plus2'</span></span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a><span class="fu">f</span>(number) <span class="co"># number+2, f.plus2 method</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3
+attr(,"class")
+[1] "plus2"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>sloop<span class="sc">::</span><span class="fu">s3_dispatch</span>(<span class="fu">f</span>(number))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>=&gt; f.plus2
+   f.default</code></pre>
+</div>
+</div>
+<p>Now we try another number, but let it be <code>plus10</code> class.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>numberx <span class="ot">&lt;-</span> <span class="dv">200</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(numberx) <span class="ot">&lt;-</span> <span class="st">'plus10'</span></span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a><span class="fu">f</span>(numberx)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 210
+attr(,"class")
+[1] "plus10"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>sloop<span class="sc">::</span><span class="fu">s3_dispatch</span>(<span class="fu">f</span>(numberx))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>=&gt; f.plus10
+   f.default</code></pre>
+</div>
+</div>
+</section>
+<section id="new-method-for-existing-generic-print" class="level2">
+<h2 class="anchored" data-anchor-id="new-method-for-existing-generic-print">New method for existing generic (<code>print()</code>)</h2>
+<p>We create the S3 object using the constructor defined above, <code>fruit()</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>pineapple <span class="ot">&lt;-</span> <span class="fu">fruit</span>(<span class="st">'pineapple'</span>) <span class="co"># create by the constructor</span></span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>pineapple</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$fruit_name
+[1] "pineapple"
+
+attr(,"class")
+[1] "fruit"</code></pre>
+</div>
+</div>
+<p>The output does not look very nice, we can modify what prints out. Since <code>print()</code> is an exisiting generic function, we do not need to define a new one (i.e.&nbsp;<code>UseMethod</code>). We define the new method directly: <code>generic.your_class</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co"># we do not need to define print() as generic, bec it IS already</span></span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a><span class="co"># directly define print.fruit</span></span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>print.fruit <span class="ot">&lt;-</span> <span class="cf">function</span>(x){</span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cat</span>(<span class="st">'I used constructor for my fruit:'</span>, x<span class="sc">$</span>fruit_name)</span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-7"><a href="#cb54-7" aria-hidden="true" tabindex="-1"></a><span class="fu">print.fruit</span>(pineapple)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>I used constructor for my fruit: pineapple</code></pre>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -610,7 +742,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2022, Chi Zhang</div>   
+    <div class="nav-footer-left">© Copyright 2023, Chi Zhang</div>   
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

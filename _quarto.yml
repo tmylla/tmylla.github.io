@@ -10,7 +10,7 @@ website:
   repo-actions: [edit, issue]
   
   page-footer: 
-    left: "&copy; Copyright 2022, Chi Zhang"
+    left: "&copy; Copyright 2023, Chi Zhang"
     right: 
       - icon: github
         href: https://github.com/andreaczhang/andreaczhang.github.io

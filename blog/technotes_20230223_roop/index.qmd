@@ -1,5 +1,5 @@
 ---
-title: "OOP in R: S3 and R6"
+title: "OOP in R: S3"
 description: |
   Notes on learning OOP in R, and trying to figure out the situation where I can benefit from using OOP.
 author: "Chi Zhang"
@@ -20,7 +20,6 @@ Useful references:
 
 * [Object-oriented Programing](https://adv-r.hadley.nz/oo.html) section in **Advanced R** (version 2) by Hadley Wickham
 * [Chapter 2.9 Object Oriented Programming](https://bookdown.org/rdpeng/RProgDA/object-oriented-programming.html) in **Mastering Software Development in R** by Roger D.Peng, Sean Kross, and Brooke Anderson
-* [OOP with R6 - The complete guide](https://www.r-bloggers.com/2022/06/object-oriented-programming-oop-in-r-with-r6-the-complete-guide/) blog by Dario Radecic
 
 
 # Object oriented programing
@@ -166,10 +165,113 @@ sloop::s3_methods_class('lm')
 ```
 
 
+## Class assignment
+
+Two options: `structure()`, or `class(existing_obj)`
+
+```{r}
+simple_number <- structure(1, class = 'simple')
+class(simple_number)
+```
+
+Or, you can do it for an existing object by giving it a class
+
+```{r}
+simple_char <- 'your_name'
+class(simple_char) <- 'simple'
+class(simple_char)
+```
 
 
-# R6
+## Constructor
 
-Model data that comes from a web API, and changes come from inside and outside R.
+```{r}
+fruit <- function(x){
+  stopifnot(is.character(x))
+  # checks if x is char
+  # better use a named list, easier to call
+  structure(list(fruit_name = x), class = 'fruit') 
+}
+
+fruit1 <- fruit('pineapple')
+fruit2 <- fruit('apple')
+```
+
+Examine what comes out
+
+```{r}
+fruit1
+```
+
+## Define new generic and method
+
+```
+[name of method] <- functionn(x){UseMethod("[name of method]")}
+```
+
+Now we define one generic function `f`, and two methods. One for class `plus2`, and another for class `plus10`. 
+
+```{r}
+f <- function(x){UseMethod('f')} # define generic f
+f.plus2 <- function(x) x+2 # f method for class plus2
+f.plus10 <- function(x) x+10 # f method for class plus10
+```
+
+Now we try to give the function some input. First use a numeric number, 1 (the class for a number is `double` and `numeric`).
+
+```{r}
+#| warning: false
+#| error: true
+
+number <- 1
+f(number) # returns error, class of number does not match!
+```
+This returns an error, because the class of `number` is not defined for function `f` (`plus2`, `plus10`). 
+
+```{r}
+# can check what f(number) tried 
+# none of these exist 
+sloop::s3_dispatch(f(number))
+```
+
+We need to match it. Assign the number with `plus2` class, and evaluate it. You can check which method has been used (dispatched). 
+
+```{r}
+# fix: assign a class to number
+class(number) <- 'plus2'
+f(number) # number+2, f.plus2 method
+sloop::s3_dispatch(f(number))
+```
 
 
+Now we try another number, but let it be `plus10` class.
+
+```{r}
+numberx <- 200
+class(numberx) <- 'plus10'
+f(numberx)
+sloop::s3_dispatch(f(numberx))
+```
+
+
+
+## New method for existing generic (`print()`)
+
+We create the S3 object using the constructor defined above, `fruit()`. 
+
+```{r}
+pineapple <- fruit('pineapple') # create by the constructor
+pineapple
+```
+
+The output does not look very nice, we can modify what prints out. Since `print()` is an exisiting generic function, we do not need to define a new one (i.e. `UseMethod`). We define the new method directly: `generic.your_class`. 
+
+```{r}
+# we do not need to define print() as generic, bec it IS already
+# directly define print.fruit
+print.fruit <- function(x){
+  cat('I used constructor for my fruit:', x$fruit_name)
+}
+
+print.fruit(pineapple)
+```

@@ -54,10 +54,10 @@
   {
     "listing": "/teaching/teaching.html",
     "items": [
+      "/teaching/ern4110/index.html",
       "/teaching/mf9130/index.html",
       "/teaching/workshop_bioinf/index.html",
-      "/teaching/r_novice/index.html",
-      "/teaching/cheatsheet_pkgdev/index.html"
+      "/teaching/r_novice/index.html"
     ]
   }
 ]

@@ -6,18 +6,28 @@ categories: [course, statistics]
 type: statistics
 ---
 
-This is the same course taught in Norwegian and English.
+This 8-days course is provided in both English and Norwegian. Generally, 
+
+* Jan/Feb: Norwegian (some English)
+* Apr/May: English
+* Nov: Norwegian (some English)
+
+
+## MF9130E - Introductory course in statistics
+
+[Course site developed by instructors](https://ocbe-uio.github.io/teaching_mf9130e/) (I am the lead developer for this website)
+
+[Official course site: MF9130E](https://www.uio.no/studier/emner/medisin/med/MF9130E/)
+
+
+The aim of the course is to make the participants acquainted with basic statistical ideas and methods. No special previous knowledge of mathematics or statistics is assumed. The statistical software R and the RStudio environment will be used in many of the exercises. Analysis of examples from biomedical research will be emphasized.
+
+
 
 ## MF9130 - Innføring i statistikk
 
 [MF9130](https://www.uio.no/studier/emner/medisin/med/MF9130/)
 
-Målet for kurset er å gjøre deltagerne kjent med grunnleggende statistiske ideer og metoder. Det forutsettes ikke spesielle forkunnskaper i matematikk eller statistikk. Den statistiske programpakken STATA vil bli benyttet i mange av øvelsene. Analyse av konkrete eksempler fra medisinsk forskning vil bli vektlagt
+Målet for kurset er å gjøre deltagerne kjent med grunnleggende statistiske ideer og metoder. Det forutsettes ikke spesielle forkunnskaper i matematikk eller statistikk. Den statistiske programpakken STATA vil bli benyttet i mange av øvelsene. Analyse av konkrete eksempler fra medisinsk forskning vil bli vektlagt.
 
-
-## MF9130E - Introductory course in statistics
-
-[MF9130E](https://www.uio.no/studier/emner/medisin/med/MF9130E/)
-
-The aim of the course is to make the participants acquainted with basic statistical ideas and methods. No special previous knowledge of mathematics or statistics is assumed. The statistical software R and the RStudio environment will be used in many of the exercises. Analysis of examples from biomedical research will be emphasized.
 

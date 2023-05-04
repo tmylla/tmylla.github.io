@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  These are a few things I teach or develop
+  These are a few things I teach or develop. For course material related to the courses, please check the description for more details.
 listing:
   - id: medstat
     max-description-length: 500
@@ -9,6 +9,7 @@ listing:
     fields: [title, description]
     contents: 
       - mf9130
+      - ern4110
     type: table
     grid-item-border: false
     sort-ui: false
@@ -21,17 +22,6 @@ listing:
     contents: 
       - r_novice
       - workshop_bioinf
-    type: table
-    grid-item-border: false
-    sort-ui: false
-    filter-ui: false
-
-  - id: cheatsheet
-    max-description-length: 500
-    image-height: 250px
-    fields: [title, description, type]
-    contents: 
-      - cheatsheet_pkgdev
     type: table
     grid-item-border: false
     sort-ui: false
@@ -50,5 +40,7 @@ listing:
 
 ## Guides and Cheatsheets
 
-::: {#cheatsheet}
-:::
+| Title |   Description            |
+|:-----:|:------------------------:|
+| [ggplot2](https://github.com/andreaczhang/andreaczhang.github.io/blob/main/resources/lecture_ggplot.pdf) | Lecture notes for `ggplot2` at the Carpentries workshop, UiO|
+| [list of commands](https://ocbe-uio.github.io/teaching_mf9130e/lab/list_of_commands.html) | Quick reference list of R commands used in my statistics classes |

@@ -1,6 +1,6 @@
 ---
 title: "Chi Zhang"
-image: resources/photo_chi.jpg
+image: misc/info/photo_chi.jpg
 about:
   id: hero-heading
   template: trestles

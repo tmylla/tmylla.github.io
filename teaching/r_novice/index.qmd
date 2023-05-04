@@ -1,11 +1,13 @@
 ---
-title: "R for novice"
+title: "R for Reproducible Scientific Analysis"
 description: "Software carpentry course for introductory R"
 date: "2022-10-25"
 categories: [workshop, r]
 type: rstats
 ---
 
-I have been involved in multiple introductory R workshops at University of Oslo. 
+I have been involved in multiple introductory R workshops at University of Oslo, sometimes as the instructor and sometimes, a helper.
 
-[Carpentry at UiO](https://uio-carpentry.github.io)
+You can check the course material for my [ggplot2](https://github.com/andreaczhang/andreaczhang.github.io/blob/main/resources/lecture_ggplot.pdf) lecture.
+
+More information about the Carpentries at University of Oslo can be found here: [Carpentries at UiO](https://uio-carpentry.github.io)

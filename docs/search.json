@@ -508,21 +508,21 @@
     "href": "teaching/teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Title\n\n\nDescription\n\n\n\n\n\n\nMF9130/MF9130E\n\n\nIntroductory course in statistics\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDescription\n\n\n\n\n\n\nERN4110\n\n\nStatistics for master students in nutrition\n\n\n\n\nMF9130/MF9130E\n\n\nIntroductory course in statistics\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/teaching.html#workshops",
     "href": "teaching/teaching.html#workshops",
     "title": "Teaching",
     "section": "Workshops",
-    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\nR for novice\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\n\n\nNo matching items"
+    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\nR for Reproducible Scientific Analysis\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/teaching.html#guides-and-cheatsheets",
     "href": "teaching/teaching.html#guides-and-cheatsheets",
     "title": "Teaching",
     "section": "Guides and Cheatsheets",
-    "text": "Guides and Cheatsheets\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nPkg Dev at CSIDS\n\n\nPackage development guide at CSIDS\n\n\npkg\n\n\n\n\n\n\nNo matching items"
+    "text": "Guides and Cheatsheets\n\n\n\nTitle\nDescription\n\n\n\n\nggplot2\nLecture notes for ggplot2 at the Carpentries workshop, UiO\n\n\nlist of commands\nQuick reference list of R commands used in my statistics classes"
   },
   {
     "objectID": "teaching/cheatsheet_pkgdev/index.html",
@@ -536,28 +536,28 @@
     "href": "teaching/mf9130/index.html",
     "title": "MF9130/MF9130E",
     "section": "",
-    "text": "This is the same course taught in Norwegian and English."
+    "text": "This 8-days course is provided in both English and Norwegian. Generally,"
   },
   {
     "objectID": "teaching/mf9130/index.html#mf9130---innføring-i-statistikk",
     "href": "teaching/mf9130/index.html#mf9130---innføring-i-statistikk",
     "title": "MF9130/MF9130E",
     "section": "MF9130 - Innføring i statistikk",
-    "text": "MF9130 - Innføring i statistikk\nMF9130\nMålet for kurset er å gjøre deltagerne kjent med grunnleggende statistiske ideer og metoder. Det forutsettes ikke spesielle forkunnskaper i matematikk eller statistikk. Den statistiske programpakken STATA vil bli benyttet i mange av øvelsene. Analyse av konkrete eksempler fra medisinsk forskning vil bli vektlagt"
+    "text": "MF9130 - Innføring i statistikk\nMF9130\nMålet for kurset er å gjøre deltagerne kjent med grunnleggende statistiske ideer og metoder. Det forutsettes ikke spesielle forkunnskaper i matematikk eller statistikk. Den statistiske programpakken STATA vil bli benyttet i mange av øvelsene. Analyse av konkrete eksempler fra medisinsk forskning vil bli vektlagt."
   },
   {
     "objectID": "teaching/mf9130/index.html#mf9130e---introductory-course-in-statistics",
     "href": "teaching/mf9130/index.html#mf9130e---introductory-course-in-statistics",
     "title": "MF9130/MF9130E",
     "section": "MF9130E - Introductory course in statistics",
-    "text": "MF9130E - Introductory course in statistics\nMF9130E\nThe aim of the course is to make the participants acquainted with basic statistical ideas and methods. No special previous knowledge of mathematics or statistics is assumed. The statistical software R and the RStudio environment will be used in many of the exercises. Analysis of examples from biomedical research will be emphasized."
+    "text": "MF9130E - Introductory course in statistics\nCourse site developed by instructors (I am the lead developer for this website)\nOfficial course site: MF9130E\nThe aim of the course is to make the participants acquainted with basic statistical ideas and methods. No special previous knowledge of mathematics or statistics is assumed. The statistical software R and the RStudio environment will be used in many of the exercises. Analysis of examples from biomedical research will be emphasized."
   },
   {
     "objectID": "teaching/r_novice/index.html",
     "href": "teaching/r_novice/index.html",
-    "title": "R for novice",
+    "title": "R for Reproducible Scientific Analysis",
     "section": "",
-    "text": "I have been involved in multiple introductory R workshops at University of Oslo.\nCarpentry at UiO"
+    "text": "I have been involved in multiple introductory R workshops at University of Oslo, sometimes as the instructor and sometimes, a helper.\nYou can check the course material for my ggplot2 lecture.\nMore information about the Carpentries at University of Oslo can be found here: Carpentries at UiO"
   },
   {
     "objectID": "teaching/workshop_bioinf/index.html",
@@ -614,5 +614,12 @@
     "title": "OOP in R: S3",
     "section": "New method for existing generic (print())",
     "text": "New method for existing generic (print())\nWe create the S3 object using the constructor defined above, fruit().\n\npineapple <- fruit('pineapple') # create by the constructor\npineapple\n\n$fruit_name\n[1] \"pineapple\"\n\nattr(,\"class\")\n[1] \"fruit\"\n\n\nThe output does not look very nice, we can modify what prints out. Since print() is an exisiting generic function, we do not need to define a new one (i.e. UseMethod). We define the new method directly: generic.your_class.\n\n# we do not need to define print() as generic, bec it IS already\n# directly define print.fruit\nprint.fruit <- function(x){\n  cat('I used constructor for my fruit:', x$fruit_name)\n}\n\nprint.fruit(pineapple)\n\nI used constructor for my fruit: pineapple"
+  },
+  {
+    "objectID": "teaching/ern4110/index.html",
+    "href": "teaching/ern4110/index.html",
+    "title": "ERN4110",
+    "section": "",
+    "text": "ERN4110\nEmnet gir en anvendt rettet innføring i statistiske grunnbegreper og sentrale statistiske metoder. Det blir lagt vekt på konkrete eksempler fra ernæringsvitenskap og medisin. PC-øvelser med statistikkpakken Stata er en essensiell del av undervisningen."
   }
 ]

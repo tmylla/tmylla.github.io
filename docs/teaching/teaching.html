@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="These are a few things I teach or develop">
+<meta name="description" content="These are a few things I teach or develop. For course material related to the courses, please check the description for more details.">
 
 <title>Hello, I’m Chi - Teaching</title>
 <style>
@@ -117,34 +117,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-cheatsheet .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-cheatsheet'] = new List('listing-cheatsheet', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -197,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">About me</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../resources/CV_Chi_Zhang.pdf">
+    <a class="dropdown-item" href="../misc/info/CV_Chi_Zhang.pdf">
  <span class="dropdown-text">CV</span></a>
   </li>  
     </ul>
@@ -223,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    <p>These are a few things I teach or develop</p>
+    <p>These are a few things I teach or develop. For course material related to the courses, please check the description for more details.</p>
   </div>
 </div>
 
@@ -254,7 +226,15 @@ Description
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="course,statistics" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1671810651345" data-listing-reading-time-sort="0.55" data-listing-title-sort="MF9130/MF9130E" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="course,statistics" data-listing-date-sort="1683151200000" data-listing-file-modified-sort="1683210497665" data-listing-reading-time-sort="0.17" data-listing-title-sort="ERN4110" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="../teaching/ern4110/index.html" class="title">ERN4110</a>
+</td>
+<td class="listing-description">
+Statistics for master students in nutrition
+</td>
+</tr>
+<tr data-index="1" data-categories="course,statistics" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1683210898999" data-listing-reading-time-sort="0.68" data-listing-title-sort="MF9130/MF9130E" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../teaching/mf9130/index.html" class="title">MF9130/MF9130E</a>
 </td>
@@ -300,9 +280,9 @@ Machine Learning principles for small and noisy biomedical data
 bioinformatics
 </td>
 </tr>
-<tr data-index="1" data-categories="workshop,r" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1671811761237" data-listing-reading-time-sort="0.08" data-listing-title-sort="R for novice" data-listing-filename-sort="index.qmd">
+<tr data-index="1" data-categories="workshop,r" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1683211912393" data-listing-reading-time-sort="0.225" data-listing-title-sort="R for Reproducible Scientific Analysis" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
-<a href="../teaching/r_novice/index.html" class="title">R for novice</a>
+<a href="../teaching/r_novice/index.html" class="title">R for Reproducible Scientific Analysis</a>
 </td>
 <td class="listing-description">
 Software carpentry course for introductory R
@@ -321,41 +301,24 @@ No matching items
 </section>
 <section id="guides-and-cheatsheets" class="level2">
 <h2 class="anchored" data-anchor-id="guides-and-cheatsheets">Guides and Cheatsheets</h2>
-<div id="listing-cheatsheet" class="quarto-listing quarto-listing-container-table">
-
-<table class="quarto-listing-table table">
+<table class="table">
 <thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Description
-</th>
-<th>
-type
-</th>
+<tr class="header">
+<th style="text-align: center;">Title</th>
+<th style="text-align: center;">Description</th>
 </tr>
 </thead>
-<tbody class="list">
-<tr data-index="0" data-categories="cheatsheet,r" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1670600960231" data-listing-reading-time-sort="0.005" data-listing-title-sort="Pkg Dev at CSIDS" data-listing-filename-sort="index.qmd">
-<td class="listing-title">
-<a href="../teaching/cheatsheet_pkgdev/index.html" class="title">Pkg Dev at CSIDS</a>
-</td>
-<td class="listing-description">
-Package development guide at CSIDS
-</td>
-<td class="listing-type">
-pkg
-</td>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><a href="https://github.com/andreaczhang/andreaczhang.github.io/blob/main/resources/lecture_ggplot.pdf">ggplot2</a></td>
+<td style="text-align: center;">Lecture notes for <code>ggplot2</code> at the Carpentries workshop, UiO</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><a href="https://ocbe-uio.github.io/teaching_mf9130e/lab/list_of_commands.html">list of commands</a></td>
+<td style="text-align: center;">Quick reference list of R commands used in my statistics classes</td>
 </tr>
 </tbody>
-
 </table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
 
 
 
@@ -498,7 +461,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2022, Chi Zhang</div>   
+    <div class="nav-footer-left">© Copyright 2023, Chi Zhang</div>   
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

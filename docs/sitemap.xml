@@ -106,7 +106,7 @@
   </url>
   <url>
     <loc>https://andreaczhang.github.io/blog/blog.html</loc>
-    <lastmod>2023-05-04T14:39:08.081Z</lastmod>
+    <lastmod>2023-05-19T10:22:13.665Z</lastmod>
   </url>
   <url>
     <loc>https://andreaczhang.github.io/blog/technotes_20230223_roop/index.html</loc>
@@ -183,5 +183,13 @@
   <url>
     <loc>https://andreaczhang.github.io/teaching/ern4110/index.html</loc>
     <lastmod>2023-05-04T14:38:52.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreaczhang.github.io/blog/statnotes_20230516_survival_part1/index.html</loc>
+    <lastmod>2023-05-16T12:45:26.069Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreaczhang.github.io/blog/technotes_20230519_pkgcran/index.html</loc>
+    <lastmod>2023-05-19T10:22:02.797Z</lastmod>
   </url>
 </urlset>

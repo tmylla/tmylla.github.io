@@ -42,6 +42,19 @@ listing:
     filter-ui: false
     categories: true
 
+  - id: statnotes
+    max-description-length: 500
+    image-height: 150px
+    fields: [title, date]
+    contents: 
+      - "statnotes_*/index.qmd"
+    type: table
+    grid-item-border: false
+    sort-ui: false
+    sort: "date desc"
+    filter-ui: false
+    categories: true
+
 ---
 
 ### Blog
@@ -67,6 +80,13 @@ This section is constantly being updated.
 ::: {#readnotes}
 :::
 
+
+### Stat notes
+
+This section is a repository of notes related to (bio)statistical methodology and analysis with R. Mostly for my own use; might be useful for others.
+
+::: {#statnotes}
+:::
 
 
 

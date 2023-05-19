@@ -1,0 +1,79 @@
+---
+title: "R package checklist"
+description: |
+  A checklist to make CRAN-worthy R packages
+author: "Chi Zhang"
+date: "2023-05-19"
+categories: [Rpkg, RSE]
+sidebar: false
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
+---
+
+
+This checklist is being updated over time. Mostly for my own use; but great if it helps you as well!
+
+For a complete treatment, please refer to [R Packages (2e)](https://r-pkgs.org) by Hadley Wickham and Jennifer Bryan.
+
+# Start building your package 
+
+## Where things are
+
+# A workflow that work(ed) for me
+
+
+# CRAN Submission
+
+### Final checks
+
+When you are *almost* ready to submit your package to CRAN, you need to do a few checks. 
+
+A good practice is to **check while you build** your package, so that you've already fixed most of the problems by the time you do the final check.
+
+These are a few final checks to do. 
+
+```{r}
+#| label: cran-checks
+#| echo: true
+#| eval: false
+
+# spell check
+devtools::spell_check()
+
+# windows check
+devtools::check_win_devel()
+
+# rhub cran check 
+rhub::check_for_cran()
+```
+
+
+Remember to check your email and fix potential problems! Some problems pop up in different places, so make sure you fix as many as possible. 
+
+### Submit 
+
+There are a few ways to submit. I found this one to be the most convenient way: 
+
+```{r}
+#| label: cran-submit
+#| echo: true
+#| eval: false
+
+devtools::release()
+```
+
+It asks a few questions to remind you whether all the checks havve passed, and whether you've updated the relevant information in `DESCRIPTION`, `NEWS`. In the end, it creates a tar ball and submits automatically to CRAN.
+
+You need to check your email to confirm submission, just like when you do it manually via the webform.
+
+Alternatively, you can either 
+
+* write `R CMD build PKGNAME` in the terminal; 
+* in Rstudio, in `Build` tab select build binary. 
+
+Afterwards, submit manually via the webform. 
+

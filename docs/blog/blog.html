@@ -145,6 +145,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-statnotes .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-statnotes'] = new List('listing-statnotes', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -214,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="Clinical trial">Clinical trial <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Data science">Data science <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Education">Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Notes">Notes <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RSE">RSE <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Reporting">Reporting <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Rpkg">Rpkg <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Shiny">Shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Website">Website <span class="quarto-category-count">(5)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="Clinical trial">Clinical trial <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Data science">Data science <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Education">Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Notes">Notes <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RSE">RSE <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Reporting">Reporting <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Rpkg">Rpkg <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Shiny">Shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Website">Website <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -313,7 +341,15 @@ Date
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="Clinical trial,Data science,Reporting" data-listing-date-sort="1677625200000" data-listing-file-modified-sort="1677679922551" data-listing-reading-time-sort="1.425" data-listing-title-sort="Notes: Making Data Science work for Clinical Reporting - Part 4" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="Rpkg,RSE" data-listing-date-sort="1684447200000" data-listing-file-modified-sort="1684491717898" data-listing-reading-time-sort="1.235" data-listing-title-sort="R package checklist" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="../blog/technotes_20230519_pkgcran/index.html" class="title">R package checklist</a>
+</td>
+<td class="listing-date">
+May 19, 2023
+</td>
+</tr>
+<tr data-index="1" data-categories="Clinical trial,Data science,Reporting" data-listing-date-sort="1677625200000" data-listing-file-modified-sort="1677679922551" data-listing-reading-time-sort="1.425" data-listing-title-sort="Notes: Making Data Science work for Clinical Reporting - Part 4" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../blog/technotes_20230301_clinreport_part4/index.html" class="title">Notes: Making Data Science work for Clinical Reporting - Part 4</a>
 </td>
@@ -321,7 +357,7 @@ Date
 Mar 1, 2023
 </td>
 </tr>
-<tr data-index="1" data-categories="Clinical trial,Data science,Reporting" data-listing-date-sort="1677452400000" data-listing-file-modified-sort="1677603960018" data-listing-reading-time-sort="3.705" data-listing-title-sort="Notes: Making Data Science work for Clinical Reporting - Part 3" data-listing-filename-sort="index.qmd">
+<tr data-index="2" data-categories="Clinical trial,Data science,Reporting" data-listing-date-sort="1677452400000" data-listing-file-modified-sort="1677603960018" data-listing-reading-time-sort="3.705" data-listing-title-sort="Notes: Making Data Science work for Clinical Reporting - Part 3" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../blog/technotes_20230228_clinreport_part3/index.html" class="title">Notes: Making Data Science work for Clinical Reporting - Part 3</a>
 </td>
@@ -329,7 +365,7 @@ Mar 1, 2023
 Feb 27, 2023
 </td>
 </tr>
-<tr data-index="2" data-categories="Shiny,Website" data-listing-date-sort="1677279600000" data-listing-file-modified-sort="1677348963891" data-listing-reading-time-sort="1.42" data-listing-title-sort="Testing Shiny app and deploy to shinyapps.io" data-listing-filename-sort="index.qmd">
+<tr data-index="3" data-categories="Shiny,Website" data-listing-date-sort="1677279600000" data-listing-file-modified-sort="1677348963891" data-listing-reading-time-sort="1.42" data-listing-title-sort="Testing Shiny app and deploy to shinyapps.io" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../blog/technotes_20230225_shinyappsio/index.html" class="title">Testing Shiny app and deploy to shinyapps.io</a>
 </td>
@@ -337,7 +373,7 @@ Feb 27, 2023
 Feb 25, 2023
 </td>
 </tr>
-<tr data-index="3" data-categories="RSE,Rpkg" data-listing-date-sort="1677106800000" data-listing-file-modified-sort="1683208294925" data-listing-reading-time-sort="4.215" data-listing-title-sort="OOP in R: S3" data-listing-filename-sort="index.qmd">
+<tr data-index="4" data-categories="RSE,Rpkg" data-listing-date-sort="1677106800000" data-listing-file-modified-sort="1683208294925" data-listing-reading-time-sort="4.215" data-listing-title-sort="OOP in R: S3" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../blog/technotes_20230223_roop/index.html" class="title">OOP in R: S3</a>
 </td>
@@ -345,7 +381,7 @@ Feb 25, 2023
 Feb 23, 2023
 </td>
 </tr>
-<tr data-index="4" data-categories="Clinical trial,Data science,Reporting" data-listing-date-sort="1677020400000" data-listing-file-modified-sort="1677167886719" data-listing-reading-time-sort="2.095" data-listing-title-sort="Notes: Making Data Science work for Clinical Reporting - Part 2" data-listing-filename-sort="index.qmd">
+<tr data-index="5" data-categories="Clinical trial,Data science,Reporting" data-listing-date-sort="1677020400000" data-listing-file-modified-sort="1677167886719" data-listing-reading-time-sort="2.095" data-listing-title-sort="Notes: Making Data Science work for Clinical Reporting - Part 2" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../blog/technotes_20230222_clinreport_part2/index.html" class="title">Notes: Making Data Science work for Clinical Reporting - Part 2</a>
 </td>
@@ -353,7 +389,7 @@ Feb 23, 2023
 Feb 22, 2023
 </td>
 </tr>
-<tr data-index="5" data-categories="Rpkg,Website" data-listing-date-sort="1676847600000" data-listing-file-modified-sort="1677507760126" data-listing-reading-time-sort="0.93" data-listing-title-sort="R package website with `pkgdown`" data-listing-filename-sort="index.qmd">
+<tr data-index="6" data-categories="Rpkg,Website" data-listing-date-sort="1676847600000" data-listing-file-modified-sort="1677507760126" data-listing-reading-time-sort="0.93" data-listing-title-sort="R package website with `pkgdown`" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../blog/technotes_20230220_pkgdown/index.html" class="title">R package website with <code>pkgdown</code></a>
 </td>
@@ -361,7 +397,7 @@ Feb 22, 2023
 Feb 20, 2023
 </td>
 </tr>
-<tr data-index="6" data-categories="Clinical trial,Data science,Reporting" data-listing-date-sort="1675638000000" data-listing-file-modified-sort="1677167904701" data-listing-reading-time-sort="2.655" data-listing-title-sort="Notes: Making Data Science work for Clinical Reporting - Part 1" data-listing-filename-sort="index.qmd">
+<tr data-index="7" data-categories="Clinical trial,Data science,Reporting" data-listing-date-sort="1675638000000" data-listing-file-modified-sort="1677167904701" data-listing-reading-time-sort="2.655" data-listing-title-sort="Notes: Making Data Science work for Clinical Reporting - Part 1" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../blog/technotes_20230205_clinreport_part1/index.html" class="title">Notes: Making Data Science work for Clinical Reporting - Part 1</a>
 </td>
@@ -369,7 +405,7 @@ Feb 20, 2023
 Feb 6, 2023
 </td>
 </tr>
-<tr data-index="7" data-categories="Quarto,Website" data-listing-date-sort="1673391600000" data-listing-file-modified-sort="1677167914219" data-listing-reading-time-sort="0.59" data-listing-title-sort="Publishing Quarto Website with GitHub Pages" data-listing-filename-sort="index.qmd">
+<tr data-index="8" data-categories="Quarto,Website" data-listing-date-sort="1673391600000" data-listing-file-modified-sort="1677167914219" data-listing-reading-time-sort="0.59" data-listing-title-sort="Publishing Quarto Website with GitHub Pages" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../blog/technotes_20230111_deployqt/index.html" class="title">Publishing Quarto Website with GitHub Pages</a>
 </td>
@@ -419,6 +455,31 @@ Mar 17, 2023
 Jan 4, 2023
 </td>
 </tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="stat-notes" class="level3">
+<h3 class="anchored" data-anchor-id="stat-notes">Stat notes</h3>
+<p>This section is a repository of notes related to (bio)statistical methodology and analysis with R. Mostly for my own use; might be useful for others.</p>
+<div id="listing-statnotes" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody class="list">
 </tbody>
 
 </table>

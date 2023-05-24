@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 description: |
-  Here you can find an overview of my projects.
+  Here you can find an overview of my projects on Research Softwares and teaching, in a range of health related fields.   
 listing:
   - id: publichealth
     max-description-length: 500
@@ -15,14 +15,28 @@ listing:
     grid-item-border: false
 ---
 
-## Public Health Surveillance
+*This page is currently under construction. For my teaching material and R packages, please visit the pages dedicated to those topics. Thank you for your interest!*
 
-I joined the Norwegian Institute of Public Health in 2020, as a member of the Sykdomspulsen team. We are a core part of the COVID-19 pandemic response task force in Norway. I help build the real-time public health surveillance platform using R and other open source data science tools. You can find our R packages [here](https://github.com/sykdomspulsen-org).
+### Simmed 
 
-In 2021-2022, I am the responsible statistician for NorMOMO, the Norwegian Mortality Monitoring project, which is part of the European network EuroMOMO. I work on R packages [nowcast](https://docs.sykdomspulsen.no/nowcast/) and [splalert](https://docs.sykdomspulsen.no/splalert/).
+A modular medical data simulator for educational purposes. Inspired by the Grammar of Graphics (planning stage)
 
+
+### CSIDS and public health
 ::: {#publichealth}
 :::
+
+
+### MF9130E
+
+### qtwAcademic
+
+### TTW contributor 
+
+### Other research softwares
+
+bayesynergy: contribute to visualization (in progress)
+
 
 
 

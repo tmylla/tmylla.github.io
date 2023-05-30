@@ -642,5 +642,33 @@
     "title": "R package checklist",
     "section": "Where things are",
     "text": "Where things are"
+  },
+  {
+    "objectID": "blog/technotes_20230519_pkgcran/index.html#documentation",
+    "href": "blog/technotes_20230519_pkgcran/index.html#documentation",
+    "title": "R package checklist",
+    "section": "Documentation",
+    "text": "Documentation\n\nSufficient, working examples\n\nREADME.md\nHelp pages\nVignettes\n\nExample code coverage, covr::package_coverage(), use GHA workflow to check if code coverage is above a threshold.\nDetect broken README examples by generating README.md on every commit.\nIn help pages, some examples have tags:\n\n\\dontrun{}: not run by example(), not run by R CMD check\n\\donttest{}: run by example() but not checked\n\\dontshow{}: run and checked\n\n\n# code coverage\ncovr::package_coverage(type = c('examples', 'vignettes'), commentDonttest = F, commentDontrun = F)\n\n# readme examples\nrmarkdown::render(\"README.rmd\", output_format = rmarkdown::github_document())\n\n# help page examples\ndevtools::run_examples(run_dontrun = T, run_donttest = T)\n\n# check vignette examples\npkgdown::build_site()\n\n\n\nLinks and spelling errors\nDetect link rot with urlchecker::url_check()\nSpelling, check with spelling::spell_check_package() or usethis::use_spell_check().\n\nspecify prefered standard in DESCRIPTION\ncreate a list of allowed misspelt words, put it under inst."
+  },
+  {
+    "objectID": "blog/technotes_20230519_pkgcran/index.html#handling-exceptions",
+    "href": "blog/technotes_20230519_pkgcran/index.html#handling-exceptions",
+    "title": "R package checklist",
+    "section": "Handling exceptions",
+    "text": "Handling exceptions\nError > warning > message"
+  },
+  {
+    "objectID": "blog/technotes_20230519_pkgcran/index.html#code-quality",
+    "href": "blog/technotes_20230519_pkgcran/index.html#code-quality",
+    "title": "R package checklist",
+    "section": "Code quality",
+    "text": "Code quality\nStyle guide, styler::style_pkg() enforces tidyverse style guide.\nLint (code smells). Can be removed with styler\n\n# code quality assessment\nlint(text = 'x = 1') # with lint\nlint(text = 'x <- 1') # no lint\nlintr::lint_package()"
+  },
+  {
+    "objectID": "blog/technotes_20230519_pkgcran/index.html#where-things-are-tbc",
+    "href": "blog/technotes_20230519_pkgcran/index.html#where-things-are-tbc",
+    "title": "R package checklist",
+    "section": "Where things are (tbc)",
+    "text": "Where things are (tbc)"
   }
 ]

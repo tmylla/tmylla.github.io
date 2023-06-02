@@ -1,0 +1,106 @@
+---
+title: "Clinical trial design"
+description: |
+  Notes related to clinical trial design. Constantly updating.
+author: "Chi Zhang"
+date: "2023-06-01"
+categories: [Notes]
+sidebar: false
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
+---
+
+### Resources 
+
+* Coursera course [Design and interpretation of clinical trials](https://www.coursera.org/learn/clinical-trials/home/) by Johns Hopkins University
+
+
+
+## Types of trials designs
+
+Phase 1: 10-30, identify tolerable dose, information on drug metabolism, extretion and toxicity. Often not controlled
+
+Phase 2: 30-100, efficacy, safety and side effects, 
+
+Phase 3: 100+, often randomized 
+
+Phase 4: demonstration
+
+### Types of design 
+
+Population have the disease outcome of interest; not healthy voluteers vs diseased.
+
+Randomisation unit: persons, two eyes of a person, or groups of persons
+
+**Comparison structure**: parallel, crossover, group allocation
+
+* **Parallel**: simultaneous treatment and control groups, subjects randomly assigned to one group.
+* **Crossover**: randomize of order in which treatments are received; TC or CT. Each patient is his/her own control. Washout period: time between two treatments.
+  * Variability reduced because less variability within patient than between patients. Fewer patients needed. 
+  * Disadvantages: only certain treatments can use crossover design, treatment can't have permanent effects. Carry-over effects from first period; washout needs to be long enough. Dropouts more significant, analysis may be more difficult: correlated outcomes.
+  * Constant intensity of underlying disease: chronic diseases (e.g. asthma, hypertension, arthritis) + short-term treatment effects (relief of signs or symptoms)
+  * e.g. morning dose vs evening dose
+* **Group allocation**: a group of subjects (community, school, clinic).
+
+**Extensions of the parallel design**: factorial, large simple
+
+* **Factorial**: two interventions tested simultaneously. Can be presented in a 2 by 2 table (treatment A +-, treatment B +-); or 3 by 2 etc.
+  * Interested in main effect (if no interaction expected). A vs no A; B vs no B. The other treatment doesn't matter.
+
+* **Large simple**: large number of patients, possibly from many study sites.
+
+#### Tests other than superiority
+
+* **Equivalency**: intervention response is close to control group response
+
+* **Non-inferiority**: Treatment A (new) is at least as good as B (established). One-sided test, if A is worse than B, one can be rejected. Does not require as big sample size.
+
+
+#### Adaptive design
+
+Possible adaptations
+
+* **randomization probabilities** 
+* **sample size** (e.g. group sequential methods)
+* **visit schedule**: shorten/lengthen follow-up time, change number of timing of visits, treatments (dose/duration, concomitant meds)
+* **hypothesis** tested
+
+
+
+
+## Randomisation and masking 
+
+Rationale: 
+
+* avoid selection bias: prognostic factors related to treatment assignment
+* tends to produce comparable treatment groups
+
+Selection bias
+
+
+
+
+
+## Outcomes and analysis
+
+
+## Ethics
+
+
+## Reporting results
+
+
+
+
+
+
+
+
+
+
+
+

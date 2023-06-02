@@ -21,7 +21,126 @@ For a complete treatment, please refer to [R Packages (2e)](https://r-pkgs.org) 
 
 # Start building your package 
 
-## Where things are (tbc)
+The `usethis` package will help with the procedure when you do not have a package yet. 
+
+You can also create a template, and copy paste from it in the future.
+
+### Key components 
+
+```{r}
+#| label: pkg-create
+#| echo: true
+#| eval: false
+
+usethis::create_package('path_to_pkg/pkgname') 
+```
+
+It opens a new R project (directory) named `pkgname`, with the following items: 
+
+* `DESCRIPTION`
+* `NAMESPACE`
+* directory `R/`
+* `.Rbuildignore` and `.gitignore`
+* and the project icon, `pkgname.Rproj`. 
+
+If you have an **existing R project** but wish to build a package there, copy everything but `pkgname.Rproj`, and modify the files in your existing pkg directory.
+
+```{r}
+#| label: pkg-info
+#| echo: true
+#| eval: false
+
+usethis::use_mit_license() # modify name to yours
+usethis::use_readme_md() # if you do not have this already
+usethis::use_news_md()
+usethis::use_test()
+
+# create a folder for future data documentation
+x <- 1 
+usethis::use_data() 
+```
+
+In addition, URL and bug reports should be added in the `DESCRIPTION`. 
+
+### Write functions
+
+Create exported functions in `R/`, development code in `script` (or somewhere else).
+
+
+### Documentation
+
+You need to configure the **Build tools**. 
+
+These three things should be done:
+
+#### Function documentation
+
+Create a function `f1`, and put your cursor on it. Go to *Code -> Insert Roxygen Skeleton* to create the template. 
+
+Alternatively, use `#'` to start. 
+
+```{r}
+#| label: pkg-documentation-func
+#| echo: true
+#| eval: false
+
+#' A simple placehold function 
+#'
+#' @param x a numeric value
+#'
+#' @return a value 3 greater than the input
+#' @export
+#'
+#' @examples 
+#' f1(5)
+f1 <- function(x){
+  x+3
+}
+```
+
+#### Data documentation
+
+It can be beneficial to create a separate file to document data only, say `data_documentation.R` under the `R/` directory.
+
+```{r}
+#| label: pkg-documentation-data
+#| echo: true
+#| eval: false
+
+#' Placeholder data x
+#'
+#' This dataset contains one value, x
+#'
+#' @format
+#' \describe{
+#' \item{x}{The placeholder data x}
+#' }
+#' @examples
+#' print(x)
+"x"
+```
+
+
+#### Vignette documentation
+
+```{r}
+#| label: pkg-documentation-vign
+#| echo: true
+#| eval: false
+
+usethis::use_vignette('your_vignette')
+```
+
+#### Deploy to `pkgdown`
+
+Check this reference [here](https://andreaczhang.github.io/blog/technotes_20230220_pkgdown/)
+
+
+
+## Build package and check
+
+It is possible that your checks don't pass on the first try. 
+
 
 
 
@@ -30,7 +149,7 @@ For a complete treatment, please refer to [R Packages (2e)](https://r-pkgs.org) 
 These aspects are quite important to check as well: documentation, code quality, exceptions among others.
 
 * [Slides by Indrajeet Patil](https://indrajeetpatil.github.io/preventive-r-package-care/#/preventive-care-for-r-packages). 
-* [Awesome R Package Development Tools bby Indrajeet Patil](https://indrajeetpatil.github.io/awesome-r-pkgtools/#codedocument-formatting)
+* [Awesome R Package Development Tools by Indrajeet Patil](https://indrajeetpatil.github.io/awesome-r-pkgtools/#codedocument-formatting)
 
 ### Documentation 
 

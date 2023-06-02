@@ -42,12 +42,12 @@ listing:
     filter-ui: false
     categories: true
 
-  - id: statnotes
+  - id: methodnotes
     max-description-length: 500
     image-height: 150px
     fields: [title, date]
     contents: 
-      - "statnotes_*/index.qmd"
+      - "methodnotes_*/index.qmd"
     type: table
     grid-item-border: false
     sort-ui: false
@@ -65,7 +65,7 @@ listing:
 
 ### Technical notes
 
-Mostly notes for my own use
+Mostly notes for my own use.
 
 ::: {#technotes}
 :::
@@ -81,11 +81,11 @@ This section is constantly being updated.
 :::
 
 
-### Stat notes
+### Method notes
 
-This section is a repository of notes related to (bio)statistical methodology and analysis with R. Mostly for my own use; might be useful for others.
+This section is a repository of notes related to (bio)statistical methodology and analysis. Some are implemented with R. Mostly for my own use; might be useful for others.
 
-::: {#statnotes}
+::: {#methodnotes}
 :::
 
 

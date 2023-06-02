@@ -196,7 +196,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <ul class="collapse">
   <li><a href="#start-building-your-package" id="toc-start-building-your-package" class="nav-link active" data-scroll-target="#start-building-your-package">Start building your package</a>
   <ul class="collapse">
-  <li><a href="#where-things-are-tbc" id="toc-where-things-are-tbc" class="nav-link" data-scroll-target="#where-things-are-tbc">Where things are (tbc)</a></li>
+  <li><a href="#build-package-and-check" id="toc-build-package-and-check" class="nav-link" data-scroll-target="#build-package-and-check">Build package and check</a></li>
   </ul></li>
   <li><a href="#dont-forget-to-check-these" id="toc-dont-forget-to-check-these" class="nav-link" data-scroll-target="#dont-forget-to-check-these">Don’t forget to check these!</a></li>
   <li><a href="#a-workflow-that-worked-for-me" id="toc-a-workflow-that-worked-for-me" class="nav-link" data-scroll-target="#a-workflow-that-worked-for-me">A workflow that work(ed) for me</a></li>
@@ -249,8 +249,92 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>For a complete treatment, please refer to <a href="https://r-pkgs.org">R Packages (2e)</a> by Hadley Wickham and Jennifer Bryan.</p>
 <section id="start-building-your-package" class="level1">
 <h1>Start building your package</h1>
-<section id="where-things-are-tbc" class="level2">
-<h2 class="anchored" data-anchor-id="where-things-are-tbc">Where things are (tbc)</h2>
+<p>The <code>usethis</code> package will help with the procedure when you do not have a package yet.</p>
+<p>You can also create a template, and copy paste from it in the future.</p>
+<section id="key-components" class="level3">
+<h3 class="anchored" data-anchor-id="key-components">Key components</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">create_package</span>(<span class="st">'path_to_pkg/pkgname'</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>It opens a new R project (directory) named <code>pkgname</code>, with the following items:</p>
+<ul>
+<li><code>DESCRIPTION</code></li>
+<li><code>NAMESPACE</code></li>
+<li>directory <code>R/</code></li>
+<li><code>.Rbuildignore</code> and <code>.gitignore</code></li>
+<li>and the project icon, <code>pkgname.Rproj</code>.</li>
+</ul>
+<p>If you have an <strong>existing R project</strong> but wish to build a package there, copy everything but <code>pkgname.Rproj</code>, and modify the files in your existing pkg directory.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_mit_license</span>() <span class="co"># modify name to yours</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_readme_md</span>() <span class="co"># if you do not have this already</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_news_md</span>()</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_test</span>()</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co"># create a folder for future data documentation</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">1</span> </span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_data</span>() </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>In addition, URL and bug reports should be added in the <code>DESCRIPTION</code>.</p>
+</section>
+<section id="write-functions" class="level3">
+<h3 class="anchored" data-anchor-id="write-functions">Write functions</h3>
+<p>Create exported functions in <code>R/</code>, development code in <code>script</code> (or somewhere else).</p>
+</section>
+<section id="documentation" class="level3">
+<h3 class="anchored" data-anchor-id="documentation">Documentation</h3>
+<p>You need to configure the <strong>Build tools</strong>.</p>
+<p>These three things should be done:</p>
+<section id="function-documentation" class="level4">
+<h4 class="anchored" data-anchor-id="function-documentation">Function documentation</h4>
+<p>Create a function <code>f1</code>, and put your cursor on it. Go to <em>Code -&gt; Insert Roxygen Skeleton</em> to create the template.</p>
+<p>Alternatively, use <code>#'</code> to start.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' A simple placehold function </span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param x a numeric value</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">#' @return a value 3 greater than the input</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">#' @export</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co">#' @examples </span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co">#' f1(5)</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>f1 <span class="ot">&lt;-</span> <span class="cf">function</span>(x){</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  x<span class="sc">+</span><span class="dv">3</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="data-documentation" class="level4">
+<h4 class="anchored" data-anchor-id="data-documentation">Data documentation</h4>
+<p>It can be beneficial to create a separate file to document data only, say <code>data_documentation.R</code> under the <code>R/</code> directory.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Placeholder data x</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' This dataset contains one value, x</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">#' @format</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co">#' \describe{</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co">#' \item{x}{The placeholder data x}</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co">#' }</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co">#' @examples</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co">#' print(x)</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="st">"x"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="vignette-documentation" class="level4">
+<h4 class="anchored" data-anchor-id="vignette-documentation">Vignette documentation</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_vignette</span>(<span class="st">'your_vignette'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="deploy-to-pkgdown" class="level4">
+<h4 class="anchored" data-anchor-id="deploy-to-pkgdown">Deploy to <code>pkgdown</code></h4>
+<p>Check this reference <a href="https://andreaczhang.github.io/blog/technotes_20230220_pkgdown/">here</a></p>
+</section>
+</section>
+<section id="build-package-and-check" class="level2">
+<h2 class="anchored" data-anchor-id="build-package-and-check">Build package and check</h2>
+<p>It is possible that your checks don’t pass on the first try.</p>
 </section>
 </section>
 <section id="dont-forget-to-check-these" class="level1">
@@ -258,10 +342,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>These aspects are quite important to check as well: documentation, code quality, exceptions among others.</p>
 <ul>
 <li><a href="https://indrajeetpatil.github.io/preventive-r-package-care/#/preventive-care-for-r-packages">Slides by Indrajeet Patil</a>.</li>
-<li><a href="https://indrajeetpatil.github.io/awesome-r-pkgtools/#codedocument-formatting">Awesome R Package Development Tools bby Indrajeet Patil</a></li>
+<li><a href="https://indrajeetpatil.github.io/awesome-r-pkgtools/#codedocument-formatting">Awesome R Package Development Tools by Indrajeet Patil</a></li>
 </ul>
-<section id="documentation" class="level3">
-<h3 class="anchored" data-anchor-id="documentation">Documentation</h3>
+<section id="documentation-1" class="level3">
+<h3 class="anchored" data-anchor-id="documentation-1">Documentation</h3>
 <section id="sufficient-working-examples" class="level4">
 <h4 class="anchored" data-anchor-id="sufficient-working-examples">Sufficient, working examples</h4>
 <ul>
@@ -278,17 +362,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><code>\dontshow{}</code>: run and checked</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># code coverage</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>covr<span class="sc">::</span><span class="fu">package_coverage</span>(<span class="at">type =</span> <span class="fu">c</span>(<span class="st">'examples'</span>, <span class="st">'vignettes'</span>), <span class="at">commentDonttest =</span> F, <span class="at">commentDontrun =</span> F)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># readme examples</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>rmarkdown<span class="sc">::</span><span class="fu">render</span>(<span class="st">"README.rmd"</span>, <span class="at">output_format =</span> rmarkdown<span class="sc">::</span><span class="fu">github_document</span>())</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># help page examples</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">run_examples</span>(<span class="at">run_dontrun =</span> T, <span class="at">run_donttest =</span> T)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># check vignette examples</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>pkgdown<span class="sc">::</span><span class="fu">build_site</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># code coverage</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>covr<span class="sc">::</span><span class="fu">package_coverage</span>(<span class="at">type =</span> <span class="fu">c</span>(<span class="st">'examples'</span>, <span class="st">'vignettes'</span>), <span class="at">commentDonttest =</span> F, <span class="at">commentDontrun =</span> F)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># readme examples</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>rmarkdown<span class="sc">::</span><span class="fu">render</span>(<span class="st">"README.rmd"</span>, <span class="at">output_format =</span> rmarkdown<span class="sc">::</span><span class="fu">github_document</span>())</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># help page examples</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">run_examples</span>(<span class="at">run_dontrun =</span> T, <span class="at">run_donttest =</span> T)</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># check vignette examples</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>pkgdown<span class="sc">::</span><span class="fu">build_site</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="links-and-spelling-errors" class="level4">
@@ -310,10 +394,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Style guide, <code>styler::style_pkg()</code> enforces tidyverse style guide.</p>
 <p>Lint (code smells). Can be removed with <code>styler</code></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># code quality assessment</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">lint</span>(<span class="at">text =</span> <span class="st">'x = 1'</span>) <span class="co"># with lint</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">lint</span>(<span class="at">text =</span> <span class="st">'x &lt;- 1'</span>) <span class="co"># no lint</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>lintr<span class="sc">::</span><span class="fu">lint_package</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># code quality assessment</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">lint</span>(<span class="at">text =</span> <span class="st">'x = 1'</span>) <span class="co"># with lint</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">lint</span>(<span class="at">text =</span> <span class="st">'x &lt;- 1'</span>) <span class="co"># no lint</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>lintr<span class="sc">::</span><span class="fu">lint_package</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 </section>
@@ -328,14 +412,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>A good practice is to <strong>check while you build</strong> your package, so that you’ve already fixed most of the problems by the time you do the final check.</p>
 <p>These are a few final checks to do.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># spell check</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">spell_check</span>()</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># windows check</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">check_win_devel</span>()</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># rhub cran check </span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>rhub<span class="sc">::</span><span class="fu">check_for_cran</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># spell check</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">spell_check</span>()</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># windows check</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">check_win_devel</span>()</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co"># rhub cran check </span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>rhub<span class="sc">::</span><span class="fu">check_for_cran</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Remember to check your email and fix potential problems! Some problems pop up in different places, so make sure you fix as many as possible.</p>
 </section>
@@ -343,7 +427,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3 class="anchored" data-anchor-id="submit">Submit</h3>
 <p>There are a few ways to submit. I found this one to be the most convenient way:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">release</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">release</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>It asks a few questions to remind you whether all the checks havve passed, and whether you’ve updated the relevant information in <code>DESCRIPTION</code>, <code>NEWS</code>. In the end, it creates a tar ball and submits automatically to CRAN.</p>
 <p>You need to check your email to confirm submission, just like when you do it manually via the webform.</p>

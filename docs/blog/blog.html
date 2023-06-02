@@ -148,20 +148,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-statnotes .list');
+    const listingTargetEl = window.document.querySelector('#listing-methodnotes .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-statnotes'] = new List('listing-statnotes', options);
+    window['quarto-listings']['listing-methodnotes'] = new List('listing-methodnotes', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -242,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="Clinical trial">Clinical trial <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Data science">Data science <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Education">Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Notes">Notes <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RSE">RSE <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Reporting">Reporting <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Rpkg">Rpkg <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Shiny">Shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Website">Website <span class="quarto-category-count">(5)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(16)</span></div><div class="category" data-category="Clinical trial">Clinical trial <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Data science">Data science <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Education">Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Notes">Notes <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RSE">RSE <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Reporting">Reporting <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Rpkg">Rpkg <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Shiny">Shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Website">Website <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -326,7 +326,7 @@ No matching items
 </section>
 <section id="technical-notes" class="level3">
 <h3 class="anchored" data-anchor-id="technical-notes">Technical notes</h3>
-<p>Mostly notes for my own use</p>
+<p>Mostly notes for my own use.</p>
 <div id="listing-technotes" class="quarto-listing quarto-listing-container-table">
 
 <table class="quarto-listing-table table">
@@ -341,7 +341,7 @@ Date
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="Rpkg,RSE" data-listing-date-sort="1684447200000" data-listing-file-modified-sort="1685457637964" data-listing-reading-time-sort="2.255" data-listing-title-sort="R package checklist" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="Rpkg,RSE" data-listing-date-sort="1684447200000" data-listing-file-modified-sort="1685724311909" data-listing-reading-time-sort="3.7" data-listing-title-sort="R package checklist" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../blog/technotes_20230519_pkgcran/index.html" class="title">R package checklist</a>
 </td>
@@ -389,7 +389,7 @@ Feb 23, 2023
 Feb 22, 2023
 </td>
 </tr>
-<tr data-index="6" data-categories="Rpkg,Website" data-listing-date-sort="1676847600000" data-listing-file-modified-sort="1677507760126" data-listing-reading-time-sort="0.93" data-listing-title-sort="R package website with `pkgdown`" data-listing-filename-sort="index.qmd">
+<tr data-index="6" data-categories="Rpkg,Website" data-listing-date-sort="1676847600000" data-listing-file-modified-sort="1685724180893" data-listing-reading-time-sort="0.975" data-listing-title-sort="R package website with `pkgdown`" data-listing-filename-sort="index.qmd">
 <td class="listing-title">
 <a href="../blog/technotes_20230220_pkgdown/index.html" class="title">R package website with <code>pkgdown</code></a>
 </td>
@@ -463,10 +463,10 @@ No matching items
 </div>
 </div>
 </section>
-<section id="stat-notes" class="level3">
-<h3 class="anchored" data-anchor-id="stat-notes">Stat notes</h3>
-<p>This section is a repository of notes related to (bio)statistical methodology and analysis with R. Mostly for my own use; might be useful for others.</p>
-<div id="listing-statnotes" class="quarto-listing quarto-listing-container-table">
+<section id="method-notes" class="level3">
+<h3 class="anchored" data-anchor-id="method-notes">Method notes</h3>
+<p>This section is a repository of notes related to (bio)statistical methodology and analysis. Some are implemented with R. Mostly for my own use; might be useful for others.</p>
+<div id="listing-methodnotes" class="quarto-listing quarto-listing-container-table">
 
 <table class="quarto-listing-table table">
 <thead>
@@ -480,6 +480,14 @@ Date
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-categories="Notes" data-listing-date-sort="1685570400000" data-listing-file-modified-sort="1685720074777" data-listing-reading-time-sort="1.855" data-listing-title-sort="Clinical trial design" data-listing-filename-sort="index.qmd">
+<td class="listing-title">
+<a href="../blog/methodnotes_20230601_trialdesign/index.html" class="title">Clinical trial design</a>
+</td>
+<td class="listing-date">
+Jun 1, 2023
+</td>
+</tr>
 </tbody>
 
 </table>

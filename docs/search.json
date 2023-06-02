@@ -396,7 +396,7 @@
     "href": "blog/blog.html",
     "title": "Blog and notes",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nCourse review: making DS work for clinical reporting\n\n\nMar 1, 2023\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMostly notes for my own use\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nR package checklist\n\n\nMay 19, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 4\n\n\nMar 1, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 3\n\n\nFeb 27, 2023\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\nFeb 25, 2023\n\n\n\n\nOOP in R: S3\n\n\nFeb 23, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\nFeb 22, 2023\n\n\n\n\nR package website with pkgdown\n\n\nFeb 20, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nMar 17, 2023\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nStat notes\nThis section is a repository of notes related to (bio)statistical methodology and analysis with R. Mostly for my own use; might be useful for others.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nCourse review: making DS work for clinical reporting\n\n\nMar 1, 2023\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMostly notes for my own use.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nR package checklist\n\n\nMay 19, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 4\n\n\nMar 1, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 3\n\n\nFeb 27, 2023\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\nFeb 25, 2023\n\n\n\n\nOOP in R: S3\n\n\nFeb 23, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\nFeb 22, 2023\n\n\n\n\nR package website with pkgdown\n\n\nFeb 20, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nMar 17, 2023\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMethod notes\nThis section is a repository of notes related to (bio)statistical methodology and analysis. Some are implemented with R. Mostly for my own use; might be useful for others.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nClinical trial design\n\n\nJun 1, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/technotes_20230223_roop/index.html",
@@ -670,5 +670,54 @@
     "title": "R package checklist",
     "section": "Where things are (tbc)",
     "text": "Where things are (tbc)"
+  },
+  {
+    "objectID": "blog/methodnotes_20230601_trialdesign/index.html",
+    "href": "blog/methodnotes_20230601_trialdesign/index.html",
+    "title": "Clinical trial design",
+    "section": "",
+    "text": "Coursera course Design and interpretation of clinical trials by Johns Hopkins University"
+  },
+  {
+    "objectID": "blog/methodnotes_20230601_trialdesign/index.html#types-of-trials-designs",
+    "href": "blog/methodnotes_20230601_trialdesign/index.html#types-of-trials-designs",
+    "title": "Clinical trial design",
+    "section": "Types of trials designs",
+    "text": "Types of trials designs\nPhase 1: 10-30, identify tolerable dose, information on drug metabolism, extretion and toxicity. Often not controlled\nPhase 2: 30-100, efficacy, safety and side effects,\nPhase 3: 100+, often randomized\nPhase 4: demonstration\n\nTypes of design\nPopulation have the disease outcome of interest; not healthy voluteers vs diseased.\nRandomisation unit: persons, two eyes of a person, or groups of persons\nComparison structure: parallel, crossover, group allocation\n\nParallel: simultaneous treatment and control groups, subjects randomly assigned to one group.\nCrossover: randomize of order in which treatments are received; TC or CT. Each patient is his/her own control. Washout period: time between two treatments.\n\nVariability reduced because less variability within patient than between patients. Fewer patients needed.\nDisadvantages: only certain treatments can use crossover design, treatment can’t have permanent effects. Carry-over effects from first period; washout needs to be long enough. Dropouts more significant, analysis may be more difficult: correlated outcomes.\nConstant intensity of underlying disease: chronic diseases (e.g. asthma, hypertension, arthritis) + short-term treatment effects (relief of signs or symptoms)\ne.g. morning dose vs evening dose\n\nGroup allocation: a group of subjects (community, school, clinic).\n\nExtensions of the parallel design: factorial, large simple\n\nFactorial: two interventions tested simultaneously. Can be presented in a 2 by 2 table (treatment A +-, treatment B +-); or 3 by 2 etc.\n\nInterested in main effect (if no interaction expected). A vs no A; B vs no B. The other treatment doesn’t matter.\n\nLarge simple: large number of patients, possibly from many study sites.\n\n\nTests other than superiority\n\nEquivalency: intervention response is close to control group response\nNon-inferiority: Treatment A (new) is at least as good as B (established). One-sided test, if A is worse than B, one can be rejected. Does not require as big sample size.\n\n\n\nAdaptive design\nPossible adaptations\n\nrandomization probabilities\nsample size (e.g. group sequential methods)\nvisit schedule: shorten/lengthen follow-up time, change number of timing of visits, treatments (dose/duration, concomitant meds)\nhypothesis tested"
+  },
+  {
+    "objectID": "blog/methodnotes_20230601_trialdesign/index.html#randomisation-and-masking",
+    "href": "blog/methodnotes_20230601_trialdesign/index.html#randomisation-and-masking",
+    "title": "Clinical trial design",
+    "section": "Randomisation and masking",
+    "text": "Randomisation and masking"
+  },
+  {
+    "objectID": "blog/methodnotes_20230601_trialdesign/index.html#outcomes-and-analysis",
+    "href": "blog/methodnotes_20230601_trialdesign/index.html#outcomes-and-analysis",
+    "title": "Clinical trial design",
+    "section": "Outcomes and analysis",
+    "text": "Outcomes and analysis"
+  },
+  {
+    "objectID": "blog/methodnotes_20230601_trialdesign/index.html#ethics",
+    "href": "blog/methodnotes_20230601_trialdesign/index.html#ethics",
+    "title": "Clinical trial design",
+    "section": "Ethics",
+    "text": "Ethics"
+  },
+  {
+    "objectID": "blog/methodnotes_20230601_trialdesign/index.html#reporting-results",
+    "href": "blog/methodnotes_20230601_trialdesign/index.html#reporting-results",
+    "title": "Clinical trial design",
+    "section": "Reporting results",
+    "text": "Reporting results"
+  },
+  {
+    "objectID": "blog/technotes_20230519_pkgcran/index.html#build-package-and-check",
+    "href": "blog/technotes_20230519_pkgcran/index.html#build-package-and-check",
+    "title": "R package checklist",
+    "section": "Build package and check",
+    "text": "Build package and check\nIt is possible that your checks don’t pass on the first try."
   }
 ]

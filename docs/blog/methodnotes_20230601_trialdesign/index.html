@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Chi Zhang">
-<meta name="dcterms.date" content="2023-02-25">
-<meta name="description" content="Notes on how to set up the free shinyapp.io to deploy a demo shiny app.">
+<meta name="dcterms.date" content="2023-06-01">
+<meta name="description" content="Notes related to clinical trial design. Constantly updating.">
 
-<title>Hello, I’m Chi - Testing Shiny app and deploy to shinyapps.io</title>
+<title>Hello, I’m Chi - Clinical trial design</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,31 +131,28 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#deploy-a-shiny-app" id="toc-deploy-a-shiny-app" class="nav-link active" data-scroll-target="#deploy-a-shiny-app">Deploy a shiny app</a>
-  <ul class="collapse">
-  <li><a href="#considerations" id="toc-considerations" class="nav-link" data-scroll-target="#considerations">Considerations</a></li>
-  <li><a href="#configuration" id="toc-configuration" class="nav-link" data-scroll-target="#configuration">Configuration</a></li>
-  <li><a href="#create-my-first-shiny-project" id="toc-create-my-first-shiny-project" class="nav-link" data-scroll-target="#create-my-first-shiny-project">Create my first shiny project</a></li>
-  <li><a href="#deploy-to-shinyapps.io" id="toc-deploy-to-shinyapps.io" class="nav-link" data-scroll-target="#deploy-to-shinyapps.io">Deploy to shinyapps.io</a></li>
-  </ul></li>
+  <li><a href="#types-of-trials-designs" id="toc-types-of-trials-designs" class="nav-link active" data-scroll-target="#types-of-trials-designs">Types of trials designs</a></li>
+  <li><a href="#randomisation-and-masking" id="toc-randomisation-and-masking" class="nav-link" data-scroll-target="#randomisation-and-masking">Randomisation and masking</a></li>
+  <li><a href="#outcomes-and-analysis" id="toc-outcomes-and-analysis" class="nav-link" data-scroll-target="#outcomes-and-analysis">Outcomes and analysis</a></li>
+  <li><a href="#ethics" id="toc-ethics" class="nav-link" data-scroll-target="#ethics">Ethics</a></li>
+  <li><a href="#reporting-results" id="toc-reporting-results" class="nav-link" data-scroll-target="#reporting-results">Reporting results</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/technotes_20230225_shinyappsio/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/methodnotes_20230601_trialdesign/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Testing Shiny app and deploy to shinyapps.io</h1>
+<h1 class="title">Clinical trial design</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Shiny</div>
-    <div class="quarto-category">Website</div>
+    <div class="quarto-category">Notes</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>Notes on how to set up the free shinyapp.io to deploy a demo shiny app.</p>
+    <p>Notes related to clinical trial design. Constantly updating.</p>
   </div>
 </div>
 
@@ -172,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 25, 2023</p>
+      <p class="date">June 1, 2023</p>
     </div>
   </div>
   
@@ -182,55 +179,74 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Useful references:</p>
+<section id="resources" class="level3">
+<h3 class="anchored" data-anchor-id="resources">Resources</h3>
 <ul>
-<li><p><a href="https://www.shinyapps.io/?_ga=2.153008955.389615798.1677342175-855156568.1676825759">Shinyapps.io</a></p></li>
-<li><p><a href="https://shiny.rstudio.com/articles/shinyapps.html?_ga=2.91218270.516609615.1677344806-1911681.1677344806">Get Started with shinyapps.io</a></p></li>
+<li>Coursera course <a href="https://www.coursera.org/learn/clinical-trials/home/">Design and interpretation of clinical trials</a> by Johns Hopkins University</li>
 </ul>
-<section id="deploy-a-shiny-app" class="level1">
-<h1>Deploy a shiny app</h1>
-<section id="considerations" class="level2">
-<h2 class="anchored" data-anchor-id="considerations">Considerations</h2>
-<p>A few ways to do it: <strong>Shiny Server</strong> (free), <strong>shinyapps.io</strong> (free and premium), and professional Rstudio Connect (paid).</p>
-<p>I choose to test out the second option, since it allows more possibilities compared to the free open-source Shiny Server.</p>
-<p>The free option should allow me to create <strong>5 apps</strong>, which is more than enough for personal use. It also allows <strong>25 active hours</strong> per month; a note on that at the end.</p>
 </section>
-<section id="configuration" class="level2">
-<h2 class="anchored" data-anchor-id="configuration">Configuration</h2>
-<p>Sign up with GitHub account; or something else. It is possible to change account name afterwards.</p>
-<p>In Rstudio,</p>
+<section id="types-of-trials-designs" class="level2">
+<h2 class="anchored" data-anchor-id="types-of-trials-designs">Types of trials designs</h2>
+<p>Phase 1: 10-30, identify tolerable dose, information on drug metabolism, extretion and toxicity. Often not controlled</p>
+<p>Phase 2: 30-100, efficacy, safety and side effects,</p>
+<p>Phase 3: 100+, often randomized</p>
+<p>Phase 4: demonstration</p>
+<section id="types-of-design" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-design">Types of design</h3>
+<p>Population have the disease outcome of interest; not healthy voluteers vs diseased.</p>
+<p>Randomisation unit: persons, two eyes of a person, or groups of persons</p>
+<p><strong>Comparison structure</strong>: parallel, crossover, group allocation</p>
 <ul>
-<li>first <code>install.packages('rsconnect')</code></li>
-<li>then, configure the account. It can be done with <code>rsconnect::setAccountInfo()</code> with information provided in your own <strong>shinyapps.io</strong> page.</li>
+<li><strong>Parallel</strong>: simultaneous treatment and control groups, subjects randomly assigned to one group.</li>
+<li><strong>Crossover</strong>: randomize of order in which treatments are received; TC or CT. Each patient is his/her own control. Washout period: time between two treatments.
+<ul>
+<li>Variability reduced because less variability within patient than between patients. Fewer patients needed.</li>
+<li>Disadvantages: only certain treatments can use crossover design, treatment can’t have permanent effects. Carry-over effects from first period; washout needs to be long enough. Dropouts more significant, analysis may be more difficult: correlated outcomes.</li>
+<li>Constant intensity of underlying disease: chronic diseases (e.g.&nbsp;asthma, hypertension, arthritis) + short-term treatment effects (relief of signs or symptoms)</li>
+<li>e.g.&nbsp;morning dose vs evening dose</li>
+</ul></li>
+<li><strong>Group allocation</strong>: a group of subjects (community, school, clinic).</li>
 </ul>
-<p>Before the last step, it is necessary to have an app to deploy!</p>
+<p><strong>Extensions of the parallel design</strong>: factorial, large simple</p>
+<ul>
+<li><strong>Factorial</strong>: two interventions tested simultaneously. Can be presented in a 2 by 2 table (treatment A +-, treatment B +-); or 3 by 2 etc.
+<ul>
+<li>Interested in main effect (if no interaction expected). A vs no A; B vs no B. The other treatment doesn’t matter.</li>
+</ul></li>
+<li><strong>Large simple</strong>: large number of patients, possibly from many study sites.</li>
+</ul>
+<section id="tests-other-than-superiority" class="level4">
+<h4 class="anchored" data-anchor-id="tests-other-than-superiority">Tests other than superiority</h4>
+<ul>
+<li><p><strong>Equivalency</strong>: intervention response is close to control group response</p></li>
+<li><p><strong>Non-inferiority</strong>: Treatment A (new) is at least as good as B (established). One-sided test, if A is worse than B, one can be rejected. Does not require as big sample size.</p></li>
+</ul>
 </section>
-<section id="create-my-first-shiny-project" class="level2">
-<h2 class="anchored" data-anchor-id="create-my-first-shiny-project">Create my first shiny project</h2>
-<p>Here I use my usual workflow of creating a new R project:</p>
+<section id="adaptive-design" class="level4">
+<h4 class="anchored" data-anchor-id="adaptive-design">Adaptive design</h4>
+<p>Possible adaptations</p>
 <ul>
-<li>Create a new repo on GitHub;</li>
-<li>Clone the repo locally, by opening a new R project with version control.</li>
+<li><strong>randomization probabilities</strong></li>
+<li><strong>sample size</strong> (e.g.&nbsp;group sequential methods)</li>
+<li><strong>visit schedule</strong>: shorten/lengthen follow-up time, change number of timing of visits, treatments (dose/duration, concomitant meds)</li>
+<li><strong>hypothesis</strong> tested</li>
 </ul>
-<p>Now copy the two R scripts from the <a href="https://shiny.rstudio.com/articles/shinyapps.html?_ga=2.91218270.516609615.1677344806-1911681.1677344806">demo example</a>:</p>
-<ul>
-<li><code>server.R</code></li>
-<li><code>ui.R</code></li>
-</ul>
-<p>Test locally by running <code>shiny::runApp()</code>. This should render the app.</p>
 </section>
-<section id="deploy-to-shinyapps.io" class="level2">
-<h2 class="anchored" data-anchor-id="deploy-to-shinyapps.io">Deploy to shinyapps.io</h2>
-<p><code>rsconnect::deployApp()</code> will deploy the app, with an automatically generated url that links to your account.</p>
-<p>The demo app is deployed <a href="https://andreaczhang.shinyapps.io/shinydev/">here</a>.</p>
-<section id="note-on-active-hours" class="level3">
-<h3 class="anchored" data-anchor-id="note-on-active-hours">Note on active hours</h3>
-<p>After deployment, the site seems to be active until you shut it down manually; or timeout. The default timeout is 15 minutes, which can be reduced to 5 minutes.</p>
-<p>25 hours per month suggests that I can open the site for 300 times (without manually shuting it down). It might be necessary to start using the paid options, if I have more than one site, or multiple users want to access it …</p>
+</section>
+</section>
+<section id="randomisation-and-masking" class="level2">
+<h2 class="anchored" data-anchor-id="randomisation-and-masking">Randomisation and masking</h2>
+</section>
+<section id="outcomes-and-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="outcomes-and-analysis">Outcomes and analysis</h2>
+</section>
+<section id="ethics" class="level2">
+<h2 class="anchored" data-anchor-id="ethics">Ethics</h2>
+</section>
+<section id="reporting-results" class="level2">
+<h2 class="anchored" data-anchor-id="reporting-results">Reporting results</h2>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -1,0 +1,96 @@
+---
+title: "Transforming medical statistics classroom with R and Quarto"
+author: "Chi Zhang"
+description: |
+  Some reflection on the experimental 8-day introductory statisics course with *new* teaching methods. Visit the course website [here](https://ocbe-uio.github.io/teaching_mf9130e/).
+date: "2023-07-17"
+categories: [Quarto, Education]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
+---
+
+Earlier this year (2023) I wrote a [blog](https://andreaczhang.github.io/blog/blog_20230112_roche_opensource/) about my thoughts on the role of open source software in statisical education. Naturally, I advocate for more use of open source tools such as R/python in teaching introductory statistics to applied scientists. Nonetheless, **how** the material is taught will make a huge difference in the understanding and interest in the material.
+
+I was taught statistics in the classic way: lectures with tons of mathematical formulae and proofs, while programming and data analyses were left for students themselves to figure out. Those who were the fastest learners were the ones who already had a degree in computer science, which probably doesn't sound surprising. I, for one, definitely struggled.
+
+
+## Does statistics have to be daunting?
+
+For applied scientists in various fields, data analysis is a core task, and also a challenging one. You must have met clinicians or biologists who would love their data to be analysed yet don't know how to. Yes, statistics and data skills can take some time to learn; but with the right method, they don't have to be daunting. It is up to the educator to find a way that benefits the most students. An observation is that many researchers do not know or remember advanced math; yet do they need advanced math to grasp many fundamental statistical concepts? 
+
+I believe that it is far more important and useful to teach **basic IT skills and exploratory data analysis** so that students can develop an understanding of their own data; rather than using a test blindly.  
+
+## Rebooting MF9130E classroom
+
+When I heard that the teaching team at Biostatistics Department, Faculty of Medicine was thinking about trying a novel pedagogical method on the MF9130E (2023 spring) class, I was more than excited to contribute. This is a PhD level course of 8 days long, offered three times a year (twice in Norwegian language). Students come from a variey of backgrounds in health and life sciences. Since this is an introductory course, the topics are broad rather than specialised.
+
+A few years ago, statistical software for the course made the transition from SPSS to Stata. To be more precise, students were *introduced* to, but not really *explained* to, or elaborated on how to use Stata proficiently. Why? **The course is about statistics so only statistics is taught. Data skills such as manipulation are not part of statistics. **
+
+Well, we will change that by starting to use R. 
+
+
+### Three open source musketeers 
+
+**R, quarto and GitHub** the three musketeers in facilitating the transformation. We build a quarto [course website](https://ocbe-uio.github.io/teaching_mf9130e/) where all the material are public, hosted with GitHub Pages. Having a course website is beneficial for students to have an overview of the course, in contrast to many scattered lecture notes and exercises to be downloaded. 
+
+The biggest advantage of using quarto is the **rendered output** from code. From a student's perspective, it is reassuring to see the same result and plots using the data and code provided by the instructor. For the instructor, it is also convenient to see whether the code functions as expected. When we do not want to show the output, it is also very easy to suppress. We have created one copy with and one withtout rendered output as exercises, and are glad to see some students challenging themselves by attempting to solve the problems without solution.
+
+Using Github and quarto together to build a course website is rather straightforward. I think the site structure is simple yet flexible enough to navigate. **Collaboration** across a small teaching team is also manageable. **Github Pages** was easy to set up, and changes made on the main branch is deployed within the minute. This proved to be useful in quite a few moments (where we had to replace some datasets or add some notice).
+
+
+### The Carpentries pedagogical model
+
+[The Carpentries](https://carpentries.org/index.html) is an organisation that teaches foundational coding and data science skills to researchers. I myself benefited from their workshop on version control and git taught at University of Oslo, and I think the traditional classroom could use some of the methods at these data science workshops. 
+
+To put simply, there are two things I tried with the course setup for MF9130E:
+
+* Live coding demonstration, plenty of it
+* Sticky-notes flag and helper (teaching assistant) in class
+
+In the live coding demonstration (which I was responsible for), I made sure that students were taught the most commonly used R commands for **data manipulation and exploration**. Quarto webpages on [introduction to R](https://ocbe-uio.github.io/teaching_mf9130e/lab/lab_intro_r.html), [basic EDA](https://ocbe-uio.github.io/teaching_mf9130e/lab/lab_eda_part1.html), [intermediate EDA](https://ocbe-uio.github.io/teaching_mf9130e/lab/lab_eda_part2.html) have been created and guided through in class, mixed with statistical concepts and visualizations. Without knowing how your data looks like, blindly using statistical tests is dangerous - that is the motivation for doing so. 
+
+Whether students **feel supported** can make a huge difference in their willingness to learn. Taking it slow at the beginning, and solve the problems on an individual basis can **prevent early drop-outs**, especially when programming and IT systems are involved. Naturally, when we don't have helpers we can not help everyone; this is a limitation for this model. Students should be encouraged to help each other.
+
+
+### Let them explore
+
+The last important change in the class was to give time to students themselves. We reduced 
+the lecturing on theory and computation, and added time for practice and discussion. The guided practice with live demo also came with solution and comments, so students could explore at their own pace. We left plenty of time for them to ask questions, and made sure most people can follow the exercises.
+
+
+## How did it go?
+
+After the 8 day course we carried out a small survey among the ~50 students in the spring 2023 class. Student backgrounds are diverse, they work on lab data, clinical data or observational/epidemiological data:
+
+* observational study on humans 36%
+* RCT 18%
+* in vitro research 15%
+* others are in animal research, meta analysis or something else
+
+Statistical competency (method, software) among students are generally on the basic end. Over 75% of the cohort report themselves to have basic to very basic knowledge of statistics; 33% do not use any statistical software, around 45% have used SPSS or Stata. On the other hand, some students (7%) report to have advanced knowledge and have some R experience.
+
+### Some feedback
+
+This is the first time we do the course with R, live demo and put an emphasis on basic data manipulation and exploration - which means we do not have enough data, it is just an initial impression.
+
+Here's what we have received. On the positive side, 86% find the course useful for their own PhD research. 75% felt they are able to use the correct methods for their analyses, which is quite encouraging. Most felt the examples and exercises were able to demonstrate the theory. Students have generally positive experience with the live demo, and find the instructors supportive. This is good!
+
+In the meantime, it is only natural that some are dissatisfied (21%) in some ways. Common complaints are: **R is not user friendly to absolute beginners; the leap from no software to a programming language is too big** for some. 
+
+As for whether students have really mastered the knowledge intended, we do not have enough data to draw a conclusion. We do observe that the take home project show somewhat better understanding, but can not say for sure just yet.
+
+This is a class with very diverse backgrounds, hence it is challenging to cater to everyone's needs. Yet, we are satisfied with the trial-transformation with our introductory statistics class, and we plan to gradually implement more classes with R, and possibly hands-on practice (depending on capacity).
+
+
+
+
+
+
+
+
+

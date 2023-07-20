@@ -59,7 +59,9 @@ pkgdown::build_site_github_pages()
 There seems to be two options: 
 
 * `usethis::use_pkgdown_github_pages()`, this function should take care of everything after pushing changes to GH. 
-* if you used `pkgdown::build_site_github_pages()` and pushed everything to GitHub, it might not automatically deploy your site to GH pages. I tried to go to *Settings -> Pages -> Deploy from a branch -> main -> /docs*, this makes Action deploy your site from the `docs` folder. This option requires that you create `.nojekyll` file yourself. 
+* if you used `pkgdown::build_site_github_pages()` and pushed everything to GitHub, it might not automatically deploy your site to GH pages. I tried to go to *Settings -> Pages -> Deploy from a branch -> main -> /docs*, this makes Action deploy your site from the `docs` folder. 
+  * double check if you have `.nojekyll` file
+  * if a website does not show, check whether you have `docs` in the `.gitignore` file; since you are deploying from that folder.
 
 
 

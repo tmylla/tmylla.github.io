@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">About me</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../resources/CV_Chi_Zhang.pdf">
+    <a class="dropdown-item" href="../../misc/info/CV_Chi_Zhang.pdf">
  <span class="dropdown-text">CV</span></a>
   </li>  
     </ul>
@@ -200,7 +200,11 @@ pkgdown::build_site()</code></pre>
 <p>There seems to be two options:</p>
 <ul>
 <li><code>usethis::use_pkgdown_github_pages()</code>, this function should take care of everything after pushing changes to GH.</li>
-<li>if you used <code>pkgdown::build_site_github_pages()</code> and pushed everything to GitHub, it might not automatically deploy your site to GH pages. I tried to go to <em>Settings -&gt; Pages -&gt; Deploy from a branch -&gt; main -&gt; /docs</em>, this makes Action deploy your site from the <code>docs</code> folder.</li>
+<li>if you used <code>pkgdown::build_site_github_pages()</code> and pushed everything to GitHub, it might not automatically deploy your site to GH pages. I tried to go to <em>Settings -&gt; Pages -&gt; Deploy from a branch -&gt; main -&gt; /docs</em>, this makes Action deploy your site from the <code>docs</code> folder.
+<ul>
+<li>double check if you have <code>.nojekyll</code> file</li>
+<li>if a website does not show, check whether you have <code>docs</code> in the <code>.gitignore</code> file; since you are deploying from that folder.</li>
+</ul></li>
 </ul>
 
 
@@ -343,7 +347,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2022, Chi Zhang</div>   
+    <div class="nav-footer-left">© Copyright 2023, Chi Zhang</div>   
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

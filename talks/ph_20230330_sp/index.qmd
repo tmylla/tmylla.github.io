@@ -1,10 +1,12 @@
 ---
-title: "Public health reporting: an open source approach"
-subtitle: "(Upcoming)"
+title: "Public health surveillance and reporting"
+subtitle: "An open source approach"
 description: "Join us for a discussion on how open source tools can enable automated, reproducible and scalable public health reporting."
 date: "2023-03-30"
 categories: [ph]
 ---
+
+![](image_talk_20230330.png)
 
 Time and place: **Mar. 30, 2023 12:00 PM–1:00 PM**
 

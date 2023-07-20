@@ -32,7 +32,7 @@
     "href": "projects/projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This page is currently under construction. For my teaching material and R packages, please visit the pages dedicated to those topics. Thank you for your interest!\n\nSimmed\nA modular medical data simulator for educational purposes. Inspired by the Grammar of Graphics (planning stage)\n\n\nCSIDS and public health\n\n\n\n\n\n\n\n\n\n\nMortality Surveillance in Norway\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSykdomspulsen/splverse\n\n\nAn automated public health surveillance platform developed in R\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nNoreden\n\n\nMF9130E\n\n\nqtwAcademic\n\n\nTTW contributor\n\n\nOther research softwares\nbayesynergy: contribute to visualization (in progress)"
+    "text": "This page is currently under active construction\n\n\n\nFor my teaching material and R packages, please visit the pages dedicated to those topics. Thank you for your interest!\n\n\n\nPublic health surveillance and reporting\nI worked at Norwegian Institute of Public Health during Covid-19 pandemic, focusing on real-time infectious disease surveillance and real-time large scale reporting using R.\n\n\n\n\n\n\n\n\n\n\nMortality Surveillance in Norway\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSykdomspulsen/splverse\n\n\nAn automated public health surveillance platform developed in R\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTeaching\nI started teaching introductory statistics at Faculty of Medicine, University of Oslo since early 2023. I aim to make basic data skills and statistics accessible to health researchers, by combining modern data science tools (R, quarto, version control) with hands-on practice in my class.\nIn my free time I volunteer in the Carpentries workshops to teach Rstats to researchers and students at UiO.\n\n\nR packgages\nI developed / co-developed several R packages used for public health surveillance: covidnor, cstime, csdata, csmaps which are part of the CSIDS.\nMy current ongoing R packages focus on facilitating statistical education: qtwAcademic, simmed (planning)."
   },
   {
     "objectID": "projects/csids/index.html",
@@ -67,7 +67,7 @@
     "href": "talks/talks.html",
     "title": "Talks",
     "section": "",
-    "text": "(Upcoming)\n\n\nJoin us for a discussion on how open source tools can enable automated, reproducible and scalable public health reporting.\n\n\n\n\n\n\nMar 30, 2023\n\n\n\n\n\n\n  \n\n\n\n\n\nAn automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup\n\n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Basel R meeting\n\n\nJoin us to hear about how we ran a trial classroom (MF9130E) with R and Quarto at the Faculty of Medicine, University of Oslo\n\n\n\n\n\n\nJul 21, 2023\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/talks.html#rstats",
@@ -93,14 +93,14 @@
   {
     "objectID": "talks/ph_20230330_sp/index.html",
     "href": "talks/ph_20230330_sp/index.html",
-    "title": "Public health reporting: an open source approach",
+    "title": "Public health surveillance and reporting",
     "section": "",
     "text": "Time and place: Mar. 30, 2023 12:00 PM–1:00 PM\nHybrid: Georg Sverdrups hus and Zoom\nEvent page"
   },
   {
     "objectID": "talks/ph_20230330_sp/index.html#about-the-topic",
     "href": "talks/ph_20230330_sp/index.html#about-the-topic",
-    "title": "Public health reporting: an open source approach",
+    "title": "Public health surveillance and reporting",
     "section": "About the topic",
     "text": "About the topic\nSituational awareness is key to fast response during a public health emergency, such as COVID-19 pandemic. However, making disease surveillance reports that cover different geographical units for various metrics and data registries is both resource intensive and time consuming. Open source tools such as R packages, GitHub and Airflow can make this process automatic, reproducible and scalable.\nEvery day during the pandemic, Sykdomspulsen team at the Norwegian Institute of Public Health (FHI/NIPH) fetched data from more than 15 data sources, cleaned, censored datasets and carried out a wide range of statistical analyses. Over 1000 situational reports containing automated graphs and tables were produced before breakfast time.\nGrab you matpakke and join us for a presentation from Chi Zhang about how Sykdomspulsen team used and developed open source software to make public health surveillance and reporting more efficient, followed up by a discussion on the benefits and concerns of making these data public. We will end with an open Q&A session as usual!"
   },
@@ -747,5 +747,26 @@
     "title": "Transforming medical statistics classroom with R and Quarto",
     "section": "How did it go?",
     "text": "How did it go?\nAfter the 8 day course we carried out a small survey among the ~50 students in the spring 2023 class. Student backgrounds are diverse, they work on lab data, clinical data or observational/epidemiological data:\n\nobservational study on humans 36%\nRCT 18%\nin vitro research 15%\nothers are in animal research, meta analysis or something else\n\nStatistical competency (method, software) among students are generally on the basic end. Over 75% of the cohort report themselves to have basic to very basic knowledge of statistics; 33% do not use any statistical software, around 45% have used SPSS or Stata. On the other hand, some students (7%) report to have advanced knowledge and have some R experience.\n\nSome feedback\nThis is the first time we do the course with R, live demo and put an emphasis on basic data manipulation and exploration - which means we do not have enough data, it is just an initial impression.\nHere’s what we have received. On the positive side, 86% find the course useful for their own PhD research. 75% felt they are able to use the correct methods for their analyses, which is quite encouraging. Most felt the examples and exercises were able to demonstrate the theory. Students have generally positive experience with the live demo, and find the instructors supportive. This is good!\nIn the meantime, it is only natural that some are dissatisfied (21%) in some ways. Common complaints are: R is not user friendly to absolute beginners; the leap from no software to a programming language is too big for some.\nAs for whether students have really mastered the knowledge intended, we do not have enough data to draw a conclusion. We do observe that the take home project show somewhat better understanding, but can not say for sure just yet.\nThis is a class with very diverse backgrounds, hence it is challenging to cater to everyone’s needs. Yet, we are satisfied with the trial-transformation with our introductory statistics class, and we plan to gradually implement more classes with R, and possibly hands-on practice (depending on capacity)."
+  },
+  {
+    "objectID": "talks/talks.html#public-health",
+    "href": "talks/talks.html#public-health",
+    "title": "Talks",
+    "section": "Public Health",
+    "text": "Public Health\n\n\n\n\n  \n\n\n\n\nPublic health surveillance and reporting\n\n\nAn open source approach\n\n\nJoin us for a discussion on how open source tools can enable automated, reproducible and scalable public health reporting.\n\n\n\n\n\n\nMar 30, 2023\n\n\n\n\n\n\n  \n\n\n\n\nIntroducing Sykdomspulsen\n\n\nAn automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup\n\n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "talks/rstats_20230721_teaching/index.html",
+    "href": "talks/rstats_20230721_teaching/index.html",
+    "title": "Transforming medical statistics classroom with R and Quarto",
+    "section": "",
+    "text": "Time and place: July 21, 2023 10AM. Roche office, Basel, Switzerland\nTalk slides: to be updated"
+  },
+  {
+    "objectID": "talks/rstats_20230721_teaching/index.html#about-the-topic",
+    "href": "talks/rstats_20230721_teaching/index.html#about-the-topic",
+    "title": "Transforming medical statistics classroom with R and Quarto",
+    "section": "About the topic",
+    "text": "About the topic\nThe 8 day introductory statistics course (MF9130) at the Faculty of Medicine, University of Oslo is designed for PhD students in medicine, biology, psychology and other health related fields. Similar to other conventional teaching methods, the course has been focusing largely on theory and hand calculation. The software has been Stata and SPSS, and data analysis was mostly left for the students to figure out on their own.\nThis year, we made an attempt to transform the course with R, and aimed to teach more practical data analysis skills. We added one session per day where the instructor guide students on R and project management, importing data , basic manipulation and statistical methods. The IT skills of the students vary greatly, and therefore we used the ‘sticky notes’ help system borrowed from the Carpentries to make sure everyone could get help in the first days. We have created a course website using Quarto, where all the material and R exercises (with rendered solution) are available for self-study. We have witnessed amazing progress - by the end of the first week, students with the least computer / data skills were able to work on dataframes, make basic plots and do a chi-squared test. This helps build students confidence in data and statistics, and as a result, they can start to work on their own datasets using the skills immediately."
   }
 ]

@@ -21,6 +21,7 @@ listing:
     image-height: 130px
     fields: [title, description, image, date]
     contents: 
+      - rstats_20230721_teaching
       - rstats_20190402_blogdown
     type: default
     sort: "date desc"
@@ -43,14 +44,14 @@ listing:
     filter-ui: false
 ---
 
+## Rstats and Quarto
+
+::: {#rstats}
+:::
+
 ## Public Health
 
 ::: {#ph}
-:::
-
-## Rstats
-
-::: {#rstats}
 :::
 
 ## Electronic Health Records

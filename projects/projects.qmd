@@ -15,29 +15,37 @@ listing:
     grid-item-border: false
 ---
 
-*This page is currently under construction. For my teaching material and R packages, please visit the pages dedicated to those topics. Thank you for your interest!*
+::: {.callout-note}
+## This page is currently under active construction
 
-### Simmed 
+For my [teaching material](https://andreaczhang.github.io/teaching/teaching.html) and [R packages](https://andreaczhang.github.io/rpkg/rpkg.html), please visit the pages dedicated to those topics. Thank you for your interest!
 
-A modular medical data simulator for educational purposes. Inspired by the Grammar of Graphics (planning stage)
+:::
 
 
-### CSIDS and public health
+
+### Public health surveillance and reporting
+
+I worked at Norwegian Institute of Public Health during Covid-19 pandemic, focusing on real-time infectious disease surveillance and real-time large scale reporting using R. 
+
 ::: {#publichealth}
 :::
 
-### Noreden
+
+### Teaching
+
+I started teaching introductory statistics at Faculty of Medicine, University of Oslo since early 2023. I aim to make basic data skills and statistics accessible to health researchers, by combining modern data science tools (R, quarto, version control) with hands-on practice in my class.
+
+In my free time I volunteer in the Carpentries workshops to teach Rstats to researchers and students at UiO.
 
 
-### MF9130E
+### R packgages
 
-### qtwAcademic
+I developed / co-developed several R packages used for public health surveillance: `covidnor`, `cstime`, `csdata`, `csmaps` which are part of the [CSIDS](https://github.com/csids/). 
 
-### TTW contributor 
+My current ongoing R packages focus on facilitating statistical education: `qtwAcademic`, `simmed` (planning).  
 
-### Other research softwares
 
-bayesynergy: contribute to visualization (in progress)
 
 
 

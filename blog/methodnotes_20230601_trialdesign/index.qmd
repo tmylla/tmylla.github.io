@@ -76,13 +76,70 @@ Possible adaptations
 
 Rationale: 
 
-* avoid selection bias: prognostic factors related to treatment assignment
+* avoid **selection bias**: prognostic factors related to treatment assignment
 * tends to produce comparable treatment groups
 
-Selection bias
+### Schemes
+
+Simple randomization, restricted randomization, adaptive randomization
+
+#### Simple rz
+
+Each assignment is unpredictable, number of patients in each group should be equal in the long run.
+
+Risks: imbalances in number assigned to treatment groups, or confounding factors (gender, disease severity) -> reduced power
+
+#### Restricted rz
+
+Schemes with constraints to produce expected assignment ratio 
+
+* blocking
+* stratification
+
+Blocking. Block of size 2 with treatment allocation ratio 1:1: A,B. Size 4: 2As, 2Bs. Need to be permuted: AABB, ABAB, ... in total 6 combinations. Then choose one of the permutations.
+
+Stratification. Ensure balance in treatment assignments with subgroups defined before rz. Limit to a few variables (highly related to outcome and/or logistical): e.g. clinic in a multicenter trial, surgeon (skills, procedures), stage of disease, demographic such as gender and age.
+
+Use these two together.
 
 
+#### Adaptive rz
 
+Probability of assignment does not remain constant, but determined by the current balance and composition of the groups.
+
+* minimization: choose the design that gives the smallest imbalance.
+* play the winner: change allocation ratio or favor the better treatment based on the primary outcome. Need to evaluate outcomes relatively quickly.
+
+
+### Masking (blinding)
+
+Treatment assignment is not known *after* rz.
+
+* patient, clinical personnel, evaluators, data processors, ...
+* single (only participant), double (+ investigator), triple (+ data processors, ...), quadruple ...
+
+Purpose: remove bias related to treatment effects.
+
+Different levels of masking protects to different extent against bias in different aspects
+
+* data reporting
+* data collection / follow-up
+* testing, behaviors
+* outcome assessment
+
+Decision to mask treatments
+
+* ethical?
+* possible? can you make the treatment seem identical so the participants do not know?
+* trial design features: more important to mask subjective ones (e.g. alive or dead is the least subjective, hence wouldn't benefit much; however if participants need to report effects that are not objectively measureable, they might report that treatment is better in contrast to placebo group)
+* feasible? cost-benefit, practicality (adherence)
+
+Sometimes investigators in a double blind study might know which treatment is being assigned to participants, if the effect of drug is very obvious (both good or bad).
+
+Unmasking 
+
+* Planned: inform participants once the trial finished
+* Unplanned (discouraged): in the event of adverse event
 
 
 ## Outcomes and analysis

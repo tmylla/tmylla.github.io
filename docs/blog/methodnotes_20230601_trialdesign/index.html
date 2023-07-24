@@ -238,10 +238,66 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="randomisation-and-masking">Randomisation and masking</h2>
 <p>Rationale:</p>
 <ul>
-<li>avoid selection bias: prognostic factors related to treatment assignment</li>
+<li>avoid <strong>selection bias</strong>: prognostic factors related to treatment assignment</li>
 <li>tends to produce comparable treatment groups</li>
 </ul>
-<p>Selection bias</p>
+<section id="schemes" class="level3">
+<h3 class="anchored" data-anchor-id="schemes">Schemes</h3>
+<p>Simple randomization, restricted randomization, adaptive randomization</p>
+<section id="simple-rz" class="level4">
+<h4 class="anchored" data-anchor-id="simple-rz">Simple rz</h4>
+<p>Each assignment is unpredictable, number of patients in each group should be equal in the long run.</p>
+<p>Risks: imbalances in number assigned to treatment groups, or confounding factors (gender, disease severity) -&gt; reduced power</p>
+</section>
+<section id="restricted-rz" class="level4">
+<h4 class="anchored" data-anchor-id="restricted-rz">Restricted rz</h4>
+<p>Schemes with constraints to produce expected assignment ratio</p>
+<ul>
+<li>blocking</li>
+<li>stratification</li>
+</ul>
+<p>Blocking. Block of size 2 with treatment allocation ratio 1:1: A,B. Size 4: 2As, 2Bs. Need to be permuted: AABB, ABAB, … in total 6 combinations. Then choose one of the permutations.</p>
+<p>Stratification. Ensure balance in treatment assignments with subgroups defined before rz. Limit to a few variables (highly related to outcome and/or logistical): e.g.&nbsp;clinic in a multicenter trial, surgeon (skills, procedures), stage of disease, demographic such as gender and age.</p>
+<p>Use these two together.</p>
+</section>
+<section id="adaptive-rz" class="level4">
+<h4 class="anchored" data-anchor-id="adaptive-rz">Adaptive rz</h4>
+<p>Probability of assignment does not remain constant, but determined by the current balance and composition of the groups.</p>
+<ul>
+<li>minimization: choose the design that gives the smallest imbalance.</li>
+<li>play the winner: change allocation ratio or favor the better treatment based on the primary outcome. Need to evaluate outcomes relatively quickly.</li>
+</ul>
+</section>
+</section>
+<section id="masking-blinding" class="level3">
+<h3 class="anchored" data-anchor-id="masking-blinding">Masking (blinding)</h3>
+<p>Treatment assignment is not known <em>after</em> rz.</p>
+<ul>
+<li>patient, clinical personnel, evaluators, data processors, …</li>
+<li>single (only participant), double (+ investigator), triple (+ data processors, …), quadruple …</li>
+</ul>
+<p>Purpose: remove bias related to treatment effects.</p>
+<p>Different levels of masking protects to different extent against bias in different aspects</p>
+<ul>
+<li>data reporting</li>
+<li>data collection / follow-up</li>
+<li>testing, behaviors</li>
+<li>outcome assessment</li>
+</ul>
+<p>Decision to mask treatments</p>
+<ul>
+<li>ethical?</li>
+<li>possible? can you make the treatment seem identical so the participants do not know?</li>
+<li>trial design features: more important to mask subjective ones (e.g.&nbsp;alive or dead is the least subjective, hence wouldn’t benefit much; however if participants need to report effects that are not objectively measureable, they might report that treatment is better in contrast to placebo group)</li>
+<li>feasible? cost-benefit, practicality (adherence)</li>
+</ul>
+<p>Sometimes investigators in a double blind study might know which treatment is being assigned to participants, if the effect of drug is very obvious (both good or bad).</p>
+<p>Unmasking</p>
+<ul>
+<li>Planned: inform participants once the trial finished</li>
+<li>Unplanned (discouraged): in the event of adverse event</li>
+</ul>
+</section>
 </section>
 <section id="outcomes-and-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="outcomes-and-analysis">Outcomes and analysis</h2>

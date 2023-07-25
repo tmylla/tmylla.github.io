@@ -144,6 +144,90 @@ Unmasking
 
 ## Outcomes and analysis
 
+Outcome: endpoint. It is a quantitaive measure.
+
+Objectives of the trial
+
+* efficacy / effectiveness
+* safety
+* process
+* costs
+
+Example: evaluate treatment for asthma
+
+Outcomes: exhaled nitrous oxide, lung function (spirometry measures), asthma symptoms (wheezing, night awakenings), ...
+
+Example: evaluate a procedure to reduce perioperative morbidity
+
+Outcome considerations: time window (what is postoperative), specific **events** to be considered an outcome, procedures to establish outcomes, ...
+
+### Metrics for events as outcomes
+
+* dichotomous: 1/0 for presence absense, normal abnormal; clinical state or cut-off value
+* time-to-event: in addition to dichotomous, add time dimension; allow for censoring. More powerful than dichotomous.
+* rates: 1/0 but allow for repeats, analyze count or rate. Events within a person are usually not independent, need to account for it.
+* continuous variables: value or change from baseline; standard units (lab values, scores). Need to define an important difference. Distributional assumptions more important.
+* ordinal scale: ranked categories (e.g. adverse event grading, 1-5). Difference between categories is usually qualitative.
+
+Patients opinions are subjective
+
+* health status / change in status, e.g. pain relief, quality of life
+* masking is more important
+* hawthorne / placebo effect: effect of being studies, usually positive
+* quantify with standardized scales
+
+
+### Influence of outcomes on design
+
+Efficacy vs effectiveness:
+
+In a vaccine trial, efficacy is the clinical case with lab confirmation; effectivenenss is the clinical case of influenza in a larger population, may or may not be confirmed.
+
+In asthma, efficacy is FEV1, effectiveness is the decrease of the hospitalizations/steroid courses.
+
+Considerations (3Bs)
+
+* biology: does outcome reflect a clinically relevant fact/change
+* biostatistics: detectable difference between groups is plausible and practical
+* budget: afford total N and can measure it reliably in every participant
+
+Example: HIV trial outcomes
+
+* survival (deaths; AIDS status)
+* immunologic response
+* virologic response
+* change in patient status (e.g QoL)
+* specified toxicity
+* other side effects
+
+Choice of primary outcome depends on the objectives or stage of research
+
+* phase 1, emphasis on safety
+* phase 2, short-term efficacy
+* phase 3, long-term efficacy
+* phase 4, long-term effectiveness
+
+### Intention to treat ITT
+
+Cross-overs after rz: some patients might have a treatment (yes or no) beyond what they were assigned to, e.g. refuse surgery or medical treatment
+
+Non-adherence during followup: some in treatment group refuse of can not tolerate certain treatment; while some in placebo group require medication or take on their own
+
+### Subgroup analysis
+
+Stratified analysis: estimate treatment effect separately in subgroups. Does not tell difference across different subgroups
+
+Test for interaction: use of main effect and interaction.
+
+Issue of multiple testing when doing a series of analyses
+
+* inflate sample size to plan for subgroup analysis
+* report number of subgroup analyses performed
+* possibly adjust for multiple comparisons
+* report CI instead of just p-values
+
+
+
 
 ## Ethics
 

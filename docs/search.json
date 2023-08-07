@@ -711,7 +711,7 @@
     "href": "blog/methodnotes_20230601_trialdesign/index.html#reporting-results",
     "title": "Clinical trial design",
     "section": "Reporting results",
-    "text": "Reporting results"
+    "text": "Reporting results\n\nCONSORT\nConsolidated Standards of Reporting Trials\n25 item checklist. Not a guideline of how to do the trial; but a guideline for writers on how to report clearly.\nTitle\n\nkey design items\ntreatment(s) evaluated\ndisease or population studied\n\nAbstract\n\ndesign, method, results, conclusions\n\nIntroduction\n\nbackgrounds, rationale, establish equipoise (balance), systematic review, objectives / hypothesis\n\nMethod\n\nIRB review and approvals\ntrial design, allocation ratio\neligibility criteria\nsetting and location of the trial\nintervention - detailed enough to allow replication\noutcomes - primary, secondary, how assessed and defined\nsample size - how determined, interim analyses\nimportant changes during trial\nrandomization, allocation concealment, implementation\nmasking - who, how\nstatistical methods - primary and secondary; subgroup analyses\n\nConvenient to use a flow-chart\nBaseline characteristics by treatment group\np-values (common to not report in rct?)\n\n\nEvaluate literature\n\nLegitimacy, is it a fair comparison\nTrustworthy investigators? conflict of interest\nAdequate protections against bias\n\nrandomization\nmasking\nfollow-up design and execution\n\nITT analysis\n\nhave all events (outcomes) observed been counted in the treatment group assigned?\nvariations in denominators explained and consistent with good practice?\n\nappropriate subgroup analysis interpretation\n\nad hoc or post hoc status"
   },
   {
     "objectID": "blog/technotes_20230519_pkgcran/index.html#build-package-and-check",

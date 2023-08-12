@@ -42,19 +42,6 @@ listing:
     filter-ui: false
     categories: true
 
-  - id: methodnotes
-    max-description-length: 500
-    image-height: 150px
-    fields: [title, date]
-    contents: 
-      - "methodnotes_*/index.qmd"
-    type: table
-    grid-item-border: false
-    sort-ui: false
-    sort: "date desc"
-    filter-ui: false
-    categories: true
-
 ---
 
 ### Blog
@@ -65,7 +52,9 @@ listing:
 
 ### Technical notes
 
-Mostly notes for my own use.
+Most of the technical notes are in the newly built note repository, [Data Apothecary's Notes](https://andreaczhang.github.io/data-apothecary-notes/). Please feel free to reach out if you found any errors!
+
+I'd be glad if it helps you in some way.
 
 ::: {#technotes}
 :::
@@ -80,13 +69,6 @@ This section is constantly being updated.
 ::: {#readnotes}
 :::
 
-
-### Method notes
-
-This section is a repository of notes related to (bio)statistical methodology and analysis. Some are implemented with R. Mostly for my own use; might be useful for others.
-
-::: {#methodnotes}
-:::
 
 
 

@@ -6,6 +6,7 @@ website:
   page-navigation: true
   title: "Hello, I'm Chi"
   site-url: https://andreaczhang.github.io
+  favicon: misc/info/favicon.png
   repo-url: https://github.com/andreaczhang/andreaczhang.github.io
   repo-actions: [edit, issue]
   

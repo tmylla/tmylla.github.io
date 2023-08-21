@@ -25,7 +25,7 @@ about:
 
 :::
 
-I am a researcher and lecturer at the Faculty of Medicine, University of Oslo. Over the past few years, I've become very interested in **research software, open source** and **data science** practices in education and public sector, and I'm trying to become a **research software engineer** (RSE). 
+I am a statistical programmer and lecturer at the Faculty of Medicine, University of Oslo. Over the past few years, I've become very interested in **research software, open source** and **data science** practices in education and public sector.
 
 
 My **interests** are: 

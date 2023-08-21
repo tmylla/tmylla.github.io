@@ -16,9 +16,9 @@ about:
 
 ::: {#hero-heading}
 
-Chi is a researcher at the Faculty of Medicine, University of Oslo. Chi is interested in developing **research software** (such as R packages and shiny) for clinical and public health applications.
+Chi is a statistical programmer at the Faculty of Medicine, University of Oslo. Chi is interested in developing **research software** (such as R packages and shiny) for clinical and public health applications.
 
-As a lecturer, Chi teaches **statistics** courses at Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)) and **R programming** at the [Carpentries workshops](https://www.ub.uio.no/english/libraries/dsc/carpentry-uio/) at University of Oslo.
+As a part-time lecturer, Chi teaches **statistics** courses at Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)) and **R programming** at the [Carpentries workshops](https://www.ub.uio.no/english/libraries/dsc/carpentry-uio/) at University of Oslo.
 
 In 2020-2022, Chi worked as R developer and statistician for the open source real-time analysis and public health surveillance system, [Sykdomspulsen](https://docs.sykdomspulsen.no) at the [Norwegian Institute of Public Health](https://www.fhi.no/en/).
 

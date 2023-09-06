@@ -1,0 +1,145 @@
+---
+title: "Personal Highlights: CEN2023"
+author: "Chi Zhang"
+description: |
+  Selected summaries on the 5th Conference of the Central European Network of the International Biometric Society (IBS).
+date: "2023-09-06"
+categories: [Biostatistics]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
+---
+
+The IBS (International Biometric Society) conference of the Central European Network, [CEN2023](https://cen2023.github.io/home/index.html) has been a great opportunity to keep myself up to date with the latest development of biostatistics, both in academia and industry. Thanks to the great effort made by the organizing committee and almighty Google Meet/Zoom, I have been able to follow the talks without any issue, and have definitely learned a lot. 
+
+Given my background, I paid more attention on talks and workshops on 
+
+* Statistical software, R programming and simulation
+* Causal inference
+
+There were also two topics that drew my attention: one is on **statistical education** towards medial professionals, the other is on a **Data Challenge** using RCT data.
+
+
+# Statistical software
+
+### Software Engineering Working Group (SWE WG), MMRM
+
+::: {.callout-note collapse='true'}
+## Talk information
+
+* Daniel Sabanes Bove (Roche). First year of the Software Engineering working group - working together across organizations
+* Gonzalo Duran-Pacheco (Roche). Comparing R libraries with SAS’s PROC MIXED for the analysis of longitudinal continuous endpoints using MMRM
+
+:::
+
+
+The ASA Biopharmaceutical Section (BIOP) Software Engineering Working Group [SWE WG](https://rconsortium.github.io/asa-biop-swe-wg/) was established in 2022. Currently they have 3 work streams: 
+
+* `mmrm` implements MMRM (mixed models with repeated measures)
+* `brms.mmrm`, the Bayesian version of MMRM
+* Health Technology Assessment with R
+
+At a later talk, `mmrm` was compared with SAS's PROC MIXED and R's `nlme`, `glmmTMB` for analyses of longitudinal continuous endpoints. In terms of speed and convergence, `mmrm` is superior than others; while the estimate prodouced by `mmrm` is very close to `PROC MIXED` and `glmmTMB`. 
+
+This looks like a very interesting tool to try out! [Vignette](https://openpharma.github.io/mmrm/latest-tag/articles/introduction.html)
+
+
+### Simulation tools and RWD
+
+::: {.callout-note collapse='true'}
+## Talk information
+
+* Michael Kammer (Medical University of Vienna). An overview of R software tools to support simulation studies: towards standardizing coding practices.
+
+:::
+
+Kammer and colleagues did a review on R packages for simulation, and selected 14 top simulation packages, including [simstudy](https://kgoldfeld.github.io/simstudy/articles/simstudy.html), [simdata](https://matherealize.github.io/simdata/), [synthpop](https://cran.r-project.org/web/packages/synthpop/index.html), [bigsimr](https://cran.r-project.org/web/packages/bigsimr/index.html) and others. The full list is made available [here](https://osf.io/9gfns).
+
+A real-world dataset, [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm) was also introduced here. The data can be accessed with R package [nhanesA](https://cran.r-project.org/web/packages/nhanesA/vignettes/Introducing_nhanesA.html). 
+
+
+
+
+
+# Causal Inference
+
+::: {.callout-note collapse="true"}
+## Information
+
+Workshop: Implementing the estimand framework in global drug development: Application of causal inference approaches (Mouna Akacha, Björn Bornkamp, Alex Ocampo, Jiawei Wei at Novartis)
+
+Keynote: Ruth Keogh (LSHTM). Causal inference with observational data: A survival guide
+
+:::
+
+These two workshop / talk cover slightly different scenarios: one in RCT, one for observational data. It deserves a whole article or more to elaborate on this topic, so I'm only putting some resources here.
+
+Causal inference is definitely gaining traction in recent years in both academia and industry. Techniques such as **g-computation**, **IPW** and **doubly robust estimation** are starting to become mainstream. It is fascinating that these techniques themselves are not bound to a fixed model. 
+
+Resources: 
+
+* Workshop repository [Causal-inference-in-RCTs](https://github.com/Novartis/Causal-inference-in-RCTs)
+* Book: [Causal Inference: What If](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) by Hernán and Robins (2020)
+* Principal stratum strategy, [Bornkamp et al. (2021)](https://onlinelibrary.wiley.com/doi/10.1002/pst.2104)
+* Time-dependent covariates, [Keogh et al. (2023)](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.9718)
+* Target Trial Emulation (TTE), [Hernán and Robins (2016)](https://pubmed.ncbi.nlm.nih.gov/26994063/)
+
+
+
+# Covariate adjustment and data challenge with RCT data
+
+::: {.callout-note collapse='true'}
+## Talk information
+
+* Kelly Van Lancker (Ghent University). Improving Power in Randomized Trials by Leveraging Baseline Variables
+* Dominic Magirr (Novartis). Organizing a Data Challenge on Covariate Adjustment in RCTs
+* Craig Wang (Novartis). Participating in a Data Challenge on Covariate Adjustment in RCTs
+
+Panel discussion: Jonathan Bartlett (LSHTM)
+
+:::
+
+23 teams at Novartis participated in a Data Challenge on Covariate Adjustment. They were given a fixed outcome model, and 5 prior studies trial data, and their task was to create the design matrices that improve the precision compared to unadjusted data. 
+
+If I were to select talks based on the category titles, I would probably missed the whole session. However, it is surprisingly similar to using not trial, but real-world data (such as EHR) to make predictions. The conclusion were similar as well: using "supercovariates" created by ML isn't gaining much compared to simple models such as ANCOVA. Possible reasons: 
+
+* small to moderate data size
+* linear relationship between covariates and outcome
+* good enough prognostic variables
+
+It was also mentioned that the winning team did some trick to reduce the variance among the covariates. Would be interesting to read about it. 
+
+Some resources: 
+
+* Lancker et al. The use of covariate adjustment in randomized controlled trials: an overview [link](https://arxiv.org/pdf/2306.05823.pdf)
+* Covariate adjustment tutorial, [link](https://jbetz-jhu.github.io/CovariateAdjustmentTutorial/)
+
+
+# Statistical education
+
+::: {.callout-note collapse="true"}
+## Talk information
+
+* Maren Vens et al (University of Lübeck). Biostatistics/Biometrics for physicians – essential or unnecessary? How do practicing physicians and dentists evaluate biostatistics? A cross-sectional survey
+
+:::
+
+Statistical education to students / professionals who are not used to working with data has always been tricky. Students generally think statistics is difficult, and need help from a statistician. However there are only limited number of statisticians. The talk by Vens and colleagues confirms what practicing statisticians know, but can't do much about: most (87%) physicians and dentists in the survey need a statistician to help with their work.
+
+How to improve the statistical competency is an important and relevant topic for discussion, and might require systematic changes in how it is taught. Use of modern technology can help, yet it's only helpful when students start to not fear, or not find math and technology boring. 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,9 +9,9 @@ listing:
     fields: [title, description]
     contents: 
       - covidnor
-      - mortanor
+      # - mortanor
       - csalert
-      - nowcast
+      # - nowcast
       - cstime
       - csmaps
       - csdata

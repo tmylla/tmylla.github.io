@@ -43,7 +43,7 @@ In my free time I volunteer in the Carpentries workshops to teach Rstats to rese
 
 I developed / co-developed several R packages used for public health surveillance: `covidnor`, `cstime`, `csdata`, `csmaps` which are part of the [CSIDS](https://github.com/csids/). 
 
-My current ongoing R packages focus on facilitating statistical education: `qtwAcademic`, `simmed` (planning).  
+My current ongoing R packages focus on facilitating statistical education: `qtwAcademic`.
 
 
 

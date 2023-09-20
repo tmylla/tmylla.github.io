@@ -10,36 +10,39 @@ about:
     - icon: mailbox
       text: chi.zhang@medisin.uio.no
       href: mailto:chi.zhang@medisin.uio.no
-    - icon: twitter
-      text: Andreasheenn
-      href: https://twitter.com/Andreasheenn
+    - icon: github
+      text: andreaczhang
+      href: https://github.com/andreaczhang
     - icon: mastodon
       text: andreasheenn@fosstodon.org
       href: https://fosstodon.org/@andreasheenn
     - icon: linkedin
       text: Chi Zhang
-      href: https://www.linkedin.com/in/chi-zhang-103b3b91/
+      href: https://www.linkedin.com/in/andreaczhang/
 ---
 
 ::: {#hero-heading}
 
 :::
 
-I am a statistical programmer and lecturer at the Faculty of Medicine, University of Oslo. Over the past few years, I've become very interested in **research software, open source** and **data science** practices in education and public sector.
+I am a statistical programmer and part-time lecturer at the Faculty of Medicine, University of Oslo. Over the past few years, I've become very interested in **research software, open source** and **data science** practices in education and public sector.
 
 
 My **interests** are: 
 
-* Statistical software development, with a focus on public health and clinical research
-* Statistics education with R, Quarto, shiny and friends
-* Reproducibility, open source and open science
+* Statistical software development in public health and clinical research,
+* Statistics education with open source tools,
+* Quarto.
 
 
-I have a MSc of Statistics from Imperial College London in 2016. Then I moved to Norway to do my PhD and some [hiking](misc info/photo3_chi.jpg). I obtained my PhD (thesis: *Representation and Utilization of hospital Electronic Health Records data*) at the Faculty of Medicine, University of Oslo in 2022.
+I have a MSc in Statistics from Imperial College London in 2016. Then I moved to Norway to do my PhD and some [hiking](misc info/photo3_chi.jpg). I obtained my PhD (thesis: *Representation and Utilization of hospital Electronic Health Records data*) at the Faculty of Medicine, University of Oslo in 2022.
 
-Shortly after the COVID-19 pandemic started in 2020, I joined [Norwegian Institute of Public Health](https://www.fhi.no/en/) as **R developer** and **statistician** for the open source real-time analysis and public health surveillance system, [Sykdomspulsen](https://docs.sykdomspulsen.no). I am one of the core members of [CSIDS](https://github.com/csids), the Consortium for Statistics in Disease Surveillance, where we build open source software for public health surveillance. 
+Shortly after the COVID-19 pandemic started in 2020, I joined [Norwegian Institute of Public Health](https://www.fhi.no/en/) as a **data scientist** (R developer + statistician) for the open source real-time analysis and public health surveillance system, Sykdomspulsen (now [CSIDS](https://www.csids.no)). I am one of the core members of CSIDS, the Consortium for Statistics in Disease Surveillance, where we build open source software for public health surveillance. 
 
-I teach **statistics** courses (MF9130, MF9130E, ERN4110) at Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)). As a certified Carpentries instructor, I also teach and help with **R programming** at the [Carpentries workshops](https://www.ub.uio.no/english/libraries/dsc/carpentry-uio/) at University of Oslo. I am an active member of Oslo User R group and Oslo R ladies group.
+Sometimes I teach **statistics** courses (MF9130, MF9130E, ERN4110) at Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)), University of Oslo. As a certified Carpentries instructor, I also teach and help with **R programming** at the [Carpentries workshops](https://www.ub.uio.no/english/libraries/dsc/carpentry-uio/) at University of Oslo. In 2023, I lead the transition of medical statistics classroom of MF9130E into open-source.
+
+
+I am an active member of Oslo User R group and Oslo R ladies group. I give talks and host workshops to learn and share.
 
 In the past 11 years I have lived in the UK and Norway (7+ years). I speak English, Norwegian and Chinese, and trying to learn Italian. I like outdoor activities, and most likely I am spending my summer in the mountains.
 

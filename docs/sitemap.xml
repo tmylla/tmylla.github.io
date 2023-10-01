@@ -106,7 +106,7 @@
   </url>
   <url>
     <loc>https://andreaczhang.github.io/blog/blog.html</loc>
-    <lastmod>2023-09-21T14:26:51.675Z</lastmod>
+    <lastmod>2023-10-01T16:46:29.249Z</lastmod>
   </url>
   <url>
     <loc>https://andreaczhang.github.io/blog/technotes_20230223_roop/index.html</loc>
@@ -211,5 +211,9 @@
   <url>
     <loc>https://andreaczhang.github.io/blog/blog_20230921_positconf2023/index.html</loc>
     <lastmod>2023-09-21T14:26:51.096Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreaczhang.github.io/blog/technotes_20231001_qt_webr/index.html</loc>
+    <lastmod>2023-10-01T16:46:28.359Z</lastmod>
   </url>
 </urlset>

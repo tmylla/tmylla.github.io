@@ -2,15 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.242">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Chi Zhang">
 <meta name="dcterms.date" content="2023-05-19">
-<meta name="description" content="A checklist to make CRAN-worthy R packages">
+<meta name="description" content="A step-to-step guide to make CRAN-worthy R packages">
 
-<title>Hello, I’m Chi - R package checklist</title>
+<title>Hello, I’m Chi - R package workflow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,9 +20,10 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -49,43 +50,13 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
 div.sourceCode
   {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -96,6 +67,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../misc/info/favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -121,7 +93,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -139,48 +112,50 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <span class="navbar-title">Hello, I’m Chi</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/projects.html">
+    <a class="nav-link" href="../../projects/projects.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching/teaching.html">
+    <a class="nav-link" href="../../teaching/teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../rpkg/rpkg.html">
+    <a class="nav-link" href="../../rpkg/rpkg.html" rel="" target="">
  <span class="menu-text">R packages</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../talks/talks.html">
+    <a class="nav-link" href="../../talks/talks.html" rel="" target="">
  <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/blog.html">
+    <a class="nav-link" href="../../blog/blog.html" rel="" target="">
  <span class="menu-text">Blog/notes</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../about_me.html">
+    <a class="dropdown-item" href="../../about_me.html" rel="" target="">
  <span class="dropdown-text">About me</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../misc/info/CV_Chi_Zhang.pdf">
+    <a class="dropdown-item" href="../../misc/info/CV_Chi_Zhang.pdf" rel="" target="">
  <span class="dropdown-text">CV</span></a>
   </li>  
     </ul>
   </li>
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -196,10 +171,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <ul class="collapse">
   <li><a href="#start-building-your-package" id="toc-start-building-your-package" class="nav-link active" data-scroll-target="#start-building-your-package">Start building your package</a>
   <ul class="collapse">
+  <li><a href="#initialize-the-project" id="toc-initialize-the-project" class="nav-link" data-scroll-target="#initialize-the-project">Initialize the project</a></li>
+  <li><a href="#planning" id="toc-planning" class="nav-link" data-scroll-target="#planning">Planning</a></li>
+  <li><a href="#write-test-and-document" id="toc-write-test-and-document" class="nav-link" data-scroll-target="#write-test-and-document">Write, test and document</a></li>
   <li><a href="#build-package-and-check" id="toc-build-package-and-check" class="nav-link" data-scroll-target="#build-package-and-check">Build package and check</a></li>
   </ul></li>
   <li><a href="#dont-forget-to-check-these" id="toc-dont-forget-to-check-these" class="nav-link" data-scroll-target="#dont-forget-to-check-these">Don’t forget to check these!</a></li>
-  <li><a href="#a-workflow-that-worked-for-me" id="toc-a-workflow-that-worked-for-me" class="nav-link" data-scroll-target="#a-workflow-that-worked-for-me">A workflow that work(ed) for me</a></li>
   <li><a href="#cran-submission" id="toc-cran-submission" class="nav-link" data-scroll-target="#cran-submission">CRAN Submission</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/technotes_20230519_pkgcran/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -209,7 +186,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R package checklist</h1>
+<h1 class="title">R package workflow</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Rpkg</div>
     <div class="quarto-category">RSE</div>
@@ -218,7 +195,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <div>
   <div class="description">
-    <p>A checklist to make CRAN-worthy R packages</p>
+    <p>A step-to-step guide to make CRAN-worthy R packages</p>
   </div>
 </div>
 
@@ -247,12 +224,35 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <p>This checklist is being updated over time. Mostly for my own use; but great if it helps you as well!</p>
 <p>For a complete treatment, please refer to <a href="https://r-pkgs.org">R Packages (2e)</a> by Hadley Wickham and Jennifer Bryan.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Overview of my current workflow
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>initialize project, edit <code>DESCRIPTION</code>, search and replace with your package name</li>
+<li>create package planning documentation, put inside <code>dev/</code></li>
+<li>create a minimal function with documentation, test and vignette</li>
+<li>build package, check</li>
+<li>create data related files and documentation</li>
+<li>build pkgdown website</li>
+<li>build package, check</li>
+<li>push to github, deploy pkgdown website</li>
+<li>github action configure lifecycle and R CMD check</li>
+</ul>
+</div>
+</div>
 <section id="start-building-your-package" class="level1">
 <h1>Start building your package</h1>
 <p>The <code>usethis</code> package will help with the procedure when you do not have a package yet.</p>
 <p>You can also create a template, and copy paste from it in the future.</p>
-<section id="key-components" class="level3">
-<h3 class="anchored" data-anchor-id="key-components">Key components</h3>
+<section id="initialize-the-project" class="level2">
+<h2 class="anchored" data-anchor-id="initialize-the-project">Initialize the project</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">create_package</span>(<span class="st">'path_to_pkg/pkgname'</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -264,7 +264,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><code>.Rbuildignore</code> and <code>.gitignore</code></li>
 <li>and the project icon, <code>pkgname.Rproj</code>.</li>
 </ul>
-<p>If you have an <strong>existing R project</strong> but wish to build a package there, copy everything but <code>pkgname.Rproj</code>, and modify the files in your existing pkg directory.</p>
+<p>If you have an <strong>existing R project</strong> but wish to build a package there, copy everything but <code>pkgname.Rproj</code>, and modify the files in your existing pkg directory. Pay extra attention to the hidden files like <code>.Rbuildignore</code>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_mit_license</span>() <span class="co"># modify name to yours</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_readme_md</span>() <span class="co"># if you do not have this already</span></span>
@@ -277,9 +277,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <p>In addition, URL and bug reports should be added in the <code>DESCRIPTION</code>.</p>
 </section>
-<section id="write-functions" class="level3">
-<h3 class="anchored" data-anchor-id="write-functions">Write functions</h3>
-<p>Create exported functions in <code>R/</code>, development code in <code>script</code> (or somewhere else).</p>
+<section id="planning" class="level2">
+<h2 class="anchored" data-anchor-id="planning">Planning</h2>
+<p>It is good practice to start with planning the package, rather than directly start coding.</p>
+<p>Create a folder called <code>dev</code>. To prevent it from being built, add the following line in <code>.Rbuildignore</code></p>
+</section>
+<section id="write-test-and-document" class="level2">
+<h2 class="anchored" data-anchor-id="write-test-and-document">Write, test and document</h2>
+<p>Create exported functions in <code>R/</code>, development code in <code>script/</code> (or somewhere else, such as <code>dev/</code>).</p>
+<section id="data-raw-and-processed" class="level3">
+<h3 class="anchored" data-anchor-id="data-raw-and-processed">Data: raw and processed</h3>
+<p>Need to be clear in mind where the data files go. There are a few data related folders:</p>
+<ul>
+<li><strong>raw data</strong> files, in the format of excel sheets or csv. Usually placed as <code>inst/data_name.csv</code></li>
+<li>R scripts to <strong>process the raw data</strong> so that we create data object inside the package, put inside <code>data-raw</code></li>
+<li><strong>data objects</strong> that can be called as <code>pkg::data_name</code>, are placed in <code>data</code>. These files are usually directly generated by executing <code>write.rda()</code>.</li>
+<li>data <strong>documentation</strong>, usually placed in <code>R/data_documentation.R</code>. These are Roxygen2 documents for the data.</li>
+</ul>
 </section>
 <section id="documentation" class="level3">
 <h3 class="anchored" data-anchor-id="documentation">Documentation</h3>
@@ -332,9 +346,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Check this reference <a href="https://andreaczhang.github.io/blog/technotes_20230220_pkgdown/">here</a></p>
 </section>
 </section>
+</section>
 <section id="build-package-and-check" class="level2">
 <h2 class="anchored" data-anchor-id="build-package-and-check">Build package and check</h2>
 <p>It is possible that your checks don’t pass on the first try.</p>
+<section id="what-to-ignore-when-build" class="level3">
+<h3 class="anchored" data-anchor-id="what-to-ignore-when-build">What to ignore when build?</h3>
+<pre><code>^.*\.Rproj$
+^\.Rproj\.user$
+^dev$
+^_pkgdown\.yml$
+^license\.md$
+Makefile
+data-raw
+cran-comments.md
+^\.github$</code></pre>
+</section>
 </section>
 </section>
 <section id="dont-forget-to-check-these" class="level1">
@@ -362,17 +389,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><code>\dontshow{}</code>: run and checked</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># code coverage</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>covr<span class="sc">::</span><span class="fu">package_coverage</span>(<span class="at">type =</span> <span class="fu">c</span>(<span class="st">'examples'</span>, <span class="st">'vignettes'</span>), <span class="at">commentDonttest =</span> F, <span class="at">commentDontrun =</span> F)</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># readme examples</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>rmarkdown<span class="sc">::</span><span class="fu">render</span>(<span class="st">"README.rmd"</span>, <span class="at">output_format =</span> rmarkdown<span class="sc">::</span><span class="fu">github_document</span>())</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># help page examples</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">run_examples</span>(<span class="at">run_dontrun =</span> T, <span class="at">run_donttest =</span> T)</span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># check vignette examples</span></span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>pkgdown<span class="sc">::</span><span class="fu">build_site</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># code coverage</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>covr<span class="sc">::</span><span class="fu">package_coverage</span>(<span class="at">type =</span> <span class="fu">c</span>(<span class="st">'examples'</span>, <span class="st">'vignettes'</span>), <span class="at">commentDonttest =</span> F, <span class="at">commentDontrun =</span> F)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># readme examples</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>rmarkdown<span class="sc">::</span><span class="fu">render</span>(<span class="st">"README.rmd"</span>, <span class="at">output_format =</span> rmarkdown<span class="sc">::</span><span class="fu">github_document</span>())</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co"># help page examples</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">run_examples</span>(<span class="at">run_dontrun =</span> T, <span class="at">run_donttest =</span> T)</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="co"># check vignette examples</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>pkgdown<span class="sc">::</span><span class="fu">build_site</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="links-and-spelling-errors" class="level4">
@@ -394,15 +421,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Style guide, <code>styler::style_pkg()</code> enforces tidyverse style guide.</p>
 <p>Lint (code smells). Can be removed with <code>styler</code></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># code quality assessment</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">lint</span>(<span class="at">text =</span> <span class="st">'x = 1'</span>) <span class="co"># with lint</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">lint</span>(<span class="at">text =</span> <span class="st">'x &lt;- 1'</span>) <span class="co"># no lint</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>lintr<span class="sc">::</span><span class="fu">lint_package</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># code quality assessment</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">lint</span>(<span class="at">text =</span> <span class="st">'x = 1'</span>) <span class="co"># with lint</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="fu">lint</span>(<span class="at">text =</span> <span class="st">'x &lt;- 1'</span>) <span class="co"># no lint</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>lintr<span class="sc">::</span><span class="fu">lint_package</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-</section>
-<section id="a-workflow-that-worked-for-me" class="level1">
-<h1>A workflow that work(ed) for me</h1>
 </section>
 <section id="cran-submission" class="level1">
 <h1>CRAN Submission</h1>
@@ -412,14 +436,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>A good practice is to <strong>check while you build</strong> your package, so that you’ve already fixed most of the problems by the time you do the final check.</p>
 <p>These are a few final checks to do.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># spell check</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">spell_check</span>()</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># windows check</span></span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">check_win_devel</span>()</span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co"># rhub cran check </span></span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>rhub<span class="sc">::</span><span class="fu">check_for_cran</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># spell check</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">spell_check</span>()</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># windows check</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">check_win_devel</span>()</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="co"># rhub cran check </span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>rhub<span class="sc">::</span><span class="fu">check_for_cran</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Remember to check your email and fix potential problems! Some problems pop up in different places, so make sure you fix as many as possible.</p>
 </section>
@@ -427,7 +451,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3 class="anchored" data-anchor-id="submit">Submit</h3>
 <p>There are a few ways to submit. I found this one to be the most convenient way:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">release</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">release</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>It asks a few questions to remind you whether all the checks havve passed, and whether you’ve updated the relevant information in <code>DESCRIPTION</code>, <code>NEWS</code>. In the end, it creates a tar ball and submits automatically to CRAN.</p>
 <p>You need to check your email to confirm submission, just like when you do it manually via the webform.</p>
@@ -470,9 +494,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -537,6 +575,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -580,6 +704,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">© Copyright 2023, Chi Zhang</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

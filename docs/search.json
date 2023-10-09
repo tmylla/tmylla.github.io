@@ -396,7 +396,7 @@
     "href": "blog/blog.html",
     "title": "Blog and notes",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nPersonal Highlights: Positconf 2023\n\n\nSep 21, 2023\n\n\n\n\nPersonal Highlights: CEN2023\n\n\nSep 6, 2023\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nJul 17, 2023\n\n\n\n\nCourse review: making DS work for clinical reporting\n\n\nMar 1, 2023\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMost of the technical notes are in the newly built note repository, Data Apothecary’s Notes. Please feel free to reach out if you found any errors!\nI’d be glad if it helps you in some way.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nUse WebR in your existing quarto website\n\n\nOct 1, 2023\n\n\n\n\nR package checklist\n\n\nMay 19, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 4\n\n\nMar 1, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 3\n\n\nFeb 27, 2023\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\nFeb 25, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\nFeb 22, 2023\n\n\n\n\nR package website with pkgdown\n\n\nFeb 20, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nMar 17, 2023\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nPersonal Highlights: Positconf 2023\n\n\nSep 21, 2023\n\n\n\n\nPersonal Highlights: CEN2023\n\n\nSep 6, 2023\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nJul 17, 2023\n\n\n\n\nCourse review: making DS work for clinical reporting\n\n\nMar 1, 2023\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMost of the technical notes are in the newly built note repository, Data Apothecary’s Notes. Please feel free to reach out if you found any errors!\nI’d be glad if it helps you in some way.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nUse WebR in your existing quarto website\n\n\nOct 1, 2023\n\n\n\n\nR package workflow\n\n\nMay 19, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 4\n\n\nMar 1, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 3\n\n\nFeb 27, 2023\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\nFeb 25, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\nFeb 22, 2023\n\n\n\n\nR package website with pkgdown\n\n\nFeb 20, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nMar 17, 2023\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/technotes_20230223_roop/index.html",
@@ -632,7 +632,7 @@
   {
     "objectID": "blog/technotes_20230519_pkgcran/index.html",
     "href": "blog/technotes_20230519_pkgcran/index.html",
-    "title": "R package checklist",
+    "title": "R package workflow",
     "section": "",
     "text": "This checklist is being updated over time. Mostly for my own use; but great if it helps you as well!\nFor a complete treatment, please refer to R Packages (2e) by Hadley Wickham and Jennifer Bryan."
   },
@@ -716,9 +716,9 @@
   {
     "objectID": "blog/technotes_20230519_pkgcran/index.html#build-package-and-check",
     "href": "blog/technotes_20230519_pkgcran/index.html#build-package-and-check",
-    "title": "R package checklist",
+    "title": "R package workflow",
     "section": "Build package and check",
-    "text": "Build package and check\nIt is possible that your checks don’t pass on the first try."
+    "text": "Build package and check\nIt is possible that your checks don’t pass on the first try.\n\nWhat to ignore when build?\n^.*\\.Rproj$\n^\\.Rproj\\.user$\n^dev$\n^_pkgdown\\.yml$\n^license\\.md$\nMakefile\ndata-raw\ncran-comments.md\n^\\.github$"
   },
   {
     "objectID": "blog/blog_20230717_teaching/index.html",
@@ -845,5 +845,26 @@
     "title": "Use WebR in your existing quarto website",
     "section": "Summarize the workflow",
     "text": "Summarize the workflow\nThe workflow to add the quarto-webR extension to your existing quarto website is almost identical as adding it to a new project:\n\n1. Install\nInstall the extension by running this line in the terminal (for the current project)\nquarto add coatless/quarto-webr\n### 2. Configure\nConfigure the YAML header for your_demo.qmd\ntitle: \"Your demo\"\nengine: knitr\nformat: html\nfilters: \n  - webr\nwebr: \n  channel-type: \"post-message\"\nImportant bits:\n\nspecify engine to knitr\nspecify filters to - webr. This could alternatively be specified in the overall _quarto.yml file to apply to every qt document.\nadd channel-type: \"post-message\" under webr. No dash in front.\n\n\n\n3. Execute\nNow use the curly bracket {webr-r} for your code chunk (which used to be just {r}),\nLoading\n  webR...\n\n\n  \n\n\nA histogram that changes every time you click RUN CODE. This proves that we are running interactively the R code inside the web browser.\nLoading\n  webR..."
+  },
+  {
+    "objectID": "blog/technotes_20230519_pkgcran/index.html#initialize-the-project",
+    "href": "blog/technotes_20230519_pkgcran/index.html#initialize-the-project",
+    "title": "R package workflow",
+    "section": "Initialize the project",
+    "text": "Initialize the project\n\nusethis::create_package('path_to_pkg/pkgname') \n\nIt opens a new R project (directory) named pkgname, with the following items:\n\nDESCRIPTION\nNAMESPACE\ndirectory R/\n.Rbuildignore and .gitignore\nand the project icon, pkgname.Rproj.\n\nIf you have an existing R project but wish to build a package there, copy everything but pkgname.Rproj, and modify the files in your existing pkg directory. Pay extra attention to the hidden files like .Rbuildignore.\n\nusethis::use_mit_license() # modify name to yours\nusethis::use_readme_md() # if you do not have this already\nusethis::use_news_md()\nusethis::use_test()\n\n# create a folder for future data documentation\nx &lt;- 1 \nusethis::use_data() \n\nIn addition, URL and bug reports should be added in the DESCRIPTION."
+  },
+  {
+    "objectID": "blog/technotes_20230519_pkgcran/index.html#planning",
+    "href": "blog/technotes_20230519_pkgcran/index.html#planning",
+    "title": "R package workflow",
+    "section": "Planning",
+    "text": "Planning\nIt is good practice to start with planning the package, rather than directly start coding.\nCreate a folder called dev. To prevent it from being built, add the following line in .Rbuildignore"
+  },
+  {
+    "objectID": "blog/technotes_20230519_pkgcran/index.html#write-test-and-document",
+    "href": "blog/technotes_20230519_pkgcran/index.html#write-test-and-document",
+    "title": "R package workflow",
+    "section": "Write, test and document",
+    "text": "Write, test and document\nCreate exported functions in R/, development code in script/ (or somewhere else, such as dev/).\n\nData: raw and processed\nNeed to be clear in mind where the data files go. There are a few data related folders:\n\nraw data files, in the format of excel sheets or csv. Usually placed as inst/data_name.csv\nR scripts to process the raw data so that we create data object inside the package, put inside data-raw\ndata objects that can be called as pkg::data_name, are placed in data. These files are usually directly generated by executing write.rda().\ndata documentation, usually placed in R/data_documentation.R. These are Roxygen2 documents for the data.\n\n\n\nDocumentation\nYou need to configure the Build tools.\nThese three things should be done:\n\nFunction documentation\nCreate a function f1, and put your cursor on it. Go to Code -&gt; Insert Roxygen Skeleton to create the template.\nAlternatively, use #' to start.\n\n#' A simple placehold function \n#'\n#' @param x a numeric value\n#'\n#' @return a value 3 greater than the input\n#' @export\n#'\n#' @examples \n#' f1(5)\nf1 &lt;- function(x){\n  x+3\n}\n\n\n\nData documentation\nIt can be beneficial to create a separate file to document data only, say data_documentation.R under the R/ directory.\n\n#' Placeholder data x\n#'\n#' This dataset contains one value, x\n#'\n#' @format\n#' \\describe{\n#' \\item{x}{The placeholder data x}\n#' }\n#' @examples\n#' print(x)\n\"x\"\n\n\n\nVignette documentation\n\nusethis::use_vignette('your_vignette')\n\n\n\nDeploy to pkgdown\nCheck this reference here"
   }
 ]

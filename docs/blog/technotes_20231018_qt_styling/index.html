@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Chi Zhang">
-<meta name="dcterms.date" content="2023-09-21">
-<meta name="description" content="Curation of content to check out when I’ve got time">
+<meta name="dcterms.date" content="2023-10-18">
+<meta name="description" content="Learning notes on how to customize a quarto project, such as website.">
 
-<title>Hello, I’m Chi - Personal Highlights: Positconf 2023</title>
+<title>Hello, I’m Chi - Styling your quarto project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,31 +131,22 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul class="collapse">
-  <li><a href="#make-interactive-things" id="toc-make-interactive-things" class="nav-link active" data-scroll-target="#make-interactive-things">Make interactive things</a></li>
-  <li><a href="#make-pretty-things" id="toc-make-pretty-things" class="nav-link" data-scroll-target="#make-pretty-things">Make pretty things</a></li>
-  <li><a href="#quarto-updates" id="toc-quarto-updates" class="nav-link" data-scroll-target="#quarto-updates">Quarto updates</a></li>
-  <li><a href="#a-few-other-things-to-check-out" id="toc-a-few-other-things-to-check-out" class="nav-link" data-scroll-target="#a-few-other-things-to-check-out">A few other things to check out</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/blog_20230921_positconf2023/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Personal Highlights: Positconf 2023</h1>
+<h1 class="title">Styling your quarto project</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Data science</div>
+    <div class="quarto-category">Website</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>Curation of content to check out when I’ve got time</p>
+    <p>Learning notes on how to customize a quarto project, such as website.</p>
   </div>
 </div>
 
@@ -172,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 21, 2023</p>
+      <p class="date">October 18, 2023</p>
     </div>
   </div>
   
@@ -182,57 +173,12 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The yearly party of Positconf (formerly Rstudio conf) has come to an end. I joined the virtual experience at home, it is of course not the same as attending in-person, yet the atmosphere in discord was still great!</p>
-<p>It’s hard to choose which talks to watch since multiple were scheduled at the same time, so one has to prioritize. I definitely will re-visit some of the talks at a later point, so this blog acts as a placeholder for links so that I can find them in the future.</p>
-<section id="make-interactive-things" class="level2">
-<h2 class="anchored" data-anchor-id="make-interactive-things">Make interactive things</h2>
-<p>WebDev is definitely a big thing at this year’s positconf. If I’m learning one thing from the conference, I’d check out <strong>webR</strong>.</p>
-<p>I still remember when R was mainly for statistical analysis and computing back when I learned it. Now it’s become much more fun! Strictly speaking, <code>webR</code>and <code>quarto</code> are not R per se. However, they’ve become the gateway drugs for R programmers to dabble in WebDev. With <strong>web assembly (wasm)</strong>, now one can execute R code in a browser and even run shiny app.</p>
-<p><em>Unlock the power of dataViz animation and interactivity in quarto</em> by Deepsha Menghani used a super fun example (F-bomb) to demonstrate how to add interactivity to your barplot (or other plots) with <a href="https://rstudio.github.io/crosstalk/">Crosstalk</a>. Check out the talk <a href="https://github.com/deepshamenghani/posit_plotly_crosstalk">here</a>. The presentation was as interactive as the quarto slides, good job Deepsha!</p>
-<p><em>Running shiny without a server</em> by Joe Cheng (<a href="https://github.com/jcheng5/posit-conf-2023-shinylive">repo</a>): this was a big announcement. I used shiny at work, but for my own projects or smaller teaching projects I tried to stay away from shiny - I was concerned about the fee. This looks like a promising thing to try out once it’s stable, although I’d probably do <strong>webR</strong> first.</p>
-</section>
-<section id="make-pretty-things" class="level2">
-<h2 class="anchored" data-anchor-id="make-pretty-things">Make pretty things</h2>
-<p>It is fascinating to see so many organizations and individual R developers make their own themes for better branding, recognition and storytelling. More and more peple have realized that making beautiful plots is important, and totally possible as well. Work on <strong>layout, color, font and sizes</strong>!</p>
-<section id="themes" class="level3">
-<h3 class="anchored" data-anchor-id="themes">Themes</h3>
-<p><em>Adding a touch of glitr: Developing a package of themes on top of ggplot</em> by Aaron Chafetz, Karishma Srikanth and colleagues at USAID. <a href="https://github.com/USAID-OHA-SI/glitr">repo</a></p>
-</section>
-<section id="tables" class="level3">
-<h3 class="anchored" data-anchor-id="tables">Tables</h3>
-<p>Making tables with <code>gt</code> has been on my to-do list for a while now. It is very inspiring to see so many cool tables that makes you wonder, “is it really JUST a table?” For example, check out this <a href="https://community.rstudio.com/c/table-gallery/64">gallery</a> by Posit community.</p>
-<p>The book <a href="https://gt.albert-rapp.de">Creating beautiful tables in R with <code>gt</code></a> by Albert Rapp would be a good place to learn how to make nice tables. Actually the reason why I wanted to use <code>gt</code> is that it seems to be the mainsteam in clinical reporting in pharma. I bumped into this <a href="https://posit.co/blog/the-many-reasons-that-pharmas-love-gt/">blog post</a> some time ago, and this would be my starting point.</p>
-</section>
-<section id="quarto" class="level3">
-<h3 class="anchored" data-anchor-id="quarto">Quarto</h3>
-<p>If you want to go one step further and start making your quarto project pretty, there are a few things to try out.</p>
-<p>Albert Rapp in his talk <em>HTML and CSS for R Users</em> stated that quarto is a gateway drug to WebDev. It reminds me of my very first presentation at my local R users community (2019) was about building a website with <code>blogdown</code>, and when I really spent a lot of time to make my markdown documentation colorful with <code>span style</code> - and that was about everything I knew.</p>
-<p>Now I want more. Learning HTML and CSS can make your dataviz, tables, slides and dashboards look not only professional but also special. I’m going to check out the <em>scss variables</em> in quarto which defines the theme, <code>theme_file.scss</code>. Emil Hvitfeldt (<em>Styling and templating quarto documents</em>) showed us how to make really pretty and animated (!) quarto sldies themes, and shared this template with us, <a href="https://emilhvitfeldt.github.io/quarto-revealjs-earth/#/theme-title1">quarto-revealjs-earth</a>. I really like how revealjs slides look like, just that the MacOS Keynote (or MS ppt) drag-and-drop seems more flexible to me (?) Guess it’s something I should get used to over time.</p>
-<p>Richard Iannone (<em>Extending quarto</em>) introduced quarto <strong>shortcode extensions</strong> to add a bunch of fancy-looking icons to quarto files. To create extensions in general: https://quarto.org/docs/extensions/creating. This is for more pro-users since you needs to learn lua.</p>
-</section>
-</section>
-<section id="quarto-updates" class="level2">
-<h2 class="anchored" data-anchor-id="quarto-updates">Quarto updates</h2>
-<p>Quarto is definitely one of the most discussed topics in the year 2022-2023 in the R community. For good reasons. I need to catch up the the latest developments annd use-cases:</p>
+<p>Useful references:</p>
 <ul>
-<li><a href="https://cwickham.github.io/whats-new-in-quarto/#/title-slide">What’s new in quarto?</a> by Charlotte Wickham</li>
-<li><a href="https://mine.quarto.pub/manuscripts-conf23/#/title-slide">Reproducible manuscripts with Quarto</a> by Mine Çetinkaya-Rundel</li>
-<li><a href="https://rawcdn.githack.com/WA-Department-of-Agriculture/soils/944448976992604a12dafbf47258327be0e5ab98/inst/example_reports/example_producer_report.html">Parametrized quarto reports improves understanding of soil health</a> by Jadey Ryan</li>
+<li><a href="https://emilhvitfeldt.com/talk/2023-09-19-quarto-theming-positconf/">Talk</a> by Emil Hvitfeldt on Styling and Templating Quarto Documents</li>
 </ul>
-<p>and so many more. I couldn’t follow all the talks and I’m sure there are lots of great examples of how quarto is better than traditional ways of reporting.</p>
-</section>
-<section id="a-few-other-things-to-check-out" class="level2">
-<h2 class="anchored" data-anchor-id="a-few-other-things-to-check-out">A few other things to check out</h2>
-<p>Beyond the web and quarto topics, I think there are some existing and new tools that can be useful for my work. For example,</p>
-<ul>
-<li>I should review Hadley and Jenny’s R package book (2e).</li>
-<li>this package <code>targets</code> for pipeline automation and management look like something that can be used for my analysis</li>
-<li>…</li>
-</ul>
-<p>It will take a while to digest the latest developments. But little by little, we’ll get there! People in the R community are doing great things.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -474,7 +420,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">© Copyright 2023, Chi Zhang</div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/technotes_20231018_qt_styling/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

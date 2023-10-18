@@ -12,6 +12,7 @@ format:
     toc-depth: 2
     code-fold: false
     code-tools: false
+    highlight-style: ayu
 ---
 
 

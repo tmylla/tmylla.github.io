@@ -47,7 +47,6 @@ website:
 
 format:
   html:
-    theme: [cosmo, styles.scss]
-    mainfont: "Atkinson Hyperlegible"
+    theme: styles.scss
 
 

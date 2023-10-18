@@ -1,0 +1,12 @@
+---
+title: "noreden"
+description: "Tools to facilitate nutrition researcher for sustainable diet discovery"
+author: "Chi Zhang"
+date: "2023-10-18"
+categories: [public health]
+---
+
+This package provides tools to facilitate sustainable diet discovery.
+
+[GitHub Link](https://github.com/andreaczhang/noreden)
+

@@ -4,8 +4,6 @@ description: |
   A place to store learnings and thoughts on public health, data science and open source development 
 listing:
   - id: blog
-    max-description-length: 500
-    image-height: 150px
     fields: [title, date]
     contents: 
       - "blog_*/index.qmd"
@@ -15,10 +13,9 @@ listing:
     sort: "date desc"
     filter-ui: false
     categories: true
-
+    date-format: short
+    
   - id: readnotes
-    max-description-length: 500
-    image-height: 150px
     fields: [title, date]
     contents: 
       - "readnotes_*/index.qmd"
@@ -28,10 +25,9 @@ listing:
     sort: "date desc"
     filter-ui: false
     categories: true
+    date-format: short
 
   - id: technotes
-    max-description-length: 500
-    image-height: 150px
     fields: [title, date]
     contents: 
       - "technotes_*/index.qmd"
@@ -41,6 +37,7 @@ listing:
     sort: "date desc"
     filter-ui: false
     categories: true
+    date-format: short
 
 ---
 

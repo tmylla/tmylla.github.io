@@ -4,6 +4,7 @@ image: misc/info/photo_chi.jpg
 about:
   id: hero-heading
   template: trestles
+  image-width: 12em
   image-shape: round
   links:
     - icon: mailbox
@@ -12,9 +13,6 @@ about:
     - icon: github
       text: andreaczhang
       href: https://github.com/andreaczhang
-    - icon: mastodon
-      text: andreasheenn@fosstodon.org
-      href: https://fosstodon.org/@andreasheenn
     - icon: linkedin
       text: Chi Zhang
       href: https://www.linkedin.com/in/andreaczhang/

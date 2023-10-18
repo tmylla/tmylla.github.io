@@ -1,0 +1,19 @@
+---
+title: "Zero to Quarto Workshop"
+description: "Zurich R Ladies workshop"
+date: "2023-10-23"
+categories: [workshop, r]
+type: quarto
+---
+
+Date: Monday 23 October 2023, 6:30PM to 8:00PM, CEST 
+
+Place: KO2-F-153, Rämistrasse 71, Zürich.
+
+[Event link](https://www.meetup.com/rladies-zurich/events/296330423/)
+
+Presenter: [Chi Zhang](https://andreaczhang.github.io). Feel free to reach out with comments and feedback!
+
+Workshop [site](https://andreaczhang.github.io/workshop-02quarto/)
+
+<iframe class="slide-deck" style="width:800px; height:600px" src="https://andreaczhang.github.io/slides-02quarto/"></iframe>

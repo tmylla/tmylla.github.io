@@ -2,8 +2,8 @@
   {
     "listing": "/projects/projects.html",
     "items": [
-      "/projects/nor_mortality/index.html",
-      "/projects/sykdomspulsen/index.html"
+      "/projects/sykdomspulsen/index.html",
+      "/projects/noreden/index.html"
     ]
   },
   {
@@ -50,6 +50,7 @@
       "/rpkg/csdata/index.html",
       "/rpkg/csmaps/index.html",
       "/rpkg/cstime/index.html",
+      "/rpkg/noreden/index.html",
       "/rpkg/bayesynergy/index.html",
       "/rpkg/medicode/index.html",
       "/rpkg/qtwAcademic/index.html"
@@ -61,7 +62,8 @@
       "/teaching/ern4110/index.html",
       "/teaching/mf9130/index.html",
       "/teaching/workshop_bioinf/index.html",
-      "/teaching/r_novice/index.html"
+      "/teaching/r_novice/index.html",
+      "/teaching/workshop_rladies_zurich/index.html"
     ]
   }
 ]

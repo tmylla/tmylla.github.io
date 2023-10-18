@@ -183,36 +183,60 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="create-a-public-repository-on-github" class="level1">
-<h1>1. Create a public repository on GitHub</h1>
+<section id="create-a-public-repository-on-github" class="level2">
+<h2 class="anchored" data-anchor-id="create-a-public-repository-on-github">1. Create a public repository on GitHub</h2>
 <p>After you have the public repo, clone it to your local repo.</p>
 </section>
-<section id="create-quarto-project" class="level1">
-<h1>2. Create Quarto project</h1>
+<section id="create-quarto-project" class="level2">
+<h2 class="anchored" data-anchor-id="create-quarto-project">2. Create Quarto project</h2>
 <p>This can be a website, a book (a specific type of website) or something else.</p>
 <p>Test compilation by <code>quarto render</code>, or click the <code>Render</code> button.</p>
-<p><img src="0_test_render.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="0_test_render.png" class="img-fluid figure-img" style="width:85.0%"></p>
+</figure>
+</div>
 </section>
-<section id="configure-quarto-project" class="level1">
-<h1>3. Configure Quarto project</h1>
+<section id="configure-quarto-project" class="level2">
+<h2 class="anchored" data-anchor-id="configure-quarto-project">3. Configure Quarto project</h2>
 <p>In <code>_quarto.yml</code>, change the project configuration to use <code>docs</code> as the <code>output-dir</code>:</p>
 <pre><code>project:
   type: website
   output-dir: docs</code></pre>
-<p><img src="1_add_outputdir.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="1_add_outputdir.png" class="img-fluid figure-img" style="width:85.0%"></p>
+</figure>
+</div>
 <p>Then add <code>.nojekyll</code> to the root of the repository. Can do this by (in <strong>terminal</strong>)</p>
 <pre><code>touch .nojekyll</code></pre>
 <p>Push everything to your repository.</p>
 </section>
-<section id="configure-github-pages" class="level1">
-<h1>4. Configure GitHub Pages</h1>
+<section id="configure-github-pages" class="level2">
+<h2 class="anchored" data-anchor-id="configure-github-pages">4. Configure GitHub Pages</h2>
 <p>Go to Settings &gt; Pages, publish from <code>docs</code> of the <code>main</code> branch.</p>
-<p><img src="2_config_ghp.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="2_config_ghp.png" class="img-fluid figure-img" style="width:85.0%"></p>
+</figure>
+</div>
 <p>Can check GitHub Action and deployment status.</p>
-<p><img src="3_action.png" class="img-fluid"></p>
-<p><img src="4_deploy.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="3_action.png" class="img-fluid figure-img" style="width:85.0%"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="4_deploy.png" class="img-fluid figure-img" style="width:85.0%"></p>
+</figure>
+</div>
 <p>After the deployment is successful, go to <code>view deployment</code>, and a successful website should be published.</p>
-<p><img src="5_success.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="5_success.png" class="img-fluid figure-img" style="width:85.0%"></p>
+</figure>
+</div>
 
 
 </section>

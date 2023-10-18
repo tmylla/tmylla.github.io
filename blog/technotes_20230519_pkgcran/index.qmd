@@ -13,6 +13,7 @@ format:
     code-fold: false
     code-tools: false
     highlight-style: ayu
+    linestretch: 1.7
 ---
 
 

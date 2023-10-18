@@ -22,11 +22,17 @@ listing:
     contents: 
       - r_novice
       - workshop_bioinf
+      - workshop_rladies_zurich
     type: table
     grid-item-border: false
     sort-ui: false
     filter-ui: false
 ---
+
+I started teaching introductory statistics at Faculty of Medicine, University of Oslo since early 2023. I aim to make basic data skills and statistics accessible to health researchers, by combining modern data science tools (R, quarto, version control) with hands-on practice in my class.
+
+In my free time I volunteer in the Carpentries workshops to teach Rstats to researchers and students at UiO.
+
 
 ## Introductory Statistics
 

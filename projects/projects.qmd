@@ -5,45 +5,24 @@ description: |
 listing:
   - id: publichealth
     max-description-length: 500
-    image-height: 300px
+    image-height: 250px
     fields: [image, title, description]
     contents: 
       # - csids
       - sykdomspulsen
-      - nor_mortality
+      - noreden
     type: grid
     grid-item-border: false
+    grid-columns: 3
 ---
 
-::: {.callout-note}
-## This page is currently under active construction
-
-For my [teaching material](https://andreaczhang.github.io/teaching/teaching.html) and [R packages](https://andreaczhang.github.io/rpkg/rpkg.html), please visit the pages dedicated to those topics. Thank you for your interest!
-
-:::
 
 
-
-### Public health surveillance and reporting
 
 I worked at Norwegian Institute of Public Health during Covid-19 pandemic, focusing on real-time infectious disease surveillance and real-time large scale reporting using R. 
 
 ::: {#publichealth}
 :::
-
-
-### Teaching
-
-I started teaching introductory statistics at Faculty of Medicine, University of Oslo since early 2023. I aim to make basic data skills and statistics accessible to health researchers, by combining modern data science tools (R, quarto, version control) with hands-on practice in my class.
-
-In my free time I volunteer in the Carpentries workshops to teach Rstats to researchers and students at UiO.
-
-
-### R packgages
-
-I developed / co-developed several R packages used for public health surveillance: `covidnor`, `cstime`, `csdata`, `csmaps` which are part of the [CSIDS](https://github.com/csids/). 
-
-My current ongoing R packages focus on facilitating statistical education: `qtwAcademic`.
 
 
 

@@ -1,8 +1,10 @@
 ---
-title: "Sykdomspulsen/splverse"
-description: An automated public health surveillance platform developed in R 
-image: "splverse.png"
+title: "CSIDS"
+description: Consortium for Statistics in Disease Surveillance
+image: "csids.png"
 ---
+
+Previously Sykdomspulsen.
 
 [Sykdomspulsen](https://docs.sykdomspulsen.no) is a real-time analysis and disease surveillance system designed and developed at the [Norwegian Institute of Public Health](https://www.fhi.no) (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.
 

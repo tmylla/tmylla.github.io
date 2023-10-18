@@ -17,19 +17,19 @@ format:
 ---
 
 
-# 1. Create a public repository on GitHub
+## 1. Create a public repository on GitHub
 
 After you have the public repo, clone it to your local repo.
 
-# 2. Create Quarto project
+## 2. Create Quarto project
 
 This can be a website, a book (a specific type of website) or something else.
 
 Test compilation by `quarto render`, or click the `Render` button.
 
-![](0_test_render.png)
+![](0_test_render.png){width=85% fig-align="center"}
 
-# 3. Configure Quarto project
+## 3. Configure Quarto project
 
 In `_quarto.yml`, change the project configuration to use `docs` as the `output-dir`: 
 
@@ -39,7 +39,7 @@ project:
   output-dir: docs
 ```
 
-![](1_add_outputdir.png)
+![](1_add_outputdir.png){width=85% fig-align="center"}
 
 Then add `.nojekyll` to the root of the repository. Can do this by (in **terminal**)
 
@@ -49,21 +49,21 @@ touch .nojekyll
 
 Push everything to your repository.
 
-# 4. Configure GitHub Pages
+## 4. Configure GitHub Pages
 
 Go to Settings > Pages, publish from `docs` of the `main` branch.
 
-![](2_config_ghp.png)
+![](2_config_ghp.png){width=85% fig-align="center"}
 
 Can check GitHub Action and deployment status. 
 
-![](3_action.png)
+![](3_action.png){width=85% fig-align="center"}
 
 
-![](4_deploy.png)
+![](4_deploy.png){width=85% fig-align="center"}
 
 
 After the deployment is successful, go to `view deployment`, and a successful website should be published. 
 
-![](5_success)
+![](5_success){width=85% fig-align="center"}
 

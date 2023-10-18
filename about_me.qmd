@@ -2,6 +2,9 @@
 title: "Chi Zhang"
 image: misc/info/photo2_chi.jpg
 page-layout: article
+format: 
+  html:
+    linestretch: 1.7
 about:
   id: hero-heading
   template: jolla

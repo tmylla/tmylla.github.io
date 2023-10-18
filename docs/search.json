@@ -32,7 +32,7 @@
     "href": "projects/projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This page is currently under active construction\n\n\n\nFor my teaching material and R packages, please visit the pages dedicated to those topics. Thank you for your interest!\n\n\n\nPublic health surveillance and reporting\nI worked at Norwegian Institute of Public Health during Covid-19 pandemic, focusing on real-time infectious disease surveillance and real-time large scale reporting using R.\n\n\n\n\n\n\n\n\n\n\nMortality Surveillance in Norway\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSykdomspulsen/splverse\n\n\nAn automated public health surveillance platform developed in R\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTeaching\nI started teaching introductory statistics at Faculty of Medicine, University of Oslo since early 2023. I aim to make basic data skills and statistics accessible to health researchers, by combining modern data science tools (R, quarto, version control) with hands-on practice in my class.\nIn my free time I volunteer in the Carpentries workshops to teach Rstats to researchers and students at UiO.\n\n\nR packgages\nI developed / co-developed several R packages used for public health surveillance: covidnor, cstime, csdata, csmaps which are part of the CSIDS.\nMy current ongoing R packages focus on facilitating statistical education: qtwAcademic."
+    "text": "I worked at Norwegian Institute of Public Health during Covid-19 pandemic, focusing on real-time infectious disease surveillance and real-time large scale reporting using R.\n\n\n\n\n\n\n\n\n\n\nCSIDS\n\n\nConsortium for Statistics in Disease Surveillance\n\n\n\n\n\n\n\n\n\n\n\nNoreden\n\n\nTools to faciliate sustainable nutrition research\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/csids/index.html",
@@ -116,7 +116,7 @@
     "href": "index.html",
     "title": "Chi Zhang",
     "section": "",
-    "text": "chi.zhang@medisin.uio.no\n  \n  \n    \n     andreaczhang\n  \n  \n    \n     andreasheenn@fosstodon.org\n  \n  \n    \n     Chi Zhang\n  \n\n  \n  \nHello! I am a statistical programmer at the Faculty of Medicine, University of Oslo. I develop R packages and quarto websites in my daily work.\nAs a part-time lecturer, I teach statistics courses at Oslo Centre for Biostatistics and Epidemiology (OCBE) and R programming at the Carpentries workshops at University of Oslo.\nIn 2020-2022, I worked as R developer and statistician for the open source real-time analysis and public health surveillance system, Sykdomspulsen (now CSIDS) at the Norwegian Institute of Public Health.\nChi enjoys spending time in the mountains."
+    "text": "chi.zhang@medisin.uio.no\n  \n  \n    \n     andreaczhang\n  \n  \n    \n     Chi Zhang\n  \n\n  \n  \nHello! I am a statistical programmer at the Faculty of Medicine, University of Oslo. I develop R packages and quarto websites in my daily work.\nAs a part-time lecturer, I teach statistics courses at Oslo Centre for Biostatistics and Epidemiology (OCBE) and R programming at the Carpentries workshops at University of Oslo.\nIn 2020-2022, I worked as R developer and statistician for the open source real-time analysis and public health surveillance system, Sykdomspulsen (now CSIDS) at the Norwegian Institute of Public Health.\nChi enjoys spending time in the mountains."
   },
   {
     "objectID": "blog/blog_20230103_blogdown2quarto/index.html",
@@ -256,7 +256,7 @@
     "href": "blog/technotes_20230111_deployqt/index.html",
     "title": "Publishing Quarto Website with GitHub Pages",
     "section": "",
-    "text": "1. Create a public repository on GitHub\nAfter you have the public repo, clone it to your local repo.\n\n\n2. Create Quarto project\nThis can be a website, a book (a specific type of website) or something else.\nTest compilation by quarto render, or click the Render button.\n\n\n\n3. Configure Quarto project\nIn _quarto.yml, change the project configuration to use docs as the output-dir:\nproject:\n  type: website\n  output-dir: docs\n\nThen add .nojekyll to the root of the repository. Can do this by (in terminal)\ntouch .nojekyll\nPush everything to your repository.\n\n\n4. Configure GitHub Pages\nGo to Settings &gt; Pages, publish from docs of the main branch.\n\nCan check GitHub Action and deployment status.\n\n\nAfter the deployment is successful, go to view deployment, and a successful website should be published."
+    "text": "After you have the public repo, clone it to your local repo."
   },
   {
     "objectID": "blog/technotes_20230220_pkgdown/index.html",
@@ -396,7 +396,7 @@
     "href": "blog/blog.html",
     "title": "Blog and notes",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nPersonal Highlights: Positconf 2023\n\n\nSep 21, 2023\n\n\n\n\nPersonal Highlights: CEN2023\n\n\nSep 6, 2023\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nJul 17, 2023\n\n\n\n\nCourse review: making DS work for clinical reporting\n\n\nMar 1, 2023\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\nJan 13, 2023\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\nJan 5, 2023\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\nJan 3, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMost of the technical notes are in the newly built note repository, Data Apothecary’s Notes. Please feel free to reach out if you found any errors!\nI’d be glad if it helps you in some way.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nStyling your quarto project\n\n\nOct 18, 2023\n\n\n\n\nUse WebR in your existing quarto website\n\n\nOct 1, 2023\n\n\n\n\nR package workflow\n\n\nMay 19, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 4\n\n\nMar 1, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 3\n\n\nFeb 27, 2023\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\nFeb 25, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\nFeb 22, 2023\n\n\n\n\nR package website with pkgdown\n\n\nFeb 20, 2023\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\nFeb 6, 2023\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\nJan 11, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\nMar 17, 2023\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\nJan 4, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nPersonal Highlights: Positconf 2023\n\n\n9/21/23\n\n\n\n\nPersonal Highlights: CEN2023\n\n\n9/6/23\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\n7/17/23\n\n\n\n\nCourse review: making DS work for clinical reporting\n\n\n3/1/23\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\n1/13/23\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\n1/5/23\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\n1/3/23\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMost of the technical notes are in the newly built note repository, Data Apothecary’s Notes. Please feel free to reach out if you found any errors!\nI’d be glad if it helps you in some way.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nStyling your quarto project\n\n\n10/18/23\n\n\n\n\nUse WebR in your existing quarto website\n\n\n10/1/23\n\n\n\n\nR package workflow\n\n\n5/19/23\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 4\n\n\n3/1/23\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 3\n\n\n2/27/23\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\n2/25/23\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\n2/22/23\n\n\n\n\nR package website with pkgdown\n\n\n2/20/23\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\n2/6/23\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\n1/11/23\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\n3/17/23\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\n1/4/23\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/technotes_20230223_roop/index.html",
@@ -452,7 +452,7 @@
     "href": "rpkg/rpkg.html",
     "title": "R packages",
     "section": "",
-    "text": "Public health Surveillance\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\nOpen COVID19 data for Norway\n\n\n\n\ncsalert\n\n\nOutbreak detection in public health surveillance\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\nPre-formatted map data in Norway\n\n\n\n\ncstime\n\n\nDate and time functions for public health purposes\n\n\n\n\n\n\nNo matching items\n\n\n\n\nMedicine\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nbayesynergy\n\n\n(Contributor) Synergistic interaction effects in in vitro drug combination…\n\n\n\n\nmedicode\n\n\nMetadata and tools for medical classification and clinical coding\n\n\n\n\n\n\nNo matching items\n\n\n\n\nQuarto Tools\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\nOpen COVID19 data for Norway\n\n\n\n\ncsalert\n\n\nOutbreak detection in public health surveillance\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\nPre-formatted map data in Norway\n\n\n\n\ncstime\n\n\nDate and time functions for public health purposes\n\n\n\n\nnoreden\n\n\nTools to facilitate nutrition researcher for sustainable diet discovery\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "rpkg/qtwAcademic/index.html",
@@ -508,14 +508,14 @@
     "href": "teaching/teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Title\n\n\nDescription\n\n\n\n\n\n\nERN4110\n\n\nStatistics for master students in nutrition\n\n\n\n\nMF9130/MF9130E\n\n\nIntroductory course in statistics\n\n\n\n\n\n\nNo matching items"
+    "text": "I started teaching introductory statistics at Faculty of Medicine, University of Oslo since early 2023. I aim to make basic data skills and statistics accessible to health researchers, by combining modern data science tools (R, quarto, version control) with hands-on practice in my class.\nIn my free time I volunteer in the Carpentries workshops to teach Rstats to researchers and students at UiO."
   },
   {
     "objectID": "teaching/teaching.html#workshops",
     "href": "teaching/teaching.html#workshops",
     "title": "Teaching",
     "section": "Workshops",
-    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\nR for Reproducible Scientific Analysis\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\n\n\nNo matching items"
+    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\nR for Reproducible Scientific Analysis\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\nZero to Quarto Workshop\n\n\nZurich R Ladies workshop\n\n\nquarto\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/teaching.html#guides-and-cheatsheets",
@@ -885,7 +885,70 @@
     "objectID": "teaching/teaching.html#introductory-statistics",
     "href": "teaching/teaching.html#introductory-statistics",
     "title": "Teaching",
+    "section": "Introductory Statistics",
+    "text": "Introductory Statistics\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nERN4110\n\n\nStatistics for master students in nutrition\n\n\n\n\nMF9130/MF9130E\n\n\nIntroductory course in statistics\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/technotes_20230111_deployqt/index.html#create-a-public-repository-on-github",
+    "href": "blog/technotes_20230111_deployqt/index.html#create-a-public-repository-on-github",
+    "title": "Publishing Quarto Website with GitHub Pages",
     "section": "",
-    "text": "Title\n\n\nDescription\n\n\n\n\n\n\nERN4110\n\n\nStatistics for master students in nutrition\n\n\n\n\nMF9130/MF9130E\n\n\nIntroductory course in statistics\n\n\n\n\n\n\nNo matching items"
+    "text": "After you have the public repo, clone it to your local repo."
+  },
+  {
+    "objectID": "blog/technotes_20230111_deployqt/index.html#create-quarto-project",
+    "href": "blog/technotes_20230111_deployqt/index.html#create-quarto-project",
+    "title": "Publishing Quarto Website with GitHub Pages",
+    "section": "2. Create Quarto project",
+    "text": "2. Create Quarto project\nThis can be a website, a book (a specific type of website) or something else.\nTest compilation by quarto render, or click the Render button."
+  },
+  {
+    "objectID": "blog/technotes_20230111_deployqt/index.html#configure-quarto-project",
+    "href": "blog/technotes_20230111_deployqt/index.html#configure-quarto-project",
+    "title": "Publishing Quarto Website with GitHub Pages",
+    "section": "3. Configure Quarto project",
+    "text": "3. Configure Quarto project\nIn _quarto.yml, change the project configuration to use docs as the output-dir:\nproject:\n  type: website\n  output-dir: docs\n\n\n\n\n\nThen add .nojekyll to the root of the repository. Can do this by (in terminal)\ntouch .nojekyll\nPush everything to your repository."
+  },
+  {
+    "objectID": "blog/technotes_20230111_deployqt/index.html#configure-github-pages",
+    "href": "blog/technotes_20230111_deployqt/index.html#configure-github-pages",
+    "title": "Publishing Quarto Website with GitHub Pages",
+    "section": "4. Configure GitHub Pages",
+    "text": "4. Configure GitHub Pages\nGo to Settings &gt; Pages, publish from docs of the main branch.\n\n\n\n\n\nCan check GitHub Action and deployment status.\n\n\n\n\n\n\n\n\n\n\nAfter the deployment is successful, go to view deployment, and a successful website should be published."
+  },
+  {
+    "objectID": "rpkg/rpkg.html#public-health",
+    "href": "rpkg/rpkg.html#public-health",
+    "title": "R packages",
+    "section": "",
+    "text": "Title\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\nOpen COVID19 data for Norway\n\n\n\n\ncsalert\n\n\nOutbreak detection in public health surveillance\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\nPre-formatted map data in Norway\n\n\n\n\ncstime\n\n\nDate and time functions for public health purposes\n\n\n\n\nnoreden\n\n\nTools to facilitate nutrition researcher for sustainable diet discovery\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "rpkg/rpkg.html#medicine",
+    "href": "rpkg/rpkg.html#medicine",
+    "title": "R packages",
+    "section": "Medicine",
+    "text": "Medicine\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nbayesynergy\n\n\n(Contributor) Synergistic interaction effects in in vitro drug combination…\n\n\n\n\nmedicode\n\n\nMetadata and tools for medical classification and clinical coding\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "rpkg/rpkg.html#quarto-tools",
+    "href": "rpkg/rpkg.html#quarto-tools",
+    "title": "R packages",
+    "section": "Quarto Tools",
+    "text": "Quarto Tools\n\n\n\n\n\n\n\n\n\n\nqtwAcademic\n\n\nQuarto Website Templates for Academics\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "rpkg/noreden/index.html",
+    "href": "rpkg/noreden/index.html",
+    "title": "noreden",
+    "section": "",
+    "text": "This package provides tools to facilitate sustainable diet discovery.\nGitHub Link"
+  },
+  {
+    "objectID": "teaching/workshop_rladies_zurich/index.html",
+    "href": "teaching/workshop_rladies_zurich/index.html",
+    "title": "Zero to Quarto Workshop",
+    "section": "",
+    "text": "Date: Monday 23 October 2023, 6:30PM to 8:00PM, CEST\nPlace: KO2-F-153, Rämistrasse 71, Zürich.\nEvent link\nPresenter: Chi Zhang. Feel free to reach out with comments and feedback!\nWorkshop site"
   }
 ]

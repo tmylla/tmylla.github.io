@@ -32,7 +32,7 @@
     "href": "projects/projects.html",
     "title": "Projects",
     "section": "",
-    "text": "I worked at Norwegian Institute of Public Health during Covid-19 pandemic, focusing on real-time infectious disease surveillance and real-time large scale reporting using R.\n\n\n\n\n\n\n\n\n\n\nCSIDS\n\n\nConsortium for Statistics in Disease Surveillance\n\n\n\n\n\n\n\n\n\n\n\nNoreden\n\n\nTools to faciliate sustainable nutrition research\n\n\n\n\n\n\n\nNo matching items"
+    "text": "I worked at Norwegian Institute of Public Health during Covid-19 pandemic, focusing on real-time infectious disease surveillance and real-time large scale reporting using R.\n\n\n\n\n\n\n\n\n\n\nCSIDS\n\n\nConsortium for Statistics in Disease Surveillance\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Apothecary’s Notes\n\n\nPersonal note taking system for a modern data scientist\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoreden\n\n\nTools to faciliate sustainable nutrition research\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/csids/index.html",
@@ -44,9 +44,9 @@
   {
     "objectID": "projects/sykdomspulsen/index.html",
     "href": "projects/sykdomspulsen/index.html",
-    "title": "Sykdomspulsen/splverse",
+    "title": "CSIDS",
     "section": "",
-    "text": "Sykdomspulsen is a real-time analysis and disease surveillance system designed and developed at the Norwegian Institute of Public Health (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.\nsplverse is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.\nIn November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to CSIDS: the Consortium for Statistics in Disease Surveillance. Please refer to CSIDS for ongoing developments.\n\nQuick stats\n\nWe receive data from more than 15 data sources every day\n2 000 000 000+ rows of data and results (1TB)\n1 000+ database tables\n1 000 000+ analyses per day\n1 000+ automatic reports per day\n\n\n\nDownload poster (Norwegian)"
+    "text": "Previously Sykdomspulsen.\nSykdomspulsen is a real-time analysis and disease surveillance system designed and developed at the Norwegian Institute of Public Health (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.\nsplverse is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.\nIn November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to CSIDS: the Consortium for Statistics in Disease Surveillance. Please refer to CSIDS for ongoing developments.\n\nQuick stats\n\nWe receive data from more than 15 data sources every day\n2 000 000 000+ rows of data and results (1TB)\n1 000+ database tables\n1 000 000+ analyses per day\n1 000+ automatic reports per day\n\n\n\nDownload poster (Norwegian)"
   },
   {
     "objectID": "talks/ehr_20221013_ml_icu/index.html",
@@ -263,7 +263,7 @@
     "href": "blog/technotes_20230220_pkgdown/index.html",
     "title": "R package website with pkgdown",
     "section": "",
-    "text": "1. Create the website skeleton.\nBefore editing the details, we need to create the skeleton for the website. It can be done with usethis and pkgdown packages.\nIn R, run this:\nusethis::use_pkgdown()\nThis creates the _pkgdown.yml file, which is the place you configure your site.\nTo view the initial package website, use the following command:\npkgdown::build_site()\nThis creates docs/ directory containing a website\n\nREADME.md becomes the homepage,\ndocumentation in man/ generates a function reference,\nvignettes are rendered into articles/.\n\n\n\n2. Edit the vignette documentation\nMake sure that the vignette index is consistent with Title, otherwise it will not render.\n\n\n3. Build and preview your site\nNow check if the site looks good, and contents are correctly positioned.\npkgdown::preview_site()\npkgdown::build_site()\nYou can also do this to build the site.\npkgdown::build_site_github_pages()\n\n\n4. Deploy site with GitHub Pages\nThere seems to be two options:\n\nusethis::use_pkgdown_github_pages(), this function should take care of everything after pushing changes to GH.\nif you used pkgdown::build_site_github_pages() and pushed everything to GitHub, it might not automatically deploy your site to GH pages. I tried to go to Settings -> Pages -> Deploy from a branch -> main -> /docs, this makes Action deploy your site from the docs folder.\n\ndouble check if you have .nojekyll file\nif a website does not show, check whether you have docs in the .gitignore file; since you are deploying from that folder."
+    "text": "1. Create the website skeleton.\nBefore editing the details, we need to create the skeleton for the website. It can be done with usethis and pkgdown packages.\nIn R, run this:\nusethis::use_pkgdown()\nThis creates the _pkgdown.yml file, which is the place you configure your site.\nTo view the initial package website, use the following command:\npkgdown::build_site()\nThis creates docs/ directory containing a website\n\nREADME.md becomes the homepage,\ndocumentation in man/ generates a function reference,\nvignettes are rendered into articles/.\n\n\n\n2. Edit the vignette documentation\nMake sure that the vignette index is consistent with Title, otherwise it will not render.\n\n\n3. Build and preview your site\nNow check if the site looks good, and contents are correctly positioned.\npkgdown::preview_site()\npkgdown::build_site()\nYou can also do this to build the site.\npkgdown::build_site_github_pages()\n\n\n4. Deploy site with GitHub Pages\nThere seems to be two options:\n\nusethis::use_pkgdown_github_pages(), this function should take care of everything after pushing changes to GH.\nif you used pkgdown::build_site_github_pages() and pushed everything to GitHub, it might not automatically deploy your site to GH pages. I tried to go to Settings -&gt; Pages -&gt; Deploy from a branch -&gt; main -&gt; /docs, this makes Action deploy your site from the docs folder.\n\ndouble check if you have .nojekyll file\nif a website does not show, check whether you have docs in the .gitignore file; since you are deploying from that folder."
   },
   {
     "objectID": "blog/technotes_20230228_clinreport_part3/index.html",
@@ -950,5 +950,19 @@
     "title": "Zero to Quarto Workshop",
     "section": "",
     "text": "Date: Monday 23 October 2023, 6:30PM to 8:00PM, CEST\nPlace: KO2-F-153, Rämistrasse 71, Zürich.\nEvent link\nPresenter: Chi Zhang. Feel free to reach out with comments and feedback!\nWorkshop site"
+  },
+  {
+    "objectID": "projects/noreden/index.html",
+    "href": "projects/noreden/index.html",
+    "title": "Noreden",
+    "section": "",
+    "text": "Noreden"
+  },
+  {
+    "objectID": "projects/dan/index.html",
+    "href": "projects/dan/index.html",
+    "title": "Data Apothecary’s Notes",
+    "section": "",
+    "text": "Data Apothecary’s Notes"
   }
 ]

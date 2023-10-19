@@ -2,6 +2,7 @@
 title: "CSIDS"
 description: Consortium for Statistics in Disease Surveillance
 image: "csids.png"
+linestretch: 2.0
 ---
 
 Previously Sykdomspulsen.

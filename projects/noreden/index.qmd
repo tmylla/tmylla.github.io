@@ -1,6 +1,7 @@
 ---
 title: "Noreden"
 description: "Tools to faciliate sustainable nutrition research"
+image: "noreden.png"
 ---
 
 Noreden

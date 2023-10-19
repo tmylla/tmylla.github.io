@@ -6,11 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Chi Zhang">
-<meta name="dcterms.date" content="2023-02-20">
-<meta name="description" content="A workflow that worked for me: when you have a few vignette documents, and want to display them nicely in a website format.">
+<meta name="description" content="Personal note taking system for a modern data scientist">
 
-<title>Hello, I’m Chi - R package website with pkgdown</title>
+<title>Hello, I’m Chi - Data Apothecary’s Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -136,35 +134,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R package website with <code>pkgdown</code></h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Rpkg</div>
-    <div class="quarto-category">Website</div>
-  </div>
-  </div>
+<h1 class="title">Data Apothecary’s Notes</h1>
+</div>
 
 <div>
   <div class="description">
-    <p>A workflow that worked for me: when you have a few vignette documents, and want to display them nicely in a website format.</p>
+    Personal note taking system for a modern data scientist
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Chi Zhang </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 20, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -172,47 +154,9 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="create-the-website-skeleton." class="level1">
-<h1>1. Create the website skeleton.</h1>
-<p>Before editing the details, we need to create the skeleton for the website. It can be done with <code>usethis</code> and <code>pkgdown</code> packages.</p>
-<p>In R, run this:</p>
-<pre><code>usethis::use_pkgdown()</code></pre>
-<p>This creates the <code>_pkgdown.yml</code> file, which is the place you configure your site.</p>
-<p>To view the initial package website, use the following command:</p>
-<pre><code>pkgdown::build_site()</code></pre>
-<p>This creates <code>docs/</code> directory containing a website</p>
-<ul>
-<li><code>README.md</code> becomes the homepage,</li>
-<li>documentation in <code>man/</code> generates a function reference,</li>
-<li>vignettes are rendered into <code>articles/</code>.</li>
-</ul>
-</section>
-<section id="edit-the-vignette-documentation" class="level1">
-<h1>2. Edit the vignette documentation</h1>
-<p>Make sure that the vignette index is consistent with <strong>Title</strong>, otherwise it will not render.</p>
-</section>
-<section id="build-and-preview-your-site" class="level1">
-<h1>3. Build and preview your site</h1>
-<p>Now check if the site looks good, and contents are correctly positioned.</p>
-<pre><code>pkgdown::preview_site()
-pkgdown::build_site()</code></pre>
-<p>You can also do this to build the site.</p>
-<pre><code>pkgdown::build_site_github_pages()</code></pre>
-</section>
-<section id="deploy-site-with-github-pages" class="level1">
-<h1>4. Deploy site with GitHub Pages</h1>
-<p>There seems to be two options:</p>
-<ul>
-<li><code>usethis::use_pkgdown_github_pages()</code>, this function should take care of everything after pushing changes to GH.</li>
-<li>if you used <code>pkgdown::build_site_github_pages()</code> and pushed everything to GitHub, it might not automatically deploy your site to GH pages. I tried to go to <em>Settings -&gt; Pages -&gt; Deploy from a branch -&gt; main -&gt; /docs</em>, this makes Action deploy your site from the <code>docs</code> folder.
-<ul>
-<li>double check if you have <code>.nojekyll</code> file</li>
-<li>if a website does not show, check whether you have <code>docs</code> in the <code>.gitignore</code> file; since you are deploying from that folder.</li>
-</ul></li>
-</ul>
+<p>Data Apothecary’s Notes</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -454,7 +398,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">© Copyright 2023, Chi Zhang</div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/technotes_20230220_pkgdown/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/projects/dan/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

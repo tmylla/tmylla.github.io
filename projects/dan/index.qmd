@@ -1,0 +1,7 @@
+---
+title: "Data Apothecary's Notes"
+description: "Personal note taking system for a modern data scientist"
+image: "logo_dan.png"
+---
+
+Data Apothecary's Notes

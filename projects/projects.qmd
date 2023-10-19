@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 description: |
-  Here you can find an overview of my projects on Research Softwares and teaching, in a range of health related fields.   
+  A list of ongoing projects.  
 listing:
   - id: publichealth
     max-description-length: 500
@@ -11,6 +11,7 @@ listing:
       # - csids
       - sykdomspulsen
       - noreden
+      - dan
     type: grid
     grid-item-border: false
     grid-columns: 3

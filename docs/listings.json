@@ -2,8 +2,10 @@
   {
     "listing": "/projects/projects.html",
     "items": [
-      "/projects/sykdomspulsen/index.html",
       "/projects/dan/index.html",
+      "/projects/os_teaching/index.html",
+      "/projects/phuse/index.html",
+      "/projects/sykdomspulsen/index.html",
       "/projects/noreden/index.html"
     ]
   },

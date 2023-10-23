@@ -1,8 +1,18 @@
 ---
 title: "Projects"
-description: |
-  A list of ongoing projects.  
 listing:
+  - id: opensource
+    max-description-length: 500
+    image-height: 250px
+    fields: [image, title, description]
+    contents: 
+      - phuse
+      - dan
+      - os_teaching
+    type: grid
+    grid-item-border: false
+    grid-columns: 3
+
   - id: publichealth
     max-description-length: 500
     image-height: 250px
@@ -11,22 +21,29 @@ listing:
       # - csids
       - sykdomspulsen
       - noreden
-      - dan
+      # - dan
     type: grid
     grid-item-border: false
     grid-columns: 3
 ---
 
 
+### Open source data science in healthcare
 
+I work on open source data science projects with healthcare applications. Here are a few projects that I'm working on at the moment.
 
-I worked at Norwegian Institute of Public Health during Covid-19 pandemic, focusing on real-time infectious disease surveillance and real-time large scale reporting using R. 
-
-::: {#publichealth}
+::: {#opensource}
 :::
 
 
+### Public health
 
+In 2020-2022, I worked at Norwegian Institute of Public Health during Covid-19 pandemic. I helped develop Sykdomspulsen (now **CSIDS**), a real-time infectious disease surveillance and real-time large scale reporting with open source technology. 
+
+Since 2023, I joined **Noreden** project at University of Oslo. I help develop a set of R tools to facilitate sustainable diet design.
+
+::: {#publichealth}
+:::
 
 
 

@@ -1,7 +1,9 @@
 ---
 title: "Noreden"
-description: "Tools to faciliate sustainable nutrition research"
+description: "R tools to faciliate sustainable nutrition research"
 image: "noreden.png"
 ---
 
 Noreden
+
+

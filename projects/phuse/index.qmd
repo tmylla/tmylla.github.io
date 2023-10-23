@@ -1,0 +1,27 @@
+---
+title: "PHUSE"
+description: "Contributor to the Global Healthcare Data Science Community"
+image: "phuse_logo.png"
+---
+
+I am contributing to two working groups at PHUSE: [CAMIS](https://psiaims.github.io/CAMIS/), and RWD - Real World Data Guideline (early stage).
+
+
+### CAMIS: Comparing Analysis Method Implementations in Software
+
+CAMIS is a cross-industry group formed of members from PHUSE, PSI and ASA. 
+
+Several discrepancies have been discovered in statistical analysis results between different programming languages, even in fully qualified statistical computing environments. Observing differences across languages can reduce the analyst’s confidence in reliability and, by understanding the source of any discrepancies, one can reinstate confidence in reliability.
+
+The goal of this project is to demystify conflict when doing QC and to help ease the transitions to new languages and techniques with comparison and comprehensive explanations.
+
+I am the content curation co-lead in the project, and contribute to topics under **non-parametric** tests.
+
+### RWD Working Group
+
+This is a newly formed working group, working on statistical programming guidelines while working on RWD (read world data). 
+
+*Planning stage*
+
+
+

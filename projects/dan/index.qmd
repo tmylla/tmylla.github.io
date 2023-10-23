@@ -1,7 +1,26 @@
 ---
 title: "Data Apothecary's Notes"
-description: "Personal note taking system for a modern data scientist"
+description: "My own note-taking system for a modern health data scientist"
 image: "logo_dan.png"
 ---
 
-Data Apothecary's Notes
+(This is my own note-taking system using quarto)
+
+### About the notes
+
+[Data Apothecary's Notes](https://andreaczhang.github.io/data-apothecary-notes/) is a note-taking repository for modern data science skills with a focus on **drug development and clinical trials**. Content will be gradually added while I learn the topics. Therefore, it is by no means a complete guide by the time you read it!
+
+I try to organize the content in a modular way. I think these should cover the important aspects in which a data scientist / modern statistician should know.
+
+* study design
+* inference
+* models
+* reporting
+* programming
+
+
+### Why quarto
+
+In short, quarto has the advantage of making a very well structured website with code chunks easy. No more worry about scattered notes in different folders - put them together, render it so you can find your notes quickly!
+
+

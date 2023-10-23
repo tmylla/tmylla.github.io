@@ -32,7 +32,7 @@
     "href": "projects/projects.html",
     "title": "Projects",
     "section": "",
-    "text": "I worked at Norwegian Institute of Public Health during Covid-19 pandemic, focusing on real-time infectious disease surveillance and real-time large scale reporting using R.\n\n\n\n\n\n\n\n\n\n\nCSIDS\n\n\nConsortium for Statistics in Disease Surveillance\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Apothecary’s Notes\n\n\nPersonal note taking system for a modern data scientist\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoreden\n\n\nTools to faciliate sustainable nutrition research\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Open source data science in healthcare\nI work on open source data science projects with healthcare applications. Here are a few projects that I’m working on at the moment.\n\n\n\n\n\n\n\n\n\n\nData Apothecary’s Notes\n\n\nMy own note-taking system for a modern health data scientist\n\n\n\n\n\n\n\n\n\n\n\n\n\nMF9130E Course in R\n\n\nTransform biostatistics classroom into R and quarto\n\n\n\n\n\n\n\n\n\n\n\n\n\nPHUSE\n\n\nContributor to the Global Healthcare Data Science Community\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nPublic health\nIn 2020-2022, I worked at Norwegian Institute of Public Health during Covid-19 pandemic. I helped develop Sykdomspulsen (now CSIDS), a real-time infectious disease surveillance and real-time large scale reporting with open source technology.\nSince 2023, I joined Noreden project at University of Oslo. I help develop a set of R tools to facilitate sustainable diet design.\n\n\n\n\n\n\n\n\n\n\nCSIDS\n\n\nConsortium for Statistics in Disease Surveillance\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoreden\n\n\nR tools to faciliate sustainable nutrition research\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/csids/index.html",
@@ -46,7 +46,7 @@
     "href": "projects/sykdomspulsen/index.html",
     "title": "CSIDS",
     "section": "",
-    "text": "Previously Sykdomspulsen.\nSykdomspulsen is a real-time analysis and disease surveillance system designed and developed at the Norwegian Institute of Public Health (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.\nsplverse is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.\nIn November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to CSIDS: the Consortium for Statistics in Disease Surveillance. Please refer to CSIDS for ongoing developments.\n\nQuick stats\n\nWe receive data from more than 15 data sources every day\n2 000 000 000+ rows of data and results (1TB)\n1 000+ database tables\n1 000 000+ analyses per day\n1 000+ automatic reports per day\n\n\n\nDownload poster (Norwegian)"
+    "text": "CSIDS: the Consortium for Statistics in Disease Surveillance (previously Sykdomspulsen) is a real-time analysis and disease surveillance system designed and developed at the Norwegian Institute of Public Health (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.\n\n\ncsverse is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.\n\n\n\nIn November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to CSIDS: the Consortium for Statistics in Disease Surveillance. Please refer to CSIDS for ongoing developments.\n\n\n\n\nWe receive data from more than 15 data sources every day\n2 000 000 000+ rows of data and results (1TB)\n1 000+ database tables\n1 000 000+ analyses per day\n1 000+ automatic reports per day\n\n\n\nDownload poster (Norwegian)"
   },
   {
     "objectID": "talks/ehr_20221013_ml_icu/index.html",
@@ -116,7 +116,7 @@
     "href": "index.html",
     "title": "Chi Zhang",
     "section": "",
-    "text": "chi.zhang@medisin.uio.no\n  \n  \n    \n     andreaczhang\n  \n  \n    \n     Chi Zhang\n  \n\n  \n  \nHello! I am a statistical programmer at the Faculty of Medicine, University of Oslo. I develop R packages and quarto websites in my daily work.\nAs a part-time lecturer, I teach statistics courses at Oslo Centre for Biostatistics and Epidemiology (OCBE) and R programming at the Carpentries workshops at University of Oslo.\nIn 2020-2022, I worked as R developer and statistician for the open source real-time analysis and public health surveillance system, Sykdomspulsen (now CSIDS) at the Norwegian Institute of Public Health.\nChi enjoys spending time in the mountains."
+    "text": "chi.zhang@medisin.uio.no\n  \n  \n    \n     andreaczhang\n  \n  \n    \n     Chi Zhang\n  \n\n  \n  \nHello! I am a statistical programmer at the Faculty of Medicine, University of Oslo. I develop open source tools (R packages, quarto websites) in my daily work.\nAs a part-time lecturer, I teach statistics courses at Oslo Centre for Biostatistics and Epidemiology (OCBE) and R programming at the Carpentries workshops at University of Oslo.\nIn 2020-2022, I worked as R developer and statistician for the open source real-time analysis and public health surveillance system, Sykdomspulsen (now CSIDS) at the Norwegian Institute of Public Health. Prior to that, I did my PhD at University of Oslo which was on RWD/EHR data.\nI enjoy cooking and spending time in the mountains."
   },
   {
     "objectID": "blog/blog_20230103_blogdown2quarto/index.html",
@@ -963,6 +963,41 @@
     "href": "projects/dan/index.html",
     "title": "Data Apothecary’s Notes",
     "section": "",
-    "text": "Data Apothecary’s Notes"
+    "text": "(This is my own note-taking system using quarto)\n\nAbout the notes\nData Apothecary’s Notes is a note-taking repository for modern data science skills with a focus on drug development and clinical trials. Content will be gradually added while I learn the topics. Therefore, it is by no means a complete guide by the time you read it!\nI try to organize the content in a modular way. I think these should cover the important aspects in which a data scientist / modern statistician should know.\n\nstudy design\ninference\nmodels\nreporting\nprogramming\n\n\n\nWhy quarto\nIn short, quarto has the advantage of making a very well structured website with code chunks easy. No more worry about scattered notes in different folders - put them together, render it so you can find your notes quickly!"
+  },
+  {
+    "objectID": "projects/phuse/index.html",
+    "href": "projects/phuse/index.html",
+    "title": "PHUSE",
+    "section": "",
+    "text": "I am contributing to two working groups at PHUSE: CAMIS, and RWD - Real World Data Guideline (early stage).\n\nCAMIS: Comparing Analysis Method Implementations in Software\nCAMIS is a cross-industry group formed of members from PHUSE, PSI and ASA.\nSeveral discrepancies have been discovered in statistical analysis results between different programming languages, even in fully qualified statistical computing environments. Observing differences across languages can reduce the analyst’s confidence in reliability and, by understanding the source of any discrepancies, one can reinstate confidence in reliability.\nThe goal of this project is to demystify conflict when doing QC and to help ease the transitions to new languages and techniques with comparison and comprehensive explanations.\nI am the content curation co-lead in the project, and contribute to topics under non-parametric tests.\n\n\nRWD Working Group\nThis is a newly formed working group, working on statistical programming guidelines while working on RWD (read world data).\nPlanning stage"
+  },
+  {
+    "objectID": "projects/phuse/index.html#camis-comparing-analysis-method-implementations-in-software",
+    "href": "projects/phuse/index.html#camis-comparing-analysis-method-implementations-in-software",
+    "title": "PHUSE",
+    "section": "CAMIS: Comparing Analysis Method Implementations in Software",
+    "text": "CAMIS: Comparing Analysis Method Implementations in Software\nCAMIS is a cross-industry group formed of members from PHUSE, PSI and ASA.\nSeveral discrepancies have been discovered in statistical analysis results between different programming languages, even in fully qualified statistical computing environments. Observing differences across languages can reduce the analyst’s confidence in reliability and, by understanding the source of any discrepancies, one can reinstate confidence in reliability.\nThe goal of this project is to demystify conflict when doing QC and to help ease the transitions to new languages and techniques with comparison and comprehensive explanations.\nI am the content curation co-lead in the project, and contribute to topics under non-parametric tests."
+  },
+  {
+    "objectID": "projects/phuse/index.html#rwd-working-group",
+    "href": "projects/phuse/index.html#rwd-working-group",
+    "title": "PHUSE",
+    "section": "RWD Working Group",
+    "text": "RWD Working Group"
+  },
+  {
+    "objectID": "projects/os_teaching/index.html",
+    "href": "projects/os_teaching/index.html",
+    "title": "MF9130E Course in R",
+    "section": "",
+    "text": "MF9130E - Introductory course in statistics\n8-day intensive course on introductory statistics. April 2023 we made it with R rather than propriety software, coupled with live-coding sessions to enhance understanding of basic concepts such as distribution and hypothesis tests.\nRepository\nCourse website\nRead more about the experience in this blogpost."
+  },
+  {
+    "objectID": "projects/sykdomspulsen/index.html#overview",
+    "href": "projects/sykdomspulsen/index.html#overview",
+    "title": "CSIDS",
+    "section": "",
+    "text": "CSIDS: the Consortium for Statistics in Disease Surveillance (previously Sykdomspulsen) is a real-time analysis and disease surveillance system designed and developed at the Norwegian Institute of Public Health (NIPH/FHI). It is a unique project that processes new data (e.g. covid-19 cases) shortly after it is available. Complex statistical analyses are automatically run for all locations in Norway, producing reports and alerting various stakeholders. This provides the health authorities the ability to make proactive strategic decisions with the most up-to-date information.\n\n\ncsverse is a number of R packages that have been developed by the Sykdomspulsen team to help with infectious diseases surveillance.\n\n\n\nIn November 2022, the core components of Sykdomspulsen and splverse R packages have been migrated to CSIDS: the Consortium for Statistics in Disease Surveillance. Please refer to CSIDS for ongoing developments.\n\n\n\n\nWe receive data from more than 15 data sources every day\n2 000 000 000+ rows of data and results (1TB)\n1 000+ database tables\n1 000 000+ analyses per day\n1 000+ automatic reports per day\n\n\n\nDownload poster (Norwegian)"
   }
 ]

@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Chi Zhang">
-<meta name="dcterms.date" content="2023-03-17">
-<meta name="description" content="Reading notes on the book. Also serves as a collection of notes from Professor Devi Sridhar’s articles.">
+<meta name="dcterms.date" content="2024-02-18">
+<meta name="description" content="Reading notes on some of the chapters. Book on Amazon: link">
 
-<title>Hello, I’m Chi - Preventable: How a Pandemic Changed the World &amp; How to Stop the Next One - Devi Sridhar</title>
+<title>Hello, I’m Chi - Working in Public: The Making and Maintenance of Open Source Software - Nadia Eghbal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -134,17 +134,19 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul class="collapse">
-  <li><a href="#advice-on-some-measures-to-prepare-for-the-next-pandemic" id="toc-advice-on-some-measures-to-prepare-for-the-next-pandemic" class="nav-link active" data-scroll-target="#advice-on-some-measures-to-prepare-for-the-next-pandemic">Advice on some measures to prepare for the next pandemic</a></li>
+  <ul>
+  <li><a href="#github-as-a-platform" id="toc-github-as-a-platform" class="nav-link active" data-scroll-target="#github-as-a-platform">Github as a platform</a></li>
+  <li><a href="#the-structure-of-an-open-source-software" id="toc-the-structure-of-an-open-source-software" class="nav-link" data-scroll-target="#the-structure-of-an-open-source-software">The structure of an open source software</a></li>
+  <li><a href="#roles-incentives-and-relationships" id="toc-roles-incentives-and-relationships" class="nav-link" data-scroll-target="#roles-incentives-and-relationships">Roles, incentives and relationships</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/readnotes_2023010x_preventable_sridhar/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/readnotes_20240218_open_source/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Preventable: How a Pandemic Changed the World &amp; How to Stop the Next One - Devi Sridhar</h1>
+<h1 class="title">Working in Public: The Making and Maintenance of Open Source Software - Nadia Eghbal</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Notes</div>
   </div>
@@ -152,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    <p>Reading notes on the book. Also serves as a collection of notes from Professor Devi Sridhar’s articles.</p>
+    <p>Reading notes on some of the chapters. Book on Amazon: <a href="https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862">link</a></p>
   </div>
 </div>
 
@@ -169,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 17, 2023</p>
+      <p class="date">February 18, 2024</p>
     </div>
   </div>
   
@@ -179,18 +181,84 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="advice-on-some-measures-to-prepare-for-the-next-pandemic" class="level1">
-<h1>Advice on some measures to prepare for the next pandemic</h1>
-<p>(<em>From <a href="https://www.nature.com/articles/d41586-022-03362-8">Five ways to prepare for the next pandemic</a> by Prof.&nbsp;Devi Sridhar</em>)</p>
+<section id="github-as-a-platform" class="level3">
+<h3 class="anchored" data-anchor-id="github-as-a-platform">Github as a platform</h3>
+<section id="on-contribution" class="level4">
+<h4 class="anchored" data-anchor-id="on-contribution">On contribution</h4>
+<p>Nearly half of all contributors only contributed once; which accounted for less than 2% of total commits.</p>
+<p>The pattern that one or a few developers do most of the work, followed by many casual contributors and even more passive users is the norm, not exception in open source.</p>
+<p>On <strong>casual contributors</strong>: they primarily see themselves as users of the project, rather than a part of a contributor community.</p>
+<p><strong>Challenge for maintainers</strong>: not how to get more contributors, but how to manage high volume of frequent, low-touch interactions (directing air traffic)</p>
+<blockquote class="blockquote">
+<p>Github’s open source developers have more in common with solo creators on Twitter, Instagram, YouTube or Twitch.</p>
+</blockquote>
+<p>Comparing <strong>early internet</strong> and <strong>social platform</strong> nowadays: the early online communities have mailing lists, online forums, membership groups, operated like villages that have their own culture, history and norms. Nowadays creators have much bigger potential audience but the relationship is one-sided, and can be overwhelming.</p>
+</section>
+<section id="on-free-software-and-hacker" class="level4">
+<h4 class="anchored" data-anchor-id="on-free-software-and-hacker">On free software and hacker</h4>
+<p>“Free” means you are able to do what you want with the software, rather than the cost. <strong>Libre rather than gratis</strong>. At least at the beginning.</p>
+<p>Bravado, showmanship, mischievousness, deep mistrust of authority. This culture in the 1980s and 90s was closely linked to the early open source software.</p>
+<p>“Bazaar”: highly participatory, versus “Cathedral”: restricted to a smaller group</p>
+<p>Today’s developer hardly even notice “open source” as a concept anymore, they just want to write and publish their code. They prioritize <strong>convenience</strong> over freedom or openness.</p>
+</section>
+<section id="on-licensing" class="level4">
+<h4 class="anchored" data-anchor-id="on-licensing">On licensing</h4>
+<p>The widespread use of <strong>permissive licensing</strong> is popularized by GH.</p>
+<p><strong>Copyleft licensing</strong> (e.g.&nbsp;GNU General Public License GPL) is not commercial friendly as it requires companies to license their software that depend on open source GPL software to have the same license. However GPL gives developers more control over how others use their code in the long run.</p>
+<blockquote class="blockquote">
+<p>As with any other online content today, sharing is the default.</p>
+</blockquote>
+</section>
+</section>
+<section id="the-structure-of-an-open-source-software" class="level3">
+<h3 class="anchored" data-anchor-id="the-structure-of-an-open-source-software">The structure of an open source software</h3>
+<section id="on-how-projects-evolve" class="level4">
+<h4 class="anchored" data-anchor-id="on-how-projects-evolve">On how projects evolve</h4>
+<p>Create -&gt; Promote and distribute -&gt; Grow</p>
+<p>Projects are promoted like a founder would promote a startup: share on the relevant channels online, give talks at conference and meetups, encourage others to write and talk about it</p>
+<p>A sign that the software is used widely: when the maintainer starts doing more non-code (<strong>triage issues, review pull requests</strong>) rather than code work.</p>
+</section>
+<section id="contributor-and-users" class="level4">
+<h4 class="anchored" data-anchor-id="contributor-and-users">Contributor and users</h4>
+<p>Depends on <strong>technical scope</strong> (whether there is much to do), <strong>support required</strong> (code and admin work), <strong>ease of participation</strong> (whether on Github) and <strong>user adoption</strong> (potential contributor base).</p>
+<p>Four types of projects</p>
 <ul>
-<li>Monitor zoonoses. Identify patogens with pandemic potential, regulate better wet markets</li>
-<li>Sequence globally. Investment in genetic-sequencing capability</li>
-<li>Strengthen manufacturing. Vaccine inequality, fragility of vaccine production. Private and public sector work together - vaccine research, production and distribution.</li>
-<li>Vaccine preparedness. For known diseases (e.g.&nbsp;influenza), invest in vaccines that protect against a wide range of variants. New technology and research for unknown threats</li>
-<li>Stop the spread (long enough for the vaccines) to save lives.</li>
+<li>high user growth, high contributor growth: <strong>federations</strong>. Rare, impactful, the ‘ideal’ of open source project. Roughly 3% of open source projects. Examples: Rust, Node.js, Linux</li>
+<li>high user growth, low contributor growth: <strong>stadiums</strong>: powered by one or a few developers. Centralized.</li>
+<li>low user growth, high contributor growth: <strong>club</strong>. Similar to meetup or hobby groups, do not have a wide reach but are loved and built by enthusiasts.</li>
+<li>low user growth, low contributor growth: <strong>toys</strong>. Personal project, isn’t trying to grow its user base. Projects on Github with less than 10 stars. Authors do not expect to receive contributions nor do they care about whether people are watching.</li>
 </ul>
+<p>Decentralized communities (clubs and federations) have the potential for high user growth - <strong>recruit new contributors, reduce contribution friction</strong>.</p>
+<p>Centralized communities (stadium) depends on the creators to manage user demand - <strong>automation, elimination of noise</strong></p>
+</section>
+</section>
+<section id="roles-incentives-and-relationships" class="level3">
+<h3 class="anchored" data-anchor-id="roles-incentives-and-relationships">Roles, incentives and relationships</h3>
+<section id="firms-or-communities" class="level4">
+<h4 class="anchored" data-anchor-id="firms-or-communities">Firms or communities</h4>
+<p>Firms (companies, organizations): centralized resources; from a coordination standpoint, managing resources would be more efficient within the same organization - which does not explain why open source developers make software together without formal contracts and financial compensation.</p>
+</section>
+<section id="the-commons-and-peer-production" class="level4">
+<h4 class="anchored" data-anchor-id="the-commons-and-peer-production">The commons and peer production</h4>
+<p><strong>Tragedy of the commons</strong>: resources depleted by people acting in their own self-interest rather than in the collective interest.</p>
+<p>(One of the 8 design principles by Ostrom on) successful commons:</p>
+<blockquote class="blockquote">
+<p>Those who are affecteed by the rules can participate in modifying them.</p>
+</blockquote>
+<p>Strong sense of group identity maks rules, dispute resolution more meaningful.</p>
+<p>Coordination cost is lower when self-organized based on who wants to do the work most, anyone can do the advertised work and volunteer.</p>
+<p>In contrast, in companies - solicit, evaluate, hire, manage employees; only employees can do the work limited by their job functions.</p>
+<p>People collaborating online for no obvious reason beyond <strong>personal satisfaction</strong> (intrinsic motivation)</p>
+<p><strong>Modular and granular tasks</strong>: how tasks are organized, and how big each task is.</p>
+<p><strong>Low coordination costs</strong>: quality control over thee modules, integrate the contributions into the finished product</p>
+</section>
+<section id="contribution-beyond-code" class="level4">
+<h4 class="anchored" data-anchor-id="contribution-beyond-code">Contribution beyond code</h4>
+<p>Some users do not consider them a contributor, but do actually contribute by education, spreading the word, support (forum), bug reports and more.</p>
+<p>These active users are similar to contributors but operate independently from project’s contributor community.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publichealth .list');
+    const listingTargetEl = window.document.querySelector('#listing-rwdpublichealth .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publichealth'] = new List('listing-publichealth', options);
+    window['quarto-listings']['listing-rwdpublichealth'] = new List('listing-rwdpublichealth', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -209,6 +209,53 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="real-world-data-and-public-health" class="level3">
+<h3 class="anchored" data-anchor-id="real-world-data-and-public-health">Real World Data and Public health</h3>
+<p>My main research interest is <strong>hospital Electronic Health Records</strong> and large <strong>health registry</strong> data. More specifically, I am currently working on quality assurance of the prescription and use of antibiotics in a hospital setting.</p>
+<p>In 2020-2022, I worked at Norwegian Institute of Public Health during Covid-19 pandemic. I helped develop Sykdomspulsen (now <strong>CSIDS</strong>), a real-time infectious disease surveillance and real-time large scale reporting with open source technology.</p>
+<p>Since 2023, I joined <a href="https://www.med.uio.no/imb/english/research/projects/nor-eden/">NOR-Eden</a> and <a href="https://www.med.uio.no/imb/english/research/projects/norkost/">Norkost</a> projects at University of Oslo. I help develop a set of R tools to facilitate sustainable diet design.</p>
+<div id="listing-rwdpublichealth" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1698061503284" data-listing-reading-time-sort="1">
+<a href="../projects/sykdomspulsen/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="../projects/sykdomspulsen/csids.png" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+CSIDS
+</h5>
+<div class="card-text listing-description">
+Consortium for Statistics in Disease Surveillance
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1698064923060" data-listing-reading-time-sort="1">
+<a href="../projects/noreden/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="../projects/noreden/noreden.png" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Noreden
+</h5>
+<div class="card-text listing-description">
+R tools to faciliate sustainable nutrition research
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
 <section id="open-source-data-science-in-healthcare" class="level3">
 <h3 class="anchored" data-anchor-id="open-source-data-science-in-healthcare">Open source data science in healthcare</h3>
 <p>I work on open source data science projects with healthcare applications. Here are a few projects that I’m working on at the moment.</p>
@@ -260,52 +307,6 @@ PHUSE
 </h5>
 <div class="card-text listing-description">
 Contributor to the Global Healthcare Data Science Community
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="public-health" class="level3">
-<h3 class="anchored" data-anchor-id="public-health">Public health</h3>
-<p>In 2020-2022, I worked at Norwegian Institute of Public Health during Covid-19 pandemic. I helped develop Sykdomspulsen (now <strong>CSIDS</strong>), a real-time infectious disease surveillance and real-time large scale reporting with open source technology.</p>
-<p>Since 2023, I joined <strong>Noreden</strong> project at University of Oslo. I help develop a set of R tools to facilitate sustainable diet design.</p>
-<div id="listing-publichealth" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1698061503284" data-listing-reading-time-sort="1">
-<a href="../projects/sykdomspulsen/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="../projects/sykdomspulsen/csids.png" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-CSIDS
-</h5>
-<div class="card-text listing-description">
-Consortium for Statistics in Disease Surveillance
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1698064923060" data-listing-reading-time-sort="1">
-<a href="../projects/noreden/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="../projects/noreden/noreden.png" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Noreden
-</h5>
-<div class="card-text listing-description">
-R tools to faciliate sustainable nutrition research
 </div>
 </div>
 </div>
@@ -558,7 +559,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2023, Chi Zhang</div>   
+    <div class="nav-footer-left">© Copyright 2024, Chi Zhang</div>   
     <div class="nav-footer-center">
       &nbsp;
     <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/projects/projects.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
@@ -567,12 +568,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/andreaczhang/andreaczhang.github.io">
       <i class="bi bi-github" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/Andreasheenn">
-      <i class="bi bi-twitter" role="img">
 </i> 
     </a>
   </li>  

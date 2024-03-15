@@ -10,6 +10,7 @@ listing:
     contents: 
       - mf9130
       - ern4110
+      - med3007
     type: table
     grid-item-border: false
     sort-ui: false
@@ -34,7 +35,7 @@ I started teaching introductory statistics at Faculty of Medicine, University of
 In my free time I volunteer in the Carpentries workshops to teach Rstats to researchers and students at UiO.
 
 
-## Introductory Statistics
+## Statistics
 
 ::: {#medstat}
 :::

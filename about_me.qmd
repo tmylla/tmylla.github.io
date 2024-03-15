@@ -28,11 +28,12 @@ about:
 
 :::
 
-I am a statistical programmer and part-time lecturer at the Faculty of Medicine, University of Oslo. Over the past few years, I've become very interested in **research software, open source** and **data science** practices in education and public sector.
+I am a statistician and part-time lecturer at the Faculty of Medicine, University of Oslo. Over the past few years, I've become very interested in **research software, open source** and **data science** practices in education and public sector.
 
 
 My **interests** are: 
 
+* Real World Data (RWD), in particular Electronic Health Records (EHR) data,
 * Statistical software development in public health and clinical research,
 * Statistics education with open source tools,
 * Quarto.

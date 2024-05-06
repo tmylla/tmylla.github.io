@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Chi Zhang">
-<meta name="dcterms.date" content="2022-10-22">
-<meta name="description" content="Open COVID19 data for Norway">
+<meta name="dcterms.date" content="2024-05-06">
+<meta name="description" content="Observational Health Data Sciences and Informatics">
 
-<title>Hello, I’m Chi - covidnor</title>
+<title>Hello, I’m Chi - Notes: The Book of OHDSI - Data Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -137,21 +137,35 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#chapter-7-data-analytics-use-cases" id="toc-chapter-7-data-analytics-use-cases" class="nav-link active" data-scroll-target="#chapter-7-data-analytics-use-cases">Chapter 7 Data analytics use cases</a>
+  <ul class="collapse">
+  <li><a href="#characterization" id="toc-characterization" class="nav-link" data-scroll-target="#characterization">Characterization</a></li>
+  <li><a href="#population-level-estimation" id="toc-population-level-estimation" class="nav-link" data-scroll-target="#population-level-estimation">Population-level estimation</a></li>
+  <li><a href="#patient-level-prediction" id="toc-patient-level-prediction" class="nav-link" data-scroll-target="#patient-level-prediction">Patient-level prediction</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/technotes_20240506_ohdsi_part1/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">covidnor</h1>
+<h1 class="title">Notes: The Book of OHDSI - Data Analytics</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">data</div>
+    <div class="quarto-category">Data science</div>
+    <div class="quarto-category">Observational data</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Open COVID19 data for Norway
+    <p>Observational Health Data Sciences and Informatics</p>
   </div>
 </div>
 
@@ -168,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 22, 2022</p>
+      <p class="date">May 6, 2024</p>
     </div>
   </div>
   
@@ -180,9 +194,92 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>https://github.com/csids/covidnor</p>
+<p><a href="https://ohdsi.github.io/TheBookOfOhdsi/">The Book of OHDSI</a> written by the OHDSI community.</p>
+<p>What is required to go from origin (source data) to destination (evidence):</p>
+<ul>
+<li>understanding of health informatics, patient and provider interaction through administrative and clinical systems into final depository</li>
+<li>appreciation of the biases that can arise in the data curation processes</li>
+<li>mastery of epidemiological principles and statistical methods to translate clinical questions into an observational study design properly</li>
+<li>technical ability to implement and execute computationally-efficient data science algorithms</li>
+<li>clinical knowledge to synthesize knowledge learned, and determine how the new knowledge should impact health policy and clinical practice.</li>
+</ul>
+<p>OMOP: Observational Medical Outcomes Partnership, aims to identify true drug safety association.</p>
+<p>OMOP CDM: common data model, a mechanism to standardize the structure, content and semantics to make it possible to write statistical code that can be reused at every data site.</p>
+<p>OHDSI community (2014) has created libraries of open-source analytics tools atop OMOP CDM to support:</p>
+<ul>
+<li>clinical characterisation for disease natural history, treatment utilisation, quality improvement</li>
+<li>population level effect estimation to apply causal inference for medical product safety surveillance and comparative effectiveness</li>
+<li>patient level prediction to apply machine learning for precision medicine and disease interception</li>
+</ul>
+<section id="chapter-7-data-analytics-use-cases" class="level1">
+<h1>Chapter 7 Data analytics use cases</h1>
+<p>Three major categories: characterization, population-level estimation, patient-level prediction</p>
+<section id="characterization" class="level2">
+<h2 class="anchored" data-anchor-id="characterization">Characterization</h2>
+<blockquote class="blockquote">
+<p>What happened to the patients.</p>
+</blockquote>
+<p><a href="https://ohdsi.github.io/TheBookOfOhdsi/Characterization.html#cohort-characterization">Chapter 11 Characterization</a></p>
+<p>Typical characterization questions:</p>
+<ul>
+<li>How many patients…?</li>
+<li>How often does…? What proportion of patients …?</li>
+<li>What is the distribution of values for …?</li>
+<li>What is the median length of exposure for patients on …?</li>
+<li>Other drugs the patient is using?</li>
+</ul>
+<p>Desired output:</p>
+<ul>
+<li>count, percentage</li>
+<li>averages and other descriptive statistics</li>
+<li>prevalence, incidence rate</li>
+<li>rule-based phenotype</li>
+<li>drug utilization, adherence, treatment pathways, line of therapy</li>
+<li>disease natural history, co-morbidity profile</li>
+</ul>
+</section>
+<section id="population-level-estimation" class="level2">
+<h2 class="anchored" data-anchor-id="population-level-estimation">Population-level estimation</h2>
+<blockquote class="blockquote">
+<p>What are the causal effects</p>
+</blockquote>
+<p><a href="https://ohdsi.github.io/TheBookOfOhdsi/PopulationLevelEstimation.html">Chapter 12 Population-level Estimation</a></p>
+<p>Typical questions:</p>
+<ul>
+<li>What is the effect of …?</li>
+<li>Which treatment works better?</li>
+<li>What is the risk of X on Y?</li>
+<li>What is the time-to-event of …?</li>
+</ul>
+<p>Desired output:</p>
+<ul>
+<li>RR, HR, OR</li>
+<li>Association, correlation</li>
+<li>ATE, causal effect</li>
+</ul>
+</section>
+<section id="patient-level-prediction" class="level2">
+<h2 class="anchored" data-anchor-id="patient-level-prediction">Patient-level prediction</h2>
+<blockquote class="blockquote">
+<p>What will happen to A?</p>
+</blockquote>
+<p><a href="https://ohdsi.github.io/TheBookOfOhdsi/PatientLevelPrediction.html">Chapter 13 Patient-level Prediction</a></p>
+<p>Typical questions:</p>
+<ul>
+<li>What is the chance that this patient will…?</li>
+<li>Who are the candidate for…?</li>
+</ul>
+<p>Desired output:</p>
+<ul>
+<li>probability for an individual</li>
+<li>prediction model</li>
+<li>high/low risk groups</li>
+<li>probabilistic phenotype</li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -602,7 +699,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/rpkg/covidnor/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/technotes_20240506_ohdsi_part1/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

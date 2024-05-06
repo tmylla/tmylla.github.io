@@ -67,7 +67,7 @@
     "href": "talks/talks.html",
     "title": "Talks",
     "section": "",
-    "text": "Basel R meeting\n\n\nJoin us to hear about how we ran a trial classroom (MF9130E) with R and Quarto at the Faculty of Medicine, University of Oslo\n\n\n\n\n\n\nJul 21, 2023\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
+    "text": "Basel R meeting\n\n\nJoin us to hear about how we ran a trial classroom (MF9130E) with R and Quarto at the Faculty of Medicine, University of Oslo\n\n\n\n\n\nJul 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/talks.html#rstats",
@@ -81,7 +81,7 @@
     "href": "talks/talks.html#electronic-health-records",
     "title": "Talks",
     "section": "Electronic Health Records",
-    "text": "Electronic Health Records\n\n\n\n\n  \n\n\n\n\nMachine Learning in Intensive Care Units\n\n\n\n\n\nA 45 minutes trial lecture to fulfill the requirement of my PhD degree\n\n\n\n\n\n\nOct 13, 2022\n\n\n\n\n\n\n  \n\n\n\n\nNetwork Analysis of Hospital EHR data\n\n\n\n\n\nThe talk I gave at Big Insight Day 2021\n\n\n\n\n\n\nFeb 18, 2021\n\n\n\n\n\n\n  \n\n\n\n\nLearning from Hospital EHR data with R\n\n\n\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\n\nNo matching items"
+    "text": "Electronic Health Records\n\n\n\n\n\n\n\n\n\n\nMachine Learning in Intensive Care Units\n\n\n\n\n\nA 45 minutes trial lecture to fulfill the requirement of my PhD degree\n\n\n\n\n\nOct 13, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nNetwork Analysis of Hospital EHR data\n\n\n\n\n\nThe talk I gave at Big Insight Day 2021\n\n\n\n\n\nFeb 18, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nLearning from Hospital EHR data with R\n\n\n\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/ehr_20210218_biday/index.html",
@@ -452,7 +452,7 @@
     "href": "rpkg/rpkg.html",
     "title": "R packages",
     "section": "",
-    "text": "Title\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\nOpen COVID19 data for Norway\n\n\n\n\ncsalert\n\n\nOutbreak detection in public health surveillance\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\nPre-formatted map data in Norway\n\n\n\n\ncstime\n\n\nDate and time functions for public health purposes\n\n\n\n\nnoreden\n\n\nTools to facilitate nutrition researcher for sustainable diet discovery\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\nOpen COVID19 data for Norway\n\n\n\n\ncsalert\n\n\nOutbreak detection in public health surveillance\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\nPre-formatted map data in Norway\n\n\n\n\ncstime\n\n\nDate and time functions for public health purposes\n\n\n\n\nnoreden\n\n\nTools to facilitate nutrition researcher for sustainable diet discovery\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "rpkg/qtwAcademic/index.html",
@@ -515,7 +515,7 @@
     "href": "teaching/teaching.html#workshops",
     "title": "Teaching",
     "section": "Workshops",
-    "text": "Workshops\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\nR for Reproducible Scientific Analysis\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\nZero to Quarto Workshop\n\n\nZurich R Ladies workshop\n\n\nquarto\n\n\n\n\n\n\nNo matching items"
+    "text": "Workshops\n\n\n\n\n\nTitle\n\n\nDescription\n\n\ntype\n\n\n\n\n\n\nOslo Bioinformatics Week\n\n\nMachine Learning principles for small and noisy biomedical data\n\n\nbioinformatics\n\n\n\n\nR for Reproducible Scientific Analysis\n\n\nSoftware carpentry course for introductory R\n\n\nrstats\n\n\n\n\nZero to Quarto Workshop\n\n\nZurich R Ladies workshop\n\n\nquarto\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/teaching.html#guides-and-cheatsheets",
@@ -753,7 +753,7 @@
     "href": "talks/talks.html#public-health",
     "title": "Talks",
     "section": "Public Health",
-    "text": "Public Health\n\n\n\n\n  \n\n\n\n\nPublic health surveillance and reporting\n\n\nAn open source approach\n\n\nJoin us for a discussion on how open source tools can enable automated, reproducible and scalable public health reporting.\n\n\n\n\n\n\nMar 30, 2023\n\n\n\n\n\n\n  \n\n\n\n\nIntroducing Sykdomspulsen\n\n\nAn automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup\n\n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Public Health\n\n\n\n\n\n\n\n\n\n\nPublic health surveillance and reporting\n\n\nAn open source approach\n\n\nJoin us for a discussion on how open source tools can enable automated, reproducible and scalable public health reporting.\n\n\n\n\n\nMar 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nIntroducing Sykdomspulsen\n\n\nAn automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup \n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/rstats_20230721_teaching/index.html",
@@ -879,7 +879,7 @@
     "href": "talks/talks.html#rstats-and-quarto",
     "title": "Talks",
     "section": "",
-    "text": "Basel R meeting\n\n\nJoin us to hear about how we ran a trial classroom (MF9130E) with R and Quarto at the Faculty of Medicine, University of Oslo\n\n\n\n\n\n\nJul 21, 2023\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
+    "text": "Basel R meeting\n\n\nJoin us to hear about how we ran a trial classroom (MF9130E) with R and Quarto at the Faculty of Medicine, University of Oslo\n\n\n\n\n\nJul 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/teaching.html#introductory-statistics",
@@ -921,14 +921,14 @@
     "href": "rpkg/rpkg.html#public-health",
     "title": "R packages",
     "section": "",
-    "text": "Title\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\nOpen COVID19 data for Norway\n\n\n\n\ncsalert\n\n\nOutbreak detection in public health surveillance\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\nPre-formatted map data in Norway\n\n\n\n\ncstime\n\n\nDate and time functions for public health purposes\n\n\n\n\nnoreden\n\n\nTools to facilitate nutrition researcher for sustainable diet discovery\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\nOpen COVID19 data for Norway\n\n\n\n\ncsalert\n\n\nOutbreak detection in public health surveillance\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\nPre-formatted map data in Norway\n\n\n\n\ncstime\n\n\nDate and time functions for public health purposes\n\n\n\n\nnoreden\n\n\nTools to facilitate nutrition researcher for sustainable diet discovery\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "rpkg/rpkg.html#medicine",
     "href": "rpkg/rpkg.html#medicine",
     "title": "R packages",
     "section": "Medicine",
-    "text": "Medicine\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nbayesynergy\n\n\n(Contributor) Synergistic interaction effects in in vitro drug combination…\n\n\n\n\nmedicode\n\n\nMetadata and tools for medical classification and clinical coding\n\n\n\n\n\n\nNo matching items"
+    "text": "Medicine\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nbayesynergy\n\n\n(Contributor) Synergistic interaction effects in in vitro drug combination…\n\n\n\n\nmedicode\n\n\nMetadata and tools for medical classification and clinical coding\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "rpkg/rpkg.html#quarto-tools",
@@ -1047,6 +1047,48 @@
     "href": "teaching/teaching.html#statistics",
     "title": "Teaching",
     "section": "Statistics",
-    "text": "Statistics\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nERN4110\n\n\nStatistics for master students in nutrition\n\n\n\n\nMED3007\n\n\nStatistical Principles in Genomics\n\n\n\n\nMF9130/MF9130E\n\n\nIntroductory course in statistics\n\n\n\n\n\n\nNo matching items"
+    "text": "Statistics\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\nERN4110\n\n\nStatistics for master students in nutrition\n\n\n\n\nMED3007\n\n\nStatistical Principles in Genomics\n\n\n\n\nMF9130/MF9130E\n\n\nIntroductory course in statistics\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/technotes_20240506_ohdsi_part1/index.html",
+    "href": "blog/technotes_20240506_ohdsi_part1/index.html",
+    "title": "Notes: The Book of OHDSI - Data Analytics",
+    "section": "",
+    "text": "The Book of OHDSI written by the OHDSI community.\nWhat is required to go from origin (source data) to destination (evidence):\nOMOP: Observational Medical Outcomes Partnership, aims to identify true drug safety association.\nOMOP CDM: common data model, a mechanism to standardize the structure, content and semantics to make it possible to write statistical code that can be reused at every data site.\nOHDSI community (2014) has created libraries of open-source analytics tools atop OMOP CDM to support:"
+  },
+  {
+    "objectID": "teaching/ern4110/index.html#ern4110-statistikk-for-masterstudenter-i-ernæring",
+    "href": "teaching/ern4110/index.html#ern4110-statistikk-for-masterstudenter-i-ernæring",
+    "title": "ERN4110",
+    "section": "",
+    "text": "ERN4110\nEmnet gir en anvendt rettet innføring i statistiske grunnbegreper og sentrale statistiske metoder. Det blir lagt vekt på konkrete eksempler fra ernæringsvitenskap og medisin. PC-øvelser med statistikkpakken Stata er en essensiell del av undervisningen."
+  },
+  {
+    "objectID": "projects/nor_mortality/index.html#norwegian-surveillance-system-for-excess-mortality",
+    "href": "projects/nor_mortality/index.html#norwegian-surveillance-system-for-excess-mortality",
+    "title": "Mortality Surveillance in Norway",
+    "section": "",
+    "text": "NorMOMO"
+  },
+  {
+    "objectID": "blog/technotes_20240506_ohdsi_part1/index.html#characterization",
+    "href": "blog/technotes_20240506_ohdsi_part1/index.html#characterization",
+    "title": "Notes: The Book of OHDSI - Data Analytics",
+    "section": "Characterization",
+    "text": "Characterization\n\nWhat happened to the patients.\n\nChapter 11 Characterization\nTypical characterization questions:\n\nHow many patients…?\nHow often does…? What proportion of patients …?\nWhat is the distribution of values for …?\nWhat is the median length of exposure for patients on …?\nOther drugs the patient is using?\n\nDesired output:\n\ncount, percentage\naverages and other descriptive statistics\nprevalence, incidence rate\nrule-based phenotype\ndrug utilization, adherence, treatment pathways, line of therapy\ndisease natural history, co-morbidity profile"
+  },
+  {
+    "objectID": "blog/technotes_20240506_ohdsi_part1/index.html#population-level-estimation",
+    "href": "blog/technotes_20240506_ohdsi_part1/index.html#population-level-estimation",
+    "title": "Notes: The Book of OHDSI - Data Analytics",
+    "section": "Population-level estimation",
+    "text": "Population-level estimation\n\nWhat are the causal effects\n\nChapter 12 Population-level Estimation\nTypical questions:\n\nWhat is the effect of …?\nWhich treatment works better?\nWhat is the risk of X on Y?\nWhat is the time-to-event of …?\n\nDesired output:\n\nRR, HR, OR\nAssociation, correlation\nATE, causal effect"
+  },
+  {
+    "objectID": "blog/technotes_20240506_ohdsi_part1/index.html#patient-level-prediction",
+    "href": "blog/technotes_20240506_ohdsi_part1/index.html#patient-level-prediction",
+    "title": "Notes: The Book of OHDSI - Data Analytics",
+    "section": "Patient-level prediction",
+    "text": "Patient-level prediction\n\nWhat will happen to A?\n\nChapter 13 Patient-level Prediction\nTypical questions:\n\nWhat is the chance that this patient will…?\nWho are the candidate for…?\n\nDesired output:\n\nprobability for an individual\nprediction model\nhigh/low risk groups\nprobabilistic phenotype"
   }
 ]

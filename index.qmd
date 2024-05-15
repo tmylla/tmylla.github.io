@@ -20,11 +20,12 @@ about:
 
 ::: {#hero-heading}
 
-Hello! I am a statistician at the Faculty of Medicine, University of Oslo. I develop open source tools (**R packages, quarto websites**) in my daily work.
+Hello! I am a statistician and R developer at the Faculty of Medicine, University of Oslo. I'm mostly interested in **RWD (real-world data)**, such as hospital Electronic Health Record and large public health registry data. 
 
-As a part-time lecturer, I teach **statistics** courses at Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)) and **R programming** at the [Carpentries workshops](https://www.ub.uio.no/english/libraries/dsc/carpentry-uio/) at University of Oslo.
+In 2020-2022, I worked as part of the COVID emergency response at the [Norwegian Institute of Public Health](https://www.fhi.no/en/). I helped develop the open source real-time analysis and public health surveillance system, **Sykdomspulsen**, and co-founded now [CSIDS](https://www.csids.no), the Consorium of Statistics in Disease Surveillance. I've been giving statistical advice and collaborating with clinicians at Oslo University Hospital since 2016.
 
-In 2020-2022, I worked as R developer and statistician for the open source real-time analysis and public health surveillance system, Sykdomspulsen (now [CSIDS](https://www.csids.no)) at the [Norwegian Institute of Public Health](https://www.fhi.no/en/). Prior to that, I did my PhD at University of Oslo, focusing on hospital **Electronic Health Records** data.
+As a part-time lecturer, I teach **statistics with R and Quarto** at Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)) and **R programming** at the [Carpentries workshops](https://www.ub.uio.no/english/libraries/dsc/carpentry-uio/) at University of Oslo.
+
 
 I enjoy cooking and spending time in the mountains.
 :::

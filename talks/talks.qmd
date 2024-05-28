@@ -1,7 +1,6 @@
 ---
 title: "Talks"
 description: |
-  Something that Chi talks about 
 listing:
   - id: ph
     max-description-length: 500
@@ -43,6 +42,23 @@ listing:
     sort: "priority asc"
     filter-ui: false
 ---
+
+## Upcoming talks
+
+#### R/Medicine
+
+**A one year recap on teaching statistics to medical students: how can R and Quarto help?**
+
+2024.6.10-14, online. Conference link: [R/Medicine](https://rconsortium.github.io/RMedicine_website/)
+
+
+#### UseR!
+
+**CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations**
+
+2024.7.8-11, Salzburg, Austria. Conference link: [UseR!](https://events.linuxfoundation.org/user/)
+
+
 
 ## Rstats and Quarto
 

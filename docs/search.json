@@ -67,7 +67,7 @@
     "href": "talks/talks.html",
     "title": "Talks",
     "section": "",
-    "text": "Basel R meeting\n\n\nJoin us to hear about how we ran a trial classroom (MF9130E) with R and Quarto at the Faculty of Medicine, University of Oslo\n\n\n\n\n\nJul 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
+    "text": "A one year recap on teaching statistics to medical students: how can R and Quarto help?\n2024.6.10-14, online. Conference link: R/Medicine\n\n\n\nCAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n2024.7.8-11, Salzburg, Austria. Conference link: UseR!"
   },
   {
     "objectID": "talks/talks.html#rstats",
@@ -878,8 +878,8 @@
     "objectID": "talks/talks.html#rstats-and-quarto",
     "href": "talks/talks.html#rstats-and-quarto",
     "title": "Talks",
-    "section": "",
-    "text": "Basel R meeting\n\n\nJoin us to hear about how we ran a trial classroom (MF9130E) with R and Quarto at the Faculty of Medicine, University of Oslo\n\n\n\n\n\nJul 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
+    "section": "Rstats and Quarto",
+    "text": "Rstats and Quarto\n\n\n\n\n\n\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nBasel R meeting\n\n\nJoin us to hear about how we ran a trial classroom (MF9130E) with R and Quarto at the Faculty of Medicine, University of Oslo\n\n\n\n\n\nJul 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Website in R: Step by Step Introduction to blogdown\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/teaching.html#introductory-statistics",
@@ -1090,5 +1090,12 @@
     "title": "Notes: The Book of OHDSI - Data Analytics",
     "section": "Patient-level prediction",
     "text": "Patient-level prediction\n\nWhat will happen to A?\n\nChapter 13 Patient-level Prediction\nTypical questions:\n\nWhat is the chance that this patient will…?\nWho are the candidate for…?\n\nDesired output:\n\nprobability for an individual\nprediction model\nhigh/low risk groups\nprobabilistic phenotype"
+  },
+  {
+    "objectID": "talks/talks.html#upcoming-talks",
+    "href": "talks/talks.html#upcoming-talks",
+    "title": "Talks",
+    "section": "",
+    "text": "A one year recap on teaching statistics to medical students: how can R and Quarto help?\n2024.6.10-14, online. Conference link: R/Medicine\n\n\n\nCAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n2024.7.8-11, Salzburg, Austria. Conference link: UseR!"
   }
 ]

@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Chi Zhang">
-<meta name="dcterms.date" content="2024-02-18">
+<meta name="dcterms.date" content="2024-06-06">
 <meta name="description" content="Reading notes on some of the chapters. Book on Amazon: link">
 
-<title>Hello, I’m Chi - Working in Public: The Making and Maintenance of Open Source Software - Nadia Eghbal</title>
+<title>Hello, I’m Chi - Bad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -142,18 +142,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#github-as-a-platform" id="toc-github-as-a-platform" class="nav-link active" data-scroll-target="#github-as-a-platform">Github as a platform</a></li>
-  <li><a href="#the-structure-of-an-open-source-software" id="toc-the-structure-of-an-open-source-software" class="nav-link" data-scroll-target="#the-structure-of-an-open-source-software">The structure of an open source software</a></li>
-  <li><a href="#roles-incentives-and-relationships" id="toc-roles-incentives-and-relationships" class="nav-link" data-scroll-target="#roles-incentives-and-relationships">Roles, incentives and relationships</a></li>
+  <li><a href="#notes-from-the-book" id="toc-notes-from-the-book" class="nav-link active" data-scroll-target="#notes-from-the-book">Notes from the book</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/readnotes_20240218_open_source/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/readnotes_20240606_bad_pharma/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Working in Public: The Making and Maintenance of Open Source Software - Nadia Eghbal</h1>
+<h1 class="title">Bad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Notes</div>
   </div>
@@ -161,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    <p>Reading notes on some of the chapters. Book on Amazon: <a href="https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862">link</a></p>
+    <p>Reading notes on some of the chapters. Book on Amazon: <a href="https://www.amazon.co.uk/Bad-Pharma-How-Medicine-Broken/dp/000749808X">link</a></p>
   </div>
 </div>
 
@@ -178,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 18, 2024</p>
+      <p class="date">June 6, 2024</p>
     </div>
   </div>
   
@@ -190,84 +188,86 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="github-as-a-platform" class="level3">
-<h3 class="anchored" data-anchor-id="github-as-a-platform">Github as a platform</h3>
-<section id="on-contribution" class="level4">
-<h4 class="anchored" data-anchor-id="on-contribution">On contribution</h4>
-<p>Nearly half of all contributors only contributed once; which accounted for less than 2% of total commits.</p>
-<p>The pattern that one or a few developers do most of the work, followed by many casual contributors and even more passive users is the norm, not exception in open source.</p>
-<p>On <strong>casual contributors</strong>: they primarily see themselves as users of the project, rather than a part of a contributor community.</p>
-<p><strong>Challenge for maintainers</strong>: not how to get more contributors, but how to manage high volume of frequent, low-touch interactions (directing air traffic)</p>
+<section id="notes-from-the-book" class="level2">
+<h2 class="anchored" data-anchor-id="notes-from-the-book">Notes from the book</h2>
 <blockquote class="blockquote">
-<p>Github’s open source developers have more in common with solo creators on Twitter, Instagram, YouTube or Twitch.</p>
+<p>Industry funded trials were twenty times more likely to give results that are favoring the test drug</p>
 </blockquote>
-<p>Comparing <strong>early internet</strong> and <strong>social platform</strong> nowadays: the early online communities have mailing lists, online forums, membership groups, operated like villages that have their own culture, history and norms. Nowadays creators have much bigger potential audience but the relationship is one-sided, and can be overwhelming.</p>
-</section>
-<section id="on-free-software-and-hacker" class="level4">
-<h4 class="anchored" data-anchor-id="on-free-software-and-hacker">On free software and hacker</h4>
-<p>“Free” means you are able to do what you want with the software, rather than the cost. <strong>Libre rather than gratis</strong>. At least at the beginning.</p>
-<p>Bravado, showmanship, mischievousness, deep mistrust of authority. This culture in the 1980s and 90s was closely linked to the early open source software.</p>
-<p>“Bazaar”: highly participatory, versus “Cathedral”: restricted to a smaller group</p>
-<p>Today’s developer hardly even notice “open source” as a concept anymore, they just want to write and publish their code. They prioritize <strong>convenience</strong> over freedom or openness.</p>
-</section>
-<section id="on-licensing" class="level4">
-<h4 class="anchored" data-anchor-id="on-licensing">On licensing</h4>
-<p>The widespread use of <strong>permissive licensing</strong> is popularized by GH.</p>
-<p><strong>Copyleft licensing</strong> (e.g.&nbsp;GNU General Public License GPL) is not commercial friendly as it requires companies to license their software that depend on open source GPL software to have the same license. However GPL gives developers more control over how others use their code in the long run.</p>
+<p>On the need for meta-analysis</p>
 <blockquote class="blockquote">
-<p>As with any other online content today, sharing is the default.</p>
+<p>People would write long review articles surveying the literature - in which they would cite the trial data they come across in a completely unsystematic fashion, often reflecting their own prejudice and values.</p>
 </blockquote>
-</section>
-</section>
-<section id="the-structure-of-an-open-source-software" class="level3">
-<h3 class="anchored" data-anchor-id="the-structure-of-an-open-source-software">The structure of an open source software</h3>
-<section id="on-how-projects-evolve" class="level4">
-<h4 class="anchored" data-anchor-id="on-how-projects-evolve">On how projects evolve</h4>
-<p>Create -&gt; Promote and distribute -&gt; Grow</p>
-<p>Projects are promoted like a founder would promote a startup: share on the relevant channels online, give talks at conference and meetups, encourage others to write and talk about it</p>
-<p>A sign that the software is used widely: when the maintainer starts doing more non-code (<strong>triage issues, review pull requests</strong>) rather than code work.</p>
-</section>
-<section id="contributor-and-users" class="level4">
-<h4 class="anchored" data-anchor-id="contributor-and-users">Contributor and users</h4>
-<p>Depends on <strong>technical scope</strong> (whether there is much to do), <strong>support required</strong> (code and admin work), <strong>ease of participation</strong> (whether on Github) and <strong>user adoption</strong> (potential contributor base).</p>
-<p>Four types of projects</p>
+<p>On trials</p>
+<blockquote class="blockquote">
+<p>… mild torture economy: you’re not being paid to do a job, you’re being paid to endure.</p>
+</blockquote>
+<p>On regulators</p>
+<blockquote class="blockquote">
+<p>free movement of staff between regulators and drug companies… a fifth of those surveyed said they had been pressured to approve a drug despite reservation about efficacy and safety</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>application from large companies, which have greater experience with the regulatory process, pass through to approval faster than those from smaller companies</p>
+</blockquote>
+<p>On surrogate outcomes</p>
+<blockquote class="blockquote">
+<p>they are approved for showing a benefit on surrogate outcomes, such as blood test, that is only weakly or theoretically associated with the real suffering and death we’re trying to avoid. Sometimes drugs which work well to change surrogate outcomes simply don’t make any difference to the real outcome.</p>
+</blockquote>
+<p>On comparative effectiveness research</p>
+<blockquote class="blockquote">
+<p>it is a vitally important filed, in many cases the value of finding out what works best among the drugs we already have would hugely exceed the value of developing entirely new ones.</p>
+</blockquote>
+<p>On safety and efficacy for approved drugs</p>
+<blockquote class="blockquote">
+<p>39 percent patients believe that FDA only approves ‘extremely effective’ drugs, and 25 percent that it only approves drugs without serious side effect. However regulators frequently approve drugs that are only vaguely effective, with serious side effects, on the off-chance that they might be useful to someone, somewhere, when other interventions aren’t an option.</p>
+</blockquote>
+<p>On drug reviewing</p>
+<blockquote class="blockquote">
+<p>Regulators that have approved a drug are often reluctant to take it off the market, in case it is seen as an admissio of their failure to spot problems in the first place</p>
+</blockquote>
+<p>On trial patients</p>
+<blockquote class="blockquote">
+<p>the ‘ideal’ patients are likely to get better, they exaggerate the benefits of drugs, and help expensive new medicines appear to be more cost effective than they really are. ‘External validity’: trial patient being unrepresentative</p>
+</blockquote>
+<p>On comparison drugs</p>
+<blockquote class="blockquote">
+<p>it is common to see trials where a new drug is compared to a competitor that is known to be useless; or with a good competitor at a stupidly low (or high) dose</p>
+</blockquote>
+<p>On random variation in the data</p>
 <ul>
-<li>high user growth, high contributor growth: <strong>federations</strong>. Rare, impactful, the ‘ideal’ of open source project. Roughly 3% of open source projects. Examples: Rust, Node.js, Linux</li>
-<li>high user growth, low contributor growth: <strong>stadiums</strong>: powered by one or a few developers. Centralized.</li>
-<li>low user growth, high contributor growth: <strong>club</strong>. Similar to meetup or hobby groups, do not have a wide reach but are loved and built by enthusiasts.</li>
-<li>low user growth, low contributor growth: <strong>toys</strong>. Personal project, isn’t trying to grow its user base. Projects on Github with less than 10 stars. Authors do not expect to receive contributions nor do they care about whether people are watching.</li>
+<li>early stopping because you peeked in the results. should set up stopping rules, specified before the trial begins</li>
+<li>need a large trial to detect a small difference between two treatments, and a very large trial to be confident that two drugs are equally effective</li>
+<li>(multiple testing, sub-group analysis): measuring lots of things, some will be statistically significant, simply from the natural random variation in all trial data.</li>
 </ul>
-<p>Decentralized communities (clubs and federations) have the potential for high user growth - <strong>recruit new contributors, reduce contribution friction</strong>.</p>
-<p>Centralized communities (stadium) depends on the creators to manage user demand - <strong>automation, elimination of noise</strong></p>
-</section>
-</section>
-<section id="roles-incentives-and-relationships" class="level3">
-<h3 class="anchored" data-anchor-id="roles-incentives-and-relationships">Roles, incentives and relationships</h3>
-<section id="firms-or-communities" class="level4">
-<h4 class="anchored" data-anchor-id="firms-or-communities">Firms or communities</h4>
-<p>Firms (companies, organizations): centralized resources; from a coordination standpoint, managing resources would be more efficient within the same organization - which does not explain why open source developers make software together without formal contracts and financial compensation.</p>
-</section>
-<section id="the-commons-and-peer-production" class="level4">
-<h4 class="anchored" data-anchor-id="the-commons-and-peer-production">The commons and peer production</h4>
-<p><strong>Tragedy of the commons</strong>: resources depleted by people acting in their own self-interest rather than in the collective interest.</p>
-<p>(One of the 8 design principles by Ostrom on) successful commons:</p>
+<p>On presenting the results</p>
+<ul>
+<li>percent reduction in the risk of heart attack (risk difference)</li>
+<li>relative risk reduction</li>
+<li>presenting the results as relative risk reduction overstates the benefits</li>
+</ul>
+<p>Ways trials go wrong</p>
+<ul>
+<li>unrepresentative patients</li>
+<li>too brief</li>
+<li>measure the wrong outcomes</li>
+<li>go missing, if the result is unflattering</li>
+<li>analysed wrongly</li>
+</ul>
+<p>On ‘simple trial’ using EHR</p>
+<ul>
+<li>at present trials are very expensive. Many struggle to recruit enough patients, many struggle to recruit everyday doctors who don’t want to get involved in the mess of filing out patient report forms, calling patients back for extra appointments, doing extra measurements and so on</li>
+<li>simple trials have disadvantage of being not blinded - patients know what drug they’ve received</li>
+<li>pragmatic trials are cheap</li>
+<li>these trials run forever and follow-up data are easy to get</li>
+</ul>
+<p>On marketing</p>
 <blockquote class="blockquote">
-<p>Those who are affecteed by the rules can participate in modifying them.</p>
+<p>Some have estimated that the pharmaceutical industry overall spends twice as much on marketing and promotion as it does on research and developments</p>
 </blockquote>
-<p>Strong sense of group identity maks rules, dispute resolution more meaningful.</p>
-<p>Coordination cost is lower when self-organized based on who wants to do the work most, anyone can do the advertised work and volunteer.</p>
-<p>In contrast, in companies - solicit, evaluate, hire, manage employees; only employees can do the work limited by their job functions.</p>
-<p>People collaborating online for no obvious reason beyond <strong>personal satisfaction</strong> (intrinsic motivation)</p>
-<p><strong>Modular and granular tasks</strong>: how tasks are organized, and how big each task is.</p>
-<p><strong>Low coordination costs</strong>: quality control over thee modules, integrate the contributions into the finished product</p>
-</section>
-<section id="contribution-beyond-code" class="level4">
-<h4 class="anchored" data-anchor-id="contribution-beyond-code">Contribution beyond code</h4>
-<p>Some users do not consider them a contributor, but do actually contribute by education, spreading the word, support (forum), bug reports and more.</p>
-<p>These active users are similar to contributors but operate independently from project’s contributor community.</p>
+<blockquote class="blockquote">
+<p>Drugs are advertised more when the number of potential patients, rather than the current patients, is large.</p>
+</blockquote>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -688,7 +688,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/readnotes_20240218_open_source/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/readnotes_20240606_bad_pharma/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

@@ -35,12 +35,11 @@ website:
       - text: "Blog/notes"
         href: blog/blog.qmd
         
-      - text: "About"
-        menu: 
-          - text: "About me"
-            href: about_me.qmd
-          - text: "CV"
-            href: misc/info/CV_Chi_Zhang.pdf
+      - text: "About me"
+        href: about_me.qmd
+        
+      - text: "CV"
+        href: misc/info/CV_Chi_Zhang.pdf
 
 
 format:

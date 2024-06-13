@@ -67,7 +67,7 @@
     "href": "talks/talks.html",
     "title": "Talks",
     "section": "",
-    "text": "A one year recap on teaching statistics to medical students: how can R and Quarto help?\n2024.6.10-14, online. Conference link: R/Medicine\n\n\n\nCAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n2024.7.8-11, Salzburg, Austria. Conference link: UseR!"
+    "text": "CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n2024.7.8-11, Salzburg, Austria. Conference link: UseR!"
   },
   {
     "objectID": "talks/talks.html#rstats",
@@ -753,7 +753,7 @@
     "href": "talks/talks.html#public-health",
     "title": "Talks",
     "section": "Public Health",
-    "text": "Public Health\n\n\n\n\n\n\n\n\n\n\nPublic health surveillance and reporting\n\n\nAn open source approach\n\n\nJoin us for a discussion on how open source tools can enable automated, reproducible and scalable public health reporting.\n\n\n\n\n\nMar 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nIntroducing Sykdomspulsen\n\n\nAn automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup \n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Public Health\n\n\n\n\n\n\n\n\n\n\nIntroducing Sykdomspulsen\n\n\nAn automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup \n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/rstats_20230721_teaching/index.html",
@@ -879,7 +879,7 @@
     "href": "talks/talks.html#rstats-and-quarto",
     "title": "Talks",
     "section": "Rstats and Quarto",
-    "text": "Rstats and Quarto\n\n\n\n\n\n\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nBasel R meeting\n\n\nJoin us to hear about how we ran a trial classroom (MF9130E) with R and Quarto at the Faculty of Medicine, University of Oslo\n\n\n\n\n\nJul 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Website in R: Step by Step Introduction to blogdown\n\n\n\n\n\nTalk at Oslo UseR meetup\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
+    "text": "Rstats and Quarto\n\n\n\n\n\n\n\n\n\n\nA one year recap on teaching statistcis to medical students: how can R and Quarto help?\n\n\nR/Medicine 2024\n\n\n\n\n\n\n\n\nJun 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nBasel R meeting\n\n\nJoin us to hear about how we ran a trial classroom (MF9130E) with R and Quarto at the Faculty of Medicine, University of Oslo\n\n\n\n\n\nJul 21, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/teaching.html#introductory-statistics",
@@ -1096,7 +1096,7 @@
     "href": "talks/talks.html#upcoming-talks",
     "title": "Talks",
     "section": "",
-    "text": "A one year recap on teaching statistics to medical students: how can R and Quarto help?\n2024.6.10-14, online. Conference link: R/Medicine\n\n\n\nCAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n2024.7.8-11, Salzburg, Austria. Conference link: UseR!"
+    "text": "CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n2024.7.8-11, Salzburg, Austria. Conference link: UseR!"
   },
   {
     "objectID": "blog/readnotes_20240606_bad_pharma/index.html",
@@ -1146,5 +1146,19 @@
     "title": "Hello, I'm Chi",
     "section": "AB stewardship (not so relevant)",
     "text": "AB stewardship (not so relevant)\nRenggli 2021: consumption of anti-meticillin resistant staphylococcus aureus antibiotics in Swiss hospitals is associateed with antibiotic stewardship measures\nVaughn 2021: AB overuse and stewardship at hospital discharge\nGraber 2019: electronic tools to decrease AB use"
+  },
+  {
+    "objectID": "talks/rstats_20240613_teaching/index.html",
+    "href": "talks/rstats_20240613_teaching/index.html",
+    "title": "A one year recap on teaching statistcis to medical students: how can R and Quarto help?",
+    "section": "",
+    "text": "Time and place: June 13 2024. Online\nSlides for this talk can be accessed here."
+  },
+  {
+    "objectID": "talks/rstats_20240613_teaching/index.html#about-the-topic",
+    "href": "talks/rstats_20240613_teaching/index.html#about-the-topic",
+    "title": "A one year recap on teaching statistcis to medical students: how can R and Quarto help?",
+    "section": "About the topic",
+    "text": "About the topic\nThe Department of Biostatistics at University of Oslo offer statistics courses at different levels for medical students and PhD candidates with clinical backgrounds. The courses were traditionally taught with a focus on theory instead of data analysis, where SPSS and STATA were the tools of choice.\nSince 2023 spring semester, we have been gradually transforming some of our statistics courses into R, using Quarto course websites and Carpentries style live-coding instruction. With new Quarto tools (such as WebR) we also added interactivity in the code blocks. So far we have transformed two courses with over 100 students who have almost no programming experience. We have observed impressive progress in the skill development, and received significantly more positive feedback when it comes to statistics education.\nIn this talk, I would like to share our experience on the successes and challenges throughout the process. Looking back, is it cost-effective? Definitely. Can we do better in the future? Almost surely. If you are also planning to adopt new technology in your teaching activities, join us to learn more about what you can do to make the transition happen!\nCourse website can be accessed here"
   }
 ]

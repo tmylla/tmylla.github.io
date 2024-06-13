@@ -7,7 +7,7 @@ listing:
     image-height: 130px
     fields: [title, description, image, date]
     contents: 
-      - ph_20230330_sp
+      # - ph_20230330_sp
       - ph_20220616_splverse
     type: default
     sort: "date desc"
@@ -20,8 +20,9 @@ listing:
     image-height: 130px
     fields: [title, description, image, date]
     contents: 
+      - rstats_20240613_teaching
       - rstats_20230721_teaching
-      - rstats_20190402_blogdown
+      # - rstats_20190402_blogdown
     type: default
     sort: "date desc"
     grid-item-border: false
@@ -44,13 +45,6 @@ listing:
 ---
 
 ## Upcoming talks
-
-#### R/Medicine
-
-**A one year recap on teaching statistics to medical students: how can R and Quarto help?**
-
-2024.6.10-14, online. Conference link: [R/Medicine](https://rconsortium.github.io/RMedicine_website/)
-
 
 #### UseR!
 

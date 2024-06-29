@@ -15,10 +15,11 @@ listing:
 
   - id: rwdpublichealth
     max-description-length: 500
-    image-height: 250px
+    image-height: 280px
     fields: [image, title, description]
     contents: 
       # - csids
+      - ehr
       - sykdomspulsen
       - noreden
       # - dan
@@ -30,7 +31,7 @@ listing:
 
 ### Real World Data and Public health
 
-My main research interest is **hospital Electronic Health Records** and large **health registry** data. More specifically, I am currently working on quality assurance of the prescription and use of antibiotics in a hospital setting. 
+My main research interest is **hospital Electronic Health Records** and large **health registry** data. More specifically, I am currently working on quality assurance of the prescription and use of antibiotics in a hospital setting, and an R package [ggehr](https://github.com/andreaczhang/ggehr) to facilitate the exploration of EHR data.
 
 In 2020-2022, I worked at Norwegian Institute of Public Health during Covid-19 pandemic. I helped develop Sykdomspulsen (now **CSIDS**), a real-time infectious disease surveillance and real-time large scale reporting with open source technology. 
 

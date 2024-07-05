@@ -17,8 +17,7 @@
       "/talks/rstats_20240613_teaching/index.html",
       "/talks/rstats_20230721_teaching/index.html",
       "/talks/ehr_20221013_ml_icu/index.html",
-      "/talks/ehr_20210218_biday/index.html",
-      "/talks/ehr_20191028_rladies/index.html"
+      "/talks/ehr_20210218_biday/index.html"
     ]
   },
   {
@@ -51,14 +50,10 @@
   {
     "listing": "/rpkg/rpkg.html",
     "items": [
-      "/rpkg/covidnor/index.html",
-      "/rpkg/csalert/index.html",
       "/rpkg/csdata/index.html",
       "/rpkg/csmaps/index.html",
-      "/rpkg/cstime/index.html",
-      "/rpkg/noreden/index.html",
-      "/rpkg/bayesynergy/index.html",
       "/rpkg/medicode/index.html",
+      "/rpkg/noreden/index.html",
       "/rpkg/qtwAcademic/index.html"
     ]
   },

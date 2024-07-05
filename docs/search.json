@@ -4,7 +4,7 @@
     "href": "about_me.html",
     "title": "Chi Zhang",
     "section": "",
-    "text": "chi.zhang@medisin.uio.no\n  \n  \n    \n     andreaczhang\n  \n  \n    \n     andreasheenn@fosstodon.org\n  \n  \n    \n     Chi Zhang\n  \n\n\n\nI am a statistician, R developer and part-time lecturer at the Faculty of Medicine, University of Oslo. Over the past few years, I’ve become very interested in research software, open source and data science practices in education and public sector.\nMy interests are:\n\nReal World Data (RWD), in particular Electronic Health Records (EHR) data,\nStatistical software development in public health and clinical research,\nStatistics education with open source tools,\nQuarto.\n\nI have a MSc in Statistics from Imperial College London in 2016. Then I moved to Norway to do my PhD and some hiking. I obtained my PhD (thesis: Representation and Utilization of hospital Electronic Health Records data) at the Faculty of Medicine, University of Oslo in 2022.\nShortly after the COVID-19 pandemic started in 2020, I joined Norwegian Institute of Public Health as a data scientist (R developer + statistician) for the open source real-time analysis and public health surveillance system, Sykdomspulsen (now CSIDS). I am one of a founding members of CSIDS, the Consortium for Statistics in Disease Surveillance, where we build open source software for public health surveillance.\nSometimes I teach statistics courses (MF9130, MF9130E, ERN4110) at Oslo Centre for Biostatistics and Epidemiology (OCBE), University of Oslo. As a certified Carpentries instructor, I also teach and help with R programming at the Carpentries workshops at University of Oslo. In 2023, I lead the transition of medical statistics classroom of MF9130E into open-source (read more).\nI am an active member of Oslo User R group and Oslo R ladies group. I give talks and host workshops to learn and share.\nIn the past 11 years I have lived in the UK and Norway (7+ years). I speak English, Norwegian and Chinese, and trying to learn Italian. I like outdoor activities, and most likely I am spending my summer in the mountains."
+    "text": "chi.zhang@medisin.uio.no\n  \n  \n    \n     andreaczhang\n  \n  \n    \n     Chi Zhang\n  \n\n\n\nI am a statistician, R developer and part-time lecturer at the Faculty of Medicine, University of Oslo. Over the past few years, I’ve become very interested in research software, open source and data science practices in education and public sector.\nMy interests are:\n\nReal World Data (RWD), in particular Electronic Health Records (EHR) data,\nStatistical software development in public health and clinical research,\nStatistics education with open source tools,\nQuarto.\n\nI have a MSc in Statistics from Imperial College London in 2016. Then I moved to Norway to do my PhD and some hiking. I obtained my PhD (thesis: Representation and Utilization of hospital Electronic Health Records data) at the Faculty of Medicine, University of Oslo in 2022.\nShortly after the COVID-19 pandemic started in 2020, I joined Norwegian Institute of Public Health as a data scientist (R developer + statistician) for the open source real-time analysis and public health surveillance system, Sykdomspulsen (now CSIDS). I am one of a founding members of CSIDS, the Consortium for Statistics in Disease Surveillance, where we build open source software for public health surveillance.\nSometimes I teach statistics courses (MF9130, MF9130E, ERN4110) at Oslo Centre for Biostatistics and Epidemiology (OCBE), University of Oslo. As a certified Carpentries instructor, I also teach and help with R programming at the Carpentries workshops at University of Oslo. In 2023, I lead the transition of medical statistics classroom of MF9130E into open-source (read more).\nI am an active member of Oslo User R group and Oslo R ladies group. I give talks and host workshops to learn and share.\nIn the past 11 years I have lived in the UK and Norway (7+ years). I speak English, Norwegian and Chinese, and trying to learn Italian. I like outdoor activities, and most likely I am spending my summer in the mountains."
   },
   {
     "objectID": "projects/nor_mortality/index.html",
@@ -81,7 +81,7 @@
     "href": "talks/talks.html#electronic-health-records",
     "title": "Talks",
     "section": "Electronic Health Records",
-    "text": "Electronic Health Records\n\n\n\n\n\n\n\n\n\n\nMachine Learning in Intensive Care Units\n\n\n\n\n\nA 45 minutes trial lecture to fulfill the requirement of my PhD degree\n\n\n\n\n\nOct 13, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nNetwork Analysis of Hospital EHR data\n\n\n\n\n\nThe talk I gave at Big Insight Day 2021\n\n\n\n\n\nFeb 18, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nLearning from Hospital EHR data with R\n\n\n\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\n\nNo matching items"
+    "text": "Electronic Health Records\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nMachine Learning in Intensive Care Units\n\n\nOct 13, 2022\n\n\n\n\nNetwork Analysis of Hospital EHR data\n\n\nFeb 18, 2021\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/ehr_20210218_biday/index.html",
@@ -753,7 +753,7 @@
     "href": "talks/talks.html#public-health",
     "title": "Talks",
     "section": "Public Health",
-    "text": "Public Health\n\n\n\n\n\n\n\n\n\n\nIntroducing Sykdomspulsen\n\n\nAn automated public health surveillance platform\n\n\n45 min talk and tutorial at Oslo UseR meetup \n\n\n\n\n\nJun 16, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Public Health\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nIntroducing Sykdomspulsen\n\n\nJun 16, 2022\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/rstats_20230721_teaching/index.html",
@@ -879,7 +879,7 @@
     "href": "talks/talks.html#rstats-and-quarto",
     "title": "Talks",
     "section": "Rstats and Quarto",
-    "text": "Rstats and Quarto\n\n\n\n\n\n\n\n\n\n\nA one year recap on teaching statistcis to medical students: how can R and Quarto help?\n\n\nR/Medicine 2024\n\n\n\n\n\n\n\n\nJun 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nBasel R meeting\n\n\nJoin us to hear about how we ran a trial classroom (MF9130E) with R and Quarto at the Faculty of Medicine, University of Oslo\n\n\n\n\n\nJul 21, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Rstats and Quarto\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nA one year recap on teaching statistcis to medical students: how can R and Quarto help?\n\n\nJun 13, 2024\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nJul 21, 2023\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/teaching.html#introductory-statistics",
@@ -920,8 +920,8 @@
     "objectID": "rpkg/rpkg.html#public-health",
     "href": "rpkg/rpkg.html#public-health",
     "title": "R packages",
-    "section": "",
-    "text": "Title\n\n\nDescription\n\n\n\n\n\n\ncovidnor\n\n\nOpen COVID19 data for Norway\n\n\n\n\ncsalert\n\n\nOutbreak detection in public health surveillance\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\nPre-formatted map data in Norway\n\n\n\n\ncstime\n\n\nDate and time functions for public health purposes\n\n\n\n\nnoreden\n\n\nTools to facilitate nutrition researcher for sustainable diet discovery\n\n\n\n\n\nNo matching items"
+    "section": "Public health",
+    "text": "Public health\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\ncsdata\n\n\nPre-formatted structural data for Norway\n\n\n\n\ncsmaps\n\n\nPre-formatted map data in Norway\n\n\n\n\nmedicode\n\n\nMetadata and tools for medical classification and clinical coding\n\n\n\n\nnoreden\n\n\nTools to facilitate nutrition researcher for sustainable diet discovery\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "rpkg/rpkg.html#medicine",
@@ -1096,7 +1096,7 @@
     "href": "talks/talks.html#upcoming-talks",
     "title": "Talks",
     "section": "",
-    "text": "CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n2024.7.8-11, Salzburg, Austria. Conference link: UseR!"
+    "text": "CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n2024.7.8-11, Salzburg, Austria. Conference link: UseR!\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nA one year recap on teaching statistcis to medical students: how can R and Quarto help?\n\n\nJun 13, 2024\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nJul 21, 2023\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nIntroducing Sykdomspulsen\n\n\nJun 16, 2022\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nMachine Learning in Intensive Care Units\n\n\nOct 13, 2022\n\n\n\n\nNetwork Analysis of Hospital EHR data\n\n\nFeb 18, 2021\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/readnotes_20240606_bad_pharma/index.html",
@@ -1174,5 +1174,26 @@
     "title": "Hello, I'm Chi",
     "section": "",
     "text": "Chi Zhang is a statistician and R developer at the Faculty of Medicine, University of Oslo in Norway. Since 2016, She has been working with Real World Data such as Electronic Health Records (EHR) and large public health registries. In 2020-2022 she worked as part of the COVID emergency response team at Norwegian Institute of Public Health to develop an open source real-time analysis and public health surveillance system. At the moment Chi is collaborating with Oslo University Hospital and Akershus University Hospital on understanding antibiotics prescription and usage recorded in the EHR system. She develops R packages to facilitate exploration of messy EHR data. Outside research and R package development, She teaches statistics courses using R and Quarto. Chi is a Co-lead of the CAMIS project (Comparing Analysis Method Implementations in Software) and has contributed to various chapters to RWD Guideline for Programming and Analysis Processes."
+  },
+  {
+    "objectID": "rpkg/ggehr/index.html",
+    "href": "rpkg/ggehr/index.html",
+    "title": "ggehr",
+    "section": "",
+    "text": "qtwAcademic stands for Quarto Websites for Academics, which provides a few Quarto templates for Quarto website that are commonly used by academics.\nThe templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.\nRead more about the package here.\n\nTemplates\nSo far, 3 templates have been implemented in this package:\n\nPersonal website\nWebsite for courses or workshops\nMinimal website template that can be easily customized\n\nYou can find more details on each option in the vignettes."
+  },
+  {
+    "objectID": "talks/talks.html#upcoming",
+    "href": "talks/talks.html#upcoming",
+    "title": "Talks",
+    "section": "",
+    "text": "CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n2024.7.8-11, Salzburg, Austria. Conference link: UseR!"
+  },
+  {
+    "objectID": "talks/talks.html#past",
+    "href": "talks/talks.html#past",
+    "title": "Talks",
+    "section": "Past",
+    "text": "Past\n\nRstats and Quarto\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nA one year recap on teaching statistcis to medical students: how can R and Quarto help?\n\n\nJun 13, 2024\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nJul 21, 2023\n\n\n\n\n\nNo matching items\n\n\n\n\nPublic Health\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nIntroducing Sykdomspulsen\n\n\nJun 16, 2022\n\n\n\n\n\nNo matching items\n\n\n\n\nElectronic Health Records\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nMachine Learning in Intensive Care Units\n\n\nOct 13, 2022\n\n\n\n\nNetwork Analysis of Hospital EHR data\n\n\nFeb 18, 2021\n\n\n\n\n\nNo matching items"
   }
 ]

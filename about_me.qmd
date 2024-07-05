@@ -1,6 +1,6 @@
 ---
 title: "Chi Zhang"
-image: misc/info/photo2_chi.jpg
+image: misc/info/photo_chi.jpg
 page-layout: article
 format: 
   html:
@@ -16,9 +16,6 @@ about:
     - icon: github
       text: andreaczhang
       href: https://github.com/andreaczhang
-    - icon: mastodon
-      text: andreasheenn@fosstodon.org
-      href: https://fosstodon.org/@andreasheenn
     - icon: linkedin
       text: Chi Zhang
       href: https://www.linkedin.com/in/andreaczhang/

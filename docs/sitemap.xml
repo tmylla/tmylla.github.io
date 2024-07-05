@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://andreaczhang.github.io/about_me.html</loc>
-    <lastmod>2024-05-15T13:47:44.711Z</lastmod>
+    <lastmod>2024-07-05T17:08:13.537Z</lastmod>
   </url>
   <url>
     <loc>https://andreaczhang.github.io/projects/nor_mortality/index.html</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://andreaczhang.github.io/projects/sykdomspulsen/index.html</loc>
-    <lastmod>2024-04-14T07:04:06.406Z</lastmod>
+    <lastmod>2024-06-29T09:56:02.840Z</lastmod>
   </url>
   <url>
     <loc>https://andreaczhang.github.io/talks/ehr_20221013_ml_icu/index.html</loc>
@@ -30,7 +30,7 @@
   </url>
   <url>
     <loc>https://andreaczhang.github.io/talks/talks.html</loc>
-    <lastmod>2024-06-13T08:03:35.858Z</lastmod>
+    <lastmod>2024-07-05T17:23:32.114Z</lastmod>
   </url>
   <url>
     <loc>https://andreaczhang.github.io/talks/ehr_20210218_biday/index.html</loc>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://andreaczhang.github.io/index.html</loc>
-    <lastmod>2024-05-15T13:44:11.728Z</lastmod>
+    <lastmod>2024-07-05T17:07:47.215Z</lastmod>
   </url>
   <url>
     <loc>https://andreaczhang.github.io/blog/blog_20230103_blogdown2quarto/index.html</loc>
@@ -126,7 +126,7 @@
   </url>
   <url>
     <loc>https://andreaczhang.github.io/rpkg/rpkg.html</loc>
-    <lastmod>2024-04-14T07:04:06.412Z</lastmod>
+    <lastmod>2024-07-05T17:17:04.592Z</lastmod>
   </url>
   <url>
     <loc>https://andreaczhang.github.io/rpkg/qtwAcademic/index.html</loc>
@@ -230,7 +230,7 @@
   </url>
   <url>
     <loc>https://andreaczhang.github.io/projects/noreden/index.html</loc>
-    <lastmod>2024-04-14T07:04:06.400Z</lastmod>
+    <lastmod>2024-06-29T09:56:10.930Z</lastmod>
   </url>
   <url>
     <loc>https://andreaczhang.github.io/projects/dan/index.html</loc>
@@ -270,10 +270,14 @@
   </url>
   <url>
     <loc>https://andreaczhang.github.io/projects/ehr/index.html</loc>
-    <lastmod>2024-06-29T09:55:53.560Z</lastmod>
+    <lastmod>2024-06-29T10:13:04.262Z</lastmod>
   </url>
   <url>
     <loc>https://andreaczhang.github.io/dev/short_bio.html</loc>
     <lastmod>2024-06-21T15:38:11.588Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreaczhang.github.io/rpkg/ggehr/index.html</loc>
+    <lastmod>2024-07-05T17:17:28.432Z</lastmod>
   </url>
 </urlset>

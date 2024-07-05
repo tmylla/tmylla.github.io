@@ -1,0 +1,28 @@
+---
+title: "ggehr"
+description: "ggplot2 extension to"
+author: "Chi Zhang"
+categories: [tools]
+---
+
+
+`qtwAcademic` stands for **Quarto Websites for Academics**, which provides a few Quarto templates for Quarto website that are commonly used by academics.
+
+The templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.
+
+Read more about the package [here](https://andreaczhang.github.io/qtwAcademic/). 
+
+
+# Templates
+
+So far, 3 templates have been implemented in this package:
+
+* Personal website
+
+* Website for courses or workshops
+
+* Minimal website template that can be easily customized
+
+You can find more details on each option in the vignettes.
+
+

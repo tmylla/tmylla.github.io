@@ -9,30 +9,19 @@ listing:
     fields: [title, description]
     contents: 
       - noreden
-      - covidnor
+      # - covidnor
       # - mortanor
-      - csalert
+      # - csalert
       # - nowcast
-      - cstime
+      # - cstime
       - csmaps
       - csdata
+      - medicode
     type: table
     grid-item-border: false
     sort-ui: false
     filter-ui: false
     
-  - id: medicine
-    max-description-length: 80
-    image-height: 250px
-    fields: [title, description]
-    contents: 
-      - medicode
-      - bayesynergy
-    type: table
-    grid-item-border: false
-    sort-ui: false
-    filter-ui: false
-
   - id: qttools
     max-description-length: 80
     image-height: 280px
@@ -45,15 +34,11 @@ listing:
     filter-ui: false
 ---
 
+## RWD
+
 ## Public health
 
 ::: {#publichealth}
-:::
-
-
-## Medicine
-
-::: {#medicine}
 :::
 
 

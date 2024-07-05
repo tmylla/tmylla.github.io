@@ -101,34 +101,6 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-medicine .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-medicine'] = new List('listing-medicine', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-qttools .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -272,6 +244,9 @@ window.Quarto = {
 </header>
 
 
+<section id="rwd" class="level2">
+<h2 class="anchored" data-anchor-id="rwd">RWD</h2>
+</section>
 <section id="public-health" class="level2">
 <h2 class="anchored" data-anchor-id="public-health">Public health</h2>
 <div id="listing-publichealth" class="quarto-listing quarto-listing-container-table">
@@ -287,23 +262,7 @@ Description
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="data" data-listing-date-sort="1666389600000" data-listing-file-modified-sort="1713078246410" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="covidnor" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../rpkg/covidnor/index.html" class="title listing-title">covidnor</a>
-</td>
-<td>
-<span class="listing-description">Open COVID19 data for Norway</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="method" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1713078246411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="csalert" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../rpkg/csalert/index.html" class="title listing-title">csalert</a>
-</td>
-<td>
-<span class="listing-description">Outbreak detection in public health surveillance</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="data" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1713078246411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="csdata" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="data" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1713078246411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="csdata" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../rpkg/csdata/index.html" class="title listing-title">csdata</a>
 </td>
@@ -311,7 +270,7 @@ Description
 <span class="listing-description">Pre-formatted structural data for Norway</span>
 </td>
 </tr>
-<tr data-index="3" data-categories="data" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1713078246411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="csmaps" data-listing-filename-sort="index.qmd">
+<tr data-index="1" data-categories="data" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1713078246411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="csmaps" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../rpkg/csmaps/index.html" class="title listing-title">csmaps</a>
 </td>
@@ -319,58 +278,20 @@ Description
 <span class="listing-description">Pre-formatted map data in Norway</span>
 </td>
 </tr>
-<tr data-index="4" data-categories="utility" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1713078246411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18" data-listing-title-sort="cstime" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../rpkg/cstime/index.html" class="title listing-title">cstime</a>
-</td>
-<td>
-<span class="listing-description">Date and time functions for public health purposes</span>
-</td>
-</tr>
-<tr data-index="5" data-categories="public health" data-listing-date-sort="1697580000000" data-listing-file-modified-sort="1713078246412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10" data-listing-title-sort="noreden" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../rpkg/noreden/index.html" class="title listing-title">noreden</a>
-</td>
-<td>
-<span class="listing-description">Tools to facilitate nutrition researcher for sustainable diet discovery</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="medicine" class="level2">
-<h2 class="anchored" data-anchor-id="medicine">Medicine</h2>
-<div id="listing-medicine" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Description
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="method" data-listing-date-sort="1677020400000" data-listing-file-modified-sort="1713078246410" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13" data-listing-title-sort="bayesynergy" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../rpkg/bayesynergy/index.html" class="title listing-title">bayesynergy</a>
-</td>
-<td>
-<span class="listing-description">(Contributor) Synergistic interaction effects in in vitro drug combination…</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="Utility" data-listing-date-sort="1677020400000" data-listing-file-modified-sort="1713078246411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33" data-listing-title-sort="medicode" data-listing-filename-sort="index.qmd">
+<tr data-index="2" data-categories="Utility" data-listing-date-sort="1677020400000" data-listing-file-modified-sort="1713078246411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33" data-listing-title-sort="medicode" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../rpkg/medicode/index.html" class="title listing-title">medicode</a>
 </td>
 <td>
 <span class="listing-description">Metadata and tools for medical classification and clinical coding</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="public health" data-listing-date-sort="1697580000000" data-listing-file-modified-sort="1713078246412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10" data-listing-title-sort="noreden" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../rpkg/noreden/index.html" class="title listing-title">noreden</a>
+</td>
+<td>
+<span class="listing-description">Tools to facilitate nutrition researcher for sustainable diet discovery</span>
 </td>
 </tr>
 </tbody>

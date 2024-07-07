@@ -1,32 +1,12 @@
 ---
 title: "R packages"
-description: |
-  A few packages that I developed and/or contributed to
 listing:
-  - id: publichealth
+  - id: pkg
     max-description-length: 80
-    image-height: 250px
-    fields: [title, description]
-    contents: 
-      - noreden
-      # - covidnor
-      # - mortanor
-      # - csalert
-      # - nowcast
-      # - cstime
-      - csmaps
-      - csdata
-      - medicode
-    type: table
-    grid-item-border: false
-    sort-ui: false
-    filter-ui: false
-    
-  - id: qttools
-    max-description-length: 80
-    image-height: 280px
+    image-height: 290px
     fields: [image, title, description]
     contents: 
+      - ggehr
       - qtwAcademic
     type: grid
     grid-item-border: false
@@ -34,15 +14,19 @@ listing:
     filter-ui: false
 ---
 
-## RWD
 
-## Public health
 
-::: {#publichealth}
+::: {#pkg}
 :::
 
 
-## Quarto Tools
 
-::: {#qttools}
-:::
+### Public health
+
+| Package |   Description            |
+|:-----|:------------------------|
+| [noreden](https://andreaczhang.github.io/noreden/) | Tools to facilitate nutrition researcher for sustainable diet discovery|
+| [medicode](https://andreaczhang.github.io/medicode/) | Metadata for medical classification and clinical coding |
+| [csdata](https://www.csids.no/csdata/) | Pre-formatted structured data for Norway |
+| [csmaps](https://www.csids.no/csmaps/) | Pre-formatted map data for Norway |
+

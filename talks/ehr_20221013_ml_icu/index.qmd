@@ -1,11 +1,11 @@
 ---
 title: "Machine Learning in Intensive Care Units"
-description: "A 45 minutes trial lecture to fulfill the requirement of my PhD degree"
+description: "PhD defence trial lecture"
 date: "2022-10-13"
-categories: [ehr]
+categories: [RWD-EHR]
 priority: 1
 ---
 
-This is my talk at the PhD defence day.
+A 45 minutes trial lecture to fulfill the requirement of my PhD degree.
 
 ![](image_talk_20221013.png)

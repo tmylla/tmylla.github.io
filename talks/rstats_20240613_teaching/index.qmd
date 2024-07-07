@@ -1,9 +1,8 @@
 ---
 title: "A one year recap on teaching statistcis to medical students: how can R and Quarto help?"
-subtitle: "R/Medicine 2024"
-description: ""
+description: "R/Medicine 2024 - Online"
 date: "2024-06-13"
-categories: [rstats, quarto]
+categories: [Rstats, Quarto, Teaching]
 ---
 
 ![](image_talk_20240613.png)

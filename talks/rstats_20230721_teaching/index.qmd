@@ -1,9 +1,8 @@
 ---
 title: "Transforming medical statistics classroom with R and Quarto"
-subtitle: "Basel R meeting"
-description: "Join us to hear about how we ran a trial classroom (MF9130E) with R and Quarto at the Faculty of Medicine, University of Oslo"
+description: "Basel R meeting"
 date: "2023-07-21"
-categories: [rstats, quarto]
+categories: [Rstats, Quarto, Teaching]
 ---
 
 ![](image_talk_20230721.png)

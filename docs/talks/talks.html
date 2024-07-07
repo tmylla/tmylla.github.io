@@ -72,76 +72,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-ph .list');
+    const listingTargetEl = window.document.querySelector('#listing-past .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-ph'] = new List('listing-ph', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-rstats .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-rstats'] = new List('listing-rstats', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-ehr .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-ehr'] = new List('listing-ehr', options);
+    window['quarto-listings']['listing-past'] = new List('listing-past', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -187,7 +131,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -243,7 +187,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Public Health">Public Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RWD-EHR">RWD-EHR <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Rstats">Rstats <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Teaching">Teaching <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -274,105 +220,99 @@ window.Quarto = {
 <p>2024.7.8-11, Salzburg, Austria. Conference link: <a href="https://events.linuxfoundation.org/user/">UseR!</a></p>
 </section>
 </section>
-<section id="past" class="level2">
-<h2 class="anchored" data-anchor-id="past">Past</h2>
-<section id="rstats-and-quarto" class="level3">
-<h3 class="anchored" data-anchor-id="rstats-and-quarto">Rstats and Quarto</h3>
-<div id="listing-rstats" class="quarto-listing quarto-listing-container-table">
+<section id="selected-previous-talks" class="level2">
+<h2 class="anchored" data-anchor-id="selected-previous-talks">Selected previous talks</h2>
+<div id="listing-past" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-past-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-past'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <table class="quarto-listing-table table">
 <thead>
 <tr>
 <th>
-Title
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
 </th>
 <th>
-Date
+Description
+</th>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="rstats,quarto" data-listing-date-sort="1718229600000" data-listing-file-modified-sort="1718265915942" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="203" data-listing-title-sort="A one year recap on teaching statistcis to medical students: how can R and Quarto help?" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="Rstats,Quarto,Teaching" data-listing-date-sort="1718229600000" data-listing-file-modified-sort="1720351381872" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="203" data-listing-title-sort="A one year recap on teaching statistcis to medical students: how can R and Quarto help?" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../talks/rstats_20240613_teaching/index.html" class="title listing-title">A one year recap on teaching statistcis to medical students: how can R and Quarto help?</a>
 </td>
 <td>
-<span class="listing-date">Jun 13, 2024</span>
+<span class="listing-description">R/Medicine 2024 - Online</span>
+</td>
+<td>
+<span class="listing-date">2024-06-13</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="rstats,quarto" data-listing-date-sort="1689890400000" data-listing-file-modified-sort="1713078246424" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245" data-listing-title-sort="Transforming medical statistics classroom with R and Quarto" data-listing-filename-sort="index.qmd">
+<tr data-index="1" data-categories="Rstats,Quarto,Teaching" data-listing-date-sort="1689890400000" data-listing-file-modified-sort="1720351428926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245" data-listing-title-sort="Transforming medical statistics classroom with R and Quarto" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../talks/rstats_20230721_teaching/index.html" class="title listing-title">Transforming medical statistics classroom with R and Quarto</a>
 </td>
 <td>
-<span class="listing-date">Jul 21, 2023</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="public-health" class="level3">
-<h3 class="anchored" data-anchor-id="public-health">Public Health</h3>
-<div id="listing-ph" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="ph" data-listing-date-sort="1655330400000" data-listing-file-modified-sort="1713078246420" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195" data-listing-title-sort="Introducing Sykdomspulsen" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../talks/ph_20220616_splverse/index.html" class="title listing-title">Introducing Sykdomspulsen</a>
+<span class="listing-description">Basel R meeting</span>
 </td>
 <td>
-<span class="listing-date">Jun 16, 2022</span>
+<span class="listing-date">2023-07-21</span>
 </td>
 </tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="electronic-health-records" class="level3">
-<h3 class="anchored" data-anchor-id="electronic-health-records">Electronic Health Records</h3>
-<div id="listing-ehr" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="ehr" data-listing-date-sort="1665612000000" data-listing-file-modified-sort="1713078246419" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9" data-listing-title-sort="Machine Learning in Intensive Care Units" data-listing-filename-sort="index.qmd">
+<tr data-index="2" data-categories="RWD-EHR" data-listing-date-sort="1665612000000" data-listing-file-modified-sort="1720351554561" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13" data-listing-title-sort="Machine Learning in Intensive Care Units" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../talks/ehr_20221013_ml_icu/index.html" class="title listing-title">Machine Learning in Intensive Care Units</a>
 </td>
 <td>
-<span class="listing-date">Oct 13, 2022</span>
+<span class="listing-description">PhD defence trial lecture</span>
+</td>
+<td>
+<span class="listing-date">2022-10-13</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="ehr" data-listing-date-sort="1613602800000" data-listing-file-modified-sort="1713078246418" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23" data-listing-title-sort="Network Analysis of Hospital EHR data" data-listing-filename-sort="index.qmd">
+<tr data-index="3" data-categories="Public Health" data-listing-date-sort="1655330400000" data-listing-file-modified-sort="1720351462479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195" data-listing-title-sort="Sykdomspulsen: An automated public health surveillance platform" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../talks/ph_20220616_splverse/index.html" class="title listing-title">Sykdomspulsen: An automated public health surveillance platform</a>
+</td>
+<td>
+<span class="listing-description">Oslo UseR meetup </span>
+</td>
+<td>
+<span class="listing-date">2022-06-16</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="RWD-EHR" data-listing-date-sort="1613602800000" data-listing-file-modified-sort="1720351542954" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23" data-listing-title-sort="Network Analysis of Hospital EHR data" data-listing-filename-sort="index.qmd">
 <td>
 <a href="../talks/ehr_20210218_biday/index.html" class="title listing-title">Network Analysis of Hospital EHR data</a>
 </td>
 <td>
-<span class="listing-date">Feb 18, 2021</span>
+<span class="listing-description">Big Insight Day, Oslo</span>
+</td>
+<td>
+<span class="listing-date">2021-02-18</span>
 </td>
 </tr>
 </tbody>
@@ -384,7 +324,6 @@ No matching items
 
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

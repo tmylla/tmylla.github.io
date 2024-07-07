@@ -2,46 +2,24 @@
 title: "Talks"
 description: |
 listing:
-  - id: ph
+  - id: past
     max-description-length: 500
     image-height: 130px
-    fields: [title, date]
+    categories: true
+    date-format: iso
+    fields: [title, description, date]
     contents: 
-      # - ph_20230330_sp
       - ph_20220616_splverse
-    type: table
-    sort: "date desc"
-    grid-item-border: false
-    sort-ui: false
-    filter-ui: false
-
-  - id: rstats
-    max-description-length: 500
-    image-height: 130px
-    fields: [title, date]
-    contents: 
       - rstats_20240613_teaching
       - rstats_20230721_teaching
+      - ehr_20221013_ml_icu
+      - ehr_20210218_biday
       # - rstats_20190402_blogdown
     type: table
     sort: "date desc"
     grid-item-border: false
-    sort-ui: false
-    filter-ui: false
-
-  - id: ehr
-    max-description-length: 500
-    image-height: 130px
-    fields: [title, date]
-    contents: 
-      - ehr_20221013_ml_icu
-      - ehr_20210218_biday
-      # - ehr_20191028_rladies
-    type: table
-    grid-item-border: false
-    sort-ui: false
-    sort: "priority asc"
-    filter-ui: false
+    sort-ui: true
+    filter-ui: true
 ---
 
 ## Upcoming
@@ -55,19 +33,9 @@ listing:
 
 
 
-## Past 
+## Selected previous talks
 
-### Rstats and Quarto
 
-::: {#rstats}
+::: {#past}
 :::
 
-### Public Health
-
-::: {#ph}
-:::
-
-### Electronic Health Records
-
-::: {#ehr}
-:::

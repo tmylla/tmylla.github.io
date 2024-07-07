@@ -2,21 +2,20 @@
   {
     "listing": "/projects/projects.html",
     "items": [
-      "/projects/dan/index.html",
       "/projects/os_teaching/index.html",
       "/projects/phuse/index.html",
-      "/projects/sykdomspulsen/index.html",
+      "/projects/dan/index.html",
       "/projects/ehr/index.html",
-      "/projects/noreden/index.html"
+      "/projects/sykdomspulsen/index.html"
     ]
   },
   {
     "listing": "/talks/talks.html",
     "items": [
-      "/talks/ph_20220616_splverse/index.html",
       "/talks/rstats_20240613_teaching/index.html",
       "/talks/rstats_20230721_teaching/index.html",
       "/talks/ehr_20221013_ml_icu/index.html",
+      "/talks/ph_20220616_splverse/index.html",
       "/talks/ehr_20210218_biday/index.html"
     ]
   },
@@ -50,10 +49,7 @@
   {
     "listing": "/rpkg/rpkg.html",
     "items": [
-      "/rpkg/csdata/index.html",
-      "/rpkg/csmaps/index.html",
-      "/rpkg/medicode/index.html",
-      "/rpkg/noreden/index.html",
+      "/rpkg/ggehr/index.html",
       "/rpkg/qtwAcademic/index.html"
     ]
   },

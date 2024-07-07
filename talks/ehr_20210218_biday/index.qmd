@@ -1,8 +1,8 @@
 ---
 title: "Network Analysis of Hospital EHR data"
-description: "The talk I gave at Big Insight Day 2021"
+description: "Big Insight Day, Oslo"
 date: "2021-02-18"
-categories: [ehr]
+categories: [RWD-EHR]
 priority: 2
 ---
 

@@ -8,8 +8,8 @@ about:
   image-shape: round
   links:
     - icon: mailbox
-      text: chi.zhang@medisin.uio.no
-      href: mailto:chi.zhang@medisin.uio.no
+      text: chizapoth@gmail.com
+      href: mailto:chizapoth@gmail.com
     - icon: github
       text: andreaczhang
       href: https://github.com/andreaczhang
@@ -20,11 +20,13 @@ about:
 
 ::: {#hero-heading}
 
-Hello! I am a statistician and R developer at the Faculty of Medicine, University of Oslo. I'm mostly interested in **RWD (real-world data)**, such as hospital Electronic Health Record and large public health registry data. 
+Hello! 
 
-In 2020-2022, I worked as part of the COVID emergency response at the [Norwegian Institute of Public Health](https://www.fhi.no/en/). I helped develop the open source real-time analysis and public health surveillance system, **Sykdomspulsen**, and co-founded now [CSIDS](https://www.csids.no), the Consorium of Statistics in Disease Surveillance. I've been giving statistical advice and collaborating with clinicians at Oslo University Hospital since 2016.
+I am a statistician and R developer at the Faculty of Medicine, University of Oslo. I'm mostly interested in **RWD (real-world data)**, such as hospital **Electronic Health Record** and large public health registry data. I develop [ggehr](https://andreaczhang.github.io/ggehr/), a ggplot2 extension to visualizing EHR data.
 
-As a part-time lecturer, I teach **statistics with R and Quarto** at Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)) and **R programming** at the [Carpentries workshops](https://www.ub.uio.no/english/libraries/dsc/carpentry-uio/) at University of Oslo.
+In 2020-2022, I worked as part of the COVID emergency response at the [Norwegian Institute of Public Health](https://www.fhi.no/en/). I helped develop the open source real-time analysis and public health surveillance system, **Sykdomspulsen** (now [CSIDS](https://www.csids.no)). I am co-leading [CAMIS](https://psiaims.github.io/CAMIS/) working group. 
+
+As a part-time lecturer, I teach **statistics with R and Quarto** at Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)) and **R programming** at the [Carpentries workshops](https://www.ub.uio.no/english/libraries/dsc/carpentry-uio/) at UiO.
 
 
 I enjoy cooking and spending time in the mountains.

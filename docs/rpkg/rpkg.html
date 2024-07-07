@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A few packages that I developed and/or contributed to">
 
 <title>Hello, I’m Chi - R packages</title>
 <style>
@@ -73,35 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publichealth .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publichealth'] = new List('listing-publichealth', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-qttools .list');
+    const listingTargetEl = window.document.querySelector('#listing-pkg .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -114,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-qttools'] = new List('listing-qttools', options);
+    window['quarto-listings']['listing-pkg'] = new List('listing-pkg', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -225,11 +196,6 @@ window.Quarto = {
 <h1 class="title">R packages</h1>
 </div>
 
-<div>
-  <div class="description">
-    <p>A few packages that I developed and/or contributed to</p>
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -244,72 +210,30 @@ window.Quarto = {
 </header>
 
 
-<section id="rwd" class="level2">
-<h2 class="anchored" data-anchor-id="rwd">RWD</h2>
-</section>
-<section id="public-health" class="level2">
-<h2 class="anchored" data-anchor-id="public-health">Public health</h2>
-<div id="listing-publichealth" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Description
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="data" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1713078246411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="csdata" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../rpkg/csdata/index.html" class="title listing-title">csdata</a>
-</td>
-<td>
-<span class="listing-description">Pre-formatted structural data for Norway</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="data" data-listing-date-sort="1666648800000" data-listing-file-modified-sort="1713078246411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="csmaps" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../rpkg/csmaps/index.html" class="title listing-title">csmaps</a>
-</td>
-<td>
-<span class="listing-description">Pre-formatted map data in Norway</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="Utility" data-listing-date-sort="1677020400000" data-listing-file-modified-sort="1713078246411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33" data-listing-title-sort="medicode" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../rpkg/medicode/index.html" class="title listing-title">medicode</a>
-</td>
-<td>
-<span class="listing-description">Metadata and tools for medical classification and clinical coding</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="public health" data-listing-date-sort="1697580000000" data-listing-file-modified-sort="1713078246412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10" data-listing-title-sort="noreden" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../rpkg/noreden/index.html" class="title listing-title">noreden</a>
-</td>
-<td>
-<span class="listing-description">Tools to facilitate nutrition researcher for sustainable diet discovery</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="quarto-tools" class="level2">
-<h2 class="anchored" data-anchor-id="quarto-tools">Quarto Tools</h2>
-<div id="listing-qttools" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-pkg" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="tools" data-listing-file-modified-sort="1713078246412" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
+<div class="g-col-1" data-index="0" data-categories="RWD-ERH" data-listing-file-modified-sort="1720352652437" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
+<a href="../rpkg/ggehr/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="../rpkg/ggehr/hex_ggehr.png" class="thumbnail-image card-img" style="height: 290px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ggehr
+</h5>
+<div class="card-text listing-description">
+ggplot2 extension to EHR data
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="tools" data-listing-file-modified-sort="1720352685115" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
 <a href="../rpkg/qtwAcademic/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../rpkg/qtwAcademic/logo_qtwAcademic.png" class="thumbnail-image card-img" style="height: 280px;">
+<img src="../rpkg/qtwAcademic/logo_qtwAcademic.png" class="thumbnail-image card-img" style="height: 290px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -327,6 +251,34 @@ Quarto Website Templates for Academics
 No matching items
 </div>
 </div>
+<section id="public-health" class="level3">
+<h3 class="anchored" data-anchor-id="public-health">Public health</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Package</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://andreaczhang.github.io/noreden/">noreden</a></td>
+<td style="text-align: left;">Tools to facilitate nutrition researcher for sustainable diet discovery</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://andreaczhang.github.io/medicode/">medicode</a></td>
+<td style="text-align: left;">Metadata for medical classification and clinical coding</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://www.csids.no/csdata/">csdata</a></td>
+<td style="text-align: left;">Pre-formatted structured data for Norway</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://www.csids.no/csmaps/">csmaps</a></td>
+<td style="text-align: left;">Pre-formatted map data for Norway</td>
+</tr>
+</tbody>
+</table>
 
 
 

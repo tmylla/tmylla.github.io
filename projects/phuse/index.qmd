@@ -1,5 +1,5 @@
 ---
-title: "PHUSE"
+title: "PHUSE - CAMIS"
 description: "Contributor to the Global Healthcare Data Science Community"
 image: "phuse_logo.png"
 ---
@@ -15,13 +15,12 @@ Several discrepancies have been discovered in statistical analysis results betwe
 
 The goal of this project is to demystify conflict when doing QC and to help ease the transitions to new languages and techniques with comparison and comprehensive explanations.
 
-I am the content curation co-lead in the project, and contribute to topics under **non-parametric** tests.
 
 ### RWD Working Group
 
 This is a newly formed working group, working on statistical programming guidelines while working on RWD (read world data). 
 
-*Planning stage*
+
 
 
 

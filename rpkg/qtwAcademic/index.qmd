@@ -6,6 +6,7 @@ categories: [tools]
 image: "logo_qtwAcademic.png"
 ---
 
+![](logo_qtwAcademic.png){width=20%}
 
 `qtwAcademic` stands for **Quarto Websites for Academics**, which provides a few Quarto templates for Quarto website that are commonly used by academics.
 

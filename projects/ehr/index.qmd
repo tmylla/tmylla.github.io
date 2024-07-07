@@ -1,8 +1,19 @@
 ---
-title: "EHR"
-description: "Projects on EHR"
+title: "ggehr"
+description: "ggplot2 extension to EHR data"
 image: "hex_ggehr2.png"
 ---
+
+![](hex_ggehr.png){width=20%}
+
+`ggehr` (read: gg E-H-R) stands for ggplot2 extension for EHR data, which provides a set of tools to facilitate EHR (Electronic Health Records) visualization.
+
+`ggehr` package helps you make visualize EHR data, so that you can
+
+* have an overview of the **mixed type information** related to a patient;
+* visually **identify the errors** in data recording.
+
+[Learn more about ggehr](https://andreaczhang.github.io/ggehr/)
 
 
 

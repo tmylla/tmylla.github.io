@@ -1,5 +1,5 @@
 ---
-title: "MF9130E Course in R"
+title: "Teach in R and Quarto"
 description: "Transform biostatistics classroom into R and quarto"
 image: "image_os_teaching.png"
 ---
@@ -12,4 +12,7 @@ image: "image_os_teaching.png"
 
 [Course website](https://ocbe-uio.github.io/teaching_mf9130e/)
 
-Read more about the experience in this [blogpost](https://andreaczhang.github.io/blog/blog_20230717_teaching/).
+Read more about the experience in 
+
+* [blogpost](https://andreaczhang.github.io/blog/blog_20230717_teaching/)
+* [presentation](https://andreaczhang.github.io/talks/rstats_20240613_teaching/)

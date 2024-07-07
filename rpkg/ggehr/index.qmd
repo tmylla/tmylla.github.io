@@ -1,28 +1,18 @@
 ---
 title: "ggehr"
-description: "ggplot2 extension to"
-author: "Chi Zhang"
-categories: [tools]
+description: "ggplot2 extension to EHR data"
+categories: [RWD-ERH]
+image: "hex_ggehr.png"
 ---
 
+![](hex_ggehr.png){width=20%}
 
-`qtwAcademic` stands for **Quarto Websites for Academics**, which provides a few Quarto templates for Quarto website that are commonly used by academics.
+`ggehr` (read: gg E-H-R) stands for ggplot2 extension for EHR data, which provides a set of tools to facilitate EHR (Electronic Health Records) visualization.
 
-The templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.
+`ggehr` package helps you make visualize EHR data, so that you can
 
-Read more about the package [here](https://andreaczhang.github.io/qtwAcademic/). 
+* have an overview of the **mixed type information** related to a patient;
+* visually **identify the errors** in data recording.
 
-
-# Templates
-
-So far, 3 templates have been implemented in this package:
-
-* Personal website
-
-* Website for courses or workshops
-
-* Minimal website template that can be easily customized
-
-You can find more details on each option in the vignettes.
-
+[Learn more about ggehr](https://andreaczhang.github.io/ggehr/)
 

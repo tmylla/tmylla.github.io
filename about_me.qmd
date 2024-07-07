@@ -11,8 +11,8 @@ about:
   image-shape: round
   links:
     - icon: mailbox
-      text: chi.zhang@medisin.uio.no
-      href: mailto:chi.zhang@medisin.uio.no
+      text: chizapoth@gmail.com
+      href: mailto:chizapoth@gmail.com
     - icon: github
       text: andreaczhang
       href: https://github.com/andreaczhang

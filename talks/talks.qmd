@@ -12,8 +12,11 @@ listing:
       - ph_20220616_splverse
       - rstats_20240613_teaching
       - rstats_20230721_teaching
-      - ehr_20221013_ml_icu
-      - ehr_20210218_biday
+      # - ehr_20221013_ml_icu
+      # - ehr_20210218_biday
+      - ehr_20240918_betterehr
+      - community_20240921_quartofriends
+      - community_20240710_camis
       # - rstats_20190402_blogdown
     type: table
     sort: "date desc"
@@ -24,12 +27,9 @@ listing:
 
 ## Upcoming
 
-#### UseR!
+#### R in Pharma
 
-**CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations**
-
-2024.7.8-11, Salzburg, Austria. Conference link: [UseR!](https://events.linuxfoundation.org/user/)
-
+Explore Real-World hospital Electronic Health Records data with `ggehr`
 
 
 

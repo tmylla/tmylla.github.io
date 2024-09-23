@@ -67,7 +67,7 @@
     "href": "talks/talks.html",
     "title": "Talks",
     "section": "",
-    "text": "CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n2024.7.8-11, Salzburg, Austria. Conference link: UseR!"
+    "text": "Explore Real-World hospital Electronic Health Records data with ggehr"
   },
   {
     "objectID": "talks/talks.html#rstats",
@@ -396,7 +396,7 @@
     "href": "blog/blog.html",
     "title": "Blog and notes",
     "section": "",
-    "text": "Blog\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nPersonal Highlights: Positconf 2023\n\n\n9/21/23\n\n\n\n\nPersonal Highlights: CEN2023\n\n\n9/6/23\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\n7/17/23\n\n\n\n\nCourse review: making DS work for clinical reporting\n\n\n3/1/23\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\n1/13/23\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\n1/5/23\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\n1/3/23\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMost of the technical notes are in the newly built note repository, Data Apothecary’s Notes. Please feel free to reach out if you found any errors!\nI’d be glad if it helps you in some way.\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nNotes: The Book of OHDSI - Data Analytics\n\n\n5/6/24\n\n\n\n\nStyling your quarto project\n\n\n10/18/23\n\n\n\n\nUse WebR in your existing quarto website\n\n\n10/1/23\n\n\n\n\nR package workflow\n\n\n5/19/23\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 4\n\n\n3/1/23\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 3\n\n\n2/27/23\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\n2/25/23\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\n2/22/23\n\n\n\n\nR package website with pkgdown\n\n\n2/20/23\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\n2/6/23\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\n1/11/23\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nBad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre\n\n\n6/6/24\n\n\n\n\nWorking in Public: The Making and Maintenance of Open Source Software - Nadia Eghbal\n\n\n2/18/24\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\n3/17/23\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\n1/4/23\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nUse Quarto, Make Friends: a two-year journey\n\n\n9/23/24\n\n\n\n\nPersonal Highlights: Positconf 2023\n\n\n9/21/23\n\n\n\n\nPersonal Highlights: CEN2023\n\n\n9/6/23\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\n7/17/23\n\n\n\n\nCourse review: making DS work for clinical reporting\n\n\n3/1/23\n\n\n\n\nOpen source reporting with R: clinical, public health, RSE and embrace the change\n\n\n1/13/23\n\n\n\n\nqtwAcademic: a quick and easy way to start your Quarto website\n\n\n1/5/23\n\n\n\n\nWebsite reboot: switching from Blogdown to Quarto\n\n\n1/3/23\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMost of the technical notes are in the newly built note repository, Data Apothecary’s Notes. Please feel free to reach out if you found any errors!\nI’d be glad if it helps you in some way.\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nNotes: The Book of OHDSI - Data Analytics\n\n\n5/6/24\n\n\n\n\nStyling your quarto project\n\n\n10/18/23\n\n\n\n\nUse WebR in your existing quarto website\n\n\n10/1/23\n\n\n\n\nR package workflow\n\n\n5/19/23\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 4\n\n\n3/1/23\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 3\n\n\n2/27/23\n\n\n\n\nTesting Shiny app and deploy to shinyapps.io\n\n\n2/25/23\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 2\n\n\n2/22/23\n\n\n\n\nR package website with pkgdown\n\n\n2/20/23\n\n\n\n\nNotes: Making Data Science work for Clinical Reporting - Part 1\n\n\n2/6/23\n\n\n\n\nPublishing Quarto Website with GitHub Pages\n\n\n1/11/23\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nBad Pharma: How medicine is broken, and how we can fix it - Ben Goldacre\n\n\n6/6/24\n\n\n\n\nWorking in Public: The Making and Maintenance of Open Source Software - Nadia Eghbal\n\n\n2/18/24\n\n\n\n\nPreventable: How a Pandemic Changed the World & How to Stop the Next One - Devi Sridhar\n\n\n3/17/23\n\n\n\n\nHow to prevent the next pandemic - Bill Gates\n\n\n1/4/23\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/technotes_20230223_roop/index.html",
@@ -1187,7 +1187,7 @@
     "href": "talks/talks.html#upcoming",
     "title": "Talks",
     "section": "",
-    "text": "CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n2024.7.8-11, Salzburg, Austria. Conference link: UseR!"
+    "text": "Explore Real-World hospital Electronic Health Records data with ggehr"
   },
   {
     "objectID": "talks/talks.html#past",
@@ -1208,6 +1208,76 @@
     "href": "talks/talks.html#selected-previous-talks",
     "title": "Talks",
     "section": "Selected previous talks",
-    "text": "Selected previous talks\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\nDate\n\n\n\n\n\n\nA one year recap on teaching statistcis to medical students: how can R and Quarto help?\n\n\nR/Medicine 2024 - Online\n\n\n2024-06-13\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nBasel R meeting\n\n\n2023-07-21\n\n\n\n\nMachine Learning in Intensive Care Units\n\n\nPhD defence trial lecture\n\n\n2022-10-13\n\n\n\n\nSykdomspulsen: An automated public health surveillance platform\n\n\nOslo UseR meetup \n\n\n2022-06-16\n\n\n\n\nNetwork Analysis of Hospital EHR data\n\n\nBig Insight Day, Oslo\n\n\n2021-02-18\n\n\n\n\n\nNo matching items"
+    "text": "Selected previous talks\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nDescription\n\n\nDate\n\n\n\n\n\n\nUse Quarto, Make Friends\n\n\nKolkata UseR meetup\n\n\n2024-09-21\n\n\n\n\nOne step closer to better Electronic Health Records data\n\n\nPHUSE Single Day Event Basel\n\n\n2024-09-18\n\n\n\n\nCAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations\n\n\nUseR! 2024 Salzburg\n\n\n2024-07-10\n\n\n\n\nA one year recap on teaching statistcis to medical students: how can R and Quarto help?\n\n\nR/Medicine 2024 - Online\n\n\n2024-06-13\n\n\n\n\nTransforming medical statistics classroom with R and Quarto\n\n\nBasel R meeting\n\n\n2023-07-21\n\n\n\n\nSykdomspulsen: An automated public health surveillance platform\n\n\nOslo UseR meetup \n\n\n2022-06-16\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "talks/community_20240710_camis/index.html",
+    "href": "talks/community_20240710_camis/index.html",
+    "title": "CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations",
+    "section": "",
+    "text": "2024.7.8-11, Salzburg, Austria. Conference link: UseR!\nStatisticians using multiple softwares (SAS, R, Python) will have found differences in analysis results that warrant further justification. Whilst some industries may accept results not being the same as long as they are “close”, the highly regulated pharmaceutical industry would require an identical match in results. Yet, discrepancies might still occur, and knowing the reasons (different methods, options, algorithms etc) is critical to the modern statistician and subsequent regulatory submissions.\nIn this talk I will introduce CAMIS: Comparing Analysis Method Implementations in Software. https://psiaims.github.io/CAMIS/ It is a joint-project between PHUSE, the R Validation Hub, PSI AIMS, R consortium and openstatsware. The aim of CAMIS is to investigate and document differences and similarities between different statistical softwares such as SAS and R. We use Quarto and Github to document methods, algorithms and comparisons between softwares through small case studies, and all articles are contributed by the community. In the transition from proprietary to open source technology in the industry, CAMIS can serve as a guidebook to navigate this process.\n\nkeywords: cross industry collaboration, multi-lingua, open-source, quarto"
+  },
+  {
+    "objectID": "talks/community_20240921_quartofriends/index.html",
+    "href": "talks/community_20240921_quartofriends/index.html",
+    "title": "Use Quarto, Make Friends",
+    "section": "",
+    "text": "It has been two years since Quarto became the most popular reproducible publication tool in data science and R community. However Quarto is so much more than just a publication tool! I started using it since late 2022, and it has helped me become more organized, productive and connected with people in the data science community.\nIn this talk I will not focus on the technical aspects on ‘how’ to use this tool. In the first part of the talk, I would like to report the latest news and trends seen in the useR conference and Posit conf, the two biggest global R events. In the second part, I will share my own experience in using Quarto for my career: from learning new skills, collaborating with co-workers, teaching university courses to networking and building a community (CAMIS collaboration). It is a powerful tool to share your work, and make new connections - both for work and for fun! I hope this talk will provide you with some new ideas on how to use this fantastic technology to fulfill your goals."
+  },
+  {
+    "objectID": "talks/ehr_20240918_betterehr/index.html",
+    "href": "talks/ehr_20240918_betterehr/index.html",
+    "title": "One step closer to better Electronic Health Records data",
+    "section": "",
+    "text": "Real-World Data (RWD) like Electronic Health Records (EHR) is crucial for understanding drug usage and various treatments and generating Real-World Evidence (RWE). Risk prediction has been a major application where EHR is used, and there is now a shift towards causal inference, which requires data of even higher quality. Patients undergo treatments (drugs, procedures) at various times during their hospital stays, yet the data being recorded are messy and error-prone for various reasons. Analysts spend significant amount of time to sit together with clinicians to identify and understand abnormal records, and unfortunately this process is challenging to automate.\nThis talk will use an example on antibiotics prescription and use at a Nordic hospital to illustrate how some EHR systems can improve for better clinical decision-making and better data for research. I will also introduce a pilot R package (ggehr) that facilitates visual exploration of EHR data, and how it can help reconstruct patient journeys and enable analysts to perform effective quality control."
+  },
+  {
+    "objectID": "blog/blog_20240923_quartofriends/index.html",
+    "href": "blog/blog_20240923_quartofriends/index.html",
+    "title": "Use Quarto, Make Friends: a two-year journey",
+    "section": "",
+    "text": "I wrote a blog back in early 2023 when I first switched from blogdown to Quarto on my initial impression (read here), and this is a two-year follow-up on my journey since I started using Quarto, for my personal website, teaching, scientific works and collaborative community projects."
+  },
+  {
+    "objectID": "blog/blog_20240923_quartofriends/index.html#from-blogdown-to-distill",
+    "href": "blog/blog_20240923_quartofriends/index.html#from-blogdown-to-distill",
+    "title": "Use Quarto, Make Friends: a two-year journey",
+    "section": "From Blogdown to Distill",
+    "text": "From Blogdown to Distill"
+  },
+  {
+    "objectID": "blog/blog_20240923_quartofriends/index.html#from-personal-to-workshop-website",
+    "href": "blog/blog_20240923_quartofriends/index.html#from-personal-to-workshop-website",
+    "title": "Use Quarto, Make Friends: a two-year journey",
+    "section": "From personal to workshop website",
+    "text": "From personal to workshop website\nI switched from blogdown to Quarto in late 2022, right after my PhD. It was initially a cure for a severe burnout from a combination of work-related stressors, when I desperately needed something other than research. My mental state was like the famous painting by Norwegian artist Edvard Munch:\n\n\n\n\n\nThe experience of the switch was explained in the previously mentioned blog. Briefly, it was light like a feather. Since I was quite satisfied, I thought, why don’t I make a workshop website? So I did.\nThe result was quite good, I made the (as far as I knew) first quarto workshop website at University of Oslo for the Oslo Bioinformatics Workshop Week 2022. Feedback from students were positive, and the instructor team thought it hosts the material in a more organized way."
+  },
+  {
+    "objectID": "blog/blog_20240923_quartofriends/index.html#single-day-workshop---two-week-course",
+    "href": "blog/blog_20240923_quartofriends/index.html#single-day-workshop---two-week-course",
+    "title": "Use Quarto, Make Friends: a two-year journey",
+    "section": "Single day workshop -> two week course",
+    "text": "Single day workshop -&gt; two week course\nI was greatly encouraged by the experience, so when I got a 50% position at University of Oslo as biostatistics lecturer, I thought, why don’t we have the same thing for the course?\n\n\n\n\n\nOh well, the workload is crushing. There were a few key differences:\n\nR scripts and material were unavailable since the course was originally in STATA. Everything need to be done from scratch, for at least 12 lab sessions;\nThe students generally have little IT skills, which means more effort need to be done to guide them through the ‘get started’ part.\n\n\n\n\n\n\nThe associated talk is available on YouTube, check it out!"
+  },
+  {
+    "objectID": "blog/blog_20240923_quartofriends/index.html#quarto-as-a-teaching-tool",
+    "href": "blog/blog_20240923_quartofriends/index.html#quarto-as-a-teaching-tool",
+    "title": "Use Quarto, Make Friends: a two-year journey",
+    "section": "Quarto as a teaching tool",
+    "text": "Quarto as a teaching tool\n\nFrom personal to workshop website\nI switched from blogdown to Quarto in late 2022, right after my PhD. It was initially a cure for a severe burnout from a combination of work-related stressors, when I desperately needed something other than research. My mental state was like the famous painting by Norwegian artist Edvard Munch:\n\n\n\n\n\nThe experience of the switch was explained in the previously mentioned blog. Briefly, it was light like a feather. Since I was quite satisfied, I thought, why don’t I make a workshop website? So I did.\nThe result was quite good, I made the (as far as I knew) first quarto workshop website at University of Oslo for the Oslo Bioinformatics Workshop Week 2022. Feedback from students were positive, and the instructor team thought it hosts the material in a more organized way.\n\n\nSingle day workshop -&gt; two week course\nI was greatly encouraged by the experience, so when I got a 50% position at University of Oslo as biostatistics lecturer, I thought, why don’t we have the same thing for the course?\n\n\n\n\n\nOh well, the workload is crushing. There were a few key differences:\n\nR scripts and material were unavailable since the course was originally in STATA. Everything need to be done from scratch, for at least 12 lab sessions;\nThe students generally have little IT skills, which means more effort need to be done to guide them through the ‘get started’ part.\n\n\n\n\n\n\nIt took one month to create the first version of the website. More details about the experience can be read here.\n\n\nAdding WebR to the course\nOne year later, as technology advances, we added new content to some parts of the website. Most notably is the interactivity achieved through WebR. For example, I made this page on randomness and statistical distribution where students can interactively modify code chunks in a web browser."
+  },
+  {
+    "objectID": "blog/blog_20240923_quartofriends/index.html#quarto-as-a-collaboration-tool",
+    "href": "blog/blog_20240923_quartofriends/index.html#quarto-as-a-collaboration-tool",
+    "title": "Use Quarto, Make Friends: a two-year journey",
+    "section": "Quarto as a collaboration tool",
+    "text": "Quarto as a collaboration tool\nA static (or even interactive) website is not exactly what you call ‘collaborative tool’. However, if you work as a group towards something cool, Quarto might just be the tool you need. Check out the CAMIS project to find out what I mean by this!"
+  },
+  {
+    "objectID": "blog/blog_20240923_quartofriends/index.html#what-else",
+    "href": "blog/blog_20240923_quartofriends/index.html#what-else",
+    "title": "Use Quarto, Make Friends: a two-year journey",
+    "section": "What else?",
+    "text": "What else?\nThe associated talk is available on YouTube, check it out!"
   }
 ]

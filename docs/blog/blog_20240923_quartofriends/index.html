@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Chi Zhang">
+<meta name="dcterms.date" content="2024-09-23">
 
-<title>Hello, I’m Chi - Talks</title>
+<title>Hello, I’m Chi - Use Quarto, Make Friends: a two-year journey</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../misc/info/favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../misc/info/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,65 +69,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-past .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-past'] = new List('listing-past', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -138,7 +80,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Hello, I’m Chi</span>
     </a>
   </div>
@@ -149,31 +91,31 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../projects/projects.html"> 
+    <a class="nav-link" href="../../projects/projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching/teaching.html"> 
+    <a class="nav-link" href="../../teaching/teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../rpkg/rpkg.html"> 
+    <a class="nav-link" href="../../rpkg/rpkg.html"> 
 <span class="menu-text">R packages</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../talks/talks.html" aria-current="page"> 
+    <a class="nav-link" href="../../talks/talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/blog.html"> 
+    <a class="nav-link" href="../../blog/blog.html"> 
 <span class="menu-text">Blog/notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about_me.html"> 
+    <a class="nav-link" href="../../about_me.html"> 
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../misc/info/CV-CZ-2407.pdf"> 
+    <a class="nav-link" href="../../misc/info/CV-CZ-2407.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -188,21 +130,45 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Community">Community <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Public Health">Public Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RWD-EHR">RWD-EHR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rstats">Rstats <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Teaching">Teaching <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#quarto-as-a-teaching-tool" id="toc-quarto-as-a-teaching-tool" class="nav-link active" data-scroll-target="#quarto-as-a-teaching-tool">Quarto as a teaching tool</a></li>
+  <li><a href="#quarto-as-a-collaboration-tool" id="toc-quarto-as-a-collaboration-tool" class="nav-link" data-scroll-target="#quarto-as-a-collaboration-tool">Quarto as a collaboration tool</a></li>
+  <li><a href="#what-else" id="toc-what-else" class="nav-link" data-scroll-target="#what-else">What else?</a></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/blog_20240923_quartofriends/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Talks</h1>
-</div>
+<h1 class="title">Use Quarto, Make Friends: a two-year journey</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Quarto</div>
+    <div class="quarto-category">Website</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Chi Zhang </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 23, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -212,126 +178,55 @@ window.Quarto = {
 </header>
 
 
-<section id="upcoming" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming">Upcoming</h2>
-<section id="r-in-pharma" class="level4">
-<h4 class="anchored" data-anchor-id="r-in-pharma">R in Pharma</h4>
-<p>Explore Real-World hospital Electronic Health Records data with <code>ggehr</code></p>
+<blockquote class="blockquote">
+<p>I wrote a blog back in early 2023 when I first switched from blogdown to Quarto on my initial impression (read <a href="https://andreaczhang.github.io/blog/blog_20230103_blogdown2quarto/">here</a>), and this is a two-year follow-up on my journey since I started using Quarto, for my personal website, teaching, scientific works and collaborative community projects.</p>
+</blockquote>
+<section id="quarto-as-a-teaching-tool" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-as-a-teaching-tool">Quarto as a teaching tool</h2>
+<section id="from-personal-to-workshop-website" class="level3">
+<h3 class="anchored" data-anchor-id="from-personal-to-workshop-website">From personal to workshop website</h3>
+<p>I switched from blogdown to Quarto in late 2022, right after my PhD. It was initially a cure for a severe burnout from a combination of work-related stressors, when I desperately needed something other than research. My mental state was like the famous painting by Norwegian artist Edvard Munch:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="scream.JPG" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%"></p>
+</figure>
+</div>
+<p>The experience of the switch was explained in the previously mentioned blog. Briefly, it was light like a feather. Since I was quite satisfied, I thought, why don’t I make a <strong>workshop website</strong>? So I did.</p>
+<p>The result was quite good, I made the (as far as I knew) first quarto workshop <a href="https://ocbe-uio.github.io/2022_bioinformatics_workshop/">website</a> at University of Oslo for the <a href="https://www.mn.uio.no/sbi/english/events/oslo-bioinformatics-week-2022/">Oslo Bioinformatics Workshop Week 2022</a>. Feedback from students were positive, and the instructor team thought it hosts the material in a more organized way.</p>
+</section>
+<section id="single-day-workshop---two-week-course" class="level3">
+<h3 class="anchored" data-anchor-id="single-day-workshop---two-week-course">Single day workshop -&gt; two week course</h3>
+<p>I was greatly encouraged by the experience, so when I got a 50% position at University of Oslo as biostatistics lecturer, I thought, why don’t we have the same thing for the course?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="lemur.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%"></p>
+</figure>
+</div>
+<p>Oh well, the workload is crushing. There were a few key differences:</p>
+<ul>
+<li>R scripts and material were unavailable since the course was originally in STATA. Everything need to be done from scratch, for at least 12 lab sessions;</li>
+<li>The students generally have little IT skills, which means more effort need to be done to guide them through the ‘get started’ part.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="noregret.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%"></p>
+</figure>
+</div>
+<p>It took <strong>one month</strong> to create the first version of the website. More details about the experience can be read <a href="https://andreaczhang.github.io/blog/blog_20230717_teaching/">here</a>.</p>
+</section>
+<section id="adding-webr-to-the-course" class="level3">
+<h3 class="anchored" data-anchor-id="adding-webr-to-the-course">Adding <code>WebR</code> to the course</h3>
+<p>One year later, as technology advances, we added new content to some parts of the website. Most notably is the interactivity achieved through <code>WebR</code>. For example, I made this <a href="https://ocbe-uio.github.io/teaching_mf9130e/lab/lab_distribution.html">page</a> on <strong>randomness and statistical distribution</strong> where students can interactively modify code chunks in a web browser.</p>
 </section>
 </section>
-<section id="selected-previous-talks" class="level2">
-<h2 class="anchored" data-anchor-id="selected-previous-talks">Selected previous talks</h2>
-<div id="listing-past" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-past-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-past'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-Description
-</th>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="Community,Quarto" data-listing-date-sort="1726869600000" data-listing-file-modified-sort="1727097809067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182" data-listing-title-sort="Use Quarto, Make Friends" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../talks/community_20240921_quartofriends/index.html" class="title listing-title">Use Quarto, Make Friends</a>
-</td>
-<td>
-<span class="listing-description">Kolkata UseR meetup</span>
-</td>
-<td>
-<span class="listing-date">2024-09-21</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="RWD-EHR" data-listing-date-sort="1726610400000" data-listing-file-modified-sort="1727098106628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162" data-listing-title-sort="One step closer to better Electronic Health Records data" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../talks/ehr_20240918_betterehr/index.html" class="title listing-title">One step closer to better Electronic Health Records data</a>
-</td>
-<td>
-<span class="listing-description">PHUSE Single Day Event Basel</span>
-</td>
-<td>
-<span class="listing-date">2024-09-18</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="Community" data-listing-date-sort="1720562400000" data-listing-file-modified-sort="1727096342671" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="174" data-listing-title-sort="CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../talks/community_20240710_camis/index.html" class="title listing-title">CAMIS: An Open-Source, Community endeavour for Comparing Analysis Method Implementations</a>
-</td>
-<td>
-<span class="listing-description">UseR! 2024 Salzburg</span>
-</td>
-<td>
-<span class="listing-date">2024-07-10</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="Rstats,Quarto,Teaching" data-listing-date-sort="1718229600000" data-listing-file-modified-sort="1720351381872" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="203" data-listing-title-sort="A one year recap on teaching statistcis to medical students: how can R and Quarto help?" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../talks/rstats_20240613_teaching/index.html" class="title listing-title">A one year recap on teaching statistcis to medical students: how can R and Quarto help?</a>
-</td>
-<td>
-<span class="listing-description">R/Medicine 2024 - Online</span>
-</td>
-<td>
-<span class="listing-date">2024-06-13</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="Rstats,Quarto,Teaching" data-listing-date-sort="1689890400000" data-listing-file-modified-sort="1720351428926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="245" data-listing-title-sort="Transforming medical statistics classroom with R and Quarto" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../talks/rstats_20230721_teaching/index.html" class="title listing-title">Transforming medical statistics classroom with R and Quarto</a>
-</td>
-<td>
-<span class="listing-description">Basel R meeting</span>
-</td>
-<td>
-<span class="listing-date">2023-07-21</span>
-</td>
-</tr>
-<tr data-index="5" data-categories="Public Health" data-listing-date-sort="1655330400000" data-listing-file-modified-sort="1720351462479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195" data-listing-title-sort="Sykdomspulsen: An automated public health surveillance platform" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../talks/ph_20220616_splverse/index.html" class="title listing-title">Sykdomspulsen: An automated public health surveillance platform</a>
-</td>
-<td>
-<span class="listing-description">Oslo UseR meetup </span>
-</td>
-<td>
-<span class="listing-date">2022-06-16</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-
+<section id="quarto-as-a-collaboration-tool" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-as-a-collaboration-tool">Quarto as a collaboration tool</h2>
+<p>A static (or even interactive) website is not exactly what you call ‘collaborative tool’. However, if you work as a group towards <strong>something cool</strong>, Quarto might just be the tool you need. Check out the <a href="https://psiaims.github.io/CAMIS/">CAMIS</a> project to find out what I mean by this!</p>
+</section>
+<section id="what-else" class="level2">
+<h2 class="anchored" data-anchor-id="what-else">What else?</h2>
+<p>The associated talk is available on YouTube, check it out!</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/0TEdFZ17FhY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
 </section>
@@ -754,7 +649,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/talks/talks.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/blog_20240923_quartofriends/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

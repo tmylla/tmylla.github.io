@@ -1,0 +1,33 @@
+---
+title: "Personal Highlights: Positconf 2024"
+author: "Chi Zhang"
+description: |
+  My picked talks for 2024 after Posit released the talks on YouTube
+date: "2024-11-05"
+categories: [Data science]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
+---
+
+
+Quarto
+
+[Tyler Morgan-wall: Quarto, AI, and the Art of Getting Your Left Back](https://www.youtube.com/watch?v=U8_Dc_ru8fg&list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&index=104)
+
+Transform old blog (Wordpress) to Quarto. Quarto can render pre-exisitng HTML
+
+Customize website with AI, with css
+
+Image carousel, transform some grid images into an auto rotating carousel (JS). Can also add screenshot; explain what the code is doing
+
+
+[Andrew Gard: Teaching and learning data science in the era of AI](https://www.youtube.com/watch?v=kUh3ZAz-Zfg&list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&index=82)
+
+Students don't know enough to be able to edit the prompt to reach a sensible code chunk, AI guessed and guessed wrong. We should not expect AI to guess information that we do not provide! 
+
+Students should still learn to code, and teachers should ask better questions - instead of asking for the final result (create a bar plot), ask students to critically think: why doesn't the AI-generated code work? what information is missing? how do you improve the prompt?

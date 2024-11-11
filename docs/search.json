@@ -1285,6 +1285,34 @@
     "href": "blog/blog_20241105_positconf2024/index.html",
     "title": "Personal Highlights: Positconf 2024",
     "section": "",
-    "text": "Quarto\nTyler Morgan-wall: Quarto, AI, and the Art of Getting Your Left Back\nTransform old blog (Wordpress) to Quarto. Quarto can render pre-exisitng HTML\nCustomize website with AI, with css\nImage carousel, transform some grid images into an auto rotating carousel (JS). Can also add screenshot; explain what the code is doing\nAndrew Gard: Teaching and learning data science in the era of AI\nStudents don’t know enough to be able to edit the prompt to reach a sensible code chunk, AI guessed and guessed wrong. We should not expect AI to guess information that we do not provide!\nStudents should still learn to code, and teachers should ask better questions - instead of asking for the final result (create a bar plot), ask students to critically think: why doesn’t the AI-generated code work? what information is missing? how do you improve the prompt?"
+    "text": "Tyler Morgan-wall: Quarto, AI, and the Art of Getting Your Left Back\nTransform old blog (Wordpress) to Quarto. Quarto can render pre-exisiting HTML\nCustomize website with AI, with css\nImage carousel, transform some grid images into an auto rotating carousel (JS). Can also add screenshot; explain what the code is doing\n\n\nAlenka Frim and Nic Crane: Mixing R, Python, and Quarto: Crafting the Perfect Open Source Cocktail\nComparing the tools to make dashboards:\n\n\n\n\n\n\n\n\n\n\n\nDashboard aesthetic\nMarkdown syntax\nDeploy with GH actions\nBoth R and python\n\n\n\n\nShiny\nYes\nNo\nNo / Yes with Shinylive\nYes\n\n\nQuarto doc\nNo\nYes\nYes\nYes\n\n\nQuarto dashboard\nYes\nYes\nYes\nYes\n\n\n\nEngine: knitr and jupyter\nSean Nguyen: Beyond Dashboards: Dynamic Data Storytelling with Python, R, and Quarto Emails\nRemove friction of too much dashboards\n\nlogging in can create barriers\nmeeting executives where they are (email, for example)\n“no-click” insights (e.g. add key metric/alerts in the subject line or notification)\n\nTools: quarto emails, pins (a package), posit connect\n\ndata sources -&gt; data warehouse (big query) -&gt; quarto (create pins.qmd) -&gt; pins (marketing data.csv pin, for example)\nchange quarto format to email\ngenerate multiple using purrr"
+  },
+  {
+    "objectID": "blog/blog_20241105_positconf2024/index.html#quarto",
+    "href": "blog/blog_20241105_positconf2024/index.html#quarto",
+    "title": "Personal Highlights: Positconf 2024",
+    "section": "",
+    "text": "Tyler Morgan-wall: Quarto, AI, and the Art of Getting Your Left Back\nTransform old blog (Wordpress) to Quarto. Quarto can render pre-exisiting HTML\nCustomize website with AI, with css\nImage carousel, transform some grid images into an auto rotating carousel (JS). Can also add screenshot; explain what the code is doing\n\n\nAlenka Frim and Nic Crane: Mixing R, Python, and Quarto: Crafting the Perfect Open Source Cocktail\nComparing the tools to make dashboards:\n\n\n\n\n\n\n\n\n\n\n\nDashboard aesthetic\nMarkdown syntax\nDeploy with GH actions\nBoth R and python\n\n\n\n\nShiny\nYes\nNo\nNo / Yes with Shinylive\nYes\n\n\nQuarto doc\nNo\nYes\nYes\nYes\n\n\nQuarto dashboard\nYes\nYes\nYes\nYes\n\n\n\nEngine: knitr and jupyter\nSean Nguyen: Beyond Dashboards: Dynamic Data Storytelling with Python, R, and Quarto Emails\nRemove friction of too much dashboards\n\nlogging in can create barriers\nmeeting executives where they are (email, for example)\n“no-click” insights (e.g. add key metric/alerts in the subject line or notification)\n\nTools: quarto emails, pins (a package), posit connect\n\ndata sources -&gt; data warehouse (big query) -&gt; quarto (create pins.qmd) -&gt; pins (marketing data.csv pin, for example)\nchange quarto format to email\ngenerate multiple using purrr"
+  },
+  {
+    "objectID": "blog/blog_20241105_positconf2024/index.html#teaching-and-education",
+    "href": "blog/blog_20241105_positconf2024/index.html#teaching-and-education",
+    "title": "Personal Highlights: Positconf 2024",
+    "section": "Teaching and education",
+    "text": "Teaching and education\nAndrew Gard: Teaching and learning data science in the era of AI\nStudents don’t know enough to be able to edit the prompt to reach a sensible code chunk, AI guessed and guessed wrong. We should not expect AI to guess information that we do not provide!\nStudents should still learn to code, and teachers should ask better questions - instead of asking for the final result (create a bar plot), ask students to critically think: why doesn’t the AI-generated code work? what information is missing? how do you improve the prompt?\nJames Wade: Posit Academy in the Age of Generative AI - Lessons from the Frontlines\nchattr, gptstudio, github copilot\nPosit Academy learners (over half) give AI code assistants 2 star rating or less\nRewarding, high-growth period. Threshold concepts: once understood, transforms your perception and approach of a discipline, and these must be encountered not told.\nTC in DS:\n\ntidy data enables efficient analysis\nmodular code enhances re-usablity and clarity\nvisualization as a tool for exploration and communication\n\nHow to incorporate AI code assistants (in DS class)\n\nearly stage: explain this code piece by piece\nmid stage: add a roxygen skeleton to my code\nlate stage: try code assistants in the IDE\n\nTC for code assistants:\n\ndrive faster but don’t forget to steer\nprompting matters, learning how to use these tools is a skill"
+  },
+  {
+    "objectID": "blog/blog_20241105_positconf2024/index.html#python",
+    "href": "blog/blog_20241105_positconf2024/index.html#python",
+    "title": "Personal Highlights: Positconf 2024",
+    "section": "Python",
+    "text": "Python\nEmily Riederer: Python Rgonomics\nPython alternatives to R. Worth rewatching!"
+  },
+  {
+    "objectID": "blog/blog_20241105_positconf2024/index.html#statistics",
+    "href": "blog/blog_20241105_positconf2024/index.html#statistics",
+    "title": "Personal Highlights: Positconf 2024",
+    "section": "Statistics",
+    "text": "Statistics\nHannah Frick: tidymodels for time-to-event data\nMax Kuhn: Evaluating time-to-event models is hard\nDemetri Pananos - Making sense of marginal effects"
   }
 ]

@@ -131,7 +131,16 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#quarto" id="toc-quarto" class="nav-link active" data-scroll-target="#quarto">Quarto</a></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a></li>
+  <li><a href="#teaching-and-education" id="toc-teaching-and-education" class="nav-link" data-scroll-target="#teaching-and-education">Teaching and education</a></li>
+  <li><a href="#statistics" id="toc-statistics" class="nav-link" data-scroll-target="#statistics">Statistics</a></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/blog_20241105_positconf2024/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -175,16 +184,113 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Quarto</p>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
 <p><a href="https://www.youtube.com/watch?v=U8_Dc_ru8fg&amp;list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&amp;index=104">Tyler Morgan-wall: Quarto, AI, and the Art of Getting Your Left Back</a></p>
-<p>Transform old blog (Wordpress) to Quarto. Quarto can render pre-exisitng HTML</p>
+<p>Transform old blog (Wordpress) to Quarto. Quarto can render pre-exisiting HTML</p>
 <p>Customize website with AI, with css</p>
 <p>Image carousel, transform some grid images into an auto rotating carousel (JS). Can also add screenshot; explain what the code is doing</p>
+<section id="dashboards" class="level3">
+<h3 class="anchored" data-anchor-id="dashboards">Dashboards</h3>
+<p><a href="https://www.youtube.com/watch?v=8174mk6SGcU&amp;list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&amp;index=57">Alenka Frim and Nic Crane: Mixing R, Python, and Quarto: Crafting the Perfect Open Source Cocktail</a></p>
+<p>Comparing the tools to make dashboards:</p>
+<table class="table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 23%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Dashboard aesthetic</th>
+<th style="text-align: center;">Markdown syntax</th>
+<th style="text-align: center;">Deploy with GH actions</th>
+<th style="text-align: center;">Both R and python</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Shiny</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">No</td>
+<td style="text-align: center;">No / Yes with Shinylive</td>
+<td style="text-align: center;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Quarto doc</td>
+<td style="text-align: center;">No</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Quarto dashboard</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">Yes</td>
+</tr>
+</tbody>
+</table>
+<p>Engine: knitr and jupyter</p>
+<p><a href="https://www.youtube.com/watch?v=fzykFa6c3LI&amp;list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&amp;index=105">Sean Nguyen: Beyond Dashboards: Dynamic Data Storytelling with Python, R, and Quarto Emails</a></p>
+<p>Remove friction of too much dashboards</p>
+<ul>
+<li>logging in can create barriers</li>
+<li>meeting executives where they are (email, for example)</li>
+<li>“no-click” insights (e.g.&nbsp;add key metric/alerts in the subject line or notification)</li>
+</ul>
+<p>Tools: <strong>quarto emails</strong>, pins (a package), posit connect</p>
+<ul>
+<li>data sources -&gt; data warehouse (big query) -&gt; quarto (create pins.qmd) -&gt; pins (marketing data.csv pin, for example)</li>
+<li>change quarto format to <em>email</em></li>
+<li>generate multiple using <strong>purrr</strong></li>
+</ul>
+</section>
+</section>
+<section id="python" class="level2">
+<h2 class="anchored" data-anchor-id="python">Python</h2>
+<p><a href="https://www.youtube.com/watch?v=ILxK92HDtvU&amp;list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&amp;index=67">Emily Riederer: Python Rgonomics</a></p>
+<p>Python alternatives to R. Worth rewatching!</p>
+</section>
+<section id="teaching-and-education" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-and-education">Teaching and education</h2>
 <p><a href="https://www.youtube.com/watch?v=kUh3ZAz-Zfg&amp;list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&amp;index=82">Andrew Gard: Teaching and learning data science in the era of AI</a></p>
 <p>Students don’t know enough to be able to edit the prompt to reach a sensible code chunk, AI guessed and guessed wrong. We should not expect AI to guess information that we do not provide!</p>
 <p>Students should still learn to code, and teachers should ask better questions - instead of asking for the final result (create a bar plot), ask students to critically think: why doesn’t the AI-generated code work? what information is missing? how do you improve the prompt?</p>
+<p><a href="https://www.youtube.com/watch?v=7tcnho6PHOc&amp;list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&amp;index=13">James Wade: Posit Academy in the Age of Generative AI - Lessons from the Frontlines</a></p>
+<p>chattr, gptstudio, github copilot</p>
+<p>Posit Academy learners (over half) give AI code assistants 2 star rating or less</p>
+<p>Rewarding, high-growth period. <strong>Threshold concepts</strong>: once understood, <strong>transforms</strong> your perception and approach of a discipline, and these must be <strong>encountered</strong> not told.</p>
+<p>TC in DS:</p>
+<ul>
+<li>tidy data enables efficient analysis</li>
+<li>modular code enhances re-usablity and clarity</li>
+<li>visualization as a tool for exploration and communication</li>
+</ul>
+<p>How to incorporate AI code assistants (in DS class)</p>
+<ul>
+<li>early stage: explain this code piece by piece</li>
+<li>mid stage: add a roxygen skeleton to my code</li>
+<li>late stage: try code assistants in the IDE</li>
+</ul>
+<p>TC for code assistants:</p>
+<ul>
+<li>drive faster but don’t forget to steer</li>
+<li>prompting matters, learning how to use these tools is a skill</li>
+</ul>
+</section>
+<section id="statistics" class="level2">
+<h2 class="anchored" data-anchor-id="statistics">Statistics</h2>
+<p><a href="https://www.youtube.com/watch?v=NhUGixMJk7U&amp;list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&amp;index=20">Hannah Frick: tidymodels for time-to-event data</a></p>
+<p><a href="https://www.youtube.com/watch?v=cm34R5aYUQ4&amp;list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&amp;index=33">Max Kuhn: Evaluating time-to-event models is hard</a></p>
+<p><a href="https://www.youtube.com/watch?v=sjYNUIkOlC0&amp;list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn&amp;index=89">Demetri Pananos - Making sense of marginal effects</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -604,7 +710,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/blog_20241105_positconf2024/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/edit/main/blog/blog_20241105_positconf2024/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/andreaczhang/andreaczhang.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

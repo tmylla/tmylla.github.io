@@ -11,18 +11,18 @@ about:
       text: chizapoth@gmail.com
       href: mailto:chizapoth@gmail.com
     - icon: github
-      text: andreaczhang
-      href: https://github.com/andreaczhang
+      text: chizapoth
+      href: https://github.com/chizapoth
     - icon: linkedin
       text: Chi Zhang
-      href: https://www.linkedin.com/in/andreaczhang/
+      href: https://www.linkedin.com/in/chizapoth/
 ---
 
 ::: {#hero-heading}
 
 Hello! 
 
-I am a statistician and R developer at the Faculty of Medicine, University of Oslo. I'm mostly interested in **RWD (real-world data)**, such as hospital **Electronic Health Record** and large public health registry data. I develop [ggehr](https://andreaczhang.github.io/ggehr/), a ggplot2 extension to visualizing EHR data.
+I am a statistician and R developer at the Faculty of Medicine, University of Oslo. I'm mostly interested in **RWD (real-world data)**, such as hospital **Electronic Health Record** and large public health registry data. I develop [ggehr](https://chizapoth.github.io/ggehr/), a ggplot2 extension to visualizing EHR data.
 
 In 2020-2022, I worked as part of the COVID emergency response at the [Norwegian Institute of Public Health](https://www.fhi.no/en/). I helped develop the open source real-time analysis and public health surveillance system, **Sykdomspulsen** (now [CSIDS](https://www.csids.no)). I am co-leading [CAMIS](https://psiaims.github.io/CAMIS/) working group. 
 

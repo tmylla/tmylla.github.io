@@ -8,7 +8,7 @@ image: "logo_dan.png"
 
 ### About the notes
 
-[Data Apothecary's Notes](https://andreaczhang.github.io/data-apothecary-notes/) is a note-taking repository for modern data science skills with a focus on **drug development and clinical trials**. Content will be gradually added while I learn the topics. Therefore, it is by no means a complete guide by the time you read it!
+[Data Apothecary's Notes](https://chizapoth.github.io/data-apothecary-notes/) is a note-taking repository for modern data science skills with a focus on **drug development and clinical trials**. Content will be gradually added while I learn the topics. Therefore, it is by no means a complete guide by the time you read it!
 
 I try to organize the content in a modular way. I think these should cover the important aspects in which a data scientist / modern statistician should know.
 

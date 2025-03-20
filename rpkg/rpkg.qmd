@@ -25,8 +25,8 @@ listing:
 
 | Package |   Description            |
 |:-----|:------------------------|
-| [noreden](https://andreaczhang.github.io/noreden/) | Tools to facilitate nutrition researcher for sustainable diet discovery|
-| [medicode](https://andreaczhang.github.io/medicode/) | Metadata for medical classification and clinical coding |
+| [noreden](https://chizapoth.github.io/noreden/) | Tools to facilitate nutrition researcher for sustainable diet discovery|
+| [medicode](https://chizapoth.github.io/medicode/) | Metadata for medical classification and clinical coding |
 | [csdata](https://www.csids.no/csdata/) | Pre-formatted structured data for Norway |
 | [csmaps](https://www.csids.no/csmaps/) | Pre-formatted map data for Norway |
 

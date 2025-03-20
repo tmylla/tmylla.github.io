@@ -33,11 +33,11 @@ listing:
 
 ### Real World Data and Public health
 
-My main research interest is **hospital Electronic Health Records** and large **health registry** data. My PhD (completed in 2022) focused on representation and utilization of hospital EHR data. I am currently working on quality assurance of the prescription and use of antibiotics in a hospital setting, and an R package [ggehr](https://github.com/andreaczhang/ggehr) to facilitate the exploration of EHR data.
+My main research interest is **hospital Electronic Health Records** and large **health registry** data. My PhD (completed in 2022) focused on representation and utilization of hospital EHR data. I am currently working on quality assurance of the prescription and use of antibiotics in a hospital setting, and an R package [ggehr](https://github.com/chizapoth/ggehr) to facilitate the exploration of EHR data.
 
 In 2020-2022, I worked at Norwegian Institute of Public Health during Covid-19 pandemic. I helped develop Sykdomspulsen (now [CSIDS](https://www.csids.no)), a real-time infectious disease surveillance and real-time large scale reporting with open source technology. 
 
-Since 2023, I joined [NOR-Eden](https://www.med.uio.no/imb/english/research/projects/nor-eden/) and [Norkost](https://www.med.uio.no/imb/english/research/projects/norkost/) projects at University of Oslo. I help develop a set of R tools to facilitate sustainable diet design, [noreden](https://andreaczhang.github.io/noreden/).
+Since 2023, I joined [NOR-Eden](https://www.med.uio.no/imb/english/research/projects/nor-eden/) and [Norkost](https://www.med.uio.no/imb/english/research/projects/norkost/) projects at University of Oslo. I help develop a set of R tools to facilitate sustainable diet design, [noreden](https://chizapoth.github.io/noreden/).
 
 ::: {#rwdpublichealth}
 :::

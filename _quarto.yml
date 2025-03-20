@@ -5,16 +5,16 @@ project:
 website:
   page-navigation: true
   title: "Hello, I'm Chi"
-  site-url: https://andreaczhang.github.io
+  site-url: https://chizapoth.github.io
   favicon: misc/info/favicon.png
-  repo-url: https://github.com/andreaczhang/andreaczhang.github.io
+  repo-url: https://github.com/chizapoth/chizapoth.github.io
   repo-actions: [edit, issue]
   
   page-footer: 
     left: "&copy; Copyright 2024, Chi Zhang"
     right: 
       - icon: github
-        href: https://github.com/andreaczhang/andreaczhang.github.io
+        href: https://github.com/chizapoth/chizapoth.github.io
 
   navbar: 
     background: "#A9CCE3"
@@ -38,8 +38,8 @@ website:
       - text: "About me"
         href: about_me.qmd
         
-      - text: "CV"
-        href: misc/info/CV-CZ-2407.pdf
+      #- text: "CV"
+      #  href: misc/info/CV-CZ-2407.pdf
 
 
 format:

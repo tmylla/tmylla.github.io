@@ -15,7 +15,7 @@ format:
     linestretch: 1.7
 ---
 
-Two days ago (Jan 11 2023) I watched a [presentation](https://www.youtube.com/watch?v=nqJsLSLd39A) by data scientists at Roche about **why they are making their clinical trials in 2023 open source with R**. As someone who uses R for most of the time and has done similar works (not in pharma, but in [public health surveillance and reporting](https://andreaczhang.github.io/projects/sykdomspulsen/): watch [my talk](https://www.youtube.com/watch?v=9wmajA7Okrg), [slides](https://github.com/andreaczhang/talks/tree/master/2022-06-16-user_sykdomspulsen) to find out what we do), I watched the presentation with great interest. Here are my notes, combined with some thoughts on open-source in the industry, public sector and academia. 
+Two days ago (Jan 11 2023) I watched a [presentation](https://www.youtube.com/watch?v=nqJsLSLd39A) by data scientists at Roche about **why they are making their clinical trials in 2023 open source with R**. As someone who uses R for most of the time and has done similar works (not in pharma, but in [public health surveillance and reporting](https://chizapoth.github.io/projects/sykdomspulsen/): watch [my talk](https://www.youtube.com/watch?v=9wmajA7Okrg), [slides](https://github.com/chizapoth/talks/tree/master/2022-06-16-user_sykdomspulsen) to find out what we do), I watched the presentation with great interest. Here are my notes, combined with some thoughts on open-source in the industry, public sector and academia. 
 
 
 
@@ -98,7 +98,7 @@ Compared to clinical reporting (in my understanding), there are many similaritie
 
 ### Scale up and automate with open source tools
 
-Traditionally, these reports are made manually - one location, one graph per time on a certain disease. When a global pandemic hits, this is definitely not fast enough. At my team ([Sykdomspulsen](https://docs.sykdomspulsen.no) team at the Norwegian Institute of Public Health), we tried a different approach. Details of what we did can be found in [this talk](https://www.youtube.com/watch?v=9wmajA7Okrg)([slides](https://github.com/andreaczhang/talks/tree/master/2022-06-16-user_sykdomspulsen)), but to make it brief: 
+Traditionally, these reports are made manually - one location, one graph per time on a certain disease. When a global pandemic hits, this is definitely not fast enough. At my team ([Sykdomspulsen](https://docs.sykdomspulsen.no) team at the Norwegian Institute of Public Health), we tried a different approach. Details of what we did can be found in [this talk](https://www.youtube.com/watch?v=9wmajA7Okrg)([slides](https://github.com/chizapoth/talks/tree/master/2022-06-16-user_sykdomspulsen)), but to make it brief: 
 
 - We developed a fully automated pipeline that connects 15 registries (vaccination, lab, hospital and intensive care and many more). The data is gathered, censored, cleaned and pre-processed for down-stream analysis 
 - Statistical analysis, tables, graphs and maps are made for <u>all locations in Norway</u> for various outcomes of interest, such as Covid, influenza, respiratory and gastrointestinal infections

@@ -8,5 +8,5 @@ categories: [public health]
 
 This package provides tools to facilitate sustainable diet discovery.
 
-[GitHub Link](https://github.com/andreaczhang/noreden)
+[GitHub Link](https://github.com/chizapoth/noreden)
 

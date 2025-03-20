@@ -12,7 +12,7 @@ format:
     code-tools: false
 ---
 
-> I wrote a blog back in early 2023 when I first switched from blogdown to Quarto on my initial impression (read [here](https://andreaczhang.github.io/blog/blog_20230103_blogdown2quarto/)), and this is a two-year follow-up on my journey since I started using Quarto, for my personal website, teaching, scientific works and collaborative community projects. 
+> I wrote a blog back in early 2023 when I first switched from blogdown to Quarto on my initial impression (read [here](https://chizapoth.github.io/blog/blog_20230103_blogdown2quarto/)), and this is a two-year follow-up on my journey since I started using Quarto, for my personal website, teaching, scientific works and collaborative community projects. 
 
 ## Quarto as a teaching tool
 
@@ -39,7 +39,7 @@ Oh well, the workload is crushing. There were a few key differences:
 
 ![](noregret.jpg){width=40% fig-align='center'}
 
-It took **one month** to create the first version of the website. More details about the experience can be read [here](https://andreaczhang.github.io/blog/blog_20230717_teaching/).
+It took **one month** to create the first version of the website. More details about the experience can be read [here](https://chizapoth.github.io/blog/blog_20230717_teaching/).
 
 ### Adding `WebR` to the course
 

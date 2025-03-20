@@ -63,7 +63,7 @@ Test locally by running `shiny::runApp()`. This should render the app.
 
 `rsconnect::deployApp()` will deploy the app, with an automatically generated url that links to your account.
 
-The demo app is deployed [here](https://andreaczhang.shinyapps.io/shinydev/). 
+The demo app is deployed [here](https://chizapoth.shinyapps.io/shinydev/). 
 
 
 ### Note on active hours

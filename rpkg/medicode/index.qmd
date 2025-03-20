@@ -8,7 +8,7 @@ categories: [Utility]
 
 This package provides metadata and tools for medical classification and clinical coding. 
 
-[GitHub Link](https://github.com/andreaczhang/medicode)
+[GitHub Link](https://github.com/chizapoth/medicode)
 
 It is especially useful for English and Norwegian (Bokmål) languages.
 

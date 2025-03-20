@@ -12,6 +12,6 @@ title-block-banner: false
 
 The templates are designed to make it quick and easy for users with little or no Quarto experience to create a website for their personal portfolio or courses. Each template is fully customizable once the user is more familiar with Quarto.
 
-Read more about the package [here](https://andreaczhang.github.io/qtwAcademic/). 
+Read more about the package [here](https://chizapoth.github.io/qtwAcademic/). 
 
 *More details about the package is being written ... *

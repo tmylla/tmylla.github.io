@@ -35,7 +35,7 @@ My experience with Quarto is focused on websites. I have not tried other forms o
 
 * a personal website (the one you are reading right now)
 
-* an R package ([qtwAcademic](https://andreaczhang.github.io/rpkg/qtwAcademic/))that wraps three Quarto website templates for beginners
+* an R package ([qtwAcademic](https://chizapoth.github.io/rpkg/qtwAcademic/))that wraps three Quarto website templates for beginners
 
 Here are a few things I like about Quarto. Given that I'm not very experienced in front-end development, these comments are going to be about ease-of-use and design, rather than the technicalities. 
 
@@ -70,7 +70,7 @@ The way that `_quarto.yml` clearly specifies the `.qmd` files really helps begin
 
 Rstats people have a great community. I wouldn't be able to make my site the way I wanted if people haven't been sharing their works. I have learned a lot by reading the source code by [Dr Emi Tanaka](https://emitanaka.org), [Dr David Schoch](https://mr.schochastics.net), [Bea Milz](https://beamilz.com), [Prof Mine Cetinnkaya-Rundel](https://mine-cr.com)'s [STA 210 - Regression Analysis](https://sta210-s22.github.io/website/) course. 
 
-I also made my own R package that wraps three templates to create Quarto websites that are frequently used by academics, [qtwAcademic](https://andreaczhang.github.io/qtwAcademic/). In the following days I plan to write up more detailed explanations on how to use the package, along with some new features. 
+I also made my own R package that wraps three templates to create Quarto websites that are frequently used by academics, [qtwAcademic](https://chizapoth.github.io/qtwAcademic/). In the following days I plan to write up more detailed explanations on how to use the package, along with some new features. 
 
 
 

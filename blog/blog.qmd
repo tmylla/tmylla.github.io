@@ -49,7 +49,7 @@ listing:
 
 ### Technical notes
 
-Most of the technical notes are in the newly built note repository, [Data Apothecary's Notes](https://andreaczhang.github.io/data-apothecary-notes/). Please feel free to reach out if you found any errors!
+Most of the technical notes are in the newly built note repository, [Data Apothecary's Notes](https://chizapoth.github.io/data-apothecary-notes/). Please feel free to reach out if you found any errors!
 
 I'd be glad if it helps you in some way.
 

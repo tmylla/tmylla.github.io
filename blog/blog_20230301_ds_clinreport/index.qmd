@@ -34,11 +34,11 @@ In my opinion,
 
 ## Each module 
 
-* Module 1 ([notes](https://andreaczhang.github.io/blog/technotes_20230205_clinreport_part1/)): what the requirements are regarding clinical reporting, what should be done to meet the quality standards;
-* Module 2 ([notes](https://andreaczhang.github.io/blog/technotes_20230222_clinreport_part2/)): DevOps and Agile 
-* Module 3 ([notes](https://andreaczhang.github.io/blog/technotes_20230222_clinreport_part2/)): version Control, git workflows, reproducible clinical reporting
-* Module 4 ([notes](https://andreaczhang.github.io/blog/technotes_20230227_clinreport_part3/)): code quality, robust and reusable code, R packages
-* Module 5 ([notes](https://andreaczhang.github.io/blog/technotes_20230227_clinreport_part4/)): risk management with open source software
+* Module 1 ([notes](https://chizapoth.github.io/blog/technotes_20230205_clinreport_part1/)): what the requirements are regarding clinical reporting, what should be done to meet the quality standards;
+* Module 2 ([notes](https://chizapoth.github.io/blog/technotes_20230222_clinreport_part2/)): DevOps and Agile 
+* Module 3 ([notes](https://chizapoth.github.io/blog/technotes_20230222_clinreport_part2/)): version Control, git workflows, reproducible clinical reporting
+* Module 4 ([notes](https://chizapoth.github.io/blog/technotes_20230227_clinreport_part3/)): code quality, robust and reusable code, R packages
+* Module 5 ([notes](https://chizapoth.github.io/blog/technotes_20230227_clinreport_part4/)): risk management with open source software
 
 
 ## Highlight

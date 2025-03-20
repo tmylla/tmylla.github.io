@@ -13,7 +13,7 @@ image: "hex_ggehr2.png"
 * have an overview of the **mixed type information** related to a patient;
 * visually **identify the errors** in data recording.
 
-[Learn more about ggehr](https://andreaczhang.github.io/ggehr/)
+[Learn more about ggehr](https://chizapoth.github.io/ggehr/)
 
 
 

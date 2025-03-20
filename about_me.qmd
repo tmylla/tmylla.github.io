@@ -14,11 +14,11 @@ about:
       text: chizapoth@gmail.com
       href: mailto:chizapoth@gmail.com
     - icon: github
-      text: andreaczhang
-      href: https://github.com/andreaczhang
+      text: chizapoth
+      href: https://github.com/chizapoth
     - icon: linkedin
       text: Chi Zhang
-      href: https://www.linkedin.com/in/andreaczhang/
+      href: https://www.linkedin.com/in/chizapoth/
 ---
 
 ::: {#hero-heading}
@@ -36,11 +36,11 @@ My **interests** are:
 * Quarto.
 
 
-I have a MSc in Statistics from Imperial College London in 2016. Then I moved to Norway to do my PhD and some [hiking](misc info/photo3_chi.jpg). I obtained my PhD (thesis: *Representation and Utilization of hospital Electronic Health Records data*) at the Faculty of Medicine, University of Oslo in 2022. I am still working on EHR and antibiotics related projects, and I develop [ggehr](https://andreaczhang.github.io/ggehr/), a ggplot2 extension to visualizing EHR data.
+I have a MSc in Statistics from Imperial College London in 2016. Then I moved to Norway to do my PhD and some [hiking](misc info/photo3_chi.jpg). I obtained my PhD (thesis: *Representation and Utilization of hospital Electronic Health Records data*) at the Faculty of Medicine, University of Oslo in 2022. I am still working on EHR and antibiotics related projects, and I develop [ggehr](https://chizapoth.github.io/ggehr/), a ggplot2 extension to visualizing EHR data.
 
 Shortly after the COVID-19 pandemic started in 2020, I joined [Norwegian Institute of Public Health](https://www.fhi.no/en/) as a **data scientist** (R developer + statistician) for the open source real-time analysis and public health surveillance system, Sykdomspulsen (now [CSIDS](https://www.csids.no)). I am one of a founding members of CSIDS, the Consortium for Statistics in Disease Surveillance, where we build open source software for public health surveillance. 
 
-Sometimes I teach **statistics** courses (MF9130, MF9130E, ERN4110) at Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)), University of Oslo. As a certified Carpentries instructor, I also teach and help with **R programming** at the [Carpentries workshops](https://www.ub.uio.no/english/libraries/dsc/carpentry-uio/) at University of Oslo. In 2023, I lead the transition of medical statistics classroom of MF9130E into open-source ([read more](https://andreaczhang.github.io/blog/blog_20230717_teaching/)).
+Sometimes I teach **statistics** courses (MF9130, MF9130E, ERN4110) at Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)), University of Oslo. As a certified Carpentries instructor, I also teach and help with **R programming** at the [Carpentries workshops](https://www.ub.uio.no/english/libraries/dsc/carpentry-uio/) at University of Oslo. In 2023, I lead the transition of medical statistics classroom of MF9130E into open-source ([read more](https://chizapoth.github.io/blog/blog_20230717_teaching/)).
 
 
 I am an active member of Oslo User R group and Oslo R ladies group. I give talks and host workshops to learn and share.

@@ -14,7 +14,7 @@ format:
     code-tools: false
 ---
 
-Earlier this year (2023) I wrote a [blog](https://andreaczhang.github.io/blog/blog_20230112_roche_opensource/) about my thoughts on the role of open source software in statisical education. Naturally, I advocate for more use of open source tools such as R/python in teaching introductory statistics to applied scientists. Nonetheless, **how** the material is taught will make a huge difference in the understanding and interest in the material.
+Earlier this year (2023) I wrote a [blog](https://chizapoth.github.io/blog/blog_20230112_roche_opensource/) about my thoughts on the role of open source software in statisical education. Naturally, I advocate for more use of open source tools such as R/python in teaching introductory statistics to applied scientists. Nonetheless, **how** the material is taught will make a huge difference in the understanding and interest in the material.
 
 I was taught statistics in the classic way: lectures with tons of mathematical formulae and proofs, while programming and data analyses were left for students themselves to figure out. Those who were the fastest learners were the ones who already had a degree in computer science, which probably doesn't sound surprising. I, for one, definitely struggled.
 

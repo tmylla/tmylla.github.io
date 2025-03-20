@@ -14,5 +14,5 @@ image: "image_os_teaching.png"
 
 Read more about the experience in 
 
-* [blogpost](https://andreaczhang.github.io/blog/blog_20230717_teaching/)
-* [presentation](https://andreaczhang.github.io/talks/rstats_20240613_teaching/)
+* [blogpost](https://chizapoth.github.io/blog/blog_20230717_teaching/)
+* [presentation](https://chizapoth.github.io/talks/rstats_20240613_teaching/)

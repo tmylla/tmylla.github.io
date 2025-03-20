@@ -173,7 +173,7 @@ usethis::use_vignette('your_vignette')
 
 #### Deploy to `pkgdown`
 
-Check this reference [here](https://andreaczhang.github.io/blog/technotes_20230220_pkgdown/)
+Check this reference [here](https://chizapoth.github.io/blog/technotes_20230220_pkgdown/)
 
 
 

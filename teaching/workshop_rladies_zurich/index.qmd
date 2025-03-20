@@ -12,8 +12,8 @@ Place: KO2-F-153, Rämistrasse 71, Zürich.
 
 [Event link](https://www.meetup.com/rladies-zurich/events/296330423/)
 
-Presenter: [Chi Zhang](https://andreaczhang.github.io). Feel free to reach out with comments and feedback!
+Presenter: [Chi Zhang](https://chizapoth.github.io). Feel free to reach out with comments and feedback!
 
-Workshop [site](https://andreaczhang.github.io/workshop-02quarto/)
+Workshop [site](https://chizapoth.github.io/workshop-02quarto/)
 
-<iframe class="slide-deck" style="width:800px; height:600px" src="https://andreaczhang.github.io/slides-02quarto/"></iframe>
+<iframe class="slide-deck" style="width:800px; height:600px" src="https://chizapoth.github.io/slides-02quarto/"></iframe>

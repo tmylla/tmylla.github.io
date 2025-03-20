@@ -9,7 +9,7 @@ categories: [Rstats, Quarto, Teaching]
 
 Time and place: **June 13 2024. Online**
 
-Slides for this talk can be accessed [here](https://github.com/andreaczhang/talks/tree/master/2024-06-13-rmedicine).
+Slides for this talk can be accessed [here](https://github.com/chizapoth/talks/tree/master/2024-06-13-rmedicine).
 
 ## About the topic
 

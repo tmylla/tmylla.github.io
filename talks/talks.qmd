@@ -27,11 +27,7 @@ listing:
 
 ## Upcoming
 
-#### R in Pharma
-
-Explore Real-World hospital Electronic Health Records data with `ggehr`
-
-
+There is not any talk scheduled.
 
 ## Selected previous talks
 

@@ -8,7 +8,6 @@ listing:
     contents:
       - os_teaching
       - phuse
-      - dan
     type: grid
     grid-item-border: false
     grid-columns: 3
@@ -41,6 +40,15 @@ Since 2023, I joined [NOR-Eden](https://www.med.uio.no/imb/english/research/proj
 
 ::: {#rwdpublichealth}
 :::
+
+#### Related R packages
+
+| Package |   Description            |
+|:-----|:------------------------|
+| [noreden](https://chizapoth.github.io/noreden/) | Tools to facilitate nutrition researcher for sustainable diet discovery|
+| [medicode](https://chizapoth.github.io/medicode/) | Metadata for medical classification and clinical coding |
+| [csdata](https://www.csids.no/csdata/) | Pre-formatted structured data for Norway |
+| [csmaps](https://www.csids.no/csmaps/) | Pre-formatted map data for Norway |
 
 
 ### Open source data science in healthcare

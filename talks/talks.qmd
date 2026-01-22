@@ -25,11 +25,11 @@ listing:
     filter-ui: true
 ---
 
-## Upcoming
 
-There is not any talk scheduled.
+I do not have any upcoming talks schedule. If you would like me to give a talk at your event, please feel free to reach out!
 
-## Selected previous talks
+
+### Selected previous talks
 
 
 ::: {#past}

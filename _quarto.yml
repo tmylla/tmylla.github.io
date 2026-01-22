@@ -11,7 +11,7 @@ website:
   repo-actions: [edit, issue]
   
   page-footer: 
-    left: "&copy; Copyright 2024, Chi Zhang"
+    left: "&copy; Copyright 2026, Chi Zhang"
     right: 
       - icon: github
         href: https://github.com/chizapoth/chizapoth.github.io
@@ -20,23 +20,26 @@ website:
     background: "#A9CCE3"
     search: true
     right: 
-      - text: "Projects"
-        href: projects/projects.qmd
+      - text: "Data Apothecary's Notes"
+        href: https://chizapoth.github.io/data-apothecary-notes/
       
-      - text: "Teaching"
-        href: teaching/teaching.qmd
-        
       - text: "R packages"
         href: rpkg/rpkg.qmd
-           
-      - text: "Talks"
-        href: talks/talks.qmd
 
-      - text: "Blog/notes"
+      - text: "Blog"
         href: blog/blog.qmd
         
       - text: "About me"
         href: about_me.qmd
+        
+      - text: "Archive"
+        menu:
+          - text: "Talks"
+            href: talks/talks.qmd
+          - text: "Projects (2019-2024)"
+            href: projects/projects.qmd
+          - text: "Teaching (2020-2024)"
+            href: teaching/teaching.qmd
         
       #- text: "CV"
       #  href: misc/info/CV-CZ-2407.pdf

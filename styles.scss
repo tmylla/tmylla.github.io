@@ -128,3 +128,54 @@ h4 {
   background-size: 1em;
   background-position: 1em 0.5em;
 }
+
+// Custom tabset styling
+.panel-tabset {
+  .nav-tabs {
+    border-bottom: 2px solid $theme-milkcoffee0;
+    gap: 0.5rem;
+    
+    .nav-link {
+      font-family: $font-pt;
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: $theme-darkcoffee2 !important;
+      background-color: $theme-milkcoffee0;
+      border: none;
+      border-radius: 8px 8px 0 0;
+      padding: 0.75rem 1.5rem;
+      transition: all 0.2s ease;
+      text-decoration: none !important;
+      
+      &:hover {
+        color: $theme-darkgreen1 !important;
+        background-color: darken($theme-milkcoffee0, 5%);
+        transform: translateY(-2px);
+        text-decoration: none !important;
+      }
+      
+      &.active {
+        color: $theme-white !important;
+        background-color: $theme-darkgreen1;
+        border: none;
+      }
+    }
+  }
+  
+  .tab-content {
+    padding: 1.5rem 0;
+    border-top: none;
+  }
+}
+
+// Override link styling inside tab navigation
+.panel-tabset .nav-tabs .nav-link a,
+.panel-tabset .nav-tabs .nav-item a,
+.panel-tabset .nav-link a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.panel-tabset .nav-tabs .nav-link.active a {
+  color: $theme-white !important;
+}

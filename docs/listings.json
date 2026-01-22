@@ -4,7 +4,6 @@
     "items": [
       "/projects/os_teaching/index.html",
       "/projects/phuse/index.html",
-      "/projects/dan/index.html",
       "/projects/ehr/index.html",
       "/projects/sykdomspulsen/index.html"
     ]
@@ -31,22 +30,7 @@
       "/blog/blog_20230301_ds_clinreport/index.html",
       "/blog/blog_20230112_roche_opensource/index.html",
       "/blog/blog_20230104_qtwAcademic/index.html",
-      "/blog/blog_20230103_blogdown2quarto/index.html",
-      "/blog/readnotes_20240606_bad_pharma/index.html",
-      "/blog/readnotes_20240218_open_source/index.html",
-      "/blog/readnotes_2023010x_preventable_sridhar/index.html",
-      "/blog/readnotes_2023010x_pandemic_gates/index.html",
-      "/blog/technotes_20240506_ohdsi_part1/index.html",
-      "/blog/technotes_20231018_qt_styling/index.html",
-      "/blog/technotes_20231001_qt_webr/index.html",
-      "/blog/technotes_20230519_pkgcran/index.html",
-      "/blog/technotes_20230301_clinreport_part4/index.html",
-      "/blog/technotes_20230228_clinreport_part3/index.html",
-      "/blog/technotes_20230225_shinyappsio/index.html",
-      "/blog/technotes_20230222_clinreport_part2/index.html",
-      "/blog/technotes_20230220_pkgdown/index.html",
-      "/blog/technotes_20230205_clinreport_part1/index.html",
-      "/blog/technotes_20230111_deployqt/index.html"
+      "/blog/blog_20230103_blogdown2quarto/index.html"
     ]
   },
   {

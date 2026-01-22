@@ -22,14 +22,11 @@ about:
 
 Hello! 
 
-I am a data scientist at Roche.
+I am a data scientist at **Roche**, working on clinical data science and open source software in pharma: [pharmaverse](https://pharmaverse.org).
 
-In a previous role, I worked at the Faculty of Medicine, University of Oslo. I'm mostly interested in **RWD (real-world data)**, such as hospital **Electronic Health Record** and large public health registry data. I develop [ggehr](https://chizapoth.github.io/ggehr/), a ggplot2 extension to visualizing EHR data.
+I'm building [Data Apothecary's Notes](https://chizapoth.github.io/data-apothecary-notes/), a series of notes on modern data science skills for **drug development and clinical trials**.
 
-In 2020-2022, I worked as part of the COVID emergency response at the [Norwegian Institute of Public Health](https://www.fhi.no/en/). I helped develop the open source real-time analysis and public health surveillance system, **Sykdomspulsen** (now [CSIDS](https://www.csids.no)). I am co-leading [CAMIS](https://psiaims.github.io/CAMIS/) working group. 
-
-As a part-time lecturer, I teach **statistics with R and Quarto** at Oslo Centre for Biostatistics and Epidemiology ([OCBE](https://www.med.uio.no/imb/english/research/centres/ocbe/)) and **R programming** at the [Carpentries workshops](https://www.ub.uio.no/english/libraries/dsc/carpentry-uio/) at UiO.
-
+Previously, I worked in **public health and academia** in Norway (2019-2024). See [Archive](projects/projects.qmd) for past projects.
 
 I enjoy cooking and spending time in the mountains.
 :::

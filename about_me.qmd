@@ -1,8 +1,8 @@
 ---
-title: "Chi Zhang"
-image: misc/info/photo_chi.jpg
+title: "Jie Zhang"
+image: misc/info/photo.png
 page-layout: article
-format: 
+format:
   html:
     linestretch: 1.7
 about:
@@ -11,29 +11,32 @@ about:
   image-shape: round
   links:
     - icon: mailbox
-      text: chizapoth@gmail.com
-      href: mailto:chizapoth@gmail.com
+      text: tmylla@163.com
+      href: mailto:tmylla@163.com
     - icon: github
-      text: chizapoth
-      href: https://github.com/chizapoth
-    - icon: linkedin
-      text: Chi Zhang
-      href: https://www.linkedin.com/in/chizapoth/
+      text: tmylla
+      href: https://github.com/tmylla
+    - icon: graduation-cap
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=ydXHJHcAAAAJ
 ---
 
 ::: {#hero-heading}
 
 :::
 
-I am a data scientist at **Roche**, working on clinical data science and open source software in the pharmaceutical industry. I am passionate about **R programming, open source** and **data science** practices in healthcare.
+I am a researcher at **Shanghai Artificial Intelligence Laboratory**, working on clinical data science and open source software in the pharmaceutical industry. I am passionate about **AI Safety, frontier risks, interpretability, and AI + Social Science**.
 
-My **interests** are: 
+My **research interests** are:
 
-* Clinical data science and statistical programming in pharma,
-* Real World Data (RWD), in particular Electronic Health Records (EHR) data,
-* Quarto.
+* AI Safety and frontier risks,
+* Interpretability and explainable AI,
+* AI applications in social science,
+* Cybersecurity.
 
-Previously, I worked in public health and academia in Norway (2019-2024). See [Archive](projects/projects.qmd) for past projects and teaching.
+I received my Ph.D. in Cybersecurity from the Chinese Academy of Sciences (2021-2025).
 
-I speak Chinese mandarin, English, Italian and Norwegian. Outside of work, I enjoy [hiking](misc/info/photo3_chi.jpg) and spending time in the mountains.
+I am a firm believer in **human-AI symbiosis** — the idea that humans and AI can work together to achieve greater outcomes.
+
+Outside of research, I am a **science fiction enthusiast** and enjoy exploring ideas about the future of technology and humanity.
 

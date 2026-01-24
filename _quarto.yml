@@ -4,45 +4,39 @@ project:
   
 website:
   page-navigation: true
-  title: "Hello, I'm Chi"
-  site-url: https://chizapoth.github.io
+  title: "Jie Zhang"
+  site-url: https://tmylla.github.io
   favicon: misc/info/favicon.png
-  repo-url: https://github.com/chizapoth/chizapoth.github.io
+  repo-url: https://github.com/tmylla/tmylla.github.io
   repo-actions: [edit, issue]
-  
-  page-footer: 
-    left: "&copy; Copyright 2026, Chi Zhang"
-    right: 
-      - icon: github
-        href: https://github.com/chizapoth/chizapoth.github.io
 
-  navbar: 
+  page-footer:
+    left: "&copy; Copyright 2026, Jie Zhang"
+    right:
+      - icon: github
+        href: https://github.com/tmylla
+
+  navbar:
     background: "#A9CCE3"
     search: true
-    right: 
-      - text: "Data Apothecary's Notes"
-        href: https://chizapoth.github.io/data-apothecary-notes/
-      
-      - text: "R packages"
-        href: rpkg/rpkg.qmd
+    right:
+      - text: "Publications"
+        href: publications/publications.qmd
 
       - text: "Blog"
         href: blog/blog.qmd
-        
+
       - text: "About me"
         href: about_me.qmd
-        
+
       - text: "Archive"
         menu:
           - text: "Talks"
             href: talks/talks.qmd
-          - text: "Projects (2019-2024)"
+          - text: "Projects"
             href: projects/projects.qmd
-          - text: "Teaching (2020-2024)"
+          - text: "Teaching"
             href: teaching/teaching.qmd
-        
-      #- text: "CV"
-      #  href: misc/info/CV-CZ-2407.pdf
 
 
 format:

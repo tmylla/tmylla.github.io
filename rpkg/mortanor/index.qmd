@@ -1,9 +1,0 @@
----
-title: "mortanor"
-description: "Public mortality data in Norway"
-author: "Chi Zhang"
-date: "2022-10-22"
-categories: [data]
----
-
-https://github.com/csids/mortanor

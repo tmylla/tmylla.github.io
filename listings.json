@@ -1,0 +1,24 @@
+[
+  {
+    "listing": "/projects/projects.html",
+    "items": [
+      "/projects/psybernetic/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/blog.html",
+    "items": []
+  },
+  {
+    "listing": "/teaching/teaching.html",
+    "items": [
+      "/teaching/workshop_rladies_zurich/index.html"
+    ]
+  },
+  {
+    "listing": "/talks/talks.html",
+    "items": [
+      "/talks/rstats_20240613_teaching/index.html"
+    ]
+  }
+]

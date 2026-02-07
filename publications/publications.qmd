@@ -15,29 +15,19 @@ For a complete list of my publications, please visit my [Google Scholar](https:/
 
 ## 2025
 
-**The Tug of War Within: Mitigating the Fairness-Privacy Conflicts in Large Language Models**
-*C Qian, D Liu, Jie Zhang, Y Liu, J Shao*
-Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL), 2025
-[[PDF](https://scholar.google.com/citations?user=ydXHJHcAAAAJ)]
-**When LLMs Meet Cybersecurity: A Systematic Literature Review**
-*Jie Zhang, H Bu, H Wen, Y Liu, H Fei, R Xi, L Li, Y Yang, H Zhu, D Meng*
-Cybersecurity 8 (1), 55, 2025
-[[PDF](https://cybersecurity.springeropen.com/articles/10.1186/s42400-025-00542-3)]
-A comprehensive systematic review of the intersection between large language models and cybersecurity.
-
-**Oyster-I: Beyond Refusal—Constructive Safety Alignment for Responsible Language Models**
-*R Duan, J Liu, X Jia, S Zhao, R Cheng, F Wang, C Wei, Y Xie, C Liu, D Li, ... Jie Zhang*
-arXiv preprint arXiv:2509.01909, 2025
-[[arXiv](https://arxiv.org/abs/2509.01909)]
-
 **Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report**
 *SAI Lab, X Chen, Y Chen, Z Chen, Z Chen, H Cui, Y Duan, J Guo, Q Guo, ... Jie Zhang*
 arXiv preprint arXiv:2507.16534, 2025
 [[arXiv](https://arxiv.org/abs/2507.16534)]
 
+**The Tug of War Within: Mitigating the Fairness-Privacy Conflicts in Large Language Models**
+*C Qian, D Liu, Jie Zhang, Y Liu, J Shao*
+ACL 2025
+[[PDF](https://scholar.google.com/citations?user=ydXHJHcAAAAJ)]
+
 **PACEbench: A Framework for Evaluating Practical AI Cyber-Exploitation Capabilities**
 *Z Liu, L Huang, Jie Zhang, D Liu, Y Tian, J Shao*
-arXiv preprint arXiv:2510.11688, 2025
+ICLR 2026
 [[arXiv](https://arxiv.org/abs/2510.11688)]
 
 **RepGuard: Adaptive Feature Decoupling for Robust Backdoor Defense in Large Language Models**
@@ -45,29 +35,44 @@ arXiv preprint arXiv:2510.11688, 2025
 NeurIPS, 2025
 [[PDF](https://neurips.cc/virtual/2025/loc/san-diego/poster/116425)]
 
+**Oyster-I: Beyond Refusal—Constructive Safety Alignment for Responsible Language Models**
+*R Duan, J Liu, X Jia, S Zhao, R Cheng, F Wang, C Wei, Y Xie, C Liu, D Li, ... Jie Zhang*
+arXiv preprint arXiv:2509.01909, 2025
+[[arXiv](https://arxiv.org/abs/2509.01909)]
+
+**When LLMs Meet Cybersecurity: A Systematic Literature Review**
+*Jie Zhang, H Bu, H Wen, Y Liu, H Fei, R Xi, L Li, Y Yang, H Zhu, D Meng*
+Cybersecurity 8 (1), 55, 2025
+[[PDF](https://cybersecurity.springeropen.com/articles/10.1186/s42400-025-00542-3)]
+
+
+
+
+
+
 ---
 
 ## 2024
 
-**Explainable and Interpretable Multimodal Large Language Models: A Comprehensive Survey**
-*Y Dang, K Huang, J Huo, Y Yan, S Huang, D Liu, M Gao, Jie Zhang, C Qian, ...*
-arXiv preprint arXiv:2412.02104, 2024
-[[arXiv](https://arxiv.org/abs/2412.02104)]
-
 **Reef: Representation Encoding Fingerprints for Large Language Models**
 *Jie Zhang, D Liu, C Qian, L Zhang, Y Liu, Y Qiao, J Shao*
-arXiv preprint arXiv:2410.14273, 2024
-[[arXiv](https://arxiv.org/abs/2410.14273)]
+ICLR 2025
+[[ICLR](https://arxiv.org/abs/2410.14273)]
 
 **Towards Tracing Trustworthiness Dynamics: Revisiting Pre-training Period of Large Language Models**
 *C Qian, Jie Zhang, W Yao, D Liu, Z Yin, Y Qiao, Y Liu, J Shao*
-arXiv preprint arXiv:2402.19465, 2024
+ACL 2024
 [[arXiv](https://arxiv.org/abs/2402.19465)]
 
 **The Better Angels of Machine Personality: How Personality Relates to LLM Safety**
 *Jie Zhang, D Liu, C Qian, Z Gan, Y Liu, Y Qiao, J Shao*
 arXiv preprint arXiv:2407.12344, 2024
 [[arXiv](https://arxiv.org/abs/2407.12344)]
+
+**Explainable and Interpretable Multimodal Large Language Models: A Comprehensive Survey**
+*Y Dang, K Huang, J Huo, Y Yan, S Huang, D Liu, M Gao, Jie Zhang, C Qian, ...*
+arXiv preprint arXiv:2412.02104, 2024
+[[arXiv](https://arxiv.org/abs/2412.02104)]
 
 **From GPT-4 to Gemini and Beyond: Assessing the Landscape of MLLMs on Generalizability, Trustworthiness and Causality Through Four Modalities**
 *C Lu, C Qian, G Zheng, H Fan, H Gao, Jie Zhang, J Shao, J Deng, J Fu, ...*
@@ -100,7 +105,7 @@ IEEE Access 9, 78452-78462, 2021
 **A General Framework for Chinese Domain Knowledge Graph Question Answering Based on TransE**
 *Z Pei, Jie Zhang, W Xiong, L Li, Z Luo*
 Journal of Physics: Conference Series 1693 (1), 012136, 2020
-[[DOI](https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012136)]
+[[JoP](https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012136)]
 
 ---
 

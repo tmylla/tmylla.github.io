@@ -13,74 +13,102 @@ For a complete list of my publications, please visit my [Google Scholar](https:/
 
 
 
+---
+
 ## 2025
 
 **[ArXiv 2025]** Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report
-> [Paper](https://arxiv.org/abs/2507.16534)
+
+[![](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2507.16534)
 
 
 **[ICLR 2026]** PACEbench: A Framework for Evaluating Practical AI Cyber-Exploitation Capabilities
-> [Paper](https://arxiv.org/abs/2510.11688) | [Code](https://github.com/RyuKosei/PACEbench) | [Website](https://pacebench.github.io/)
+
+[![](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2510.11688)　[![](https://img.shields.io/badge/Code-Github-green)](https://github.com/RyuKosei/PACEbench)　[![](https://img.shields.io/badge/Website-Project-blue)](https://pacebench.github.io/)
 
 
 **[ACL 2025]** The Tug of War Within: Mitigating the Fairness-Privacy Conflicts in Large Language Models
-> [Paper](https://scholar.google.com/citations?user=ydXHJHcAAAAJ) | [Code](https://github.com/ChnQ/SPIN)
+
+[![](https://img.shields.io/badge/Paper-ACL-orange)](https://scholar.google.com/citations?user=ydXHJHcAAAAJ)　[![](https://img.shields.io/badge/Code-Github-green)](https://github.com/ChnQ/SPIN)
+
 
 **[NeurIPS 2025]** RepGuard: Adaptive Feature Decoupling for Robust Backdoor Defense in Large Language Models
-> [Paper](https://neurips.cc/virtual/2025/loc/san-diego/poster/116425)
+
+[![](https://img.shields.io/badge/Paper-NeurIPS-blue)](https://neurips.cc/virtual/2025/loc/san-diego/poster/116425)
 
 
 **[ArXiv 2025]** Oyster-I: Beyond Refusal—Constructive Safety Alignment for Responsible Language Models
-> [Paper](https://arxiv.org/abs/2509.01909) | [Code](https://github.com/Alibaba-AAIG/Oyster)
+
+[![](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2509.01909)　[![](https://img.shields.io/badge/Code-Github-green)](https://github.com/Alibaba-AAIG/Oyster)
 
 
 **[Cybersecurity 2025]** When LLMs Meet Cybersecurity: A Systematic Literature Review
-> [Paper](https://cybersecurity.springeropen.com/articles/10.1186/s42400-025-00542-3) | [Code](https://github.com/tmylla/Awesome-LLM4Cybersecurity)
+
+[![](https://img.shields.io/badge/Paper-Journal-yellow)](https://cybersecurity.springeropen.com/articles/10.1186/s42400-025-00542-3)　[![](https://img.shields.io/badge/Code-Github-green)](https://github.com/tmylla/Awesome-LLM4Cybersecurity)
 
 
 
+
+
+
+
+---
 
 ## 2024
 
 **[ICLR 2025]** Reef: Representation Encoding Fingerprints for Large Language Models
-> [Paper](https://arxiv.org/abs/2410.14273) | [Code](https://github.com/AI45Lab/REEF)
+
+[![](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2410.14273)　[![](https://img.shields.io/badge/Code-Github-green)](https://github.com/AI45Lab/REEF)
 
 
 **[ACL 2024]** Towards Tracing Trustworthiness Dynamics: Revisiting Pre-training Period of Large Language Models
-> [Paper](https://arxiv.org/abs/2402.19465) | [Code](https://github.com/ChnQ/TracingLLM)
+
+[![](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2402.19465)　[![](https://img.shields.io/badge/Code-Github-green)](https://github.com/ChnQ/TracingLLM)
 
 
 **[ArXiv 2024]** The Better Angels of Machine Personality: How Personality Relates to LLM Safety
-> [Paper](https://arxiv.org/abs/2407.12344)
+
+[![](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2407.12344)
 
 
 **[ArXiv 2024]** Explainable and Interpretable Multimodal Large Language Models: A Comprehensive Survey
-> [Paper](https://arxiv.org/abs/2412.02104)
+
+[![](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2412.02104)
 
 
 **[ArXiv 2024]** From GPT-4 to Gemini and Beyond: Assessing the Landscape of MLLMs on Generalizability, Trustworthiness and Causality Through Four Modalities
-> [Paper](https://arxiv.org/abs/2401.15071)
+
+[![](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2401.15071)
 
 
+
+---
 
 ## 2023
 
 **[IEEE TrustCom 2023]** Hackmentor: Fine-tuning Large Language Models for Cybersecurity
-> [Paper](https://ieeexplore.ieee.org/) | [Code](https://github.com/tmylla/HackMentor)
+
+[![](https://img.shields.io/badge/Paper-IEEE-purple)](https://ieeexplore.ieee.org/)　[![](https://img.shields.io/badge/Code-Github-green)](https://github.com/tmylla/HackMentor)
 
 
 
 ## 2020-2021
 
 **[ICCC 2020]** Answer Extraction with Graph Attention Network for Knowledge Graph Question Answering
-> [Paper](https://ieeexplore.ieee.org/)
+
+[![](https://img.shields.io/badge/Paper-IEEE-purple)](https://ieeexplore.ieee.org/)
 
 
 **[IEEE Access 2021]** Reasoning for Local Graph over Knowledge Graph with a Multi-policy Agent
-> [Paper](https://ieeexplore.ieee.org/document/9374653)
+
+[![](https://img.shields.io/badge/Paper-IEEE-purple)](https://ieeexplore.ieee.org/document/9374653)
 
 
 **[CISAI 2020]** A General Framework for Chinese Domain Knowledge Graph Question Answering Based on TransE
-> [Paper](https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012136)
+
+[![](https://img.shields.io/badge/Paper-JoP-teal)](https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012136)
 
 
+---
+
+For the most up-to-date publications and citation metrics, see my [Google Scholar profile](https://scholar.google.com/citations?user=ydXHJHcAAAAJ).

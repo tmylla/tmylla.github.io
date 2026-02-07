@@ -23,17 +23,17 @@ arXiv preprint arXiv:2507.16534, 2025
 **The Tug of War Within: Mitigating the Fairness-Privacy Conflicts in Large Language Models**
 *C Qian, D Liu, Jie Zhang, Y Liu, J Shao*
 ACL 2025
-[[PDF](https://scholar.google.com/citations?user=ydXHJHcAAAAJ)]
+[[ACL](https://scholar.google.com/citations?user=ydXHJHcAAAAJ)]
 
 **PACEbench: A Framework for Evaluating Practical AI Cyber-Exploitation Capabilities**
 *Z Liu, L Huang, Jie Zhang, D Liu, Y Tian, J Shao*
 ICLR 2026
-[[arXiv](https://arxiv.org/abs/2510.11688)]
+[[ICLR](https://arxiv.org/abs/2510.11688)]
 
 **RepGuard: Adaptive Feature Decoupling for Robust Backdoor Defense in Large Language Models**
 *C Niu, Jie Zhang, Y Liu, Y Li, J Weng, Y Hu*
 NeurIPS, 2025
-[[PDF](https://neurips.cc/virtual/2025/loc/san-diego/poster/116425)]
+[[NeurIPS](https://neurips.cc/virtual/2025/loc/san-diego/poster/116425)]
 
 **Oyster-I: Beyond Refusal—Constructive Safety Alignment for Responsible Language Models**
 *R Duan, J Liu, X Jia, S Zhao, R Cheng, F Wang, C Wei, Y Xie, C Liu, D Li, ... Jie Zhang*
@@ -62,7 +62,7 @@ ICLR 2025
 **Towards Tracing Trustworthiness Dynamics: Revisiting Pre-training Period of Large Language Models**
 *C Qian, Jie Zhang, W Yao, D Liu, Z Yin, Y Qiao, Y Liu, J Shao*
 ACL 2024
-[[arXiv](https://arxiv.org/abs/2402.19465)]
+[[ACL](https://arxiv.org/abs/2402.19465)]
 
 **The Better Angels of Machine Personality: How Personality Relates to LLM Safety**
 *Jie Zhang, D Liu, C Qian, Z Gan, Y Liu, Y Qiao, J Shao*

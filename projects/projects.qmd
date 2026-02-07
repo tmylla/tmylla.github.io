@@ -6,23 +6,7 @@ listing:
     image-height: 250px
     fields: [image, title, description]
     contents:
-      - os_teaching
-      - phuse
-    type: grid
-    grid-item-border: false
-    grid-columns: 3
-    sort: false
-
-  - id: rwdpublichealth
-    max-description-length: 500
-    image-height: 280px
-    fields: [image, title, description]
-    contents: 
-      # - csids
-      - ehr
-      - sykdomspulsen
-      #- noreden
-      # - dan
+      - psybernetic
     type: grid
     grid-item-border: false
     grid-columns: 3
@@ -30,30 +14,11 @@ listing:
 ---
 
 
-### Real World Data and Public health
+### Open source projects in AI4Good
 
-My main research interest is **hospital Electronic Health Records** and large **health registry** data. My PhD (completed in 2022) focused on representation and utilization of hospital EHR data. I am currently working on quality assurance of the prescription and use of antibiotics in a hospital setting, and an R package [ggehr](https://github.com/chizapoth/ggehr) to facilitate the exploration of EHR data.
+I develop open source projects exploring the intersection of artificial intelligence and social good. My work spans AI Safety research, AI Psychology, and interpretability toolkits for the research community.
 
-In 2020-2022, I worked at Norwegian Institute of Public Health during Covid-19 pandemic. I helped develop Sykdomspulsen (now [CSIDS](https://www.csids.no)), a real-time infectious disease surveillance and real-time large scale reporting with open source technology. 
-
-Since 2023, I joined [NOR-Eden](https://www.med.uio.no/imb/english/research/projects/nor-eden/) and [Norkost](https://www.med.uio.no/imb/english/research/projects/norkost/) projects at University of Oslo. I help develop a set of R tools to facilitate sustainable diet design, [noreden](https://chizapoth.github.io/noreden/).
-
-::: {#rwdpublichealth}
-:::
-
-#### Related R packages
-
-| Package |   Description            |
-|:-----|:------------------------|
-| [noreden](https://chizapoth.github.io/noreden/) | Tools to facilitate nutrition researcher for sustainable diet discovery|
-| [medicode](https://chizapoth.github.io/medicode/) | Metadata for medical classification and clinical coding |
-| [csdata](https://www.csids.no/csdata/) | Pre-formatted structured data for Norway |
-| [csmaps](https://www.csids.no/csmaps/) | Pre-formatted map data for Norway |
-
-
-### Open source data science in healthcare
-
-I work on open source data science projects with healthcare applications. I am the developer of [MF9310E quarto website](https://ocbe-uio.github.io/teaching_mf9130e/), leading the transition of teaching university biostatistics courses using R and Quarto. I'm also a co-lead of the PHUSE [CAMIS](https://psiaims.github.io/CAMIS/) project.
+I'm also a co-lead of the [PACEbench](https://pacebench.github.io/) project, a framework for evaluating AI cyber-exploitation capabilities.
 
 ::: {#opensource}
 :::

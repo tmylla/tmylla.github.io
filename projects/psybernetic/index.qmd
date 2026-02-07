@@ -1,0 +1,30 @@
+---
+title: "Psybernetic - AI Psychology Research Hub"
+description: "Exploring the intersection of AI and Human Psychology"
+image: "psybernetic.png"
+---
+
+A web platform exploring the intersection of artificial intelligence and human psychology, showcasing latest research findings on how AI impacts human cognition, emotion, and behavior.
+
+### Features
+
+- **Research Findings**: Curated summaries of 17+ academic papers from top journals (Nature, Science, JMIR)
+- **Paper Database**: Comprehensive collection of AI-psychology research from 2024-2026
+- **Neural Network Aesthetic**: Dark-themed design with glassmorphism effects and smooth animations
+- **Bilingual**: Chinese and English content support
+
+### Tech Stack
+
+- **Frontend**: React 19, TypeScript, Vite
+- **Routing**: Wouter with base path configuration
+- **UI**: Radix UI components + Tailwind CSS
+- **Animations**: Framer Motion
+- **Deployment**: GitHub Actions auto-deployment
+
+### Live Site
+
+Visit: [https://tmylla.github.io/psybernetic/](https://tmylla.github.io/psybernetic/)
+
+### Source Code
+
+GitHub: [https://github.com/tmylla/psybernetic](https://github.com/tmylla/psybernetic)

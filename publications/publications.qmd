@@ -13,7 +13,6 @@ For a complete list of my publications, please visit my [Google Scholar](https:/
 
 
 
----
 
 ## 2025
 
@@ -50,10 +49,6 @@ For a complete list of my publications, please visit my [Google Scholar](https:/
 
 
 
-
-
----
-
 ## 2024
 
 **[ICLR 2025]** Reef: Representation Encoding Fingerprints for Large Language Models
@@ -82,7 +77,6 @@ For a complete list of my publications, please visit my [Google Scholar](https:/
 
 
 
----
 
 ## 2023
 
@@ -109,6 +103,3 @@ For a complete list of my publications, please visit my [Google Scholar](https:/
 [![](https://img.shields.io/badge/Paper-JoP-teal)](https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012136)
 
 
----
-
-For the most up-to-date publications and citation metrics, see my [Google Scholar profile](https://scholar.google.com/citations?user=ydXHJHcAAAAJ).

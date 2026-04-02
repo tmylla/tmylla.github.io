@@ -31,12 +31,12 @@ website:
 
       - text: "Archive"
         menu:
-          - text: "Talks"
-            href: talks/talks.qmd
+          # - text: "Talks"
+          #   href: talks/talks.qmd
           - text: "Projects"
             href: projects/projects.qmd
-          - text: "Teaching"
-            href: teaching/teaching.qmd
+          # - text: "Teaching"
+          #   href: teaching/teaching.qmd
 
 
 format:
